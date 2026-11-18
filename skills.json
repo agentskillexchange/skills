@@ -1,8 +1,30 @@
 {
   "version": "2.0",
-  "total": 3255,
+  "total": 3257,
   "generated": "2026-11-18",
   "skills": [
+    {
+      "slug": "render-existing-mermaid-diagrams-claude-code-termaid",
+      "name": "Render existing Mermaid files and PR diagrams in Claude Code with Termaid",
+      "title": "Render existing Mermaid files and PR diagrams in Claude Code with Termaid",
+      "description": "Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and inspect them against the intended structure.",
+      "category": "Image & Creative Automation",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/fasouto/termaid/tree/main/claude-plugin/skills/mermaid",
+      "github_repo": "fasouto/termaid"
+    },
+    {
+      "slug": "monitor-pull-request-ci-review-tstack-babysit-pr",
+      "name": "Monitor one pull request through CI and review with Tstack babysit-pr",
+      "title": "Monitor one pull request through CI and review with Tstack babysit-pr",
+      "description": "Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness handoff without implicit merge permission.",
+      "category": "CI/CD Integrations",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/t3dotgg/tstack/tree/main/skills/babysit-pr",
+      "github_repo": "t3dotgg/tstack"
+    },
     {
       "slug": "search-repository-files-by-behavior-with-localix-decide",
       "name": "Search repository files by behavior with Localix decide",
@@ -244,7 +266,8 @@
       "framework": "MCP",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 1026
+        "github_stars": 1026,
+        "npm_weekly_downloads": 359
       },
       "source_url": "https://github.com/Zyrexnn/Cybermes",
       "github_repo": "Zyrexnn/Cybermes"

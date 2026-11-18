@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-18
-# Total: 3255 skills
+# Total: 3257 skills
+
+## Render existing Mermaid files and PR diagrams in Claude Code with Termaid
+slug: render-existing-mermaid-diagrams-claude-code-termaid
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and inspect them against the intended structure.
+url: https://agentskillexchange.com/skills/render-existing-mermaid-diagrams-claude-code-termaid/
+
+## Monitor one pull request through CI and review with Tstack babysit-pr
+slug: monitor-pull-request-ci-review-tstack-babysit-pr
+category: CI/CD Integrations
+framework: Multi-Framework
+verification: Security Reviewed
+description: Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness handoff without implicit merge permission.
+url: https://agentskillexchange.com/skills/monitor-pull-request-ci-review-tstack-babysit-pr/
 
 ## Search repository files by behavior with Localix decide
 slug: search-repository-files-by-behavior-with-localix-decide

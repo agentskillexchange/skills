@@ -127,6 +127,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
 | [Inspect Unreal Editor state and capture visual evidence with EngineWire](../../skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
+| [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](../../skills/render-existing-mermaid-diagrams-claude-code-termaid/) | 583 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](../../skills/run-comfyui-workflows-as-agent-callable-skills/) | 395 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |

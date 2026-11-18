@@ -216,7 +216,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Produce read-only cloud security and FinOps findings with StackQL](../../skills/produce-read-only-cloud-security-finops-findings-stackql/) | 1.1k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
-| [Preflight Cybermes engagement scope rules over MCP](../../skills/preflight-cybermes-engagement-scope-rules-over-mcp/) | 1k | — |
+| [Preflight Cybermes engagement scope rules over MCP](../../skills/preflight-cybermes-engagement-scope-rules-over-mcp/) | 1k | 359/wk |
 | [Evaluate model-generated code execution with SandboxFusion](../../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | 1k | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 1k | — |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |

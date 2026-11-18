@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3255 published skills** across **17 categories** · 2,667 security reviewed · Updated 2026-11-18 01:26 UTC
+> **3257 published skills** across **17 categories** · 2,667 security reviewed · Updated 2026-11-18 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1022,7 +1022,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Produce read-only cloud security and FinOps findings with StackQL](skills/produce-read-only-cloud-security-finops-findings-stackql/) | Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and… | Security Reviewed | 1.1k | — |
 | [Sign agent-made Git commits with gitsign](skills/sign-agent-made-git-commits-with-gitsign/) | Apply keyless Sigstore-backed signatures to Git commits so automated changes retain verifiable provenance. | Security Reviewed | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | Run deterministic governance checks and policy verification before agents get real autonomy, so risky tool use and… | Security Reviewed | 1.1k | 20.9k/wk |
-| [Preflight Cybermes engagement scope rules over MCP](skills/preflight-cybermes-engagement-scope-rules-over-mcp/) | Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a… | Security Reviewed | 1k | — |
+| [Preflight Cybermes engagement scope rules over MCP](skills/preflight-cybermes-engagement-scope-rules-over-mcp/) | Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a… | Security Reviewed | 1k | 359/wk |
 | [Evaluate model-generated code execution with SandboxFusion](skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | Use SandboxFusion to run and judge LLM-generated code in controlled sandboxes across many languages and… | Security Reviewed | 1k | — |
 | [OpenClaw Security Suite (ClawSec)](skills/openclaw-security-suite-clawsec/) | Agent-layer security monitoring, drift detection, and integrity verification for OpenClaw environments. Protects… | Security Reviewed | 1k | — |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | Use SafeDep Vet as a pre-adoption gate when an agent, maintainer, or CI pipeline is about to add a new dependency or… | Published | 1k | 90/wk |
@@ -1591,7 +1591,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (193 skills)
+### 🔧 CI/CD Integrations (194 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -1704,6 +1704,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | Keep multi-chart Kubernetes environments coherent by diffing and syncing all declared Helm releases from one state file. | Security Reviewed | 5.1k | — |
 | [Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in](skills/generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in/) | Refresh Terraform module documentation from source so variables, outputs, and providers stay aligned with the code… | Security Reviewed | 4.8k | — |
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
+| [Monitor one pull request through CI and review with Tstack babysit-pr](skills/monitor-pull-request-ci-review-tstack-babysit-pr/) | Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness… | Security Reviewed | 4.1k | — |
 | [Draft release notes continuously with Release Drafter](skills/draft-release-notes-continuously-with-release-drafter/) | Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day. | Security Reviewed | 3.9k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI. | Security Reviewed | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures… | Security Reviewed | 3.6k | — |
@@ -2934,7 +2935,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (127 skills)
+### 🎨 Image & Creative Automation (128 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -3027,6 +3028,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | Run a presentation-design workflow that turns a confirmed brief into editable PPTX output, rendered PNG previews,… | Security Reviewed | 1k | — |
 | [Inspect Unreal Editor state and capture visual evidence with EngineWire](skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots… | Security Reviewed | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](skills/cairosvg-svg-to-png-pdf-converter/) | CairoSVG is a Python-based SVG converter built on the Cairo 2D graphics library. It converts SVG files to PNG, PDF,… | Published | 917 | — |
+| [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](skills/render-existing-mermaid-diagrams-claude-code-termaid/) | Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings… | Security Reviewed | 583 | — |
 | [Turn source novels into playable games with NovelToGame](skills/turn-source-novels-into-playable-games-with-noveltogame/) | Use NovelToGame to run a staged agent workflow that analyzes a novel, selects concepts, builds world and art… | Security Reviewed | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](skills/run-comfyui-workflows-as-agent-callable-skills/) | Use ComfyUI Skills for OpenClaw when an agent needs to import, parameterize, route, and run repeatable ComfyUI… | Security Reviewed | 395 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | Use comfyui-mcp to let an MCP-capable agent author, run, debug, and manage ComfyUI image, video, audio, model, and… | Security Reviewed | 386 | 86.4k/wk |
