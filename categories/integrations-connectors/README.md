@@ -159,6 +159,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build authenticated MCP servers from Python files with Golf](../../skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | 835 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
+| [Prepare a read-only InnoShop low-stock report through MCP](../../skills/prepare-read-only-innoshop-low-stock-report-mcp/) | 671 | — |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 606 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |

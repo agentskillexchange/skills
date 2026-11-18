@@ -1,16 +1,16 @@
 # Categories
 
-> **3257 skills** across **17 categories**
+> **3259 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **544** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **545** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **272** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **265** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **244** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **218** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **194** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **192** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **193** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **187** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **165** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **146** | Web research, data collection, content aggregation, and information g... |

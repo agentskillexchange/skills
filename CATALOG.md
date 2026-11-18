@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3257 published skills** across **17 categories** · 2,669 security reviewed · Updated 2026-11-18 13:26 UTC
+> **3259 published skills** across **17 categories** · 2,669 security reviewed · Updated 2026-11-18 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (544 skills)
+### 🛠️ Developer Tools (545 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -164,6 +164,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](skills/nocobase-extensible-no-code-low-code-platform/) | NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It… | Security Reviewed | 22.1k | 746/wk |
 | [MkDocs Project Documentation Generator](skills/mkdocs-project-documentation-generator/) | MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from… | Security Reviewed | 21.9k | — |
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching,… | Security Reviewed | 21.8k | 77.9k/wk |
+| [Refresh Theia model aliases and provider capabilities with update-default-models](skills/refresh-theia-model-aliases-provider-capabilities/) | Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested… | Security Reviewed | 21.8k | — |
 | [ChartDB Database Schema Visualization and Diagram Editor](skills/chartdb-database-schema-visualization/) | ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It… | Published | 21.7k | — |
 | [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging,… | Security Reviewed | 21.7k | — |
 | [mdBook Markdown Book Generator by Rust Project](skills/mdbook-markdown-book-generator-rust/) | mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the… | Published | 21.4k | — |
@@ -1793,7 +1794,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (192 skills)
+### 🔗 Integrations & Connectors (193 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1918,6 +1919,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build authenticated MCP servers from Python files with Golf](skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth,… | Security Reviewed | 835 | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Published | 695 | — |
+| [Prepare a read-only InnoShop low-stock report through MCP](skills/prepare-read-only-innoshop-low-stock-report-mcp/) | Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human… | Security Reviewed | 671 | — |
 | [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 606 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the… | Security Reviewed | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Published | 527 | — |

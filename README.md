@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C257-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C259-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C669-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,257 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,259 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Prepare a read-only InnoShop low-stock report through MCP](skills/prepare-read-only-innoshop-low-stock-report-mcp/) | Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking... | 671 | Integrations & Connectors |
+| [Refresh Theia model aliases and provider capabilities with update-default-models](skills/refresh-theia-model-aliases-provider-capabilities/) | Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using... | 21.8k | Developer Tools |
 | [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](skills/render-existing-mermaid-diagrams-claude-code-termaid/) | Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and... | 583 | Image & Creative Automation |
 | [Monitor one pull request through CI and review with Tstack babysit-pr](skills/monitor-pull-request-ci-review-tstack-babysit-pr/) | Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current... | 4.1k | CI/CD Integrations |
 | [Search repository files by behavior with Localix decide](skills/search-repository-files-by-behavior-with-localix-decide/) | Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before... | 368 | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Verify Nix package and option choices through MCP-NixOS](skills/verify-nix-package-and-option-choices-through-mcp-nixos/) | Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an evidenced configuration... | 889 | Library & API Reference |
 | [Review changed-file code quality findings with Fallow](skills/review-changed-file-code-quality-findings-with-fallow/) | Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused merge-readiness... | 5.4k | Code Quality & Review |
 | [Resolve Langfuse integration questions through its documentation MCP](skills/resolve-langfuse-integration-questions-through-documentation-mcp/) | Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through... | 253 | Library & API Reference |
-| [Refresh structured user profiles from chat buffers with Memobase](skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for... | 3.0k | Integrations & Connectors |
-| [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs... | - | Research & Scraping |
 
 ---
 
@@ -132,7 +132,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
-| [Build and resume research coverage matrices with OmAgents](skills/build-and-resume-research-coverage-matrices-with-omagents/) | Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report... | 359 | Research & Scraping |
+| [Refresh structured user profiles from chat buffers with Memobase](skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for... | 3.0k | Integrations & Connectors |
 
 ---
 
@@ -140,13 +140,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 544 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 545 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 272 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 265 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 244 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 218 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 194 | Pipeline configs, deployment automation, build tooling |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 192 | Third-party API bridges, webhooks, service connectors |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 193 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 187 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 165 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 146 | Web research, content discovery, data collection |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,257 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,259 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,669 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
