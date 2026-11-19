@@ -2,12 +2,15 @@
 name: "Investigative Journalism and Fact-Checking"
 slug: "investigate-and-fact-check"
 description: "Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives; investigating public institutions, companies, procurement, ownership, and documented relationships; reconstructing events; or reviewing an investigation before publication. Apply hypothesis testing, source tracing, independent corroboration, geolocation, chronolocation, public-record research, reproducible analysis, evidence preservation, and clear uncertainty. Produce sourced findings, claim and evidence logs, investigative dossiers, and draft questions for a right of reply."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/KhademOHAli1/investigate-and-fact-check"
+author: "Ali (KhademOHAli1)"
 category: "Research & Scraping"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "khademohali1/investigate-and-fact-check"
+  github_stars: 0
 ---
 
 # Investigative Journalism and Fact-Checking
@@ -133,7 +136,11 @@ For publication review, recommend: ready for editorial approval, ready with spec
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+git clone --branch v1.1.0 https://github.com/KhademOHAli1/investigate-and-fact-check.git
+cd investigate-and-fact-check
+Follow the upstream README installation guide for your Agent Skills client.
 
 - Source: https://github.com/KhademOHAli1/investigate-and-fact-check
 

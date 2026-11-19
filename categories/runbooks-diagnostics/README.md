@@ -170,6 +170,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](../../skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | 2.3k | — |
+| [Diagnose Skales Browser Tool Readiness with DevKit](../../skills/diagnose-skales-browser-tool-readiness-with-devkit/) | 2.2k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
@@ -182,6 +183,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
 | [Operate Rails Active Job queues with Mission Control Jobs](../../skills/operate-rails-active-job-queues-with-mission-control-jobs/) | 1.1k | — |
+| [Audit OpenLoomi Loop decision routing with deterministic rule previews](../../skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | 1k | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |

@@ -1,9 +1,96 @@
 {
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-18",
-  "total": 3257,
+  "generated": "2026-11-19",
+  "total": 3265,
   "skills": [
+    {
+      "slug": "diagnose-skales-browser-tool-readiness-with-devkit",
+      "name": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "title": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "description": "Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a supervised browser run.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/skalesapp/skales",
+      "github_repo": "skalesapp/skales"
+    },
+    {
+      "slug": "generate-images-and-video-with-uberllm",
+      "name": "Generate Images and Video with UberLLM",
+      "title": "Generate Images and Video with UberLLM",
+      "description": "Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a free validate call, submits one image…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://uberllm.dev/docs/media"
+    },
+    {
+      "slug": "callforme",
+      "name": "CallForMe",
+      "title": "CallForMe",
+      "description": "Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/callforme-tel/callforme",
+      "github_repo": "callforme-tel/callforme"
+    },
+    {
+      "slug": "audit-openloomi-loop-decision-routing-with-rule-previews",
+      "name": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "title": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "description": "Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live decisions.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/melandlabs/openloomi/tree/main/skills/openloomi-loop",
+      "github_repo": "melandlabs/openloomi"
+    },
+    {
+      "slug": "prepare-source-backed-tensorrt-llm-serving-configuration",
+      "name": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "title": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "description": "Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NVIDIA/TensorRT-LLM/tree/main/.claude/skills/trtllm-serve-config-guide",
+      "github_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "slug": "prepare-source-verified-archestra-mcp-catalog-entry",
+      "name": "Prepare a source-verified Archestra MCP catalog entry",
+      "title": "Prepare a source-verified Archestra MCP catalog entry",
+      "description": "Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/archestra-ai/archestra/tree/main/.agents/skills/archestra-mcp-catalog-entry",
+      "github_repo": "archestra-ai/archestra"
+    },
+    {
+      "slug": "prepare-read-only-innoshop-low-stock-report-mcp",
+      "name": "Prepare a read-only InnoShop low-stock report through MCP",
+      "title": "Prepare a read-only InnoShop low-stock report through MCP",
+      "description": "Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/innocommerce/innoshop/tree/main/innopacks/mcp",
+      "github_repo": "innocommerce/innoshop"
+    },
+    {
+      "slug": "refresh-theia-model-aliases-provider-capabilities",
+      "name": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "title": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "description": "Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/eclipse-theia/theia/tree/master/.agents/skills/update-default-models",
+      "github_repo": "eclipse-theia/theia"
+    },
     {
       "slug": "render-existing-mermaid-diagrams-claude-code-termaid",
       "name": "Render existing Mermaid files and PR diagrams in Claude Code with Termaid",

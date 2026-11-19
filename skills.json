@@ -1,8 +1,98 @@
 {
   "version": "2.0",
-  "total": 3257,
-  "generated": "2026-11-18",
+  "total": 3265,
+  "generated": "2026-11-19",
   "skills": [
+    {
+      "slug": "diagnose-skales-browser-tool-readiness-with-devkit",
+      "name": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "title": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "description": "Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a supervised browser run.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 2242
+      },
+      "source_url": "https://github.com/skalesapp/skales",
+      "github_repo": "skalesapp/skales"
+    },
+    {
+      "slug": "generate-images-and-video-with-uberllm",
+      "name": "Generate Images and Video with UberLLM",
+      "title": "Generate Images and Video with UberLLM",
+      "description": "Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a free validate call, submits one image…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://uberllm.dev/docs/media"
+    },
+    {
+      "slug": "callforme",
+      "name": "CallForMe",
+      "title": "CallForMe",
+      "description": "Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/callforme-tel/callforme",
+      "github_repo": "callforme-tel/callforme"
+    },
+    {
+      "slug": "audit-openloomi-loop-decision-routing-with-rule-previews",
+      "name": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "title": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "description": "Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live decisions.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/melandlabs/openloomi/tree/main/skills/openloomi-loop",
+      "github_repo": "melandlabs/openloomi"
+    },
+    {
+      "slug": "prepare-source-backed-tensorrt-llm-serving-configuration",
+      "name": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "title": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "description": "Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NVIDIA/TensorRT-LLM/tree/main/.claude/skills/trtllm-serve-config-guide",
+      "github_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "slug": "prepare-source-verified-archestra-mcp-catalog-entry",
+      "name": "Prepare a source-verified Archestra MCP catalog entry",
+      "title": "Prepare a source-verified Archestra MCP catalog entry",
+      "description": "Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/archestra-ai/archestra/tree/main/.agents/skills/archestra-mcp-catalog-entry",
+      "github_repo": "archestra-ai/archestra"
+    },
+    {
+      "slug": "prepare-read-only-innoshop-low-stock-report-mcp",
+      "name": "Prepare a read-only InnoShop low-stock report through MCP",
+      "title": "Prepare a read-only InnoShop low-stock report through MCP",
+      "description": "Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/innocommerce/innoshop/tree/main/innopacks/mcp",
+      "github_repo": "innocommerce/innoshop"
+    },
+    {
+      "slug": "refresh-theia-model-aliases-provider-capabilities",
+      "name": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "title": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "description": "Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/eclipse-theia/theia/tree/master/.agents/skills/update-default-models",
+      "github_repo": "eclipse-theia/theia"
+    },
     {
       "slug": "render-existing-mermaid-diagrams-claude-code-termaid",
       "name": "Render existing Mermaid files and PR diagrams in Claude Code with Termaid",
@@ -45000,7 +45090,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 35052496,
+        "npm_weekly_downloads": 35453822,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -45016,7 +45106,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 3746082,
+        "npm_weekly_downloads": 3886685,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -45062,7 +45152,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 210256051,
+        "npm_weekly_downloads": 212606638,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -45093,7 +45183,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 18513259,
+        "npm_weekly_downloads": 18645612,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -45109,7 +45199,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 75434226,
+        "npm_weekly_downloads": 76221518,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -45125,7 +45215,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 72056,
+        "npm_weekly_downloads": 72037,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -45141,7 +45231,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 9539621,
+        "npm_weekly_downloads": 9642649,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -45157,7 +45247,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 35052496,
+        "npm_weekly_downloads": 35453822,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -45173,7 +45263,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1478619,
+        "npm_weekly_downloads": 1508011,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -45189,7 +45279,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 2184638,
+        "npm_weekly_downloads": 2223724,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -45205,7 +45295,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 2489833,
+        "npm_weekly_downloads": 2479392,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -45250,7 +45340,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 4846,
+        "npm_weekly_downloads": 5213,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -45282,7 +45372,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 14306074
+        "npm_weekly_downloads": 14638602
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -45297,7 +45387,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 5374774,
+        "npm_weekly_downloads": 5438908,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -45493,7 +45583,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 742,
+        "npm_weekly_downloads": 793,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -45524,7 +45614,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 331,
+        "npm_weekly_downloads": 383,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -45564,7 +45654,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 59774802,
+        "npm_weekly_downloads": 60287773,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -45681,7 +45771,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
-        "npm_weekly_downloads": 1243,
+        "npm_weekly_downloads": 1186,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",
@@ -45736,7 +45826,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 10698162,
+        "npm_weekly_downloads": 10246614,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -45769,7 +45859,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 175273259,
+        "npm_weekly_downloads": 176871210,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",
