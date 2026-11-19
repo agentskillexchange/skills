@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-19
-# Total: 3265 skills
+# Total: 3267 skills
+
+## StalkChain Trader Check
+slug: stalkchain-trader-check
+category: Research & Scraping
+framework: Claude Code
+verification: Published
+description: Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP.
+url: https://agentskillexchange.com/skills/stalkchain-trader-check/
+
+## Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP
+slug: reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp
+category: Media & Transcription
+framework: MCP
+verification: Security Reviewed
+description: Turn an explicit media URL batch into per-job completion evidence and a bounded failure handoff through OmniGet’s local MCP server.
+url: https://agentskillexchange.com/skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/
 
 ## Diagnose Skales Browser Tool Readiness with DevKit
 slug: diagnose-skales-browser-tool-readiness-with-devkit

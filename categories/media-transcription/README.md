@@ -80,6 +80,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Assemble and review local video cuts through Concat MCP](../../skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | 16k | — |
 | [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 14.9k | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
+| [Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP](../../skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/) | 14.5k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | 14.5k | — |
 | [Build voice and multimodal agents with Pipecat](../../skills/build-voice-and-multimodal-agents-with-pipecat/) | 12.7k | — |

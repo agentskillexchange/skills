@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3265 published skills** across **17 categories** · 2,674 security reviewed · Updated 2026-11-19 13:26 UTC
+> **3267 published skills** across **17 categories** · 2,674 security reviewed · Updated 2026-11-19 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2368,7 +2368,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (146 skills)
+### 🔍 Research & Scraping (147 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2519,6 +2519,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [SerpAPI Search Results Aggregator](skills/serpapi-search-results-aggregator/) | Queries Google, Bing, and DuckDuckGo search APIs through SerpAPI to collect SERP features, Knowledge Graph data, and… | Security Reviewed | — | — |
 | [Shodan Network Reconnaissance Agent](skills/shodan-network-reconnaissance-agent/) | Performs network reconnaissance using the Shodan REST API and Shodan InternetDB. Discovers exposed services, CVE… | Security Reviewed | — | — |
 | [Social Corpus Harvest](skills/social-corpus-harvest/) | Collects a human-verified person, creator, brand, or organization's self-authored public Xiaohongshu, Douyin, and… | Published | — | — |
+| [StalkChain Trader Check](skills/stalkchain-trader-check/) | Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP. | Published | — | — |
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
@@ -3079,7 +3080,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Writingmate MCP Video and Image Generation](skills/writingmate-mcp/) | Connects Claude Code, Codex, Cursor, and other MCP hosts to Writingmate for model discovery, text comparison, image… | Published | — | — |
 
 
-### 🎙️ Media & Transcription (113 skills)
+### 🎙️ Media & Transcription (114 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Media%20%26%20Transcription&sort=downloads)
 
@@ -3125,6 +3126,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Medi
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and track… | Security Reviewed | 16k | — |
 | [Beets Music Library Manager and Tagger](skills/beets-music-library-manager-tagger/) | Manage and tag music libraries with beets, the Python-based CLI tool that auto-tags audio files using MusicBrainz… | Security Reviewed | 14.9k | — |
 | [PeerTube Video Publishing and Moderation API](skills/peertube-video-publishing-moderation-api/) | Uses PeerTube's REST API and federation-aware platform features to automate video uploads, channel management,… | Published | 14.6k | — |
+| [Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP](skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/) | Turn an explicit media URL batch into per-job completion evidence and a bounded failure handoff through OmniGet’s… | Security Reviewed | 14.5k | — |
 | [MoviePy Python Video Editing Library](skills/moviepy-python-video-editing-library/) | MoviePy is a Python library for video editing — cuts, concatenations, title insertions, compositing, and custom… | Security Reviewed | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](skills/vosk-offline-speech-recognition-toolkit/) | Perform offline speech recognition across 20+ languages with Vosk. Provides compact models, zero-latency streaming… | Published | 14.5k | — |
 | [Build voice and multimodal agents with Pipecat](skills/build-voice-and-multimodal-agents-with-pipecat/) | Use Pipecat to define realtime voice and multimodal agent pipelines with transports, model providers, tools, and… | Security Reviewed | 12.7k | — |

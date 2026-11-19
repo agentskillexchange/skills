@@ -185,6 +185,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | — | — |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
 | [Social Corpus Harvest](../../skills/social-corpus-harvest/) | — | — |
+| [StalkChain Trader Check](../../skills/stalkchain-trader-check/) | — | — |
 | [Xquik X Actors on Apify](../../skills/xquik-apify-x-actors/) | — | — |
 
 ---
