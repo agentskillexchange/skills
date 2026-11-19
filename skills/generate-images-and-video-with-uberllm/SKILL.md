@@ -128,7 +128,8 @@ APPROVED_MAX_USD='replace-with-the-amount-the-user-approved'   # e.g. the quoted
 
 jq --arg max "$APPROVED_MAX_USD" \
   '($max | tonumber) as $m | if $m > 0 then . + {max_cost: $m} else error("max_cost must be a positive number") end' \
-  "$WORK/request.json" > "$WORK/request.capped.json" && mv "$WORK/request.capped.json" "$WORK/request.json"
+  "$WORK/request.json" > "$WORK/request.capped.json" && mv "$WORK/request.capped.json" "$WORK/request.json" \
+  || { echo "could not apply the approved max_cost; do not submit" >&2; exit 1; }
 
 jq -e '.max_cost | type == "number" and . > 0' "$WORK/request.json" >/dev/null \
   || { echo "no approved max_cost in request.json; do not submit" >&2; exit 1; }
