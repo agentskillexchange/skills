@@ -1,8 +1,52 @@
 {
   "version": "2.0",
-  "total": 3257,
-  "generated": "2026-11-18",
+  "total": 3261,
+  "generated": "2026-11-19",
   "skills": [
+    {
+      "slug": "prepare-source-backed-tensorrt-llm-serving-configuration",
+      "name": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "title": "Prepare a source-backed TensorRT-LLM serving configuration",
+      "description": "Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/NVIDIA/TensorRT-LLM/tree/main/.claude/skills/trtllm-serve-config-guide",
+      "github_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "slug": "prepare-source-verified-archestra-mcp-catalog-entry",
+      "name": "Prepare a source-verified Archestra MCP catalog entry",
+      "title": "Prepare a source-verified Archestra MCP catalog entry",
+      "description": "Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/archestra-ai/archestra/tree/main/.agents/skills/archestra-mcp-catalog-entry",
+      "github_repo": "archestra-ai/archestra"
+    },
+    {
+      "slug": "prepare-read-only-innoshop-low-stock-report-mcp",
+      "name": "Prepare a read-only InnoShop low-stock report through MCP",
+      "title": "Prepare a read-only InnoShop low-stock report through MCP",
+      "description": "Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/innocommerce/innoshop/tree/main/innopacks/mcp",
+      "github_repo": "innocommerce/innoshop"
+    },
+    {
+      "slug": "refresh-theia-model-aliases-provider-capabilities",
+      "name": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "title": "Refresh Theia model aliases and provider capabilities with update-default-models",
+      "description": "Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/eclipse-theia/theia/tree/master/.agents/skills/update-default-models",
+      "github_repo": "eclipse-theia/theia"
+    },
     {
       "slug": "render-existing-mermaid-diagrams-claude-code-termaid",
       "name": "Render existing Mermaid files and PR diagrams in Claude Code with Termaid",

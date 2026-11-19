@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-18
-# Total: 3257 skills
+# Generated: 2026-11-19
+# Total: 3261 skills
+
+## Prepare a source-backed TensorRT-LLM serving configuration
+slug: prepare-source-backed-tensorrt-llm-serving-configuration
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.
+url: https://agentskillexchange.com/skills/prepare-source-backed-tensorrt-llm-serving-configuration/
+
+## Prepare a source-verified Archestra MCP catalog entry
+slug: prepare-source-verified-archestra-mcp-catalog-entry
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.
+url: https://agentskillexchange.com/skills/prepare-source-verified-archestra-mcp-catalog-entry/
+
+## Prepare a read-only InnoShop low-stock report through MCP
+slug: prepare-read-only-innoshop-low-stock-report-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.
+url: https://agentskillexchange.com/skills/prepare-read-only-innoshop-low-stock-report-mcp/
+
+## Refresh Theia model aliases and provider capabilities with update-default-models
+slug: refresh-theia-model-aliases-provider-capabilities
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.
+url: https://agentskillexchange.com/skills/refresh-theia-model-aliases-provider-capabilities/
 
 ## Render existing Mermaid files and PR diagrams in Claude Code with Termaid
 slug: render-existing-mermaid-diagrams-claude-code-termaid

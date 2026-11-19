@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3257 published skills** across **17 categories** · 2,667 security reviewed · Updated 2026-11-18 13:26 UTC
+> **3261 published skills** across **17 categories** · 2,671 security reviewed · Updated 2026-11-19 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (544 skills)
+### 🛠️ Developer Tools (547 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -164,6 +164,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](skills/nocobase-extensible-no-code-low-code-platform/) | NocoBase is the most extensible open-source no-code/low-code platform for building business applications. It… | Security Reviewed | 22.1k | 746/wk |
 | [MkDocs Project Documentation Generator](skills/mkdocs-project-documentation-generator/) | MkDocs is a fast, simple, and elegant static site generator designed for building project documentation from… | Security Reviewed | 21.9k | — |
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | Use Reasonix when an operator wants a persistent terminal coding agent tuned for DeepSeek-style prefix caching,… | Security Reviewed | 21.8k | 77.9k/wk |
+| [Refresh Theia model aliases and provider capabilities with update-default-models](skills/refresh-theia-model-aliases-provider-capabilities/) | Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested… | Security Reviewed | 21.8k | — |
 | [ChartDB Database Schema Visualization and Diagram Editor](skills/chartdb-database-schema-visualization/) | ChartDB is a web-based database diagramming editor that instantly visualizes your schema from a single SQL query. It… | Published | 21.7k | — |
 | [GitUI Blazing Fast Terminal Git Interface](skills/gitui-terminal-git-interface/) | GitUI is a fast terminal-based user interface for Git written in Rust. It provides keyboard-driven staging,… | Security Reviewed | 21.7k | — |
 | [mdBook Markdown Book Generator by Rust Project](skills/mdbook-markdown-book-generator-rust/) | mdBook is a command-line utility for creating online books from Markdown files. Built in Rust and maintained by the… | Published | 21.4k | — |
@@ -191,6 +192,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons… | Published | 15.6k | — |
 | [Task Taskfile Build Automation Runner](skills/task-taskfile-build-automation-runner/) | Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles.… | Published | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](skills/plandex-ai-coding-agent-large-projects/) | Plandex is an open-source terminal-based AI coding agent designed for large projects and complex tasks. It handles… | Security Reviewed | 15.2k | — |
+| [Prepare a source-backed TensorRT-LLM serving configuration](skills/prepare-source-backed-tensorrt-llm-serving-configuration/) | Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML,… | Security Reviewed | 15.1k | — |
 | [duf Modern Disk Usage and Free Utility](skills/duf-modern-disk-usage-free-utility/) | duf is a modern disk usage/free utility written in Go that provides a polished, colorful terminal output for mounted… | Security Reviewed | 14.9k | — |
 | [Trigger.dev TypeScript Background Jobs Platform](skills/trigger-dev-typescript-background-jobs-platform/) | Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and… | Security Reviewed | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](skills/mitosis-cross-framework-component-compiler/) | Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more.… | Security Reviewed | 13.8k | — |
@@ -295,6 +297,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Security Reviewed | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](skills/azure-cli-microsoft-cloud/) | The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases,… | Security Reviewed | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs,… | Security Reviewed | 4.5k | — |
+| [Prepare a source-verified Archestra MCP catalog entry](skills/prepare-source-verified-archestra-mcp-catalog-entry/) | Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry… | Security Reviewed | 4.4k | — |
 | [Run sandboxed multi-language code execution with Judge0](skills/run-sandboxed-multi-language-code-execution-with-judge0/) | Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or… | Published | 4.4k | — |
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 35.1M/wk |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |
@@ -1793,7 +1796,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (192 skills)
+### 🔗 Integrations & Connectors (193 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1918,6 +1921,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Build authenticated MCP servers from Python files with Golf](skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | Scaffold, build, and run MCP servers from a predictable Python project layout with tools, prompts, resources, auth,… | Security Reviewed | 835 | — |
 | [Datadog Integration Connector](skills/datadog-integration-connector-agent/) | Connects applications to Datadog monitoring using the Datadog API v2 for metrics submission, log forwarding, APM… | Security Reviewed | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](skills/docker-mcp-server-container-lifecycle-management/) | An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural… | Published | 695 | — |
+| [Prepare a read-only InnoShop low-stock report through MCP](skills/prepare-read-only-innoshop-low-stock-report-mcp/) | Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human… | Security Reviewed | 671 | — |
 | [Neon Serverless Postgres MCP](skills/neon-serverless-postgres-mcp/) | Neon's official MCP server translates natural language requests into Neon API calls, letting AI agents create… | Security Reviewed | 606 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](skills/neon-mcp-server-serverless-postgres/) | The Neon MCP Server enables AI agents to manage serverless PostgreSQL databases through natural language via the… | Security Reviewed | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](skills/chroma-mcp-server-embedding-database-operations/) | An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add… | Published | 527 | — |
