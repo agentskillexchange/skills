@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-19
-# Total: 3264 skills
+# Total: 3265 skills
+
+## Diagnose Skales Browser Tool Readiness with DevKit
+slug: diagnose-skales-browser-tool-readiness-with-devkit
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a supervised browser run.
+url: https://agentskillexchange.com/skills/diagnose-skales-browser-tool-readiness-with-devkit/
 
 ## Generate Images and Video with UberLLM
 slug: generate-images-and-video-with-uberllm

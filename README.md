@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C264-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C265-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C673-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,264 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,265 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Diagnose Skales Browser Tool Readiness with DevKit](skills/diagnose-skales-browser-tool-readiness-with-devkit/) | Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a... | 2.2k | Runbooks & Diagnostics |
 | [Generate Images and Video with UberLLM](skills/generate-images-and-video-with-uberllm/) | Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a... | - | Image & Creative Automation |
 | [CallForMe](skills/callforme/) | Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get... | - | Integrations & Connectors |
 | [Audit OpenLoomi Loop decision routing with deterministic rule previews](skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live... | 1.0k | Runbooks & Diagnostics |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Refresh Theia model aliases and provider capabilities with update-default-models](skills/refresh-theia-model-aliases-provider-capabilities/) | Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using... | 21.8k | Developer Tools |
 | [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](skills/render-existing-mermaid-diagrams-claude-code-termaid/) | Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and... | 583 | Image & Creative Automation |
 | [Monitor one pull request through CI and review with Tstack babysit-pr](skills/monitor-pull-request-ci-review-tstack-babysit-pr/) | Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current... | 4.1k | CI/CD Integrations |
-| [Search repository files by behavior with Localix decide](skills/search-repository-files-by-behavior-with-localix-decide/) | Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before... | 368 | Developer Tools |
 
 ---
 
@@ -130,8 +130,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
-| [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
+| [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
 | [Build and resume research coverage matrices with OmAgents](skills/build-and-resume-research-coverage-matrices-with-omagents/) | Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report... | 359 | Research & Scraping |
 
 ---
@@ -147,7 +147,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 218 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 194 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 194 | Third-party API bridges, webhooks, service connectors |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 188 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 189 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 165 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 146 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 136 | SDK docs, API parsers, symbol resolvers |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,264 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,265 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,673 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

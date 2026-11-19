@@ -170,6 +170,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](../../skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | 2.3k | — |
+| [Diagnose Skales Browser Tool Readiness with DevKit](../../skills/diagnose-skales-browser-tool-readiness-with-devkit/) | 2.2k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |

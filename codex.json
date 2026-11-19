@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-19",
-  "total": 3264,
+  "total": 3265,
   "skills": [
+    {
+      "slug": "diagnose-skales-browser-tool-readiness-with-devkit",
+      "name": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "title": "Diagnose Skales Browser Tool Readiness with DevKit",
+      "description": "Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a supervised browser run.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/skalesapp/skales",
+      "github_repo": "skalesapp/skales"
+    },
     {
       "slug": "generate-images-and-video-with-uberllm",
       "name": "Generate Images and Video with UberLLM",
