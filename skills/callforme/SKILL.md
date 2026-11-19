@@ -2,10 +2,12 @@
 name: "CallForMe"
 slug: "callforme"
 description: "Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock, cancel a membership or wait on hold, then report the answers and transcript."
+verification: "listed"
+source: "https://github.com/callforme-tel/callforme"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/callforme-tel/callforme"
+tool_ecosystem:
+  github_repo: "callforme-tel/callforme"
 ---
 
 # CallForMe
