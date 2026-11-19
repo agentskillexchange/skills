@@ -1,7 +1,327 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-13
-# Total: 3221 skills
+# Generated: 2026-11-19
+# Total: 3261 skills
+
+## Prepare a source-backed TensorRT-LLM serving configuration
+slug: prepare-source-backed-tensorrt-llm-serving-configuration
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.
+url: https://agentskillexchange.com/skills/prepare-source-backed-tensorrt-llm-serving-configuration/
+
+## Prepare a source-verified Archestra MCP catalog entry
+slug: prepare-source-verified-archestra-mcp-catalog-entry
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.
+url: https://agentskillexchange.com/skills/prepare-source-verified-archestra-mcp-catalog-entry/
+
+## Prepare a read-only InnoShop low-stock report through MCP
+slug: prepare-read-only-innoshop-low-stock-report-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.
+url: https://agentskillexchange.com/skills/prepare-read-only-innoshop-low-stock-report-mcp/
+
+## Refresh Theia model aliases and provider capabilities with update-default-models
+slug: refresh-theia-model-aliases-provider-capabilities
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.
+url: https://agentskillexchange.com/skills/refresh-theia-model-aliases-provider-capabilities/
+
+## Render existing Mermaid files and PR diagrams in Claude Code with Termaid
+slug: render-existing-mermaid-diagrams-claude-code-termaid
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and inspect them against the intended structure.
+url: https://agentskillexchange.com/skills/render-existing-mermaid-diagrams-claude-code-termaid/
+
+## Monitor one pull request through CI and review with Tstack babysit-pr
+slug: monitor-pull-request-ci-review-tstack-babysit-pr
+category: CI/CD Integrations
+framework: Multi-Framework
+verification: Security Reviewed
+description: Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness handoff without implicit merge permission.
+url: https://agentskillexchange.com/skills/monitor-pull-request-ci-review-tstack-babysit-pr/
+
+## Search repository files by behavior with Localix decide
+slug: search-repository-files-by-behavior-with-localix-decide
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before returning a source-grounded handoff.
+url: https://agentskillexchange.com/skills/search-repository-files-by-behavior-with-localix-decide/
+
+## Validate and report completed external workflow usage to LoopForge
+slug: validate-and-report-completed-external-workflow-usage-to-loopforge
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for safe retries.
+url: https://agentskillexchange.com/skills/validate-and-report-completed-external-workflow-usage-to-loopforge/
+
+## Coordinate a scoped code change through Oh My Claudecode team stages
+slug: coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change and evidence for operator review.
+url: https://agentskillexchange.com/skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/
+
+## Verify Nix package and option choices through MCP-NixOS
+slug: verify-nix-package-and-option-choices-through-mcp-nixos
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an evidenced configuration plan through the MCP-NixOS query tools.
+url: https://agentskillexchange.com/skills/verify-nix-package-and-option-choices-through-mcp-nixos/
+
+## Review changed-file code quality findings with Fallow
+slug: review-changed-file-code-quality-findings-with-fallow
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused merge-readiness report across code health, duplication, and…
+url: https://agentskillexchange.com/skills/review-changed-file-code-quality-findings-with-fallow/
+
+## Resolve Langfuse integration questions through its documentation MCP
+slug: resolve-langfuse-integration-questions-through-documentation-mcp
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through the official docs MCP.
+url: https://agentskillexchange.com/skills/resolve-langfuse-integration-questions-through-documentation-mcp/
+
+## Refresh structured user profiles from chat buffers with Memobase
+slug: refresh-structured-user-profiles-from-chat-buffers-with-memobase
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for the next assistant turn.
+url: https://agentskillexchange.com/skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/
+
+## Investigative Journalism and Fact-Checking
+slug: investigate-and-fact-check
+category: Research & Scraping
+framework: Codex
+verification: Published
+description: Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives;…
+url: https://agentskillexchange.com/skills/investigate-and-fact-check/
+
+## Firecrawl Alexandria
+slug: firecrawl-alexandria
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and specialized indexes. The agent discovers a…
+url: https://agentskillexchange.com/skills/firecrawl-alexandria/
+
+## Build and resume research coverage matrices with OmAgents
+slug: build-and-resume-research-coverage-matrices-with-omagents
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report across agent sessions.
+url: https://agentskillexchange.com/skills/build-and-resume-research-coverage-matrices-with-omagents/
+
+## Route Codex delivery through explicit risk gates with Sol Advisor
+slug: route-codex-delivery-through-explicit-risk-gates-with-sol-advisor
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Declare a solo, delegate, audit or full route, verify the selected native roles, and return a reviewed diff with parent-run verification evidence.
+url: https://agentskillexchange.com/skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/
+
+## Build and review single-file browser motion graphics with Bang Motion
+slug: build-and-review-single-file-browser-motion-graphics-with-bang-motion
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a brand brief into an approved motion concept and one playable index.html, then scrub key moments and revise the same timeline before handoff.
+url: https://agentskillexchange.com/skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/
+
+## Draft, review and export code-driven pixel effects with Pixelfx
+slug: draft-review-and-export-code-driven-pixel-effects-with-pixelfx
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite sheet with timing and pivot metadata.
+url: https://agentskillexchange.com/skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/
+
+## Run evidence-backed mobile app smoke checks with AutoCua
+slug: run-evidence-backed-mobile-app-smoke-checks-with-autocua
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved observations before reporting results.
+url: https://agentskillexchange.com/skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/
+
+## Turn a specification into verified Rhesis test foundations
+slug: turn-a-specification-into-verified-rhesis-test-foundations
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification.
+url: https://agentskillexchange.com/skills/turn-a-specification-into-verified-rhesis-test-foundations/
+
+## Triage a Latitude signal with linked trace evidence
+slug: triage-a-latitude-signal-with-linked-trace-evidence
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief.
+url: https://agentskillexchange.com/skills/triage-a-latitude-signal-with-linked-trace-evidence/
+
+## Answer from one Docling Studio parse with verified citations
+slug: answer-from-one-docling-studio-parse-with-verified-citations
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return a cited answer or a clear…
+url: https://agentskillexchange.com/skills/answer-from-one-docling-studio-parse-with-verified-citations/
+
+## Preflight Cybermes engagement scope rules over MCP
+slug: preflight-cybermes-engagement-scope-rules-over-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a preflight record before target activity.
+url: https://agentskillexchange.com/skills/preflight-cybermes-engagement-scope-rules-over-mcp/
+
+## Export complete or partial headless scan evidence with open·kritt
+slug: export-headless-scan-evidence-with-open-kritt
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete findings from partial results.
+url: https://agentskillexchange.com/skills/export-headless-scan-evidence-with-open-kritt/
+
+## GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data
+slug: getyoutubetranscript-youtube-transcript
+category: Media & Transcription
+framework: Claude Code
+verification: Published
+description: Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, through the getyoutubetranscript.com REST API…
+url: https://agentskillexchange.com/skills/getyoutubetranscript-youtube-transcript/
+
+## Review Master CSS output regressions through MCP snapshots
+slug: review-master-css-output-regressions-through-mcp-snapshots
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the installed Master CSS compiler.
+url: https://agentskillexchange.com/skills/review-master-css-output-regressions-through-mcp-snapshots/
+
+## Refresh Pixeltable video summaries without repeating transcription
+slug: refresh-pixeltable-video-summaries-without-repeating-transcription
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio and transcripts stay unchanged.
+url: https://agentskillexchange.com/skills/refresh-pixeltable-video-summaries-without-repeating-transcription/
+
+## Verify shared and private fleet memory through Caura MCP
+slug: verify-shared-and-private-fleet-memory-through-caura-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team to shared memory.
+url: https://agentskillexchange.com/skills/verify-shared-and-private-fleet-memory-through-caura-mcp/
+
+## Regression-test Apache Hop pipelines against golden data
+slug: regression-test-apache-hop-pipelines-against-golden-data
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or field mismatches before promotion.
+url: https://agentskillexchange.com/skills/regression-test-apache-hop-pipelines-against-golden-data/
+
+## Verify signed agent-run evidence offline with Tracekit
+slug: verify-signed-agent-run-evidence-offline-with-tracekit
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check an authorized Tracekit bundle against pinned signer keys and report integrity verdicts separately from execution and completeness claims.
+url: https://agentskillexchange.com/skills/verify-signed-agent-run-evidence-offline-with-tracekit/
+
+## Re-embed OpenClaw memory into a fresh LanceDB store
+slug: re-embed-openclaw-memory-into-a-fresh-lancedb-store
+category: Integrations & Connectors
+framework: OpenClaw
+verification: Security Reviewed
+description: Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching row counts.
+url: https://agentskillexchange.com/skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/
+
+## Audit local agent runs and select hook policies with Failproof AI
+slug: audit-local-agent-runs-and-select-hook-policies-with-failproof-ai
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes.
+url: https://agentskillexchange.com/skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/
+
+## Preview Azure app infrastructure and service deployments with azd
+slug: preview-azure-app-infrastructure-and-service-deployments-with-azd
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Azure Developer CLI to inspect an existing azure.yaml project, preview infrastructure and service changes, and prepare an evidence-backed deployment handoff.
+url: https://agentskillexchange.com/skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/
+
+## Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie
+slug: turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie
+category: Security & Verification
+framework: Custom Agents
+verification: Security Reviewed
+description: Use DevoxxGenie Agent Mode to scan current project files and dependencies, interpret findings, and create prioritized Backlog.md tasks for review.
+url: https://agentskillexchange.com/skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/
+
+## Run a mock robotics benchmark and review evidence with Inspect Robots
+slug: run-mock-robotics-benchmark-review-evidence-inspect-robots
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics evaluation logs for review.
+url: https://agentskillexchange.com/skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/
+
+## Diagnose retrieved-but-unused agent skills through Ratel MCP
+slug: diagnose-retrieved-but-unused-agent-skills-ratel-mcp
+category: Monitoring & Alerts
+framework: MCP
+verification: Published
+description: Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an evidence-backed catalog diagnosis.
+url: https://agentskillexchange.com/skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/
+
+## Build and validate one Enferno admin feature
+slug: build-validate-one-enferno-admin-feature
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and test evidence.
+url: https://agentskillexchange.com/skills/build-validate-one-enferno-admin-feature/
+
+## Inspect FreeCAD model properties and capture review views
+slug: inspect-freecad-model-properties-capture-review-views
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence handoff.
+url: https://agentskillexchange.com/skills/inspect-freecad-model-properties-capture-review-views/
+
+## Generate budgeted McDonald’s China group-meal plans
+slug: generate-budgeted-mcdonalds-china-group-meal-plans
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Security Reviewed
+description: Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan without ordering.
+url: https://agentskillexchange.com/skills/generate-budgeted-mcdonalds-china-group-meal-plans/
 
 ## Read Microsoft 365 attachments with explicit extraction coverage
 slug: read-microsoft-365-attachments-explicit-extraction-coverage

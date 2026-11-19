@@ -79,7 +79,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
 | [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 57.7M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 59.8M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -94,6 +94,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](../../skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | 7.8k | — |
+| [Draft, review and export code-driven pixel effects with Pixelfx](../../skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | 7.6k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |
@@ -105,9 +106,11 @@ Image generation, asset processing, design automation, and creative tooling.
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](../../skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | 3.6k | — |
 | [Transfer clothed character poses from mannequin renders with Qwen Pose](../../skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | 3.5k | — |
+| [Inspect FreeCAD model properties and capture review views](../../skills/inspect-freecad-model-properties-capture-review-views/) | 3.3k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
 | [Inspect and retrieve brand and cloud service SVG assets with theSVG](../../skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](../../skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | 2.4k | 11.7k/wk |
+| [Build and review single-file browser motion graphics with Bang Motion](../../skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/) | 2.2k | — |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
 | [Compare UI design directions and refine the selected page with Oil UI](../../skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | 2.1k | — |
 | [Generate consistent hand-drawn image prompts with Hand Drawn Styles](../../skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | 2k | — |
@@ -124,6 +127,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
 | [Inspect Unreal Editor state and capture visual evidence with EngineWire](../../skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
+| [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](../../skills/render-existing-mermaid-diagrams-claude-code-termaid/) | 583 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](../../skills/run-comfyui-workflows-as-agent-callable-skills/) | 395 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |

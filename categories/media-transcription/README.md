@@ -146,6 +146,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
 | [FreeFM](../../skills/freefm/) | — | — |
 | [Generate podcast-style audio narratives with Podcast Generation](../../skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | — | — |
+| [GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data](../../skills/getyoutubetranscript-youtube-transcript/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |

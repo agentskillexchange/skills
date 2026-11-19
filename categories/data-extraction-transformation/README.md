@@ -217,7 +217,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
+| [Refresh Pixeltable video summaries without repeating transcription](../../skills/refresh-pixeltable-video-summaries-without-repeating-transcription/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
+| [Regression-test Apache Hop pipelines against golden data](../../skills/regression-test-apache-hop-pipelines-against-golden-data/) | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | 1.5k | 90/wk |
 | [Inspect and export Excel workbooks from the terminal with xleak](../../skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | 1.5k | — |
@@ -258,12 +260,14 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](../../skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Extract reviewable relationship timelines from chat exports with Afterglow](../../skills/extract-relationship-timelines-from-chat-exports-with-afterglow/) | 317 | — |
+| [Answer from one Docling Studio parse with verified citations](../../skills/answer-from-one-docling-studio-parse-with-verified-citations/) | 275 | — |
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Retrieve exact documentation sections for agents with jDocMunch MCP](../../skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |
 | [Diagnose incomplete web extraction with PageSift MCP audit evidence](../../skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | 162 | 3.3k/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
+| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | 108 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | 42/wk |
@@ -278,7 +282,6 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | — | — |
 | [WebAsk Results Digest](../../skills/webask-results-digest/) | — | — |
 | [Weights & Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 

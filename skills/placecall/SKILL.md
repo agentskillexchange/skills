@@ -2,12 +2,14 @@
 name: "PlaceCall Phone Calls to Businesses"
 slug: "placecall"
 description: "Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or REST API: reservations, appointments, inquiries and quotes. Use it when the user asks to call a business, book or cancel by phone, check hours or stock, collect quotes from several vendors, or find a place to call when there is no number."
+github_stars: 118
 verification: "listed"
 source: "https://github.com/voygr-tech/placecall"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "voygr-tech/placecall"
+  github_stars: 118
 ---
 
 # PlaceCall Phone Calls to Businesses

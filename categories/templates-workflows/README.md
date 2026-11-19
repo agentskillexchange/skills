@@ -28,11 +28,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](../../skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | ⬇ 83.5k/wk |
 | [Run Claude Code job-search operations with Career-Ops](../../skills/run-claude-code-job-search-operations-with-career-ops/) | ⬇ 3.5k/wk |
 | [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | ⬇ 11.9k/wk |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](../../skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | ⬇ 9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | ⬇ 32/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
-| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⬇ 8.9M/wk |
 
 ---
 
@@ -70,6 +70,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Run a lightweight personal AI agent with Nanobot](../../skills/run-a-lightweight-personal-ai-agent-with-nanobot/) | 42.8k | — |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](../../skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | 40.9k | 9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | 35k | 25.7M/wk |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 33.1k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
@@ -186,6 +187,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
+| [Route Codex delivery through explicit risk gates with Sol Advisor](../../skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/) | 2.6k | — |
 | [Schedule in-process JavaScript agent jobs with Croner](../../skills/schedule-in-process-javascript-agent-jobs-with-croner/) | 2.6k | 11.3M/wk |
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | 2.1k/wk |
 | [Run Claude Trading Skills for investor market review and trade journaling](../../skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | 2.5k | — |
@@ -282,6 +284,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Berlin Job Search](../../skills/berlin-job-search/) | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
+| [Prompt Optimizer](../../skills/prompt-optimizer-skill/) | 6 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](../../skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
 | [Goal Instruction Writer](../../skills/goal-instruction-writer/) | 2 | — |
@@ -302,7 +305,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
-| [Prompt Optimizer](../../skills/prompt-optimizer-skill/) | — | — |
 | [Ralph Loop](../../skills/ralph-loop/) | — | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | — | — |

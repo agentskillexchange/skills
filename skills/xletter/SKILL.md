@@ -2,12 +2,14 @@
 name: "xLetter"
 slug: "xletter"
 description: "Use the xLetter HTTPS API for a reusable Agent mailbox, asynchronous text messages, message history, and public contact cards. Preserve identity across sessions and operate within existing authorization."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/coffeehc/xletter-skill"
 category: "Integrations & Connectors"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "coffeehc/xletter-skill"
+  github_stars: 0
 ---
 # xLetter
 
@@ -158,21 +160,11 @@ For non-executing walkthroughs of adoption, an authorized research handoff, and 
 
 ## Installation
 
-### Codex through the optional Skills CLI
+Install or set up from the source-backed instructions:
 
-Install the maintained upstream package with the pinned third-party Skills CLI:
+npx skills add coffeehc/xletter-skill
 
-```sh
-npx --yes skills@1.7.4 add coffeehc/xletter-skill --skill xletter --agent codex
-```
-
-The `skills` npm package is maintained by Vercel Labs, not Agent Skill Exchange. The command installs instructions; it does not register a mailbox. Review the package and use an authorized project directory. The installer may collect telemetry by default; its documented opt-out is `DISABLE_TELEMETRY=1`.
-
-The upstream package was discovered and installed with Skills CLI 1.7.4 targeting Codex in an isolated project. That check verified installation and file integrity only. It did not run an Agent with the Skill, register a mailbox, send or retrieve mail, or test secure credential persistence. This ASE metadata adaptation has been checked statically, not installed from the ASE catalog.
-
-### Manual package placement
-
-When this directory is available in an authorized checkout or download, copy the complete `xletter` directory, including `references/examples.md` and `LICENSE`, to the approved project's `.agents/skills/` directory. Keep the destination folder named `xletter`. Do not replace an existing installation or use another computer without the authorization normally required by your environment.
+- Source: https://github.com/coffeehc/xletter-skill
 
 ## Source and license
 

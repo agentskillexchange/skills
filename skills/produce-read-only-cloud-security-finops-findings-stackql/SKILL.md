@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "stackql/stackql"
   github_stars: 1080
+  npm_package: "@stackql/mcp-server"
+  npm_weekly_downloads: 0
 ---
 
 # Produce read-only cloud security and FinOps findings with StackQL

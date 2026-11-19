@@ -2,6 +2,7 @@
 name: "Turn messy datasets into auditable reports with data-master"
 slug: "turn-messy-datasets-into-auditable-reports-with-data-master"
 description: "Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware statistics and sensitivity checks, and produce Markdown, HTML and PDF reports with machine-verifiable audit evidence."
+github_stars: 108
 verification: "listed"
 source: "https://github.com/MAGA2010/data-master"
 author: "MAGA2010"
@@ -10,6 +11,7 @@ category: "Data Extraction & Transformation"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "maga2010/data-master"
+  github_stars: 108
 ---
 
 # Turn messy datasets into auditable reports with data-master
@@ -29,7 +31,11 @@ the dataset owner; do not silently replace them with weaker assumptions.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npm install -g github:MAGA2010/data-master#v0.3.0
+data-master setup
+data-master skill install
 
 - Source: https://github.com/MAGA2010/data-master
 

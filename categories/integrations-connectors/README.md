@@ -103,7 +103,8 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Render interactive MCP tool UIs with mcp-ui](../../skills/render-interactive-mcp-tool-uis-with-mcp-ui/) | 4.9k | 1.6M/wk |
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 33.2M/wk |
+| [Re-embed OpenClaw memory into a fresh LanceDB store](../../skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | 4.4k | 85/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 35.1M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -122,10 +123,11 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [Connect agents to governed data and code graphs with GraphJin](../../skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | 3.1k | 866/wk |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 70.6k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 72.1k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
+| [Refresh structured user profiles from chat buffers with Memobase](../../skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/) | 3k | 108/wk |
 | [Slack Channel Summarizer & Triage Bot](../../skills/slack-channel-summarizer-triage/) | 2.9k | 2.6M/wk |
 | [Slack Bolt Event Subscription Debugger](../../skills/slack-bolt-event-subscription-debugger/) | 2.9k | 2.5M/wk |
 | [Supabase MCP Server for Database and Project Management](../../skills/supabase-mcp-server-database-project-management/) | 2.6k | 68k/wk |
@@ -136,12 +138,12 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Connect Azure DevOps projects, work items, repos, and pipelines to MCP agents](../../skills/connect-azure-devops-projects-work-items-repos-and-pipelines-to-mcp-agents/) | 1.7k | 334.3k/wk |
 | [Verify scoped Kafka tool access through Zilla MCP](../../skills/verify-scoped-kafka-tool-access-through-zilla-mcp/) | 1.7k | — |
 | [Sync skills across Claude Code, Codex, OpenClaw, and other AI CLIs with Skillshare](../../skills/sync-skills-across-ai-coding-clis-with-skillshare/) | 1.6k | — |
-| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 9.3M/wk |
+| [Twilio MCP Server](../../skills/twilio-mcp-server/) | 1.5k | 9.5M/wk |
 | [Twilio Programmable SMS Gateway](../../skills/twilio-programmable-sms-gateway/) | 1.5k | 3.7M/wk |
 | [Twilio Programmable Voice Router](../../skills/twilio-programmable-voice-router-2/) | 1.5k | 3.7M/wk |
 | [Twilio SMS & Voice Bridge](../../skills/twilio-sms-voice-bridge/) | 1.5k | 3.7M/wk |
 | [Convert SMTP-only alerts into routed notification deliveries with Mailrise](../../skills/convert-smtp-only-alerts-into-routed-notification-deliveries-with-mailrise/) | 1.5k | — |
-| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 1.4M/wk |
+| [Salesforce MCP Server](../../skills/salesforce-mcp-server/) | 1.5k | 1.5M/wk |
 | [Salesforce Bulk API Sync Agent](../../skills/salesforce-bulk-api-sync-agent/) | 1.5k | 936.6k/wk |
 | [Salesforce CRM Sync Agent](../../skills/salesforce-crm-sync-agent/) | 1.5k | 936.6k/wk |
 | [Expose database APIs and SQL MCP tools with Azure Data API Builder](../../skills/expose-database-apis-and-sql-mcp-tools-with-azure-data-api-builder/) | 1.4k | — |
@@ -157,13 +159,14 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build authenticated MCP servers from Python files with Golf](../../skills/build-authenticated-mcp-servers-from-python-files-with-golf/) | 835 | — |
 | [Datadog Integration Connector](../../skills/datadog-integration-connector-agent/) | 791 | 6.6M/wk |
 | [Docker MCP Server for Container Lifecycle Management](../../skills/docker-mcp-server-container-lifecycle-management/) | 695 | — |
+| [Prepare a read-only InnoShop low-stock report through MCP](../../skills/prepare-read-only-innoshop-low-stock-report-mcp/) | 671 | — |
 | [Neon Serverless Postgres MCP](../../skills/neon-serverless-postgres-mcp/) | 606 | 15.5k/wk |
 | [Neon MCP Server for Serverless Postgres Management](../../skills/neon-mcp-server-serverless-postgres/) | 567 | 15.5k/wk |
 | [Chroma MCP Server for Embedding Database Operations](../../skills/chroma-mcp-server-embedding-database-operations/) | 527 | — |
 | [Zapier Webhooks by Zapier Router](../../skills/zapier-webhooks-by-zapier-router/) | 484 | — |
 | [Mirror GitHub issues, pull requests, commits, and releases into SQLite for offline analysis](../../skills/mirror-github-issues-pull-requests-commits-and-releases-into-sqlite-for-offline-analysis/) | 461 | — |
 | [Give agents persistent semantic memory with Memora](../../skills/give-agents-persistent-semantic-memory-with-memora/) | 406 | — |
-| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 397 | 2.1M/wk |
+| [HubSpot MCP Server](../../skills/hubspot-mcp-server/) | 397 | 2.2M/wk |
 | [HubSpot CRM Contact Enrichment Pipeline](../../skills/hubspot-crm-contact-enrichment-pipeline/) | 392 | 986.8k/wk |
 | [Route agent LLM traffic through Shepherd Model Gateway](../../skills/route-agent-llm-traffic-through-shepherd-model-gateway/) | 380 | — |
 | [tiny.place](../../skills/tinyplace/) | 377 | — |
@@ -184,6 +187,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Build deterministic SaaS API test worlds for agents with Backlot](../../skills/build-deterministic-saas-api-test-worlds-for-agents-with-backlot/) | 155 | — |
 | [Work with AFFiNE workspaces, documents, and databases from MCP-compatible agents](../../skills/work-with-affine-workspaces-documents-and-databases-from-mcp-compatible-agents/) | 142 | 2.1k/wk |
 | [Expose Haystack pipelines as webhook endpoints with Hayhooks](../../skills/expose-haystack-pipelines-as-webhook-endpoints-with-hayhooks/) | 138 | — |
+| [PlaceCall Phone Calls to Businesses](../../skills/placecall/) | 118 | — |
 | [Query Eventhouse and manage Fabric RTI resources from MCP-compatible agents with Fabric RTI MCP](../../skills/query-eventhouse-and-manage-fabric-rti-resources-from-mcp-compatible-agents-with-fabric-rti-mcp/) | 111 | — |
 | [Connect MCP agents to Zendesk ticket and Help Center workflows](../../skills/connect-mcp-agents-to-zendesk-ticket-and-help-center-workflows/) | 95 | — |
 | [SandBase MCP](../../skills/sandbase-mcp/) | 88 | 328/wk |
@@ -222,7 +226,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hourglyph Daily Puzzle](../../skills/hourglyph-daily/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
-| [PlaceCall Phone Calls to Businesses](../../skills/placecall/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [RouterBase API Integration](../../skills/routerbase-api-integration/) | — | — |
 | [Stockpile Market MCP](../../skills/stockpile-market-mcp/) | — | — |

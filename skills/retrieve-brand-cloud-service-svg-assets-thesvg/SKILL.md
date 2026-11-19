@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "glincker/thesvg"
   github_stars: 3004
+  npm_package: "@thesvg/mcp-server"
+  npm_weekly_downloads: 0
 ---
 
 # Inspect and retrieve brand and cloud service SVG assets with theSVG

@@ -1,0 +1,1 @@
+relationship_id,subject_entity_id,subject_legal_identifier,relationship_type,object_entity_id,object_legal_identifier,valid_from,valid_to,evidence_ids,directly_documented_or_inferred,confidence,limitations

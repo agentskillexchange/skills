@@ -132,6 +132,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](../../skills/resolve-coding-questions-with-firecrawl-developer-index/) | 653 | 15.4k/wk |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](../../skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | 478 | — |
 | [Run evidence-first research investigations in Claude Code with Deepdive](../../skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | 393 | — |
+| [Build and resume research coverage matrices with OmAgents](../../skills/build-and-resume-research-coverage-matrices-with-omagents/) | 359 | 764/wk |
 | [Run source-audited academic literature searches with Nature Academic Search](../../skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | 216 | — |
 | [Serve clean Markdown from URLs and files with PullMD](../../skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
@@ -162,6 +163,8 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
 | [Find Products by Intent with Mydentify](../../skills/find-products-by-intent-with-mydentify/) | — | — |
+| [Firecrawl Alexandria](../../skills/firecrawl-alexandria/) | — | — |
+| [Investigative Journalism and Fact-Checking](../../skills/investigate-and-fact-check/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Pangolinfo AI SERP](../../skills/pangolinfo-ai-serp/) | — | — |
