@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3259 published skills** across **17 categories** · 2,671 security reviewed · Updated 2026-11-18 19:27 UTC
+> **3261 published skills** across **17 categories** · 2,671 security reviewed · Updated 2026-11-19 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (545 skills)
+### 🛠️ Developer Tools (547 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -192,6 +192,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [lsd Next-Generation ls Directory Listing Tool](skills/lsd-next-gen-ls-directory-listing/) | lsd (LSDeluxe) is a modern rewrite of the classic ls command written in Rust, adding color coding, file-type icons… | Published | 15.6k | — |
 | [Task Taskfile Build Automation Runner](skills/task-taskfile-build-automation-runner/) | Automate build workflows with Task (go-task), a modern cross-platform task runner that uses YAML-based Taskfiles.… | Published | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](skills/plandex-ai-coding-agent-large-projects/) | Plandex is an open-source terminal-based AI coding agent designed for large projects and complex tasks. It handles… | Security Reviewed | 15.2k | — |
+| [Prepare a source-backed TensorRT-LLM serving configuration](skills/prepare-source-backed-tensorrt-llm-serving-configuration/) | Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML,… | Security Reviewed | 15.1k | — |
 | [duf Modern Disk Usage and Free Utility](skills/duf-modern-disk-usage-free-utility/) | duf is a modern disk usage/free utility written in Go that provides a polished, colorful terminal output for mounted… | Security Reviewed | 14.9k | — |
 | [Trigger.dev TypeScript Background Jobs Platform](skills/trigger-dev-typescript-background-jobs-platform/) | Trigger.dev is an open-source platform for building and deploying long-running background tasks, AI agents, and… | Security Reviewed | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](skills/mitosis-cross-framework-component-compiler/) | Mitosis lets you write UI components once and compile them to React, Vue, Angular, Svelte, Solid, Qwik, and more.… | Security Reviewed | 13.8k | — |
@@ -296,6 +297,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](skills/mods-charmbracelet-ai-cli-llm/) | Mods is a CLI tool by Charmbracelet that pipes stdin directly to large language models. It enables AI-powered text… | Security Reviewed | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](skills/azure-cli-microsoft-cloud/) | The Azure CLI provides cross-platform command-line access to Microsoft Azure services for managing VMs, databases,… | Security Reviewed | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | Use pgrx when an agent needs the Rust-native extension lifecycle for PostgreSQL, including local builds, test runs,… | Security Reviewed | 4.5k | — |
+| [Prepare a source-verified Archestra MCP catalog entry](skills/prepare-source-verified-archestra-mcp-catalog-entry/) | Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry… | Security Reviewed | 4.4k | — |
 | [Run sandboxed multi-language code execution with Judge0](skills/run-sandboxed-multi-language-code-execution-with-judge0/) | Use Judge0 when an agent workflow needs a self-hostable HTTP API for compiling and running untrusted or… | Published | 4.4k | — |
 | [Webhook Debugger](skills/webhook-debugger/) | Webhook Debugger is built around Stripe payments platform. The underlying ecosystem is represented by… | Security Reviewed | 4.4k | 35.1M/wk |
 | [Freeze Code and Terminal Screenshot Generator](skills/freeze-code-terminal-screenshot-generator/) | Freeze by Charmbracelet generates polished PNG and SVG images of code snippets and terminal output. It supports… | Security Reviewed | 4.4k | — |

@@ -218,6 +218,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | 15.6k | — |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](../../skills/plandex-ai-coding-agent-large-projects/) | 15.2k | — |
+| [Prepare a source-backed TensorRT-LLM serving configuration](../../skills/prepare-source-backed-tensorrt-llm-serving-configuration/) | 15.1k | — |
 | [duf Modern Disk Usage and Free Utility](../../skills/duf-modern-disk-usage-free-utility/) | 14.9k | — |
 | [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | 13.8k | — |
@@ -322,6 +323,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](../../skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | 4.5k | — |
+| [Prepare a source-verified Archestra MCP catalog entry](../../skills/prepare-source-verified-archestra-mcp-catalog-entry/) | 4.4k | — |
 | [Run sandboxed multi-language code execution with Judge0](../../skills/run-sandboxed-multi-language-code-execution-with-judge0/) | 4.4k | — |
 | [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 35.1M/wk |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
