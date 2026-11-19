@@ -2,8 +2,40 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-19",
-  "total": 3261,
+  "total": 3264,
   "skills": [
+    {
+      "slug": "generate-images-and-video-with-uberllm",
+      "name": "Generate Images and Video with UberLLM",
+      "title": "Generate Images and Video with UberLLM",
+      "description": "Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a free validate call, submits one image…",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://uberllm.dev/docs/media"
+    },
+    {
+      "slug": "callforme",
+      "name": "CallForMe",
+      "title": "CallForMe",
+      "description": "Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock,…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/callforme-tel/callforme",
+      "github_repo": "callforme-tel/callforme"
+    },
+    {
+      "slug": "audit-openloomi-loop-decision-routing-with-rule-previews",
+      "name": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "title": "Audit OpenLoomi Loop decision routing with deterministic rule previews",
+      "description": "Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live decisions.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/melandlabs/openloomi/tree/main/skills/openloomi-loop",
+      "github_repo": "melandlabs/openloomi"
+    },
     {
       "slug": "prepare-source-backed-tensorrt-llm-serving-configuration",
       "name": "Prepare a source-backed TensorRT-LLM serving configuration",

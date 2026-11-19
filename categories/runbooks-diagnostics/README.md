@@ -182,6 +182,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
 | [Operate Rails Active Job queues with Mission Control Jobs](../../skills/operate-rails-active-job-queues-with-mission-control-jobs/) | 1.1k | — |
+| [Audit OpenLoomi Loop decision routing with deterministic rule previews](../../skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | 1k | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |

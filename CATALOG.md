@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3261 published skills** across **17 categories** · 2,672 security reviewed · Updated 2026-11-19 01:26 UTC
+> **3264 published skills** across **17 categories** · 2,672 security reviewed · Updated 2026-11-19 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1796,7 +1796,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (193 skills)
+### 🔗 Integrations & Connectors (194 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1982,6 +1982,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to… | Published | — | — |
 | [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
 | [BulkPublish Social Publishing](skills/bulkpublish-social-publishing/) | Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API… | Published | — | — |
+| [CallForMe](skills/callforme/) | Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API:… | Published | — | — |
 | [DocsBot Administration](skills/docsbot-administration/) | Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live… | Published | — | — |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |
@@ -1997,7 +1998,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (187 skills)
+### 📋 Runbooks & Diagnostics (188 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2145,6 +2146,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Run profile-based restic backups and verification checks with resticprofile](skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | Execute named restic backup profiles with repeatable backup, retention, prune, check, and restore steps instead of… | Security Reviewed | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | Use a practical OpenClaw operations runbook to stabilize long-running deployments, tune coordinator and worker… | Security Reviewed | 1.1k | — |
 | [Operate Rails Active Job queues with Mission Control Jobs](skills/operate-rails-active-job-queues-with-mission-control-jobs/) | Use Mission Control Jobs when an operator needs a Rails-mounted dashboard to inspect Active Job queues, review… | Security Reviewed | 1.1k | — |
+| [Audit OpenLoomi Loop decision routing with deterministic rule previews](skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before… | Security Reviewed | 1k | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | Let MCP-compatible agents inspect, debug, deploy, audit, and manage Kubernetes clusters through a controlled… | Security Reviewed | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](skills/datadog-incident-runbook-runner-2/) | Fetches an active Datadog incident, retrieves associated monitors and dashboards, pulls the last 30 minutes of… | Security Reviewed | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](skills/datadog-triage-playbook/) | Automates alert triage using the Datadog Monitors API v2 and Notebooks API. Correlates metrics with traces via the… | Security Reviewed | 791 | 6.6M/wk |
@@ -2939,7 +2941,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Brow
 | [Verify local web apps with Playwright scripts and managed dev servers](skills/verify-local-web-apps-with-playwright-scripts-and-managed-dev-servers/) | Use Anthropic's webapp-testing skill to spin up one or more local servers, wait for them to become reachable, and… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (128 skills)
+### 🎨 Image & Creative Automation (129 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -3058,6 +3060,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Figma Export Automator](skills/figma-export-automator/) | Exports assets from Figma files using the Figma REST API v1. Extracts component sets, design tokens (colors,… | Security Reviewed | — | — |
 | [Figma REST API Asset Exporter](skills/figma-rest-api-asset-exporter/) | Exports design assets from Figma files using the GET /v1/files/:key and /v1/images/:key endpoints. Supports SVG,… | Security Reviewed | — | — |
 | [Gemini Image Style Transfer Agent](skills/gemini-image-style-transfer-agent/) | Uses the Gemini Imagen 3 API (imagegeneration endpoint) to apply stylistic transformations to uploaded images,… | Security Reviewed | — | — |
+| [Generate Images and Video with UberLLM](skills/generate-images-and-video-with-uberllm/) | Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a… | Published | — | — |
 | [Generate Images with Atlas Cloud](skills/generate-images-with-atlas-cloud/) | Discovers current Atlas Cloud image models, validates model-specific schemas, submits a single asynchronous… | Published | — | — |
 | [Generate Images with MuAPI](skills/generate-images-with-muapi/) | Discovers current MuAPI image models, builds a model-specific request, and validates asynchronous image artifacts.… | Published | — | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | Use the Anthropic algorithmic-art skill when an agent should turn a creative brief into executable generative art,… | Security Reviewed | — | — |

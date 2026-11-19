@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-19
-# Total: 3261 skills
+# Total: 3264 skills
+
+## Generate Images and Video with UberLLM
+slug: generate-images-and-video-with-uberllm
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a free validate call, submits one image…
+url: https://agentskillexchange.com/skills/generate-images-and-video-with-uberllm/
+
+## CallForMe
+slug: callforme
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock,…
+url: https://agentskillexchange.com/skills/callforme/
+
+## Audit OpenLoomi Loop decision routing with deterministic rule previews
+slug: audit-openloomi-loop-decision-routing-with-rule-previews
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live decisions.
+url: https://agentskillexchange.com/skills/audit-openloomi-loop-decision-routing-with-rule-previews/
 
 ## Prepare a source-backed TensorRT-LLM serving configuration
 slug: prepare-source-backed-tensorrt-llm-serving-configuration
