@@ -2,10 +2,10 @@
 name: "StalkChain Trader Check"
 slug: "stalkchain-trader-check"
 description: "Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP."
+verification: "listed"
+source: "https://github.com/StalkC/stalkchain-plugin/blob/685a678d7c45e2ec1265b9bce58a4b3550896b87/skills/trader-check/SKILL.md"
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/StalkC/stalkchain-plugin/blob/685a678d7c45e2ec1265b9bce58a4b3550896b87/skills/trader-check/SKILL.md"
 ---
 
 # StalkChain Trader Check
