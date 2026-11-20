@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-20",
-  "total": 3269,
+  "total": 3272,
   "skills": [
+    {
+      "slug": "relay-paid-work",
+      "name": "RELAY Paid Work Marketplace",
+      "title": "RELAY Paid Work Marketplace",
+      "description": "Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for the operator's local signer. Use the…",
+      "category": "Integrations & Connectors",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/yssoft-gif/relay-agent-client",
+      "github_repo": "yssoft-gif/relay-agent-client"
+    },
+    {
+      "slug": "reconcile-clawmanager-provisioning-runtime-readiness",
+      "name": "Reconcile ClawManager Provisioning Operations with Runtime Readiness",
+      "title": "Reconcile ClawManager Provisioning Operations with Runtime Readiness",
+      "description": "Inspect an existing provisioning operation and its owner-scoped instance through the Northbound API, distinguishing operation success from runtime availability before handoff.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Yuan-lab-LLM/ClawManager",
+      "github_repo": "Yuan-lab-LLM/ClawManager"
+    },
+    {
+      "slug": "gate-coding-changes-cezar-browser-tests-bounded-retries",
+      "name": "Gate Coding Changes with Cezar Browser Tests and Bounded Repair Retries",
+      "title": "Gate Coding Changes with Cezar Browser Tests and Bounded Repair Retries",
+      "description": "Run a worktree-local implementation and test loop that returns browser failure evidence to the coding agent, retries test failures within a limit, and stops…",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/open-mercato/cezar",
+      "github_repo": "open-mercato/cezar"
+    },
     {
       "slug": "audit-codebases-with-opencode-swarm-coverage-ledgers",
       "name": "Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings",

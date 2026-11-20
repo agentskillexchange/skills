@@ -182,6 +182,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Run evidence-backed mobile app smoke checks with AutoCua](../../skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | 1.2k | — |
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
+| [Gate Coding Changes with Cezar Browser Tests and Bounded Repair Retries](../../skills/gate-coding-changes-cezar-browser-tests-bounded-retries/) | 1.1k | 82.9k/wk |
 | [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | 2.1M/wk |
 | [Review GitHub repository settings as pull requests with repository-settings](../../skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | 1k | 646/wk |
 | [Enforce pull-request approval policy with Policy Bot](../../skills/enforce-pull-request-approval-policy-with-policy-bot/) | 1k | — |
