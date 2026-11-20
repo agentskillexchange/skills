@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AntreasAntoniou/doppel/schema/voice-manifest.schema.json",
+  "title": "Doppel writing-voice provenance manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "subject", "sources"],
+  "properties": {
+    "version": {"const": 1},
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "consent_confirmed", "consent_scope", "final_ratifier"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "consent_confirmed": {"const": true},
+        "consent_scope": {"type": "string", "minLength": 1},
+        "final_ratifier": {"const": "subject"}
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "authorship", "sha256", "registers"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+          "path": {"type": "string", "minLength": 1},
+          "authorship": {"const": "subject"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "registers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

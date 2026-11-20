@@ -1,0 +1,53 @@
+name: GCP keyless observer
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Read-only operation to execute
+        required: true
+        type: choice
+        options:
+          - instances
+          - disks
+          - regional-quotas
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  observe:
+    runs-on: ubuntu-24.04
+    environment: gcp-observer
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_OBSERVER_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+          export_environment_variables: true
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Run reviewed read-only operation
+        env:
+          OPERATION: ${{ inputs.operation }}
+          PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+          REGION: ${{ vars.GCP_REGION }}
+        run: |
+          set -euo pipefail
+          case "$OPERATION" in
+            instances)
+              gcloud compute instances list --project "$PROJECT_ID" --format=json
+              ;;
+            disks)
+              gcloud compute disks list --project "$PROJECT_ID" --format=json
+              ;;
+            regional-quotas)
+              gcloud compute regions describe "$REGION" --project "$PROJECT_ID" --format=json
+              ;;
+            *)
+              echo "refused: operation is outside the allowlist" >&2
+              exit 2
+              ;;
+          esac

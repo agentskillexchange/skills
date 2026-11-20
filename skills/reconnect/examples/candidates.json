@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.linkedin.com/in/reconnect-fictional-example-alex",
+    "name": "Alex Example (fictional)",
+    "source_ids": ["example:speaker-alex"],
+    "eligibility": "review",
+    "relationship": "not_contacted",
+    "priority": 20,
+    "evidence": [{"source": "https://example.org/conference", "claim": "Fictional example: public talk overlaps the user's research interest; no prior relationship is asserted."}]
+  },
+  {
+    "url": "https://www.linkedin.com/in/reconnect-fictional-example-sam",
+    "name": "Sam Example (fictional)",
+    "source_ids": ["example:project-sam"],
+    "eligibility": "review",
+    "relationship": "not_contacted",
+    "priority": 10,
+    "evidence": [{"source": "https://example.org/project", "claim": "Fictional example: contributes to an accessible robotics project."}]
+  }
+]
