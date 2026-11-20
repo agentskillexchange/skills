@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C267-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C269-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C676-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,267 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,269 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit coverage records without editing source | 537 | Code Quality & Review |
+| [Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence](skills/triage-rhino-model-clashes-with-object-pair-measurements/) | Inspect a pair of Rhino objects, distinguish exact clash results from bounding-box approximations, and return measurements with viewport... | 1.2k | Image & Creative Automation |
 | [StalkChain Trader Check](skills/stalkchain-trader-check/) | Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP | - | Research & Scraping |
 | [Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP](skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/) | Turn an explicit media URL batch into per-job completion evidence and a bounded failure handoff through OmniGet’s local... | 14.5k | Media & Transcription |
 | [Diagnose Skales Browser Tool Readiness with DevKit](skills/diagnose-skales-browser-tool-readiness-with-devkit/) | Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a... | 2.2k | Runbooks & Diagnostics |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Audit OpenLoomi Loop decision routing with deterministic rule previews](skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live... | 1.0k | Runbooks & Diagnostics |
 | [Prepare a source-backed TensorRT-LLM serving configuration](skills/prepare-source-backed-tensorrt-llm-serving-configuration/) | Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and... | 15.1k | Developer Tools |
 | [Prepare a source-verified Archestra MCP catalog entry](skills/prepare-source-verified-archestra-mcp-catalog-entry/) | Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the... | 4.4k | Developer Tools |
-| [Prepare a read-only InnoShop low-stock report through MCP](skills/prepare-read-only-innoshop-low-stock-report-mcp/) | Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking... | 671 | Integrations & Connectors |
-| [Refresh Theia model aliases and provider capabilities with update-default-models](skills/refresh-theia-model-aliases-provider-capabilities/) | Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using... | 21.8k | Developer Tools |
 
 ---
 
@@ -144,7 +144,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 272 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 265 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 244 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 218 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 219 | Linting, code review, test generators, coverage |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 194 | Pipeline configs, deployment automation, build tooling |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 194 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 189 | Incident response, troubleshooting, system diagnostics |
@@ -152,8 +152,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 147 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 136 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 131 | Email automation, calendar management, task coordination |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 130 | Image generation, asset processing, design automation |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 129 | Image generation, asset processing, design automation |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 114 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,267 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,269 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,676 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

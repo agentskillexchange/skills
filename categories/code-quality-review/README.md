@@ -182,7 +182,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Run evidence-backed mobile app smoke checks with AutoCua](../../skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/) | 1.2k | — |
 | [Run Ruff, Mypy, and other code-quality tools on Jupyter notebooks with nbQA](../../skills/run-ruff-mypy-and-other-code-quality-tools-on-jupyter-notebooks-with-nbqa/) | 1.2k | — |
 | [Makefile Linting for CI and Build Pipelines](../../skills/makefile-linting-ci-build-pipelines/) | 1.2k | — |
-| [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | — |
+| [Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk](../../skills/lint-postgresql-migrations-and-sql-changes-before-irreversible-schema-mistakes-land-with-squawk/) | 1.1k | 2.1M/wk |
 | [Review GitHub repository settings as pull requests with repository-settings](../../skills/review-github-repository-settings-as-pull-requests-with-repository-settings/) | 1k | 646/wk |
 | [Enforce pull-request approval policy with Policy Bot](../../skills/enforce-pull-request-approval-policy-with-policy-bot/) | 1k | — |
 | [Benchmark OpenClaw coding agents against repeatable real tasks before rollout with PinchBench](../../skills/benchmark-openclaw-coding-agents-against-repeatable-real-tasks-before-rollout-with-pinchbench/) | 1k | — |
@@ -204,6 +204,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [markuplint HTML Linter for All Markup Developers](../../skills/markuplint-html-linter/) | 600 | 54.3k/wk |
 | [Review AI-generated code changes in a cleaner diff workflow with Diffity](../../skills/review-ai-generated-code-changes-with-diffity/) | 561 | 3.5k/wk |
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |
+| [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](../../skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | 537 | 4.1k/wk |
 | [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](../../skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | 530 | — |
 | [Run agentic quality engineering checks with Agentic QE](../../skills/run-agentic-quality-engineering-checks-with-agentic-qe/) | 495 | 44.8k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |

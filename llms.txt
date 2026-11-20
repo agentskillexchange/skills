@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-20
-# Total: 3267 skills
+# Total: 3269 skills
+
+## Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings
+slug: audit-codebases-with-opencode-swarm-coverage-ledgers
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit coverage records without editing source.
+url: https://agentskillexchange.com/skills/audit-codebases-with-opencode-swarm-coverage-ledgers/
+
+## Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence
+slug: triage-rhino-model-clashes-with-object-pair-measurements
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Inspect a pair of Rhino objects, distinguish exact clash results from bounding-box approximations, and return measurements with viewport evidence.
+url: https://agentskillexchange.com/skills/triage-rhino-model-clashes-with-object-pair-measurements/
 
 ## StalkChain Trader Check
 slug: stalkchain-trader-check

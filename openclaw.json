@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-20",
-  "total": 3267,
+  "total": 3269,
   "skills": [
+    {
+      "slug": "audit-codebases-with-opencode-swarm-coverage-ledgers",
+      "name": "Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings",
+      "title": "Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings",
+      "description": "Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit coverage records without editing source.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ZaxbyHub/opencode-swarm/tree/7fb699debb40e60005e8952e2914e95a3de36647/.opencode/skills/codebase-review-swarm",
+      "github_repo": "ZaxbyHub/opencode-swarm"
+    },
+    {
+      "slug": "triage-rhino-model-clashes-with-object-pair-measurements",
+      "name": "Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence",
+      "title": "Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence",
+      "description": "Inspect a pair of Rhino objects, distinguish exact clash results from bounding-box approximations, and return measurements with viewport evidence.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/jingcheng-chen/rhinomcp",
+      "github_repo": "jingcheng-chen/rhinomcp"
+    },
     {
       "slug": "stalkchain-trader-check",
       "name": "StalkChain Trader Check",
