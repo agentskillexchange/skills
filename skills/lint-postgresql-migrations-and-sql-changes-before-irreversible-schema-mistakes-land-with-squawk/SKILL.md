@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "sbdchd/squawk"
   github_stars: 1050
+  npm_package: "squawk-cli"
+  npm_weekly_downloads: 2108867
 ---
 
 # Lint PostgreSQL migrations and SQL changes before irreversible schema mistakes land with Squawk
@@ -24,24 +26,11 @@ Squawk CLI or container image, PostgreSQL migration SQL files, and optional CI o
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install -g squawk-cli
-- pip install squawk-cli
-- docker run --rm -v $(pwd):/data ghcr.io/sbdchd/squawk:latest *.sql
-- cargo install
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- ### Or via Docker
-- You can also run Squawk using Docker. The official image is available on GitHub Container Registry.
-- warning[prefer-text-field]: Changing the size of a varchar field requires an ACCESS EXCLUSIVE lock, that will prevent all reads and writes to the table.
-
-Basic usage or getting-started notes:
-- [Quick Start](https://squawkhq.com/docs/) | [Playground](https://play.squawkhq.com) | [Rules Documentation](https://squawkhq.com/docs/rules) | [GitHub Action](https://github.com/sbdchd/squawk-action) | [DIY GitHub Int...
-- shell
-- # or via PYPI
+Install Squawk from the upstream CLI, package, container, or release path, point it at the migration SQL files or repository, and review the reported warnings before merging or applying schema changes.
 
 - Source: https://github.com/sbdchd/squawk
-- Extracted from upstream docs: https://raw.githubusercontent.com/sbdchd/squawk/HEAD/README.md
 
 ## Documentation
 
