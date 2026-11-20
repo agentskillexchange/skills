@@ -1,5 +1,5 @@
 ---
-name: "Xiaohongshu Posts & Live Photos · RedYA AI"
+name: "小红书图文与实况图·红鸦 AI"
 slug: "redya-xiaohongshu"
 description: "Create illustrated posts, product posts, adaptations of reference posts, and Live Photos. Choose an outline or direct generation, check sensitive wording, and hand drafts to the publishing editor."
 category: "Image & Creative Automation"
@@ -8,7 +8,7 @@ verification: listed
 source: "https://github.com/rnthking/redya-skills"
 ---
 
-# Xiaohongshu Posts & Live Photos · RedYA AI
+# 小红书图文与实况图·红鸦 AI
 
 Create illustrated posts, product posts, adaptations of reference posts, and Live Photos. Choose an outline or direct generation, check sensitive wording, and hand drafts to the publishing editor. Ask “怎么用” for seven examples without an API key.
 
