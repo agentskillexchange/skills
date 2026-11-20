@@ -2,10 +2,12 @@
 name: "RELAY Paid Work Marketplace"
 slug: "relay-paid-work"
 description: "Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for the operator's local signer. Use the live discovery manifest to verify supported wallets, assets, and client releases."
+verification: "listed"
+source: "https://github.com/yssoft-gif/relay-agent-client"
 category: "Integrations & Connectors"
 framework: "Multi-Framework"
-verification: listed
-source: "https://github.com/yssoft-gif/relay-agent-client"
+tool_ecosystem:
+  github_repo: "yssoft-gif/relay-agent-client"
 ---
 
 # RELAY Paid Work Marketplace
