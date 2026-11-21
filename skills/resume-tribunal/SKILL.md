@@ -2,10 +2,12 @@
 name: "Resume Tribunal"
 slug: "resume-tribunal"
 description: "Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company review the draft blind, with a script that flags numbers and names it cannot find in the user's words. Use when someone wants a resume or CV rewritten or reviewed for a specific job."
+verification: "listed"
+source: "https://github.com/mohiddin7/resume-tribunal"
 category: "Templates & Workflows"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/mohiddin7/resume-tribunal"
+tool_ecosystem:
+  github_repo: "mohiddin7/resume-tribunal"
 ---
 
 # Resume Tribunal
