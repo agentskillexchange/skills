@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C277-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C280-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C683-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,277 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,280 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,9 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | - | Templates & Workflows |
+| [Build reviewed repository context packets with RepoPrompt CE MCP](skills/build-reviewed-repository-context-repoprompt-ce-mcp/) | Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a... | 997 | Developer Tools |
+| [Delegate bounded coding tasks and hand off sessions with Kimi Code](skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off... | 8.3k | Developer Tools |
 | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | - | Data Extraction & Transformation |
 | [Validate a YouTube niche with sourced channel evidence through TubeLab](skills/validate-youtube-niche-sourced-channel-evidence-tubelab/) | Compare up to three YouTube niches using channel samples, explicit score formulas and newcomer evidence to produce an... | 205 | Research & Scraping |
 | [Check R table schemas and duplicate keys before combining data with janitor](skills/check-r-table-schemas-duplicate-keys-janitor/) | Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables | 1.5k | Data Extraction & Transformation |
@@ -94,9 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Direct and render stickman videos from an approved script](skills/direct-render-stickman-videos-approved-script/) | Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration... | 7.2k | Image & Creative Automation |
 | [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for... | - | Integrations & Connectors |
 | [Reconcile ClawManager Provisioning Operations with Runtime Readiness](skills/reconcile-clawmanager-provisioning-runtime-readiness/) | Inspect an existing provisioning operation and its owner-scoped instance through the Northbound API, distinguishing operation success from runtime... | 1.9k | Runbooks & Diagnostics |
-| [Gate Coding Changes with Cezar Browser Tests and Bounded Repair Retries](skills/gate-coding-changes-cezar-browser-tests-bounded-retries/) | Run a worktree-local implementation and test loop that returns browser failure evidence to the coding agent, retries test... | 1.1k | Code Quality & Review |
-| [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit coverage records without editing source | 537 | Code Quality & Review |
-| [Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence](skills/triage-rhino-model-clashes-with-object-pair-measurements/) | Inspect a pair of Rhino objects, distinguish exact clash results from bounding-box approximations, and return measurements with viewport... | 1.2k | Image & Creative Automation |
 
 ---
 
@@ -104,6 +104,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [mohiddin7](https://github.com/mohiddin7) | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | Templates & Workflows |
 | [livejake](https://github.com/livejake) | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | Data Extraction & Transformation |
 | [yssoft-gif](https://github.com/yssoft-gif) | [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for... | Integrations & Connectors |
 | [antoinersx](https://github.com/antoinersx) | [StalkChain Trader Check](skills/stalkchain-trader-check/) | Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP | Research & Scraping |
@@ -113,7 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [JuampiHernandez](https://github.com/JuampiHernandez) | [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and... | Research & Scraping |
 | [KhademOHAli1](https://github.com/KhademOHAli1) | [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs... | Research & Scraping |
 | [pushkarsingh32](https://github.com/pushkarsingh32) | [GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data](skills/getyoutubetranscript-youtube-transcript/) | Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is... | Media & Transcription |
-| [Samuel-Shek](https://github.com/Samuel-Shek) | [Prompt Optimizer](skills/prompt-optimizer-skill/) | Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can... | Templates & Workflows |
 
 ---
 
@@ -140,8 +140,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 547 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 272 | Scaffolders, boilerplate generators, workflow templates |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 549 | CLI tools, scaffolders, dev environment setup |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 273 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 265 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 246 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 220 | Linting, code review, test generators, coverage |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,277 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,280 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,683 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -2,8 +2,41 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-21",
-  "total": 3277,
+  "total": 3280,
   "skills": [
+    {
+      "slug": "resume-tribunal",
+      "name": "Resume Tribunal",
+      "title": "Resume Tribunal",
+      "description": "Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company review…",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/mohiddin7/resume-tribunal",
+      "github_repo": "mohiddin7/resume-tribunal"
+    },
+    {
+      "slug": "build-reviewed-repository-context-repoprompt-ce-mcp",
+      "name": "Build reviewed repository context packets with RepoPrompt CE MCP",
+      "title": "Build reviewed repository context packets with RepoPrompt CE MCP",
+      "description": "Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a reviewed context packet through MCP.",
+      "category": "Developer Tools",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/repoprompt/repoprompt-ce",
+      "github_repo": "repoprompt/repoprompt-ce"
+    },
+    {
+      "slug": "delegate-coding-tasks-handoff-sessions-kimi-code",
+      "name": "Delegate bounded coding tasks and hand off sessions with Kimi Code",
+      "title": "Delegate bounded coding tasks and hand off sessions with Kimi Code",
+      "description": "Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off and supervise repository sessions.",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/MoonshotAI/kimi-code",
+      "github_repo": "MoonshotAI/kimi-code"
+    },
     {
       "slug": "van-westendorp-analysis",
       "name": "Van Westendorp Analysis",

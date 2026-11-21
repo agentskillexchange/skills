@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3277 published skills** across **17 categories** · 2,683 security reviewed · Updated 2026-11-21 13:26 UTC
+> **3280 published skills** across **17 categories** · 2,683 security reviewed · Updated 2026-11-21 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (547 skills)
+### 🛠️ Developer Tools (549 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -249,6 +249,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](skills/bullmq-redis-message-queue-job-processor-nodejs/) | BullMQ is the fastest, most reliable Redis-based distributed queue for Node.js, Python, Elixir, and PHP. It provides… | Security Reviewed | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](skills/regex-pattern-test-suite-generator/) | Generates comprehensive test suites for regular expressions using Hypothesis property-based testing and re2 for safe… | Security Reviewed | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](skills/pdfcpu-go-pdf-processor-cli/) | pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting,… | Published | 8.6k | — |
+| [Delegate bounded coding tasks and hand off sessions with Kimi Code](skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off and… | Security Reviewed | 8.3k | — |
 | [Run multi-session coding-agent workflows with jcode](skills/run-multi-session-coding-agent-workflows-with-jcode/) | Use jcode as a local coding-agent harness for long-running, multi-session repository work with custom provider and… | Security Reviewed | 8.2k | — |
 | [Starlight Documentation Framework for Astro](skills/starlight-documentation-framework-astro/) | Starlight is a documentation website framework built on Astro that generates beautiful, accessible, and… | Published | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](skills/mockoon-mock-api-server-cli/) | Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop application and a CLI for creating… | Security Reviewed | 8.2k | 23.8k/wk |
@@ -408,6 +409,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | Run a self-hosted bridge so an operator can start, resume, approve, and review Codex or Claude Code sessions from a… | Security Reviewed | 1k | 1.4k/wk |
 | [Review Taiwan Traditional Chinese drafts with speak-human-tw](skills/review-taiwan-traditional-chinese-drafts-with-speak-human-tw/) | Use speak-human-tw when an agent should identify AI-writing fingerprints in Taiwan Traditional Chinese drafts,… | Security Reviewed | 1k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | Add opencode-mem to OpenCode so coding sessions can store, search, and reuse project memories through a local SQLite… | Security Reviewed | 1k | 12.1k/wk |
+| [Build reviewed repository context packets with RepoPrompt CE MCP](skills/build-reviewed-repository-context-repoprompt-ce-mcp/) | Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a… | Security Reviewed | 997 | — |
 | [Run symbol-aware coding sessions with Empryo](skills/run-symbol-aware-coding-sessions-with-empryo/) | Use Empryo when a coding agent should map symbols, blast radius, and dependencies before making AST-backed edits… | Security Reviewed | 984 | — |
 | [Run local small-model coding sessions with SmallCode](skills/run-local-small-model-coding-sessions-with-smallcode/) | Use SmallCode as a terminal-native coding agent for 8B-35B local models, with budget-managed context, forgiving tool… | Published | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | Use the built-in JetBrains MCP server to let Codex, Claude Desktop, Cursor, VS Code, and other MCP clients inspect… | Security Reviewed | 961 | 4.4k/wk |
@@ -563,7 +565,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (272 skills)
+### 📄 Templates & Workflows (273 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -835,6 +837,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Keep GitHub wiki pages synced with recently merged code changes](skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | This entry turns GitHub Next's Agentic Wiki Writer into a documentation-maintenance workflow. The agent watches for… | Security Reviewed | — | — |
 | [Makefile Workflow Generator](skills/makefile-workflow-generator/) | Generates project Makefiles with standard targets using GNU Make syntax, autodeps pattern rules, and integration… | Security Reviewed | — | — |
 | [Ralph Loop](skills/ralph-loop/) | Run a ticket queue across agent sessions with a self-verifying loop: one item per iteration, verification gates… | Published | — | — |
+| [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company… | Published | — | — |
 | [Review open pull requests against repository contribution guidelines](skills/review-open-pull-requests-against-repository-contribution-guidelines/) | This entry turns GitHub Next's Contribution Check workflow into a maintainer-facing agent routine. The agent batches… | Security Reviewed | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | Turn Claude Code into a structured project workflow that captures context, plans work, and executes implementation… | Security Reviewed | — | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | Use Anthropic's web-artifacts-builder skill to scaffold a React artifact project, build a richer interface with… | Security Reviewed | — | — |

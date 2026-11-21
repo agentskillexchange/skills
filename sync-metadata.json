@@ -1,7 +1,7 @@
 {
   "source_api_base": "https://agentskillexchange.com",
-  "source_total": 3277,
-  "source_etag_or_hash": "sha256:ccec6a22241b90724c02c09136aabadf29182deb29c1e2870249bbad26fc5c6f",
+  "source_total": 3280,
+  "source_etag_or_hash": "sha256:b878c98bc474bf2c25338b289494de5786ac3b842045601764dd6ecb55edca67",
   "generated": "2026-11-21",
   "generated_files": [
     "skills.json",

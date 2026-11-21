@@ -275,6 +275,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
+| [Delegate bounded coding tasks and hand off sessions with Kimi Code](../../skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | 8.3k | — |
 | [Run multi-session coding-agent workflows with jcode](../../skills/run-multi-session-coding-agent-workflows-with-jcode/) | 8.2k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
 | [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | 23.8k/wk |
@@ -434,6 +435,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](../../skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | 1k | 1.4k/wk |
 | [Review Taiwan Traditional Chinese drafts with speak-human-tw](../../skills/review-taiwan-traditional-chinese-drafts-with-speak-human-tw/) | 1k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
+| [Build reviewed repository context packets with RepoPrompt CE MCP](../../skills/build-reviewed-repository-context-repoprompt-ce-mcp/) | 997 | — |
 | [Run symbol-aware coding sessions with Empryo](../../skills/run-symbol-aware-coding-sessions-with-empryo/) | 984 | — |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |

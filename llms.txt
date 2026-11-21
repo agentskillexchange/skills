@@ -1,7 +1,31 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-21
-# Total: 3277 skills
+# Total: 3280 skills
+
+## Resume Tribunal
+slug: resume-tribunal
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company review…
+url: https://agentskillexchange.com/skills/resume-tribunal/
+
+## Build reviewed repository context packets with RepoPrompt CE MCP
+slug: build-reviewed-repository-context-repoprompt-ce-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a reviewed context packet through MCP.
+url: https://agentskillexchange.com/skills/build-reviewed-repository-context-repoprompt-ce-mcp/
+
+## Delegate bounded coding tasks and hand off sessions with Kimi Code
+slug: delegate-coding-tasks-handoff-sessions-kimi-code
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off and supervise repository sessions.
+url: https://agentskillexchange.com/skills/delegate-coding-tasks-handoff-sessions-kimi-code/
 
 ## Van Westendorp Analysis
 slug: van-westendorp-analysis

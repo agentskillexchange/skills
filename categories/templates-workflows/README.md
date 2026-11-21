@@ -306,6 +306,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
 | [Ralph Loop](../../skills/ralph-loop/) | — | — |
+| [Resume Tribunal](../../skills/resume-tribunal/) | — | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | — | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | — | — |
