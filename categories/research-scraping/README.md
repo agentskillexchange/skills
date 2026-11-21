@@ -134,6 +134,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Run evidence-first research investigations in Claude Code with Deepdive](../../skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | 393 | — |
 | [Build and resume research coverage matrices with OmAgents](../../skills/build-and-resume-research-coverage-matrices-with-omagents/) | 359 | 764/wk |
 | [Run source-audited academic literature searches with Nature Academic Search](../../skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | 216 | — |
+| [Validate a YouTube niche with sourced channel evidence through TubeLab](../../skills/validate-youtube-niche-sourced-channel-evidence-tubelab/) | 205 | — |
 | [Serve clean Markdown from URLs and files with PullMD](../../skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 173 | 34.1k/wk |

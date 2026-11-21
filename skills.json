@@ -1,8 +1,69 @@
 {
   "version": "2.0",
-  "total": 3272,
+  "total": 3277,
   "generated": "2026-11-21",
   "skills": [
+    {
+      "slug": "van-westendorp-analysis",
+      "name": "Van Westendorp Analysis",
+      "title": "Van Westendorp Analysis",
+      "description": "Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC, PME and the acceptable price range,…",
+      "category": "Data Extraction & Transformation",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/questionpunk/research-skills/tree/main/skills/van-westendorp-analysis",
+      "github_repo": "questionpunk/research-skills"
+    },
+    {
+      "slug": "validate-youtube-niche-sourced-channel-evidence-tubelab",
+      "name": "Validate a YouTube niche with sourced channel evidence through TubeLab",
+      "title": "Validate a YouTube niche with sourced channel evidence through TubeLab",
+      "description": "Compare up to three YouTube niches using channel samples, explicit score formulas and newcomer evidence to produce an entry verdict.",
+      "category": "Research & Scraping",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/TubeLabHQ/youtube-research-skills/blob/main/skills/niche-validator/SKILL.md",
+      "github_repo": "TubeLabHQ/youtube-research-skills"
+    },
+    {
+      "slug": "check-r-table-schemas-duplicate-keys-janitor",
+      "name": "Check R table schemas and duplicate keys before combining data with janitor",
+      "title": "Check R table schemas and duplicate keys before combining data with janitor",
+      "description": "Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1461
+      },
+      "source_url": "https://github.com/sfirke/janitor",
+      "github_repo": "sfirke/janitor"
+    },
+    {
+      "slug": "diagnose-remote-incidents-mcp-ssh-manager",
+      "name": "Diagnose remote server incidents with MCP SSH Manager before changing services",
+      "title": "Diagnose remote server incidents with MCP SSH Manager before changing services",
+      "description": "Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "signals": {
+        "npm_weekly_downloads": 3332
+      },
+      "source_url": "https://github.com/bvisible/mcp-ssh-manager/blob/main/skills/ssh-incident/SKILL.md",
+      "github_repo": "bvisible/mcp-ssh-manager"
+    },
+    {
+      "slug": "direct-render-stickman-videos-approved-script",
+      "name": "Direct and render stickman videos from an approved script",
+      "title": "Direct and render stickman videos from an approved script",
+      "description": "Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos",
+      "github_repo": "kaomei/stickman-video-director"
+    },
     {
       "slug": "relay-paid-work",
       "name": "RELAY Paid Work Marketplace",
@@ -16403,7 +16464,8 @@
       "framework": "Claude Code",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 22321
+        "github_stars": 22321,
+        "npm_weekly_downloads": 23
       },
       "source_url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
       "github_repo": "SuperClaude-Org/SuperClaude_Framework"

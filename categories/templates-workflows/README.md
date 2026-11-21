@@ -99,7 +99,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | 24.8k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Assemble production agent harnesses with DeepAgents](../../skills/assemble-production-agent-harnesses-with-deepagents/) | 24.1k | — |
-| [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
+| [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | 23/wk |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Use production-agent tutorial playbooks from Agents Towards Production](../../skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | 21.5k | — |
 | [Run supervised Suna sessions for reviewable agent work](../../skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | 19.8k | — |

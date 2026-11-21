@@ -1,7 +1,47 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-21
-# Total: 3272 skills
+# Total: 3277 skills
+
+## Van Westendorp Analysis
+slug: van-westendorp-analysis
+category: Data Extraction & Transformation
+framework: Claude Code
+verification: Published
+description: Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC, PME and the acceptable price range,…
+url: https://agentskillexchange.com/skills/van-westendorp-analysis/
+
+## Validate a YouTube niche with sourced channel evidence through TubeLab
+slug: validate-youtube-niche-sourced-channel-evidence-tubelab
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Compare up to three YouTube niches using channel samples, explicit score formulas and newcomer evidence to produce an entry verdict.
+url: https://agentskillexchange.com/skills/validate-youtube-niche-sourced-channel-evidence-tubelab/
+
+## Check R table schemas and duplicate keys before combining data with janitor
+slug: check-r-table-schemas-duplicate-keys-janitor
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables.
+url: https://agentskillexchange.com/skills/check-r-table-schemas-duplicate-keys-janitor/
+
+## Diagnose remote server incidents with MCP SSH Manager before changing services
+slug: diagnose-remote-incidents-mcp-ssh-manager
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair.
+url: https://agentskillexchange.com/skills/diagnose-remote-incidents-mcp-ssh-manager/
+
+## Direct and render stickman videos from an approved script
+slug: direct-render-stickman-videos-approved-script
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions.
+url: https://agentskillexchange.com/skills/direct-render-stickman-videos-approved-script/
 
 ## RELAY Paid Work Marketplace
 slug: relay-paid-work

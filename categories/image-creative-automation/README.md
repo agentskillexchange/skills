@@ -95,6 +95,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](../../skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | 7.8k | — |
 | [Draft, review and export code-driven pixel effects with Pixelfx](../../skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | 7.6k | — |
+| [Direct and render stickman videos from an approved script](../../skills/direct-render-stickman-videos-approved-script/) | 7.2k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |
