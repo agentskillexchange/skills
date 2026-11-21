@@ -2,12 +2,10 @@
 name: "Van Westendorp Analysis"
 slug: "van-westendorp-analysis"
 description: "Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC, PME and the acceptable price range, plus the optional Newton-Miller-Smith purchase-intent extension, with a standard-library Python script."
+verification: "listed"
+source: "https://github.com/questionpunk/research-skills/tree/main/skills/van-westendorp-analysis"
 category: "Data Extraction & Transformation"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/questionpunk/research-skills/tree/main/skills/van-westendorp-analysis"
-tool_ecosystem:
-  github_repo: "questionpunk/research-skills"
 ---
 
 # Van Westendorp Analysis
@@ -20,27 +18,7 @@ Use it when you have a CSV with one row per respondent and want the price points
 
 ## Installation
 
-### Optional Third-Party Installer
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-The `skills` npm package is maintained by Vercel Labs / third parties, not AgentSkillExchange. If you choose to use it, pin the package version:
+- Source: https://github.com/questionpunk/research-skills/tree/main/skills/van-westendorp-analysis
 
-```bash
-npm exec --package=skills@1.5.7 -- skills add questionpunk/research-skills --skill van-westendorp-analysis
-```
-
-### Claude Code plugin marketplace (installs the pricing-research group)
-
-```text
-/plugin marketplace add questionpunk/research-skills
-/plugin install pricing-research@research-skills
-```
-
-### Direct repo/manual install
-
-```bash
-git clone https://github.com/questionpunk/research-skills.git
-mkdir -p ~/.claude/skills
-cp -R research-skills/skills/van-westendorp-analysis ~/.claude/skills/
-```
-
-The script needs Python 3.9 or later and nothing else.
