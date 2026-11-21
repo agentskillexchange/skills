@@ -60,7 +60,7 @@
       "description": "Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions.",
       "category": "Image & Creative Automation",
       "framework": "Multi-Framework",
-      "verification": "security_reviewed",
+      "verification": "listed",
       "source_url": "https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos",
       "github_repo": "kaomei/stickman-video-director"
     },

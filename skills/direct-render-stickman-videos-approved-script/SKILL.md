@@ -2,7 +2,7 @@
 name: "Direct and render stickman videos from an approved script"
 slug: "direct-render-stickman-videos-approved-script"
 description: "Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions."
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/kaomei/stickman-video-director/tree/main/skills/directing-stickman-videos"
 author: "kaomei"
 publisher_type: "Open Source Project"

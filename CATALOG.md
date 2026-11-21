@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3277 published skills** across **17 categories** · 2,682 security reviewed · Updated 2026-11-21 07:27 UTC
+> **3277 published skills** across **17 categories** · 2,681 security reviewed · Updated 2026-11-21 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2736,7 +2736,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | Run a local agentic HTML editor that detects coding-agent CLIs, streams generated HTML into a sandboxed preview, and… | Published | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | Install Google's Stitch skill suite so Codex, Claude Code, Cursor, Gemini CLI, or OpenCode can create screens,… | Security Reviewed | 7.8k | — |
 | [Draft, review and export code-driven pixel effects with Pixelfx](skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite… | Security Reviewed | 7.6k | — |
-| [Direct and render stickman videos from an approved script](skills/direct-render-stickman-videos-approved-script/) | Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with… | Security Reviewed | 7.2k | — |
+| [Direct and render stickman videos from an approved script](skills/direct-render-stickman-videos-approved-script/) | Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with… | Published | 7.2k | — |
 | [Stable Diffusion LoRA Training Pipeline](skills/stable-diffusion-lora-training-pipeline/) | Orchestrates LoRA fine-tuning for Stable Diffusion XL using the diffusers library and Kohya ss-scripts. Manages… | Security Reviewed | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](skills/pixelmatch-image-comparison-library/) | Pixelmatch is the smallest, simplest, and fastest JavaScript pixel-level image comparison library by Mapbox. It… | Security Reviewed | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | Move big photo libraries, takeouts, and nested albums into Immich with metadata intact instead of babysitting… | Security Reviewed | 6k | — |

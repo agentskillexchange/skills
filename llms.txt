@@ -39,7 +39,7 @@ url: https://agentskillexchange.com/skills/diagnose-remote-incidents-mcp-ssh-man
 slug: direct-render-stickman-videos-approved-script
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions.
 url: https://agentskillexchange.com/skills/direct-render-stickman-videos-approved-script/
 
