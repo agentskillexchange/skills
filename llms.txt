@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-20
+# Generated: 2026-11-21
 # Total: 3272 skills
 
 ## RELAY Paid Work Marketplace
