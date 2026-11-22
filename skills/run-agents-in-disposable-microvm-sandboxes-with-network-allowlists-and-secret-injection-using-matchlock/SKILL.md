@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "jingkaihe/matchlock"
   github_stars: 552
+  npm_package: "matchlock-sdk"
+  npm_weekly_downloads: 1
 ---
 
 # Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock
@@ -24,24 +26,11 @@ Local shell, Matchlock CLI, virtualization support for the target host, and the 
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew tap jingkaihe/essentials
-- brew install matchlock
-- docker save myapp:latest | matchlock image import myapp:latest # Import from tarball
-- pip install matchlock
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- matchlock run --image python:3.12-alpine \
-- --allow-host "api.openai.com" python agent.py
-- --secret ANTHROPIC_API_KEY@api.anthropic.com python call_api.py
-
-Basic usage or getting-started notes:
-- AI agents need to run code, but giving them unrestricted access to your machine is a risk. Matchlock lets you hand an agent a full Linux environment that boots in under a second - isolated and disposable.
-- ### System Requirements
-- **Linux** with KVM support
+Install Matchlock with Homebrew using `brew tap jingkaihe/essentials && brew install matchlock`, then run `matchlock diagnose` and complete any required host setup before launching a sandboxed agent run.
 
 - Source: https://github.com/jingkaihe/matchlock
-- Extracted from upstream docs: https://raw.githubusercontent.com/jingkaihe/matchlock/HEAD/README.md
 
 ## Documentation
 

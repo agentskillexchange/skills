@@ -2,12 +2,15 @@
 name: "CallForMe"
 slug: "callforme"
 description: "Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock, cancel a membership or wait on hold, then report the answers and transcript."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/callforme-tel/callforme"
+author: "Great Work LLC"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "callforme-tel/callforme"
+  github_stars: 1
 ---
 
 # CallForMe
@@ -20,18 +23,9 @@ Use it when the answer needs a phone call: three brake quotes, a dinner reservat
 
 ## Installation
 
-### Claude Code
+Install or set up from the source-backed instructions:
 
-```bash
 claude mcp add --transport http callforme https://callforme.tel/mcp
-```
 
-Then run `/mcp` in Claude Code, select `callforme`, and choose **Authenticate**. The browser completes the OAuth flow without asking for an email, password or card.
+- Source: https://github.com/callforme-tel/callforme
 
-### Other MCP clients (Codex, Gemini CLI, Cursor, ChatGPT)
-
-Add the remote server URL `https://callforme.tel/mcp` (Streamable HTTP). Sign-in happens through the standard OAuth flow and needs no input.
-
-### Skill file
-
-The full agent skill is published at https://callforme.tel/skill.md and in https://github.com/callforme-tel/callforme/tree/main/skills/callforme.
