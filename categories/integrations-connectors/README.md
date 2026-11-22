@@ -210,6 +210,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](../../skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](../../skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | 8 | 295/wk |
 | [Aident Loadout](../../skills/aident-loadout/) | 6 | 3.1k/wk |
+| [CallForMe](../../skills/callforme/) | 1 | — |
 | [Openhook](../../skills/openhook/) | 1 | — |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](../../skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | — | 15.6M/wk |
 | [USDCtoFiat Cash-Out](../../skills/usdctofiat-cashout/) | — | 650/wk |
@@ -220,7 +221,6 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
 | [BulkPublish Social Publishing](../../skills/bulkpublish-social-publishing/) | — | — |
-| [CallForMe](../../skills/callforme/) | — | — |
 | [DocsBot Administration](../../skills/docsbot-administration/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |
 | [GitHub Discussions Community Digest](../../skills/github-discussions-community-digest/) | — | — |

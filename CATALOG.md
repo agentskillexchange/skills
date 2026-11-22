@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3282 published skills** across **17 categories** · 2,685 security reviewed · Updated 2026-11-22 01:26 UTC
+> **3282 published skills** across **17 categories** · 2,685 security reviewed · Updated 2026-11-22 07:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1049,7 +1049,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Generate SLSA build provenance in GitHub Actions](skills/generate-slsa-build-provenance-in-github-actions/) | Attach signed SLSA provenance to GitHub Actions builds so release artifacts ship with verifiable supply-chain metadata. | Security Reviewed | 566 | — |
 | [Benchmark enterprise RAG agents with EnterpriseRAG-Bench](skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/) | Use EnterpriseRAG-Bench to evaluate an enterprise RAG or knowledge-agent system against a realistic synthetic… | Security Reviewed | 562 | — |
 | [Verify shared and private fleet memory through Caura MCP](skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before… | Security Reviewed | 559 | — |
-| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | — |
+| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | Launch risky agent work inside disposable microVMs when you need stronger isolation, sealed egress, and host-side… | Security Reviewed | 552 | 1/wk |
 | [SBOM Generator with CycloneDX](skills/sbom-generator-cyclonedx/) | Generates Software Bill of Materials in CycloneDX 1.5 format using cdxgen and syft. Enriches component data with… | Security Reviewed | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | Find packages that are out of support even when they do not show up as a classic CVE finding yet. | Security Reviewed | 435 | — |
 | [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | Run structured prompt-injection attack and defense experiments against an LLM-integrated app before production by… | Security Reviewed | 429 | — |
@@ -1778,6 +1778,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Mirror and back up OpenClaw workspaces to your own storage with openclaw-workspace-sync](skills/mirror-and-back-up-openclaw-workspaces-to-your-own-storage-with-openclaw-workspace-sync/) | Lets an OpenClaw agent sync its workspace to cloud storage in mailbox, mirror, or bisync mode, and optionally push… | Security Reviewed | 8 | 295/wk |
 | [Mirror OpenClaw workspaces and stream encrypted backups with openclaw-workspace-sync](skills/mirror-openclaw-workspaces-and-stream-encrypted-backups-with-openclaw-workspace-sync/) | Sync an OpenClaw workspace to your own cloud storage or push encrypted agent-system backups with OpenClaw-aware… | Security Reviewed | 8 | 295/wk |
 | [Aident Loadout](skills/aident-loadout/) | Give Claude Code, Codex, Cursor, ChatGPT and other MCP clients 1,000+ apps and 400+ expert-built Skills through one… | Published | 6 | 3.1k/wk |
+| [CallForMe](skills/callforme/) | Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API:… | Published | 1 | — |
 | [Openhook](skills/openhook/) | Creates webhook inboxes, receives callbacks, and forwards events for AI agents with Openhook. Use when testing local… | Published | 1 | — |
 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | Use libphonenumber-js when an agent needs to clean messy phone-number input, validate it against country rules, and… | Published | — | 15.6M/wk |
 | [USDCtoFiat Cash-Out](skills/usdctofiat-cashout/) | Add non-custodial Base USDC-to-fiat cash-out with @usdctofiat/offramp cashout({ mode: "fast" \| "best" }). Use when… | Published | — | 650/wk |
@@ -1788,7 +1789,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Automation Integration Preflight](skills/automation-integration-preflight/) | Assess a public HTTP(S) page before building browser automation, extraction, or an integration. Use this skill to… | Published | — | — |
 | [BeachFinder Swim Spot Finder](skills/beachfinder-swim-spot-finder/) | Finds and compares 184,900 swimming spots worldwide (beaches, lakes, bathing places) with live water temperature,… | Published | — | — |
 | [BulkPublish Social Publishing](skills/bulkpublish-social-publishing/) | Adapt, review, schedule, and publish approved social content across multiple platforms through the BulkPublish API… | Published | — | — |
-| [CallForMe](skills/callforme/) | Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API:… | Published | — | — |
 | [DocsBot Administration](skills/docsbot-administration/) | Administer DocsBot bots, knowledge sources, teams, and reporting through named MCP tools with browser OAuth and live… | Published | — | — |
 | [Famulor Assistants & Omnichannel History](skills/famulor-assistants-history/) | Use Famulor's OAuth-secured, read-only MCP profile to inspect assistant configurations, versions, workspace… | Published | — | — |
 | [GitHub Discussions Community Digest](skills/github-discussions-community-digest/) | Queries GitHub GraphQL API for new and unanswered Discussions, ranks them by reaction count and recency, and drafts… | Security Reviewed | — | — |

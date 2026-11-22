@@ -256,6 +256,9 @@
       "category": "Integrations & Connectors",
       "framework": "MCP",
       "verification": "listed",
+      "signals": {
+        "github_stars": 1
+      },
       "source_url": "https://github.com/callforme-tel/callforme",
       "github_repo": "callforme-tel/callforme"
     },
@@ -16932,7 +16935,8 @@
       "framework": "Multi-Framework",
       "verification": "security_reviewed",
       "signals": {
-        "github_stars": 552
+        "github_stars": 552,
+        "npm_weekly_downloads": 1
       },
       "source_url": "https://github.com/jingkaihe/matchlock",
       "github_repo": "jingkaihe/matchlock"
