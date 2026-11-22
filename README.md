@@ -104,12 +104,12 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [dhyabi2](https://github.com/dhyabi2) | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account... | Integrations & Connectors |
 | [mohiddin7](https://github.com/mohiddin7) | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | Templates & Workflows |
 | [livejake](https://github.com/livejake) | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | Data Extraction & Transformation |
 | [yssoft-gif](https://github.com/yssoft-gif) | [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for... | Integrations & Connectors |
 | [antoinersx](https://github.com/antoinersx) | [StalkChain Trader Check](skills/stalkchain-trader-check/) | Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP | Research & Scraping |
 | [jakemarsh](https://github.com/jakemarsh) | [CallForMe](skills/callforme/) | Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get... | Integrations & Connectors |
-| [dhyabi2](https://github.com/dhyabi2) | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account... | Integrations & Connectors |
 | [al-global-tech](https://github.com/al-global-tech) | [Generate Images and Video with UberLLM](skills/generate-images-and-video-with-uberllm/) | Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a... | Image & Creative Automation |
 | [JuampiHernandez](https://github.com/JuampiHernandez) | [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and... | Research & Scraping |
 | [KhademOHAli1](https://github.com/KhademOHAli1) | [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs... | Research & Scraping |

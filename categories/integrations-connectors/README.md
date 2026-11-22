@@ -104,7 +104,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Atlassian MCP Server for Jira and Confluence](../../skills/atlassian-mcp-server-jira-confluence/) | 4.8k | — |
 | [Add temporal context memory to agent workflows with Zep](../../skills/add-temporal-context-memory-to-agent-workflows-with-zep/) | 4.6k | 463k/wk |
 | [Re-embed OpenClaw memory into a fresh LanceDB store](../../skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/) | 4.4k | 85/wk |
-| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 36.2M/wk |
+| [Stripe MCP Server](../../skills/stripe-mcp-server/) | 4.4k | 36M/wk |
 | [Stripe Connect Account Provisioner](../../skills/stripe-connect-account-provisioner/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Integration](../../skills/stripe-connect-integration/) | 4.4k | 9.3M/wk |
 | [Stripe Connect Marketplace Sync](../../skills/stripe-connect-marketplace-sync/) | 4.4k | 9.3M/wk |
@@ -123,7 +123,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Ingestr Cross-Database Data Copier](../../skills/ingestr-cross-database-data-copier/) | 3.4k | — |
 | [Svix Enterprise Webhook Delivery Service](../../skills/svix-enterprise-webhook-delivery-service/) | 3.2k | — |
 | [Connect agents to governed data and code graphs with GraphJin](../../skills/connect-agents-to-governed-data-and-code-graphs-with-graphjin/) | 3.1k | 866/wk |
-| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 75.9k/wk |
+| [SendGrid MCP Server](../../skills/sendgrid-mcp-server/) | 3.1k | 74.8k/wk |
 | [SendGrid Transactional Email Builder](../../skills/sendgrid-transactional-email-builder/) | 3k | 3.6M/wk |
 | [SendGrid Transactional Email Router](../../skills/sendgrid-transactional-email-router/) | 3k | 3.6M/wk |
 | [n8n-nodes-mcp Community Node for Model Context Protocol Workflows](../../skills/n8n-nodes-mcp-community-node-model-context-protocol-workflows/) | 3k | 45.9k/wk |
