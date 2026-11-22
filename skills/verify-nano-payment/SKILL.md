@@ -199,6 +199,39 @@ python3 verify_payment.py <SEND_BLOCK_HASH> <YOUR_NANO_ADDRESS> <EXACT_PRICE_RAW
   --order-id <ORDER_ID> --claims-file ./nano-claims.jsonl
 ```
 
+### Quoting the order (the 402 side)
+
+`quote_payment.py`, also standard library only and offline, prints the full
+x402 v2 `PaymentRequired` object a seller returns for one order:
+`x402Version` 2, the `resource` (`url`, optional `description` and
+`mimeType`) and one `accepts` entry with scheme `exact` on `nano:mainnet`, the
+price in integer raw (derived from a decimal XNO string, never from a float,
+at most 2**128 - 1 raw, the largest Nano balance), your checksum-checked
+address as `payTo`, and in `extra` the binding (`xno-binding/v1/rep`), a fresh
+128-bit `orderId` and the commitment account the payer sets as its send
+block's `representative`.
+
+```bash
+python3 quote_payment.py <YOUR_NANO_ADDRESS> 0.05 \
+  --resource-url https://seller.example/api/report --mime-type application/json
+# the same object as the HTTP header line (JSON, then base64):
+python3 quote_payment.py <YOUR_NANO_ADDRESS> 0.05 \
+  --resource-url https://seller.example/api/report --header
+```
+
+Under the x402 v2 HTTP transport the object travels base64-encoded in the
+`PAYMENT-REQUIRED` header of the 402 response; clients read the header, so
+send it there (a JSON copy in the body is optional):
+
+```python
+order = nano_binding.payment_requirement(pay_to, nano_binding.xno_to_raw("0.05"))
+required = nano_binding.payment_required(request_url, [order], mime_type="application/json")
+# respond 402 with header  PAYMENT-REQUIRED: nano_binding.payment_required_header(required)
+```
+
+Store the printed `orderId` and `amount` with the order and check the payment
+with `--order-id` and `--claims-file` as above.
+
 The address is checksum-checked before any read. Tests (no network):
 `python3 -m unittest discover -s skills/verify-nano-payment -p 'test_*.py'`.
 
