@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-22",
-  "total": 3282,
+  "total": 3283,
   "skills": [
+    {
+      "slug": "audit-a-user-journey-into-interaction-counts-and-a-ux-budget",
+      "name": "Audit a user journey into interaction counts and a UX budget",
+      "title": "Audit a user journey into interaction counts and a UX budget",
+      "description": "Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with a proposed click and field budget.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Trystan-SA/product-engineer-skills/tree/5e0534c97f29b82a5e2077000eb1cb8732f03296/skills/happy-path-audit",
+      "github_repo": "Trystan-SA/product-engineer-skills"
+    },
     {
       "slug": "move-an-existing-coding-mission-between-machines-with-orb-checkpoints",
       "name": "Move an existing coding mission between machines with Orb checkpoints",

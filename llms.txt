@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-22
-# Total: 3282 skills
+# Total: 3283 skills
+
+## Audit a user journey into interaction counts and a UX budget
+slug: audit-a-user-journey-into-interaction-counts-and-a-ux-budget
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with a proposed click and field budget.
+url: https://agentskillexchange.com/skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/
 
 ## Move an existing coding mission between machines with Orb checkpoints
 slug: move-an-existing-coding-mission-between-machines-with-orb-checkpoints

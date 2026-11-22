@@ -161,6 +161,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Catch common misspellings in code and docs before review churn with codespell](../../skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](../../skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | 2.2k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](../../skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | 2.1k | — |
+| [Audit a user journey into interaction counts and a UX budget](../../skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/) | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](../../skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | 2.1k | — |
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](../../skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | 2k | 35.5k/wk |
 | [Review Master CSS output regressions through MCP snapshots](../../skills/review-master-css-output-regressions-through-mcp-snapshots/) | 2k | 2.3k/wk |

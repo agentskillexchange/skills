@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3282 published skills** across **17 categories** · 2,686 security reviewed · Updated 2026-11-22 13:26 UTC
+> **3283 published skills** across **17 categories** · 2,686 security reviewed · Updated 2026-11-22 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1374,7 +1374,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (220 skills)
+### ✅ Code Quality & Review (221 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1501,6 +1501,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Catch common misspellings in code and docs before review churn with codespell](skills/catch-common-misspellings-in-code-and-docs-before-review-churn-with-codespell/) | Run a fast typo pass across source files and documentation so common misspellings are fixed before they spread… | Security Reviewed | 2.4k | — |
 | [Format and lint TOML configs and lockfiles before config drift spreads with Taplo](skills/format-and-lint-toml-configs-and-lockfiles-before-config-drift-spreads-with-taplo/) | Normalize TOML files with a dedicated formatter and linter so repo configs, manifests, and lockfiles stay stable and… | Published | 2.2k | — |
 | [Map Python import graphs to explain coupling before refactors or package splits with pydeps](skills/map-python-import-graphs-to-explain-coupling-before-refactors-or-package-splits-with-pydeps/) | Generate Python module dependency graphs so refactors and package splits start from an actual import map instead of… | Security Reviewed | 2.1k | — |
+| [Audit a user journey into interaction counts and a UX budget](skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/) | Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction… | Security Reviewed | 2.1k | — |
 | [Strip noisy runtime fields from Kubernetes YAML before review with kubectl-neat](skills/strip-noisy-runtime-fields-from-kubernetes-yaml-before-review-with-kubectl-neat/) | Clean exported Kubernetes manifests by removing status and other runtime-generated fields before diffing, review, or… | Published | 2.1k | — |
 | [Enforce red-green-refactor discipline in Claude Code sessions with TDD Guard](skills/enforce-red-green-refactor-discipline-in-claude-code-with-tdd-guard/) | Block implementation-first agent behavior and keep Claude Code anchored to failing-tests-first TDD loops. | Security Reviewed | 2k | 35.5k/wk |
 | [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with… | Security Reviewed | 2k | 2.3k/wk |
