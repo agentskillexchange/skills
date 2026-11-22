@@ -22,6 +22,7 @@ import hashlib
 import json
 import os
 import re
+import secrets
 
 try:  # POSIX advisory lock
     import fcntl
@@ -112,6 +113,70 @@ def order_commitment(order_id, pay_to, price_raw):
 def commitment_rep_account(order_id, pay_to, price_raw):
     """The representative a payer sets on the send block for this order."""
     return public_key_to_account(order_commitment(order_id, pay_to, price_raw))
+
+
+_XNO_RE = re.compile(r"\A([0-9]{1,10})(?:\.([0-9]{1,30}))?\Z")
+_ORDER_ID_RE = re.compile(r"\A[A-Za-z0-9_-]{22,128}\Z")
+
+NETWORK = "nano:mainnet"
+BINDING_V1 = "xno-binding/v1/rep"
+
+
+def xno_to_raw(amount):
+    """Turn a decimal XNO string such as ``"0.05"`` into integer raw, exactly.
+
+    Only a string is accepted (a float cannot hold 30 decimals); more than 30
+    decimals, a sign, an exponent or a zero amount is refused.
+    """
+    match = _XNO_RE.match(amount) if isinstance(amount, str) else None
+    if not match:
+        raise ValueError("amount must be a decimal XNO string with at most 30 decimals, e.g. '0.05'")
+    whole, frac = match.group(1), match.group(2) or ""
+    raw = int(whole) * RAW_PER_XNO + int(frac.ljust(30, "0"))
+    if raw <= 0:
+        raise ValueError("amount must be more than zero")
+    return raw
+
+
+def new_order_id():
+    """A fresh opaque order id: 128 random bits as 32 hex characters."""
+    return secrets.token_hex(16)
+
+
+def payment_requirement(pay_to, price_raw, order_id=None, max_timeout_seconds=300):
+    """The x402 v2 ``accepts`` entry for one order, paid in Nano with scheme exact.
+
+    It asks for exactly ``price_raw`` raw to ``pay_to`` and names the order the
+    payer must commit to (``extra.binding`` and ``extra.orderId``, the shape the
+    xmcp x402 plugin offers). ``extra.representative`` is that order's
+    commitment account, so a payer can set it on its send block without
+    recomputing it; ``check_bound_send`` (or ``verify_payment.py --order-id``)
+    then accepts only a block that carries it. Keep the order id with the
+    order: it is what the buyer presents again after a lost response.
+    """
+    _require_raw(price_raw)
+    account_public_key(pay_to)
+    if order_id is None:
+        order_id = new_order_id()
+    if not isinstance(order_id, str) or not _ORDER_ID_RE.match(order_id):
+        raise ValueError("order_id must be 22 to 128 characters of A-Z, a-z, 0-9, '_' or '-'")
+    if isinstance(max_timeout_seconds, bool) or not isinstance(max_timeout_seconds, int) or max_timeout_seconds <= 0:
+        raise ValueError("max_timeout_seconds must be a positive int")
+    return {
+        "scheme": "exact",
+        "network": NETWORK,
+        "amount": str(price_raw),
+        "asset": "XNO",
+        "payTo": pay_to,
+        "maxTimeoutSeconds": max_timeout_seconds,
+        "extra": {
+            "name": "XNO",
+            "decimals": 30,
+            "binding": BINDING_V1,
+            "orderId": order_id,
+            "representative": commitment_rep_account(order_id, pay_to, price_raw),
+        },
+    }
 
 
 def _same_account(a, b):

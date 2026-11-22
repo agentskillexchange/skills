@@ -199,6 +199,23 @@ python3 verify_payment.py <SEND_BLOCK_HASH> <YOUR_NANO_ADDRESS> <EXACT_PRICE_RAW
   --order-id <ORDER_ID> --claims-file ./nano-claims.jsonl
 ```
 
+### Quoting the order (the 402 side)
+
+`quote_payment.py`, also standard library only and offline, prints the x402
+payment requirement a seller returns for one order: scheme `exact` on
+`nano:mainnet`, the price in integer raw (derived from a decimal XNO string,
+never from a float), your checksum-checked address as `payTo`, and in `extra`
+the binding (`xno-binding/v1/rep`), a fresh 128-bit `orderId` and the
+commitment account the payer sets as its send block's `representative`.
+
+```bash
+python3 quote_payment.py <YOUR_NANO_ADDRESS> 0.05
+```
+
+Store the printed `orderId` and `amount` with the order, return the JSON in
+your 402, and check the payment with `--order-id` and `--claims-file` as
+above. In code: `nano_binding.payment_requirement(pay_to, nano_binding.xno_to_raw("0.05"))`.
+
 The address is checksum-checked before any read. Tests (no network):
 `python3 -m unittest discover -s skills/verify-nano-payment -p 'test_*.py'`.
 

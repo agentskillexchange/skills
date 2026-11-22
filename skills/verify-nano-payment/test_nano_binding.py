@@ -14,6 +14,7 @@ import unittest
 from unittest import mock
 
 import nano_binding as nb
+import quote_payment
 import verify_payment
 
 # xno-binding v1 test vectors (docs/BINDING-STANDARD.md in dhyabi2/xno-call-binding).
@@ -80,6 +81,75 @@ class CommitmentTests(unittest.TestCase):
         self.assertNotEqual(base, nb.order_commitment("p", PAY_TO, PRICE))
         self.assertNotEqual(base, nb.order_commitment("o", BURN, PRICE))
         self.assertNotEqual(base, nb.order_commitment("o", PAY_TO, PRICE + 1))
+
+
+class QuoteTests(unittest.TestCase):
+    ORDER = "order-0001-quote-test-id"
+
+    def test_xno_to_raw_is_exact(self):
+        self.assertEqual(nb.xno_to_raw("0.05"), PRICE)
+        self.assertEqual(nb.xno_to_raw("1"), nb.RAW_PER_XNO)
+        self.assertEqual(nb.xno_to_raw("0." + "0" * 29 + "1"), 1)
+        self.assertEqual(nb.xno_to_raw("12.5"), 25 * nb.RAW_PER_XNO // 2)
+
+    def test_xno_to_raw_refuses_what_is_not_an_exact_amount(self):
+        for amount in (0.05, 5, "0", "0.0", "-1", "1e-3", "0." + "0" * 30 + "1", " 1", "1.", ".5", "", None):
+            with self.assertRaises(ValueError, msg=repr(amount)):
+                nb.xno_to_raw(amount)
+
+    def test_requirement_shape(self):
+        req = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        self.assertEqual((req["scheme"], req["network"], req["asset"]), ("exact", "nano:mainnet", "XNO"))
+        self.assertEqual(req["amount"], str(PRICE))
+        self.assertEqual(req["payTo"], PAY_TO)
+        self.assertEqual(req["maxTimeoutSeconds"], 300)
+        self.assertEqual(req["extra"]["binding"], "xno-binding/v1/rep")
+        self.assertEqual(req["extra"]["orderId"], self.ORDER)
+        self.assertEqual(req["extra"]["decimals"], 30)
+        self.assertEqual(req["extra"]["representative"], nb.commitment_rep_account(self.ORDER, PAY_TO, PRICE))
+
+    def test_a_send_built_from_the_quote_is_matched_and_no_other(self):
+        req = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        paid = send_block(rep=req["extra"]["representative"])
+        self.assertEqual(nb.check_bound_send(paid, req["payTo"], int(req["amount"]), req["extra"]["orderId"]), nb.MATCHED)
+        other = nb.payment_requirement(PAY_TO, PRICE)
+        self.assertEqual(nb.check_bound_send(paid, PAY_TO, PRICE, other["extra"]["orderId"]), nb.NOT_BOUND)
+
+    def test_fresh_order_ids_are_random_and_valid(self):
+        ids = {nb.payment_requirement(PAY_TO, PRICE)["extra"]["orderId"] for _ in range(50)}
+        self.assertEqual(len(ids), 50)
+        for order_id in ids:
+            self.assertRegex(order_id, r"\A[0-9a-f]{32}\Z")
+
+    def test_bad_inputs_are_refused(self):
+        bad_pay_to = PAY_TO[:-1] + ("1" if PAY_TO[-1] != "1" else "3")
+        with self.assertRaises(ValueError):
+            nb.payment_requirement(bad_pay_to, PRICE, self.ORDER)
+        for price in (0.05, 0, -1, True, "5"):
+            with self.assertRaises(TypeError):
+                nb.payment_requirement(PAY_TO, price, self.ORDER)
+        for order_id in ("short", "x" * 129, "has space in it 1234567", "", 7):
+            with self.assertRaises(ValueError):
+                nb.payment_requirement(PAY_TO, PRICE, order_id)
+        for timeout in (0, -5, True, 1.5):
+            with self.assertRaises(ValueError):
+                nb.payment_requirement(PAY_TO, PRICE, self.ORDER, timeout)
+
+    def test_cli_prints_the_x402_body(self):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            code = quote_payment.main([PAY_TO, "0.05", "--order-id", self.ORDER])
+        self.assertEqual(code, 0)
+        body = json.loads(out.getvalue())
+        self.assertEqual(body["x402Version"], 2)
+        self.assertEqual(body["accepts"], [nb.payment_requirement(PAY_TO, PRICE, self.ORDER)])
+
+    def test_cli_refuses_a_float_like_price_it_cannot_hold(self):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            code = quote_payment.main([PAY_TO, "0." + "0" * 31 + "1"])
+        self.assertEqual(code, 2)
+        self.assertTrue(out.getvalue().startswith("BAD_INPUT"))
 
 
 class BoundSendTests(unittest.TestCase):
