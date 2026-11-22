@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3280 published skills** across **17 categories** · 2,685 security reviewed · Updated 2026-11-21 19:27 UTC
+> **3282 published skills** across **17 categories** · 2,685 security reviewed · Updated 2026-11-22 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (549 skills)
+### 🛠️ Developer Tools (550 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -435,6 +435,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Control Android devices with an on-device AI agent using PokeClaw](skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | Run an on-device Android control loop that inspects screens and performs app actions locally for mobile automation… | Security Reviewed | 760 | — |
 | [Run repo-local story, handover, and review workflows with Storybloq](skills/run-repo-local-story-handover-and-review-workflows-with-storybloq/) | Use Storybloq when Claude Code or Codex needs durable repo-local stories, plans, handovers, lessons, and review… | Security Reviewed | 738 | 160/wk |
 | [Operate deployments, telemetry, and sandboxes through Temps CLI skills](skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | Use Temps when an agent needs to deploy applications, inspect production telemetry, and manage self-hosted sandboxes… | Security Reviewed | 724 | 1.3k/wk |
+| [Move an existing coding mission between machines with Orb checkpoints](skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and continue… | Security Reviewed | 719 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | Use Caliber when agent-facing repo instructions have started drifting from the actual codebase and you want one… | Security Reviewed | 717 | 6.5k/wk |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | Use LongHorizon-Harness to keep Claude Code, Codex, DeepSeek Harness, or custom agent backends working through long… | Security Reviewed | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | Define short Python project commands in pyproject.toml so agents and maintainers can run the same test, lint, docs,… | Security Reviewed | 714 | — |
@@ -2006,7 +2007,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [Update repository docs automatically after code changes and open review PRs](skills/update-repository-docs-automatically-after-code-changes-and-open-review-prs/) | Use GitHub Next's update-docs workflow when code changes should trigger documentation maintenance instead of waiting… | Security Reviewed | — | — |
 
 
-### 📋 Runbooks & Diagnostics (191 skills)
+### 📋 Runbooks & Diagnostics (192 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Runbooks%20%26%20Diagnostics&sort=downloads)
 
@@ -2110,6 +2111,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | Uses Goss to express the expected state of a machine or container, then validates that reality still matches the… | Security Reviewed | 5.9k | — |
 | [Triage a Latitude signal with linked trace evidence](skills/triage-a-latitude-signal-with-linked-trace-evidence/) | Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an… | Security Reviewed | 4.8k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | Aggregate and follow logs from matching Kubernetes pods during incident triage without hopping pod by pod. | Security Reviewed | 4.6k | — |
+| [Triage Camunda process incidents into a read-only evidence packet](skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a… | Security Reviewed | 4.4k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | Run fast DNS lookups, compare record types, and inspect resolver behavior when domains, MX records, or service… | Published | 4.2k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | Inspect captured RAM images to enumerate processes, modules, handles, and suspicious in-memory behavior before… | Security Reviewed | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | Uses git-sizer to identify the specific size and history characteristics that make a repository painful to clone,… | Security Reviewed | 4k | — |

@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C280-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C282-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C685-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,280 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,282 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[esbuild Ultra-Fast JavaScript Bundler](skills/esbuild-ultra-fast-javascript-bundler/)** — esbuild is an extremely fast JavaScript and TypeScript bundler written in Go that delivers 10-100x faster build times than traditional tools like webpack. It handles bundling, minification, tree…
+**[Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/)** — Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Move an existing coding mission between machines with Orb checkpoints](skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and... | 719 | Developer Tools |
+| [Triage Camunda process incidents into a read-only evidence packet](skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a read-only... | 4.4k | Runbooks & Diagnostics |
 | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | - | Templates & Workflows |
 | [Build reviewed repository context packets with RepoPrompt CE MCP](skills/build-reviewed-repository-context-repoprompt-ce-mcp/) | Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a... | 997 | Developer Tools |
 | [Delegate bounded coding tasks and hand off sessions with Kimi Code](skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off... | 8.3k | Developer Tools |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Check R table schemas and duplicate keys before combining data with janitor](skills/check-r-table-schemas-duplicate-keys-janitor/) | Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables | 1.5k | Data Extraction & Transformation |
 | [Diagnose remote server incidents with MCP SSH Manager before changing services](skills/diagnose-remote-incidents-mcp-ssh-manager/) | Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair | 546 | Runbooks & Diagnostics |
 | [Direct and render stickman videos from an approved script](skills/direct-render-stickman-videos-approved-script/) | Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration... | 7.2k | Image & Creative Automation |
-| [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for... | - | Integrations & Connectors |
-| [Reconcile ClawManager Provisioning Operations with Runtime Readiness](skills/reconcile-clawmanager-provisioning-runtime-readiness/) | Inspect an existing provisioning operation and its owner-scoped instance through the Northbound API, distinguishing operation success from runtime... | 1.9k | Runbooks & Diagnostics |
 
 ---
 
@@ -131,8 +131,8 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
 | [Diagnose remote server incidents with MCP SSH Manager before changing services](skills/diagnose-remote-incidents-mcp-ssh-manager/) | Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair | 546 | Runbooks & Diagnostics |
-| [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 | [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
+| [Diagnose incomplete web extraction with PageSift MCP audit evidence](skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue... | 162 | Data Extraction & Transformation |
 
 ---
 
@@ -140,14 +140,14 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 549 | CLI tools, scaffolders, dev environment setup |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 550 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 273 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 265 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 246 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 220 | Linting, code review, test generators, coverage |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 195 | Third-party API bridges, webhooks, service connectors |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 194 | Pipeline configs, deployment automation, build tooling |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 191 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 192 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 165 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 148 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 136 | SDK docs, API parsers, symbol resolvers |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,280 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,282 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,685 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

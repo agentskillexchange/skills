@@ -1,9 +1,31 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-21",
-  "total": 3280,
+  "generated": "2026-11-22",
+  "total": 3282,
   "skills": [
+    {
+      "slug": "move-an-existing-coding-mission-between-machines-with-orb-checkpoints",
+      "name": "Move an existing coding mission between machines with Orb checkpoints",
+      "title": "Move an existing coding mission between machines with Orb checkpoints",
+      "description": "Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and continue with its identity and history…",
+      "category": "Developer Tools",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Th0rgal/orb",
+      "github_repo": "Th0rgal/orb"
+    },
+    {
+      "slug": "triage-camunda-process-incidents-into-a-read-only-evidence-packet",
+      "name": "Triage Camunda process incidents into a read-only evidence packet",
+      "title": "Triage Camunda process incidents into a read-only evidence packet",
+      "description": "Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a read-only triage packet.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/camunda/camunda",
+      "github_repo": "camunda/camunda"
+    },
     {
       "slug": "resume-tribunal",
       "name": "Resume Tribunal",

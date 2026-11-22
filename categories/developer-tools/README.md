@@ -461,6 +461,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Run repo-local story, handover, and review workflows with Storybloq](../../skills/run-repo-local-story-handover-and-review-workflows-with-storybloq/) | 738 | 160/wk |
 | [Operate deployments, telemetry, and sandboxes through Temps CLI skills](../../skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | 724 | 1.3k/wk |
+| [Move an existing coding mission between machines with Orb checkpoints](../../skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | 719 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](../../skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |

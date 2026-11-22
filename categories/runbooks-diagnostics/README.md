@@ -138,6 +138,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
 | [Triage a Latitude signal with linked trace evidence](../../skills/triage-a-latitude-signal-with-linked-trace-evidence/) | 4.8k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
+| [Triage Camunda process incidents into a read-only evidence packet](../../skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | 4.4k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
