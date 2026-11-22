@@ -3,6 +3,7 @@
 Standard library only, no network:
     python3 -m unittest discover -s skills/verify-nano-payment -p 'test_*.py'
 """
+import base64
 import contextlib
 import io
 import json
@@ -83,6 +84,9 @@ class CommitmentTests(unittest.TestCase):
         self.assertNotEqual(base, nb.order_commitment("o", PAY_TO, PRICE + 1))
 
 
+URL = "https://seller.example/api/report"
+
+
 class QuoteTests(unittest.TestCase):
     ORDER = "order-0001-quote-test-id"
 
@@ -135,21 +139,79 @@ class QuoteTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 nb.payment_requirement(PAY_TO, PRICE, self.ORDER, timeout)
 
-    def test_cli_prints_the_x402_body(self):
+    def test_amounts_stop_at_the_128_bit_balance_limit(self):
+        top = "340282366.920938463463374607431768211455"  # 2**128 - 1 raw
+        self.assertEqual(nb.xno_to_raw(top), 2 ** 128 - 1)
+        self.assertEqual(nb.payment_requirement(PAY_TO, 2 ** 128 - 1, self.ORDER)["amount"], str(2 ** 128 - 1))
+        with self.assertRaises(ValueError):
+            nb.xno_to_raw("340282366.920938463463374607431768211456")  # 2**128 raw
+        with self.assertRaises(ValueError):
+            nb.xno_to_raw("9999999999")
+        with self.assertRaises(ValueError):
+            nb.payment_requirement(PAY_TO, 2 ** 128, self.ORDER)
+
+    def assert_payment_required_v2(self, body):
+        # Mirrors PaymentRequiredV2Schema in @x402/core: x402Version 2, a
+        # resource with a non-empty url, 1+ accepts entries with the required fields.
+        self.assertEqual(body["x402Version"], 2)
+        self.assertIsInstance(body["resource"]["url"], str)
+        self.assertTrue(body["resource"]["url"])
+        for key in ("description", "mimeType"):
+            if key in body["resource"]:
+                self.assertIsInstance(body["resource"][key], str)
+        self.assertGreaterEqual(len(body["accepts"]), 1)
+        for entry in body["accepts"]:
+            for key in ("scheme", "amount", "asset", "payTo"):
+                self.assertIsInstance(entry[key], str)
+                self.assertTrue(entry[key])
+            self.assertRegex(entry["network"], r"\A[-a-z0-9]{3,8}:[-_a-zA-Z0-9]{1,32}\Z")
+            self.assertGreater(entry["maxTimeoutSeconds"], 0)
+
+    def run_cli(self, *args):
         out = io.StringIO()
         with contextlib.redirect_stdout(out):
-            code = quote_payment.main([PAY_TO, "0.05", "--order-id", self.ORDER])
+            code = quote_payment.main(list(args))
+        return code, out.getvalue()
+
+    def test_cli_prints_the_full_payment_required_object(self):
+        code, out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL,
+                                 "--description", "One report", "--mime-type", "application/json")
         self.assertEqual(code, 0)
-        body = json.loads(out.getvalue())
-        self.assertEqual(body["x402Version"], 2)
+        body = json.loads(out)
+        self.assert_payment_required_v2(body)
+        self.assertEqual(body["resource"], {"url": URL, "description": "One report", "mimeType": "application/json"})
         self.assertEqual(body["accepts"], [nb.payment_requirement(PAY_TO, PRICE, self.ORDER)])
 
+    def test_cli_header_is_the_same_object_in_base64(self):
+        code, body_out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL)
+        code2, header_out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL, "--header")
+        self.assertEqual((code, code2), (0, 0))
+        name, value = header_out.strip().split(": ", 1)
+        self.assertEqual(name, "PAYMENT-REQUIRED")
+        decoded = json.loads(base64.b64decode(value, validate=True).decode("utf-8"))
+        self.assert_payment_required_v2(decoded)
+        self.assertEqual(decoded, json.loads(body_out))
+
+    def test_payment_required_needs_a_resource_url(self):
+        entry = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        self.assertNotIn("description", nb.payment_required(URL, [entry])["resource"])
+        for url in ("", None, 7):
+            with self.assertRaises(ValueError):
+                nb.payment_required(url, [entry])
+        with self.assertRaises(ValueError):
+            nb.payment_required(URL, [])
+        with self.assertRaises(SystemExit), contextlib.redirect_stderr(io.StringIO()):
+            quote_payment.main([PAY_TO, "0.05"])
+
     def test_cli_refuses_a_float_like_price_it_cannot_hold(self):
-        out = io.StringIO()
-        with contextlib.redirect_stdout(out):
-            code = quote_payment.main([PAY_TO, "0." + "0" * 31 + "1"])
+        code, out = self.run_cli(PAY_TO, "0." + "0" * 31 + "1", "--resource-url", URL)
         self.assertEqual(code, 2)
-        self.assertTrue(out.getvalue().startswith("BAD_INPUT"))
+        self.assertTrue(out.startswith("BAD_INPUT"))
+
+    def test_cli_refuses_a_price_above_the_balance_limit(self):
+        code, out = self.run_cli(PAY_TO, "340282366.920938463463374607431768211456", "--resource-url", URL)
+        self.assertEqual(code, 2)
+        self.assertTrue(out.startswith("BAD_INPUT"))
 
 
 class BoundSendTests(unittest.TestCase):

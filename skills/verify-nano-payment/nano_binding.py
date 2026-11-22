@@ -18,6 +18,7 @@ Two optional pieces, used by ``verify_payment.py`` only when asked for:
 Amounts are integer raw (1 XNO = 10**30 raw); floats are refused.
 """
 
+import base64
 import hashlib
 import json
 import os
@@ -34,6 +35,7 @@ except ImportError:
     msvcrt = None
 
 RAW_PER_XNO = 10 ** 30
+MAX_RAW = 2 ** 128 - 1  # a Nano balance is 16 bytes
 
 _ALPHABET = "13456789abcdefghijkmnopqrstuwxyz"
 _ACCOUNT_RE = re.compile(r"\A(?:nano|xrb)_[13][13456789abcdefghijkmnopqrstuwxyz]{59}\Z")
@@ -126,7 +128,8 @@ def xno_to_raw(amount):
     """Turn a decimal XNO string such as ``"0.05"`` into integer raw, exactly.
 
     Only a string is accepted (a float cannot hold 30 decimals); more than 30
-    decimals, a sign, an exponent or a zero amount is refused.
+    decimals, a sign, an exponent, a zero amount or more than ``MAX_RAW`` raw
+    is refused.
     """
     match = _XNO_RE.match(amount) if isinstance(amount, str) else None
     if not match:
@@ -135,7 +138,13 @@ def xno_to_raw(amount):
     raw = int(whole) * RAW_PER_XNO + int(frac.ljust(30, "0"))
     if raw <= 0:
         raise ValueError("amount must be more than zero")
+    _require_balance(raw)
     return raw
+
+
+def _require_balance(price_raw):
+    if price_raw > MAX_RAW:
+        raise ValueError("amount must be at most 2**128 - 1 raw, the largest Nano balance")
 
 
 def new_order_id():
@@ -155,6 +164,7 @@ def payment_requirement(pay_to, price_raw, order_id=None, max_timeout_seconds=30
     order: it is what the buyer presents again after a lost response.
     """
     _require_raw(price_raw)
+    _require_balance(price_raw)
     account_public_key(pay_to)
     if order_id is None:
         order_id = new_order_id()
@@ -178,6 +188,31 @@ def payment_requirement(pay_to, price_raw, order_id=None, max_timeout_seconds=30
         },
     }
 
+
+def payment_required(resource_url, accepts, description=None, mime_type=None):
+    """The full x402 v2 ``PaymentRequired`` object for a protected resource.
+
+    ``accepts`` is a list of entries such as ``payment_requirement`` returns;
+    ``resource_url`` is the URL the buyer asked for. ``description`` and
+    ``mimeType`` are optional in the protocol and left out when not given.
+    """
+    if not isinstance(resource_url, str) or not resource_url:
+        raise ValueError("resource_url must be a non-empty string")
+    if not isinstance(accepts, list) or not accepts:
+        raise ValueError("accepts must be a non-empty list")
+    resource = {"url": resource_url}
+    for key, value in (("description", description), ("mimeType", mime_type)):
+        if value is not None:
+            if not isinstance(value, str):
+                raise ValueError("%s must be a string" % key)
+            resource[key] = value
+    return {"x402Version": 2, "resource": resource, "accepts": accepts}
+
+
+def payment_required_header(payment_required_object):
+    """The ``PAYMENT-REQUIRED`` HTTP header value: base64 of the JSON object."""
+    data = json.dumps(payment_required_object, separators=(",", ":")).encode("utf-8")
+    return base64.b64encode(data).decode("ascii")
 
 def _same_account(a, b):
     try:
