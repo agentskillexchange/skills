@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-22
+# Generated: 2026-11-23
 # Total: 3283 skills
 
 ## Audit a user journey into interaction counts and a UX budget

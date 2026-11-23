@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Use Dify for production agentic workflow apps](skills/use-dify-for-production-agentic-workflow-apps/)** — Build, test, and operate agentic workflow apps in Dify when an operator needs a governed path from prototype to production.
+**[Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)** — Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
