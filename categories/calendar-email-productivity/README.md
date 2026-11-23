@@ -96,6 +96,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
 | [Operate an Obsidian vault as an agent-maintained second brain](../../skills/operate-an-obsidian-vault-as-an-agent-maintained-second-brain/) | 3.4k | — |
 | [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | 2.4M/wk |
+| [Patch one Obsidian note section with a version precondition](../../skills/patch-one-obsidian-note-section-with-a-version-precondition/) | 3.2k | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2.6M/wk |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | 2.9k | 2.6M/wk |

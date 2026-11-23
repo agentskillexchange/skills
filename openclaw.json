@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-23",
-  "total": 3283,
+  "total": 3285,
   "skills": [
+    {
+      "slug": "open-agent-api-run-inspector",
+      "name": "Inspect Open Agent API Runs",
+      "title": "Inspect Open Agent API Runs",
+      "description": "Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval request, and a terminal result without…",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Codex",
+      "verification": "listed",
+      "source_url": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+      "github_repo": "jiangxingfan1-coder/open-agent-api"
+    },
+    {
+      "slug": "patch-one-obsidian-note-section-with-a-version-precondition",
+      "name": "Patch one Obsidian note section with a version precondition",
+      "title": "Patch one Obsidian note section with a version precondition",
+      "description": "Read a named note section, apply a version-conditional MCP patch, and return a verified change or an explicit concurrent-edit conflict.",
+      "category": "Calendar, Email & Productivity",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/coddingtonbear/obsidian-local-rest-api",
+      "github_repo": "coddingtonbear/obsidian-local-rest-api"
+    },
     {
       "slug": "audit-a-user-journey-into-interaction-counts-and-a-ux-budget",
       "name": "Audit a user journey into interaction counts and a UX budget",

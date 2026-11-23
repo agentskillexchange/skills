@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C283-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C285-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C686-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,283 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,285 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,8 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Inspect Open Agent API Runs](skills/open-agent-api-run-inspector/) | Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval... | - | Runbooks & Diagnostics |
+| [Patch one Obsidian note section with a version precondition](skills/patch-one-obsidian-note-section-with-a-version-precondition/) | Read a named note section, apply a version-conditional MCP patch, and return a verified change or an explicit... | 3.2k | Calendar, Email & Productivity |
 | [Audit a user journey into interaction counts and a UX budget](skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/) | Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with... | 2.1k | Code Quality & Review |
 | [Move an existing coding mission between machines with Orb checkpoints](skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and... | 719 | Developer Tools |
 | [Triage Camunda process incidents into a read-only evidence packet](skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a read-only... | 4.4k | Runbooks & Diagnostics |
@@ -95,8 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Delegate bounded coding tasks and hand off sessions with Kimi Code](skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off... | 8.3k | Developer Tools |
 | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | - | Data Extraction & Transformation |
 | [Validate a YouTube niche with sourced channel evidence through TubeLab](skills/validate-youtube-niche-sourced-channel-evidence-tubelab/) | Compare up to three YouTube niches using channel samples, explicit score formulas and newcomer evidence to produce an... | 205 | Research & Scraping |
-| [Check R table schemas and duplicate keys before combining data with janitor](skills/check-r-table-schemas-duplicate-keys-janitor/) | Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables | 1.5k | Data Extraction & Transformation |
-| [Diagnose remote server incidents with MCP SSH Manager before changing services](skills/diagnose-remote-incidents-mcp-ssh-manager/) | Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair | 546 | Runbooks & Diagnostics |
 
 ---
 
@@ -104,6 +104,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [jiangxingfan1-coder](https://github.com/jiangxingfan1-coder) | [Inspect Open Agent API Runs](skills/open-agent-api-run-inspector/) | Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval... | Runbooks & Diagnostics |
 | [dhyabi2](https://github.com/dhyabi2) | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account... | Integrations & Connectors |
 | [mohiddin7](https://github.com/mohiddin7) | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | Templates & Workflows |
 | [livejake](https://github.com/livejake) | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | Data Extraction & Transformation |
@@ -113,7 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [al-global-tech](https://github.com/al-global-tech) | [Generate Images and Video with UberLLM](skills/generate-images-and-video-with-uberllm/) | Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a... | Image & Creative Automation |
 | [JuampiHernandez](https://github.com/JuampiHernandez) | [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and... | Research & Scraping |
 | [KhademOHAli1](https://github.com/KhademOHAli1) | [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs... | Research & Scraping |
-| [pushkarsingh32](https://github.com/pushkarsingh32) | [GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data](skills/getyoutubetranscript-youtube-transcript/) | Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is... | Media & Transcription |
 
 ---
 
@@ -147,12 +147,12 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 221 | Linting, code review, test generators, coverage |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 195 | Third-party API bridges, webhooks, service connectors |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 194 | Pipeline configs, deployment automation, build tooling |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 192 | Incident response, troubleshooting, system diagnostics |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 193 | Incident response, troubleshooting, system diagnostics |
 | 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 165 | Metrics, alerting rules, observability |
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 148 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 136 | SDK docs, API parsers, symbol resolvers |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 132 | Email automation, calendar management, task coordination |
 | 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 131 | Image generation, asset processing, design automation |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 131 | Email automation, calendar management, task coordination |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 114 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,283 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,285 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,686 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

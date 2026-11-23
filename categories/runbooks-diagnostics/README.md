@@ -224,6 +224,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
+| [Inspect Open Agent API Runs](../../skills/open-agent-api-run-inspector/) | — | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Jira Import Doctor](../../skills/jira-import-doctor/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |

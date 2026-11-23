@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-23
-# Total: 3283 skills
+# Total: 3285 skills
+
+## Inspect Open Agent API Runs
+slug: open-agent-api-run-inspector
+category: Runbooks & Diagnostics
+framework: Codex
+verification: Published
+description: Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval request, and a terminal result without…
+url: https://agentskillexchange.com/skills/open-agent-api-run-inspector/
+
+## Patch one Obsidian note section with a version precondition
+slug: patch-one-obsidian-note-section-with-a-version-precondition
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Published
+description: Read a named note section, apply a version-conditional MCP patch, and return a verified change or an explicit concurrent-edit conflict.
+url: https://agentskillexchange.com/skills/patch-one-obsidian-note-section-with-a-version-precondition/
 
 ## Audit a user journey into interaction counts and a UX budget
 slug: audit-a-user-journey-into-interaction-counts-and-a-ux-budget
