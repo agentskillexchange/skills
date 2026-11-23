@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-23",
-  "total": 3285,
+  "total": 3286,
   "skills": [
+    {
+      "slug": "validate-a-managed-json-goal-deliverable-in-mateclaw",
+      "name": "Validate a managed JSON Goal deliverable in MateClaw",
+      "title": "Validate a managed JSON Goal deliverable in MateClaw",
+      "description": "Publish a scoped JSON report to a user-selected Goal slot, bind required-field checks to its exact version, and reconcile conflicts before completion.",
+      "category": "Templates & Workflows",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/mateaix/mateclaw",
+      "github_repo": "mateaix/mateclaw"
+    },
     {
       "slug": "open-agent-api-run-inspector",
       "name": "Inspect Open Agent API Runs",

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-23
-# Total: 3285 skills
+# Total: 3286 skills
+
+## Validate a managed JSON Goal deliverable in MateClaw
+slug: validate-a-managed-json-goal-deliverable-in-mateclaw
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Publish a scoped JSON report to a user-selected Goal slot, bind required-field checks to its exact version, and reconcile conflicts before completion.
+url: https://agentskillexchange.com/skills/validate-a-managed-json-goal-deliverable-in-mateclaw/
 
 ## Inspect Open Agent API Runs
 slug: open-agent-api-run-inspector
