@@ -2,10 +2,12 @@
 name: "Inspect Open Agent API Runs"
 slug: "open-agent-api-run-inspector"
 description: "Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval request, and a terminal result without starting another run."
+verification: "listed"
+source: "https://github.com/jiangxingfan1-coder/Open-Agent-API"
 category: "Runbooks & Diagnostics"
 framework: "Codex"
-verification: listed
-source: "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+tool_ecosystem:
+  github_repo: "jiangxingfan1-coder/open-agent-api"
 ---
 
 # Inspect Open Agent API Runs
@@ -21,22 +23,7 @@ Use this when someone supplies an Open Agent API response ID and asks whether th
 
 ## Installation
 
-From a checkout of the catalog containing this skill, copy it into your Codex user skills directory:
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```bash
-mkdir -p "$HOME/.agents/skills"
-cp -R skills/open-agent-api-run-inspector "$HOME/.agents/skills/"
-```
+- Source: https://github.com/jiangxingfan1-coder/Open-Agent-API
 
-Separately, [build the Open Agent API CLI from source](https://jiangxingfan1-coder.github.io/Open-Agent-API/docs/install.html#source) and use an existing read-only key with visibility of the target run. A new `read` key with default caller isolation cannot see a task created by another caller. An operator's owner-visible read key can see other callers' runs for its permitted agents, so only use one if the operator already authorized that access. Never change the key scope to make this skill work. Keep the key in a private local file rather than pasting its value into a prompt or configuration.
-
-For a gateway already running on your machine, run the following from the root of the built Open Agent API checkout. A source build does not put `oaa` on `PATH`, so register the absolute Node and built CLI paths:
-
-```bash
-oaa_node="$(node -p 'process.execPath')"
-oaa_cli="$(pwd -P)/dist/src/cli.js"
-test -f "$oaa_cli" && codex mcp add open-agent-api -- "$oaa_node" "$oaa_cli" \
-  mcp --url http://127.0.0.1:8787 --token-file "$HOME/.config/open-agent-api/read.key"
-```
-
-Use the address of the existing gateway and the path to the key file already issued for it. This only registers a local stdio process; it does not start a gateway, publish an agent, or provision credentials. See the [upstream workflow](https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/v0.0.64/integrations/open-agent-api/SKILL.md) for the broader tool contract. This listing deliberately uses only the status, wait, and output operations.
