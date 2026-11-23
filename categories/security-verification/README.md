@@ -243,6 +243,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](../../skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
+| [Audit local coding-agent permissions and MCP configuration with Safe Anything](../../skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/) | 407 | 592/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | 390 | 2.9k/wk |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | 390 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | 8.1k/wk |

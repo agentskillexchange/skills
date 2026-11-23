@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3286 published skills** across **17 categories** · 2,688 security reviewed · Updated 2026-11-23 13:26 UTC
+> **3287 published skills** across **17 categories** · 2,688 security reviewed · Updated 2026-11-23 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -848,7 +848,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (265 skills)
+### 🔒 Security & Verification (266 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -1057,6 +1057,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | Check certificates and precertificates for Web PKI standards violations before CA issuance, trust-store submission,… | Security Reviewed | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | Use scrubadub when an agent needs to strip emails, phone numbers, names, and similar sensitive text before sending… | Security Reviewed | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | Insert a trace-aware guardrail layer between agents and their tools so unsafe message patterns or tool-call… | Security Reviewed | 409 | 1.5k/wk |
+| [Audit local coding-agent permissions and MCP configuration with Safe Anything](skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/) | Review a selected project’s agent permissions, MCP launch pins, credentials and hooks with an offline scan and a… | Security Reviewed | 407 | 592/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | Add a runtime guard that evaluates agent actions, blocks dangerous commands or secret exposure, and audits new… | Security Reviewed | 390 | 2.9k/wk |
 | [CSP Policy Analyzer](skills/csp-policy-analyzer/) | Parses and evaluates Content Security Policy headers using csp-parse and csp-evaluator libraries. Identifies overly… | Security Reviewed | 390 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | Audit a Claude Code setup before use by flagging hardcoded secrets, broad allow rules, risky hooks, and dangerous… | Published | 388 | 8.1k/wk |

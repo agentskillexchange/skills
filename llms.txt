@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-23
-# Total: 3286 skills
+# Total: 3287 skills
+
+## Audit local coding-agent permissions and MCP configuration with Safe Anything
+slug: audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a selected project’s agent permissions, MCP launch pins, credentials and hooks with an offline scan and a file-and-line configuration risk checklist.
+url: https://agentskillexchange.com/skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/
 
 ## Validate a managed JSON Goal deliverable in MateClaw
 slug: validate-a-managed-json-goal-deliverable-in-mateclaw

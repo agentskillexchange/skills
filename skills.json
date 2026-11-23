@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 3286,
+  "total": 3287,
   "generated": "2026-11-23",
   "skills": [
+    {
+      "slug": "audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything",
+      "name": "Audit local coding-agent permissions and MCP configuration with Safe Anything",
+      "title": "Audit local coding-agent permissions and MCP configuration with Safe Anything",
+      "description": "Review a selected project’s agent permissions, MCP launch pins, credentials and hooks with an offline scan and a file-and-line configuration risk checklist.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 407,
+        "npm_weekly_downloads": 592
+      },
+      "source_url": "https://github.com/erkamyaman/safe-anything",
+      "github_repo": "erkamyaman/safe-anything"
+    },
     {
       "slug": "validate-a-managed-json-goal-deliverable-in-mateclaw",
       "name": "Validate a managed JSON Goal deliverable in MateClaw",
