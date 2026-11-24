@@ -2,12 +2,15 @@
 name: "Resume Tribunal"
 slug: "resume-tribunal"
 description: "Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company review the draft blind, with a script that flags numbers and names it cannot find in the user's words. Use when someone wants a resume or CV rewritten or reviewed for a specific job."
+github_stars: 1
 verification: "listed"
 source: "https://github.com/mohiddin7/resume-tribunal"
+author: "Mohiddin"
 category: "Templates & Workflows"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "mohiddin7/resume-tribunal"
+  github_stars: 1
 ---
 
 # Resume Tribunal
@@ -18,19 +21,9 @@ The result is a resume the user can send, a list of what the job asks for that t
 
 ## Installation
 
-### Most coding agents (Claude Code, Codex, Gemini CLI, Cursor, GitHub Copilot, OpenCode)
+Install or set up from the source-backed instructions:
 
-```bash
 npx skills add mohiddin7/resume-tribunal
-```
 
-### Claude Code, as a plugin
+- Source: https://github.com/mohiddin7/resume-tribunal
 
-```bash
-claude plugin marketplace add mohiddin7/resume-tribunal
-claude plugin install resume-tribunal@resume-tribunal
-```
-
-### Skill folder
-
-The skill is in https://github.com/mohiddin7/resume-tribunal/tree/main/skills/resume-tribunal (SKILL.md, LICENSE.txt, references and scripts).
