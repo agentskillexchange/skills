@@ -1,6 +1,6 @@
 # Categories
 
-> **3287 skills** across **17 categories**
+> **3289 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -9,9 +9,9 @@
 | 🔒 | [**Security & Verification**](security-verification/) | **266** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **246** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **221** | Linting rules, review checklists, code standards enforcement, and qua... |
-| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **195** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **196** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **194** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **193** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **194** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **165** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **148** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **136** | SDK documentation, API guides, framework reference material, and libr... |

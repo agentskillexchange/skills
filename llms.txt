@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-24
-# Total: 3287 skills
+# Total: 3289 skills
+
+## Inspect a scoped workspace hierarchy through PipesHub MCP
+slug: inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access, and pagination limits.
+url: https://agentskillexchange.com/skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/
+
+## Inspect and recover a blocked coding-agent terminal through Facade MCP
+slug: inspect-recover-blocked-coding-agent-terminal-facade-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Diagnose one blocked Facade agent from its terminal evidence, perform an explicitly authorized response, and verify the observed recovery without duplicating work.
+url: https://agentskillexchange.com/skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/
 
 ## Audit local coding-agent permissions and MCP configuration with Safe Anything
 slug: audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything

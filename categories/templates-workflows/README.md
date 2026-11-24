@@ -292,6 +292,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Browser Extension Launch](../../skills/browser-extension-launch/) | 1 | 301/wk |
 | [Book to Mentor](../../skills/book-to-mentor/) | 1 | — |
 | [Concept to Story](../../skills/concept-to-story/) | 1 | — |
+| [Resume Tribunal](../../skills/resume-tribunal/) | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | — | 49.9M/wk |
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
@@ -307,7 +308,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |
 | [Ralph Loop](../../skills/ralph-loop/) | — | — |
-| [Resume Tribunal](../../skills/resume-tribunal/) | — | — |
 | [Review open pull requests against repository contribution guidelines](../../skills/review-open-pull-requests-against-repository-contribution-guidelines/) | — | — |
 | [Run context → spec → implement coding loops in Claude Code with Conductor](../../skills/run-context-spec-and-implement-coding-loops-in-claude-code-with-conductor/) | — | — |
 | [Scaffold and bundle rich single-file web artifacts with React, Tailwind, and shadcn/ui](../../skills/scaffold-and-bundle-rich-single-file-web-artifacts-with-react-tailwind-and-shadcn-ui/) | — | — |

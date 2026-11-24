@@ -2,8 +2,30 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-24",
-  "total": 3287,
+  "total": 3289,
   "skills": [
+    {
+      "slug": "inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp",
+      "name": "Inspect a scoped workspace hierarchy through PipesHub MCP",
+      "title": "Inspect a scoped workspace hierarchy through PipesHub MCP",
+      "description": "Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access, and pagination limits.",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/pipeshub-ai/pipeshub-ai",
+      "github_repo": "pipeshub-ai/pipeshub-ai"
+    },
+    {
+      "slug": "inspect-recover-blocked-coding-agent-terminal-facade-mcp",
+      "name": "Inspect and recover a blocked coding-agent terminal through Facade MCP",
+      "title": "Inspect and recover a blocked coding-agent terminal through Facade MCP",
+      "description": "Diagnose one blocked Facade agent from its terminal evidence, perform an explicitly authorized response, and verify the observed recovery without duplicating work.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/y5ez3g/facadecode",
+      "github_repo": "y5ez3g/facadecode"
+    },
     {
       "slug": "audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything",
       "name": "Audit local coding-agent permissions and MCP configuration with Safe Anything",

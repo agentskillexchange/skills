@@ -190,6 +190,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
 | [Diagnose remote server incidents with MCP SSH Manager before changing services](../../skills/diagnose-remote-incidents-mcp-ssh-manager/) | 546 | 3.3k/wk |
+| [Inspect and recover a blocked coding-agent terminal through Facade MCP](../../skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/) | 535 | — |
 | [Preflight Nudgebee runbooks before saving or execution](../../skills/preflight-nudgebee-runbooks-before-saving-or-execution/) | 520 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
