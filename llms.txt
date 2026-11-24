@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-23
+# Generated: 2026-11-24
 # Total: 3287 skills
 
 ## Audit local coding-agent permissions and MCP configuration with Safe Anything

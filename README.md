@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Firecrawl Markdown Capture Pipeline](skills/firecrawl-markdown-capture-pipeline/)** — Captures clean site content through Firecrawl endpoints like `/v1/scrape`, `/v1/map`, and `/v1/crawl`, with Markdown output for downstream agents. Great for turning messy websites into reliable research corpora, docs…
+**[Audit a user journey into interaction counts and a UX budget](skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/)** — Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with a proposed click and field budget.
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
