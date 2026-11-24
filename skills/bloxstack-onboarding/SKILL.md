@@ -1,7 +1,7 @@
 ---
 name: "BloxStack Onboarding"
 slug: "bloxstack-onboarding"
-description: "Connect an AI assistant to a Roblox team’s BloxStack workspace over MCP and browser OAuth, then use get_studio to answer a first question about its games and open tasks."
+description: "Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a creator wants to set up a team workspace, connect Claude Code, Codex, Cursor or another MCP client, plan their first task, or ask about work their team has added."
 category: "Integrations & Connectors"
 framework: "MCP"
 verification: listed
@@ -11,7 +11,7 @@ license: MIT
 
 # BloxStack Onboarding
 
-Get a Roblox creator from “connect my agent” to an answer about their own team. The official remote HTTP MCP endpoint is `https://bloxstack.app/mcp`.
+Explain that BloxStack Studio provides the team’s tools and that the team adds its own games, tasks, and files. Connect the creator’s assistant through the official remote HTTP MCP endpoint at `https://bloxstack.app/mcp`.
 
 ## Start where the creator is
 
@@ -35,8 +35,9 @@ Let the creator finish the browser handoff. They check the app, choose one studi
 ## Deliver the first result
 
 1. Call the connected server's `get_studio` with `{}` first. Use the client-qualified tool name when shown. Verify the studio name matches the creator's intended team. If it differs, pause before reading further and have them reconnect to the intended studio.
-2. Answer the creator's original question using the returned data. For a general introduction, give the studio name and one concrete detail, such as a real game or open task. If they asked about upcoming work, look for `list_tasks` in the connected tools and read the board. On an empty board, say so and offer to draft a first task in chat.
-3. Stop once the creator has that first result. Keep a draft in chat until they ask you to save it. Opening a hosted Roblox Studio session uses Studio hours and is a separate workflow.
+2. Use the connected tools to check the part of the workspace the creator asked about. For tasks, use `list_tasks` if available. An empty task list tells you about that board only. If a tool or permission is missing, tell the creator what you could verify.
+3. For a new workspace or an empty board, tell the creator what they can add. Ask what their team is building and offer to draft a first task in chat from their answer. For an existing workspace, answer using only the games, tasks, or files the tools actually returned.
+4. Keep drafts in chat until the creator asks to save them. Respect read-only access. Opening a hosted Roblox Studio session uses Studio hours and is a separate workflow.
 
 A configured endpoint alone is insufficient to verify access. If the studio read is unavailable, describe the last successful step and the single action that will unblock it. If an access or connection-limit notice appears, use its instructions. The creator can review or end a connection from the studio's **Agent** page.
 
