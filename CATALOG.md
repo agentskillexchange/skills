@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3289 published skills** across **17 categories** · 2,691 security reviewed · Updated 2026-11-24 07:26 UTC
+> **3290 published skills** across **17 categories** · 2,691 security reviewed · Updated 2026-11-24 13:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -566,7 +566,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (274 skills)
+### 📄 Templates & Workflows (275 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -642,6 +642,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Add graph-backed memory and context retrieval to agent workflows](skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | Use Cognee to ingest project knowledge into graph and vector memory so agents can retrieve durable context across… | Security Reviewed | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | Use GBrain to give OpenClaw or Hermes-style agents a local knowledge brain with markdown ingestion, entity links,… | Security Reviewed | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](skills/run-scheduled-autonomous-agent-hands-with-openfang/) | Use OpenFang to run packaged autonomous agent workflows on schedules with manifests, dashboards, reporting, and… | Security Reviewed | 17.2k | — |
+| [Apply atomic tracked Word revisions with SurfSense](skills/apply-atomic-tracked-word-revisions-with-surfsense/) | Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches… | Security Reviewed | 16.9k | — |
 | [Mustache Template Renderer](skills/mustache-template-renderer-agent/) | Renders Mustache logic-less templates with partials resolution and lambda support. Uses the mustache.js library for… | Security Reviewed | 16.7k | 12.7M/wk |
 | [Argo Workflows DAG Optimizer](skills/argo-workflows-dag-optimizer/) | Analyzes Argo Workflows DAG templates to identify parallelization opportunities. Uses the Argo Server API to fetch… | Security Reviewed | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](skills/argo-workflows-dag-pipeline-builder/) | Constructs Kubernetes-native workflow DAGs using Argo Workflows CRDs with configurable retry strategies, artifact… | Security Reviewed | 16.6k | — |

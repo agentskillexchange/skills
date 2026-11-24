@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-24",
-  "total": 3289,
+  "total": 3290,
   "skills": [
+    {
+      "slug": "apply-atomic-tracked-word-revisions-with-surfsense",
+      "name": "Apply atomic tracked Word revisions with SurfSense",
+      "title": "Apply atomic tracked Word revisions with SurfSense",
+      "description": "Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches and tracked-change review.",
+      "category": "Templates & Workflows",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/MODSetter/SurfSense/blob/5d9e1294f59d58e8f037072fff5501885380101c/surfsense_local/backend/modules/agent/skills/surfsense-revisions/SKILL.md",
+      "github_repo": "MODSetter/SurfSense"
+    },
     {
       "slug": "inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp",
       "name": "Inspect a scoped workspace hierarchy through PipesHub MCP",

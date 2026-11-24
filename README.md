@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C289-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C290-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C691-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,289 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,290 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Apply atomic tracked Word revisions with SurfSense](skills/apply-atomic-tracked-word-revisions-with-surfsense/) | Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches... | 16.9k | Templates & Workflows |
 | [Inspect a scoped workspace hierarchy through PipesHub MCP](skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/) | Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access... | 4.1k | Integrations & Connectors |
 | [Inspect and recover a blocked coding-agent terminal through Facade MCP](skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/) | Diagnose one blocked Facade agent from its terminal evidence, perform an explicitly authorized response, and verify the observed... | 535 | Runbooks & Diagnostics |
 | [Audit local coding-agent permissions and MCP configuration with Safe Anything](skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/) | Review a selected project’s agent permissions, MCP launch pins, credentials and hooks with an offline scan and a... | 407 | Security & Verification |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Audit a user journey into interaction counts and a UX budget](skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/) | Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with... | 2.1k | Code Quality & Review |
 | [Move an existing coding mission between machines with Orb checkpoints](skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and... | 719 | Developer Tools |
 | [Triage Camunda process incidents into a read-only evidence packet](skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a read-only... | 4.4k | Runbooks & Diagnostics |
-| [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | 1 | Templates & Workflows |
 
 ---
 
@@ -141,7 +141,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 550 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 274 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 275 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 266 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 246 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 221 | Linting, code review, test generators, coverage |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,289 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,290 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,691 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

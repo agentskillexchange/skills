@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-24
-# Total: 3289 skills
+# Total: 3290 skills
+
+## Apply atomic tracked Word revisions with SurfSense
+slug: apply-atomic-tracked-word-revisions-with-surfsense
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches and tracked-change review.
+url: https://agentskillexchange.com/skills/apply-atomic-tracked-word-revisions-with-surfsense/
 
 ## Inspect a scoped workspace hierarchy through PipesHub MCP
 slug: inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp

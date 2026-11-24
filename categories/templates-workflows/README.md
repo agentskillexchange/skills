@@ -110,6 +110,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Add graph-backed memory and context retrieval to agent workflows](../../skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |
+| [Apply atomic tracked Word revisions with SurfSense](../../skills/apply-atomic-tracked-word-revisions-with-surfsense/) | 16.9k | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | 16.7k | 12.7M/wk |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
