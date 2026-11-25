@@ -2,10 +2,12 @@
 name: "Runheed"
 slug: "runheed"
 description: "Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces and breadcrumbs, fix the code and mark the error resolved with the fixing commit."
+verification: "listed"
+source: "https://github.com/getrunheed/runheed-plugin"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/getrunheed/runheed-plugin"
+tool_ecosystem:
+  github_repo: "getrunheed/runheed-plugin"
 ---
 
 # Runheed
