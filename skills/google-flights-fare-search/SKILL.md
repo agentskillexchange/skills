@@ -20,11 +20,15 @@ Requirements: an Apify account, authenticated with `apify login` or an `APIFY_TO
 
 ## Example
 
+Flight dates must be in the future. Replace the two dates below with your own outbound and return dates (YYYY-MM-DD).
+
 ```bash
 apify actors call "johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search" \
-  -i '{"departure_id":"SFO","arrival_id":"CDG","outbound_date":"2026-09-10","return_date":"2026-09-20","max_stops":0,"max_price":900,"currency":"USD"}' \
-  --json
+  -i '{"departure_id":"SFO","arrival_id":"CDG","outbound_date":"2027-03-10","return_date":"2027-03-20","max_stops":0,"max_price":900,"currency":"USD","max_pages":1}' \
+  --output-dataset --silent
 ```
+
+`--output-dataset` prints the run's dataset items rather than the run details, and `max_pages: 1` keeps the run to one results page. Each item is one results page, so for one row per flight (or a flat CSV), flatten each item's `all_flights` array, for example by piping the output to `jq '[.[].all_flights[]]'`.
 
 Agents can also call it over MCP with the hosted server `https://mcp.apify.com/?tools=actors,docs,johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search`.
 
@@ -40,6 +44,7 @@ npx skills add johnisanerd/claude-skill-google-flights-api
 
 ```bash
 git clone https://github.com/johnisanerd/claude-skill-google-flights-api.git
+mkdir -p ~/.claude/skills
 cp -R claude-skill-google-flights-api/apify-google-flights-api ~/.claude/skills/apify-google-flights-api
 ```
 
