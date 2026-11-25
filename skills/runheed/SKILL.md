@@ -12,7 +12,7 @@ source: "https://github.com/getrunheed/runheed-plugin"
 
 Runheed is error tracking built for coding agents. An app reports exceptions through the Node or Python SDK; the agent reads them over a remote MCP server instead of a dashboard.
 
-The server exposes 12 tools: project health, recent errors, error search, trends, full error detail with stack trace and breadcrumbs, error context, resolve, ignore and unignore, merge, project creation and a test event.
+The server exposes 13 tools: project health, recent errors, error search, trends, full error detail with stack trace and breadcrumbs, error context, resolve, ignore and unignore, merge, project listing (`runheed_list_projects`), project creation and a test event.
 
 Use it when asked what is breaking in production, to fix the top error, to check whether a fix held, or to resolve an error with the commit that fixed it. It is not an APM: there is no tracing or session replay.
 
