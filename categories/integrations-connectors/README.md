@@ -221,6 +221,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [AssemblyAI Real-Time Call Intelligence](../../skills/assemblyai-realtime-call-intelligence/) | — | — |
 | [Automation Integration Preflight](../../skills/automation-integration-preflight/) | — | — |
 | [BeachFinder Swim Spot Finder](../../skills/beachfinder-swim-spot-finder/) | — | — |
+| [BloxStack Onboarding](../../skills/bloxstack-onboarding/) | — | — |
 | [BulkPublish Social Publishing](../../skills/bulkpublish-social-publishing/) | — | — |
 | [DocsBot Administration](../../skills/docsbot-administration/) | — | — |
 | [Famulor Assistants & Omnichannel History](../../skills/famulor-assistants-history/) | — | — |

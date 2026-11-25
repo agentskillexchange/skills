@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-25
-# Total: 3295 skills
+# Total: 3297 skills
+
+## Mailtrap Sending Emails
+slug: mailtrap-sending-emails
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Published
+description: Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional or bulk stream, then send with…
+url: https://agentskillexchange.com/skills/mailtrap-sending-emails/
+
+## BloxStack Onboarding
+slug: bloxstack-onboarding
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a creator wants to set up a…
+url: https://agentskillexchange.com/skills/bloxstack-onboarding/
 
 ## Runheed
 slug: runheed

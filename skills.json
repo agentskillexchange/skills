@@ -1,8 +1,30 @@
 {
   "version": "2.0",
-  "total": 3295,
+  "total": 3297,
   "generated": "2026-11-25",
   "skills": [
+    {
+      "slug": "mailtrap-sending-emails",
+      "name": "Mailtrap Sending Emails",
+      "title": "Mailtrap Sending Emails",
+      "description": "Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional or bulk stream, then send with…",
+      "category": "Calendar, Email & Productivity",
+      "framework": "Multi-Framework",
+      "verification": "listed",
+      "source_url": "https://github.com/mailtrap/mailtrap-skills/tree/main/skills/sending-emails",
+      "github_repo": "mailtrap/mailtrap-skills"
+    },
+    {
+      "slug": "bloxstack-onboarding",
+      "name": "BloxStack Onboarding",
+      "title": "BloxStack Onboarding",
+      "description": "Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a creator wants to set up a…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/BloxStack/skills/tree/main/skills/bloxstack-onboarding",
+      "github_repo": "BloxStack/skills"
+    },
     {
       "slug": "runheed",
       "name": "Runheed",
