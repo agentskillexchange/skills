@@ -11,7 +11,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 3 | [Vite Plugin Hot Module Analyzer](skills/vite-plugin-hmr-analyzer/) | 96.8M/wk | vite | Developer Tools |
 | 4 | [Supabase MCP Server](skills/supabase-mcp-server/) | 83.5M/wk | supabase | Developer Tools |
 | 5 | [pnpm Fast Disk-Efficient Package Manager](skills/pnpm-fast-disk-efficient-package-manager/) | 66.3M/wk | pnpm | Developer Tools |
-| 6 | [OpenAI Image Gen](skills/openai-image-gen/) | 62.5M/wk | openai | Image & Creative Automation |
+| 6 | [OpenAI Image Gen](skills/openai-image-gen/) | 62.3M/wk | openai | Image & Creative Automation |
 | 7 | [Sharp Image CDN Optimizer](skills/sharp-image-cdn-optimizer/) | 52.5M/wk | sharp | Image & Creative Automation |
 | 8 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | 49.9M/wk | claude-code | Templates & Workflows |
 | 9 | [Playwright Accessibility Audit Runner](skills/playwright-accessibility-audit-runner/) | 47.9M/wk | playwright | Browser Automation |
@@ -25,7 +25,7 @@ Skills backed by the most-downloaded npm packages, deduplicated by upstream tool
 | 17 | [Normalize international phone numbers into E.164 before CRM imports or messaging workflows](skills/normalize-international-phone-numbers-into-e164-before-crm-imports-or-messaging-workflows/) | 15.6M/wk | libphonenumber-js | Integrations & Connectors |
 | 18 | [Storybook Component Tester](skills/storybook-component-tester/) | 13.7M/wk | storybook | Code Quality & Review |
 | 19 | [MongoDB MCP Server](skills/mongodb-mcp-server/) | 11.2M/wk | mongodb | Developer Tools |
-| 20 | [Twilio MCP Server](skills/twilio-mcp-server/) | 10M/wk | twilio | Integrations & Connectors |
+| 20 | [Twilio MCP Server](skills/twilio-mcp-server/) | 9.9M/wk | twilio | Integrations & Connectors |
 | 21 | [Prisma Schema Migrator](skills/prisma-schema-migrator/) | 9.9M/wk | prisma | Library & API Reference |
 | 22 | [Stripe API Reference Navigator](skills/stripe-api-reference-navigator/) | 9.3M/wk | stripe | Library & API Reference |
 | 23 | [MySQL Query Agent](skills/mysql-query-agent/) | 8.9M/wk | mysql | Developer Tools |

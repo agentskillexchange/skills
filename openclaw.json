@@ -2,8 +2,19 @@
   "schema": "openclaw-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-25",
-  "total": 3294,
+  "total": 3295,
   "skills": [
+    {
+      "slug": "runheed",
+      "name": "Runheed",
+      "title": "Runheed",
+      "description": "Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces and breadcrumbs, fix the code and…",
+      "category": "Integrations & Connectors",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/getrunheed/runheed-plugin",
+      "github_repo": "getrunheed/runheed-plugin"
+    },
     {
       "slug": "review-completed-epicstaff-flows-with-bundled-flow-qa",
       "name": "Review completed EpicStaff flows with the bundled Flow QA skill",

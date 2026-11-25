@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-25
-# Total: 3294 skills
+# Total: 3295 skills
+
+## Runheed
+slug: runheed
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces and breadcrumbs, fix the code and…
+url: https://agentskillexchange.com/skills/runheed/
 
 ## Review completed EpicStaff flows with the bundled Flow QA skill
 slug: review-completed-epicstaff-flows-with-bundled-flow-qa
