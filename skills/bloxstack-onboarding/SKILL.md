@@ -2,11 +2,10 @@
 name: "BloxStack Onboarding"
 slug: "bloxstack-onboarding"
 description: "Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a creator wants to set up a team workspace, connect Claude Code, Codex, Cursor or another MCP client, plan their first task, or ask about work their team has added."
+verification: "listed"
+source: "https://github.com/BloxStack/skills/tree/main/skills/bloxstack-onboarding"
 category: "Integrations & Connectors"
 framework: "MCP"
-verification: listed
-source: "https://github.com/BloxStack/skills/tree/main/skills/bloxstack-onboarding"
-license: MIT
 ---
 
 # BloxStack Onboarding
