@@ -32,6 +32,7 @@ Clone the Agent Skill Exchange repository and copy this skill directory into the
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
+mkdir -p ~/.agent-skills
 cp -R skills/skills/mailtrap-sending-emails ~/.agent-skills/mailtrap-sending-emails
 ```
 
