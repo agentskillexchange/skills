@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3290 published skills** across **17 categories** · 2,695 security reviewed · Updated 2026-11-24 13:26 UTC
+> **3294 published skills** across **17 categories** · 2,695 security reviewed · Updated 2026-11-25 06:19 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -8,7 +8,7 @@
 
 ## Skills by Category
 
-### 🛠️ Developer Tools (550 skills)
+### 🛠️ Developer Tools (551 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Developer%20Tools&sort=downloads)
 
@@ -457,6 +457,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | Use dsh-cc-tui to run DeepSeek Harness coding-agent sessions from a full-screen terminal with live activity, context… | Security Reviewed | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | Install a Claude Code skill that learns a user's social voice, builds a 14-day content calendar, drafts posts, and… | Published | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | Adds deterministic SQL analysis, dbt-aware tooling, warehouse metadata, lineage, and test-generation workflows… | Published | 552 | 195/wk |
+| [Customize Percho subagent cards with the bundled UI plugin workflow](skills/customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow/) | Generate a TSX replacement for Percho subagent run cards, check host build feedback and themes, then hand off manual… | Security Reviewed | 551 | — |
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | Run Claude Code, Codex CLI, Gemini CLI, or OpenCode through bounded H100 post-training tasks and compare how well… | Security Reviewed | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | Use SWE-ReX when a coding agent needs a consistent runtime interface for local, containerized, or remote shell… | Security Reviewed | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](skills/track-coding-agent-work-evidence-with-agentacct/) | Create a local dashboard that joins coding-agent session logs, token estimates, recorded work steps, and… | Security Reviewed | 537 | — |
@@ -1377,7 +1378,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (221 skills)
+### ✅ Code Quality & Review (222 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1551,6 +1552,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Grade agent trajectories and tool-use decisions with AgentEvals](skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without… | Security Reviewed | 550 | 251k/wk |
 | [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit… | Security Reviewed | 537 | 4.1k/wk |
 | [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI… | Security Reviewed | 530 | — |
+| [Review completed EpicStaff flows with the bundled Flow QA skill](skills/review-completed-epicstaff-flows-with-bundled-flow-qa/) | Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node… | Security Reviewed | 512 | — |
 | [Run agentic quality engineering checks with Agentic QE](skills/run-agentic-quality-engineering-checks-with-agentic-qe/) | Configure Agentic QE in a repository so a coding agent can generate tests, inspect coverage gaps, investigate flaky… | Security Reviewed | 495 | 44.8k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |
 | [Run adversarial code audits with Bug Hunter](skills/run-adversarial-code-audits-with-bug-hunter/) | Use Bug Hunter to run scan-first adversarial code audits where Hunter, Skeptic, and Referee agents check repository… | Security Reviewed | 475 | 92/wk |
@@ -1810,7 +1812,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Zapier Webhook Integration Builder](skills/zapier-webhook-integration-builder/) | Creates and manages Zapier integrations using the Zapier Platform CLI and REST Hooks API. Builds custom triggers,… | Security Reviewed | — | — |
 
 
-### 🔧 CI/CD Integrations (194 skills)
+### 🔧 CI/CD Integrations (195 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=CI%2FCD%20Integrations&sort=downloads)
 
@@ -1925,6 +1927,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=CI%2
 | [GitHub Actions Matrix Strategy Builder](skills/github-actions-matrix-strategy-builder/) | Generates optimized GitHub Actions workflow matrices using the actions/setup-node, actions/cache, and… | Security Reviewed | 4.7k | — |
 | [Monitor one pull request through CI and review with Tstack babysit-pr](skills/monitor-pull-request-ci-review-tstack-babysit-pr/) | Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness… | Security Reviewed | 4.1k | — |
 | [Draft release notes continuously with Release Drafter](skills/draft-release-notes-continuously-with-release-drafter/) | Keep a living release draft in GitHub so merged pull requests are organized into release notes before ship day. | Security Reviewed | 3.9k | — |
+| [Promote a verified artifact bundle to one Kargo Stage](skills/promote-verified-artifact-bundle-to-one-kargo-stage/) | Check an exact Freight bundle against Stage eligibility, submit an authorized Kargo promotion and report deployment… | Security Reviewed | 3.8k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | Validate workflow syntax, expressions, and shell steps before broken GitHub Actions changes reach CI. | Security Reviewed | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](skills/aws-cloudwatch-alarm-builder/) | Creates and manages CloudWatch alarms using the AWS SDK for JavaScript v3 (@aws-sdk/client-cloudwatch). Configures… | Security Reviewed | 3.6k | — |
 | [AWS CodePipeline Orchestrator](skills/aws-codepipeline-orchestrator/) | Manages AWS CodePipeline stages and actions using AWS SDK for JavaScript (CodePipeline, CodeBuild, CodeDeploy APIs).… | Security Reviewed | 3.6k | — |
@@ -2543,7 +2546,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Xquik X Actors on Apify](skills/xquik-apify-x-actors/) | Run Xquik's public Apify Actors for X tweet collection, timelines, search, followers, lists, communities, and… | Published | — | — |
 
 
-### 📚 Library & API Reference (136 skills)
+### 📚 Library & API Reference (137 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Library%20%26%20API%20Reference&sort=downloads)
 
@@ -2619,6 +2622,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Libr
 | [Anthropic SDK Token Usage Logger](skills/anthropic-sdk-token-usage-logger/) | Instruments Anthropic API calls to log token usage, latency, and cost per request using the Anthropic TypeScript… | Security Reviewed | 1.9k | 14.5M/wk |
 | [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | Give coding agents a PostgreSQL-specific reference layer with semantic doc search and curated schema, indexing, and… | Security Reviewed | 1.7k | 444/wk |
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | Use jCodeMunch MCP when an agent needs precise symbol lookups, outlines, call-graph context, and targeted source… | Security Reviewed | 1.6k | — |
+| [Build and verify local Swift MCP tool endpoints](skills/build-and-verify-local-swift-mcp-tool-endpoints/) | Expose a selected Swift operation as an MCP tool, then check discovery, argument handling and results through a… | Security Reviewed | 1.6k | — |
 | [Microsoft Learn MCP Server](skills/microsoft-learn-mcp-server/) | Microsoft Learn MCP Server gives agents and IDE assistants direct access to official Microsoft documentation and… | Security Reviewed | 1.5k | — |
 | [Build MCP servers and clients for PHP applications with the official PHP SDK](skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | Use the official Model Context Protocol PHP SDK to expose PHP application capabilities as MCP tools, resources, and… | Security Reviewed | 1.5k | — |
 | [Build source-owned API and MCP documentation with Sourcey](skills/build-source-owned-api-and-mcp-documentation-with-sourcey/) | Use Sourcey to turn OpenAPI, MCP, Doxygen, godoc, rustdoc, MkDocs, and Markdown sources into static documentation,… | Security Reviewed | 1.4k | 6.1k/wk |

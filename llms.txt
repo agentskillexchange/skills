@@ -1,7 +1,39 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-24
-# Total: 3290 skills
+# Generated: 2026-11-25
+# Total: 3294 skills
+
+## Review completed EpicStaff flows with the bundled Flow QA skill
+slug: review-completed-epicstaff-flows-with-bundled-flow-qa
+category: Code Quality & Review
+framework: Custom Agents
+verification: Security Reviewed
+description: Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node contracts.
+url: https://agentskillexchange.com/skills/review-completed-epicstaff-flows-with-bundled-flow-qa/
+
+## Promote a verified artifact bundle to one Kargo Stage
+slug: promote-verified-artifact-bundle-to-one-kargo-stage
+category: CI/CD Integrations
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check an exact Freight bundle against Stage eligibility, submit an authorized Kargo promotion and report deployment and verification evidence.
+url: https://agentskillexchange.com/skills/promote-verified-artifact-bundle-to-one-kargo-stage/
+
+## Customize Percho subagent cards with the bundled UI plugin workflow
+slug: customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Generate a TSX replacement for Percho subagent run cards, check host build feedback and themes, then hand off manual plugin enablement.
+url: https://agentskillexchange.com/skills/customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow/
+
+## Build and verify local Swift MCP tool endpoints
+slug: build-and-verify-local-swift-mcp-tool-endpoints
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Expose a selected Swift operation as an MCP tool, then check discovery, argument handling and results through a local stdio client.
+url: https://agentskillexchange.com/skills/build-and-verify-local-swift-mcp-tool-endpoints/
 
 ## Apply atomic tracked Word revisions with SurfSense
 slug: apply-atomic-tracked-word-revisions-with-surfsense

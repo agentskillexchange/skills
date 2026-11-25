@@ -1,8 +1,55 @@
 {
   "version": "2.0",
-  "total": 3290,
-  "generated": "2026-11-24",
+  "total": 3294,
+  "generated": "2026-11-25",
   "skills": [
+    {
+      "slug": "review-completed-epicstaff-flows-with-bundled-flow-qa",
+      "name": "Review completed EpicStaff flows with the bundled Flow QA skill",
+      "title": "Review completed EpicStaff flows with the bundled Flow QA skill",
+      "description": "Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node contracts.",
+      "category": "Code Quality & Review",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/EpicStaff/EpicStaff/blob/d304a01d8c392aa4dafe5f8c2a68bd72f7838c4a/src/django_app/tables/services/flow_assistant/skills/flow-qa/SKILL.md",
+      "github_repo": "EpicStaff/EpicStaff"
+    },
+    {
+      "slug": "promote-verified-artifact-bundle-to-one-kargo-stage",
+      "name": "Promote a verified artifact bundle to one Kargo Stage",
+      "title": "Promote a verified artifact bundle to one Kargo Stage",
+      "description": "Check an exact Freight bundle against Stage eligibility, submit an authorized Kargo promotion and report deployment and verification evidence.",
+      "category": "CI/CD Integrations",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 3808
+      },
+      "source_url": "https://github.com/akuity/kargo",
+      "github_repo": "akuity/kargo"
+    },
+    {
+      "slug": "customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow",
+      "name": "Customize Percho subagent cards with the bundled UI plugin workflow",
+      "title": "Customize Percho subagent cards with the bundled UI plugin workflow",
+      "description": "Generate a TSX replacement for Percho subagent run cards, check host build feedback and themes, then hand off manual plugin enablement.",
+      "category": "Developer Tools",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Jaxton07/percho/blob/e45824bd8974043fc573c9fcc219bf97756936cc/packages/desktop/resources/ui-plugins/skills/percho-ui-plugin/SKILL.md",
+      "github_repo": "Jaxton07/percho"
+    },
+    {
+      "slug": "build-and-verify-local-swift-mcp-tool-endpoints",
+      "name": "Build and verify local Swift MCP tool endpoints",
+      "title": "Build and verify local Swift MCP tool endpoints",
+      "description": "Expose a selected Swift operation as an MCP tool, then check discovery, argument handling and results through a local stdio client.",
+      "category": "Library & API Reference",
+      "framework": "MCP",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/modelcontextprotocol/swift-sdk/blob/234e412874267c16309a4fc76a6e3629c9fea13f/README.md",
+      "github_repo": "modelcontextprotocol/swift-sdk"
+    },
     {
       "slug": "apply-atomic-tracked-word-revisions-with-surfsense",
       "name": "Apply atomic tracked Word revisions with SurfSense",

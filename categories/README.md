@@ -1,20 +1,20 @@
 # Categories
 
-> **3290 skills** across **17 categories**
+> **3294 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **550** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **551** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **275** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **266** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **246** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
-| ✅ | [**Code Quality & Review**](code-quality-review/) | **221** | Linting rules, review checklists, code standards enforcement, and qua... |
+| ✅ | [**Code Quality & Review**](code-quality-review/) | **222** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **196** | Third-party API bridges, webhook handlers, service connectors, and pl... |
-| 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **194** | Pipeline configs, deployment automation, build tooling, and continuou... |
+| 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **195** | Pipeline configs, deployment automation, build tooling, and continuou... |
 | 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **194** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **165** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **148** | Web research, data collection, content aggregation, and information g... |
-| 📚 | [**Library & API Reference**](library-api-reference/) | **136** | SDK documentation, API guides, framework reference material, and libr... |
+| 📚 | [**Library & API Reference**](library-api-reference/) | **137** | SDK documentation, API guides, framework reference material, and libr... |
 | 📅 | [**Calendar, Email & Productivity**](calendar-email-productivity/) | **132** | Email automation, calendar management, task coordination, and product... |
 | 🎨 | [**Image & Creative Automation**](image-creative-automation/) | **131** | Image generation, asset processing, design automation, and creative t... |
 | 🌐 | [**Browser Automation**](browser-automation/) | **129** | Web scraping, UI testing, headless browser control, and browser-based... |
