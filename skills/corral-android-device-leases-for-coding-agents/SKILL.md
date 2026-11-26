@@ -2,10 +2,12 @@
 name: "Corral — Exclusive Android Device Leases for Coding Agents"
 slug: "corral-android-device-leases-for-coding-agents"
 description: "Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or its MCP endpoint. Corral is a local Kotlin/Ktor daemon that queues competing sessions in FIFO order, gates raw adb and Gradle install/test commands at exec time, and refuses a second agent's call instead of letting two runs collide on the same phone."
+verification: "listed"
+source: "https://github.com/ciszkin/corral"
 category: "Developer Tools"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/ciszkin/corral"
+tool_ecosystem:
+  github_repo: "ciszkin/corral"
 ---
 
 # Corral — Exclusive Android Device Leases for Coding Agents
@@ -86,48 +88,9 @@ is host-verified on one box. The daemon binds `127.0.0.1` only.
 
 ## Installation
 
-### From the release bundle (Linux, JDK 17+; Windows uses the same installer)
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
-```sh
-curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.8/corral-0.1.8.zip &&
-curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.8/corral-0.1.8.zip.sha256 &&
-sha256sum -c corral-0.1.8.zip.sha256 &&
-unzip corral-0.1.8.zip -d corral-0.1.8 &&
-(cd corral-0.1.8 && ./install.sh --ui)
-```
-
-The installer is user-scoped and idempotent: it puts the `corral` CLI, an `adb` wrapper and the
-console on `~/bin`, shims the SDK adb, drops the Gradle gate and the agent skill, and starts the
-daemon at login. Requires JDK 17+ and an Android SDK with `platform-tools/adb` on `PATH`. Read
-the installer before running it: https://github.com/ciszkin/corral/blob/v0.1.8/scripts/install.sh
-
-### From source
-
-```sh
-git clone https://github.com/ciszkin/corral
-cd corral
-./gradlew :corral-daemon:shadowJar :corral-ui:shadowJar
-scripts/install.sh --ui
-```
-
-### Install this skill directory
-
-Clone the Agent Skill Exchange repository and copy the skill into the directory your agent reads:
-
-```sh
-git clone https://github.com/agentskillexchange/skills.git
-mkdir -p ~/.claude/skills
-cp -R skills/skills/corral-android-device-leases-for-coding-agents ~/.claude/skills/corral-android-device-leases-for-coding-agents
-```
-
-### Wire the MCP endpoint
-
-```sh
-claude mcp add --transport http corral http://127.0.0.1:8798/mcp
-```
-
-Eight tools: `list_devices`, `queue`, `claim`, `free`, `renew`, `screenshot`, `start_emulator`,
-`stop_emulator`, one identity per MCP session, loopback only.
+- Source: https://github.com/ciszkin/corral
 
 ## Source
 
