@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "event_id_pattern": "[a-z0-9][a-z0-9-]*-control-\\d{8}-\\d{3}",
+  "actors": [
+    "human-authority",
+    "controller",
+    "executor",
+    "auditor",
+    "integrator"
+  ],
+  "event_types": [
+    "intent",
+    "observation",
+    "receipt",
+    "verdict",
+    "hold"
+  ],
+  "decision_classes": [
+    "routine_ops",
+    "design",
+    "substrate",
+    "experiment",
+    "promotion",
+    "release",
+    "authority"
+  ],
+  "states": [
+    "proposed",
+    "precommitted",
+    "ready",
+    "launched",
+    "verified-running",
+    "checkpointed",
+    "complete",
+    "killed",
+    "interpreted",
+    "replicated",
+    "promoted",
+    "retired"
+  ]
+}
