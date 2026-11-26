@@ -26,6 +26,7 @@ used by your agent runtime:
 
 ```bash
 git clone https://github.com/agentskillexchange/skills.git
+mkdir -p ~/.agent-skills
 cp -R skills/skills/nano-fetch ~/.agent-skills/nano-fetch
 ```
 
@@ -47,8 +48,9 @@ ask the person you work for.
    64-hex block hash. The module is found on `PYTHONPATH` (for example `PYTHONPATH=~/wallet`,
    where the operator keeps `mywallet.py`). You never see the key and never write a key, a
    seed or a wallet file yourself.
-2. **A journal** - `--journal FILE`: one file per agent, kept between runs. `--signer`
-   without `--journal` is refused.
+2. **A journal** - `--journal FILE`: kept between runs. `--signer` without `--journal` is
+   refused. Several agents or processes may share one journal: every payment decision is
+   made under an exclusive lock on `FILE.lock` next to it.
 3. **The limits, in raw** (1 XNO = 10**30 raw): `--cap-raw N` per call, `--budget-raw N`
    over the whole journal (default 10 x the cap). A price over either is refused before the
    signer is called.
@@ -89,8 +91,14 @@ send to this one request. Leave it off unless the operator asked for it.
 - Checks, in order, before the signer is called: the network, the `payTo` checksum, the
   amount (integer raw, never a float), the cap, the binding, the journal (replay), then the
   budget. An `exact` accept without the binding is not paid.
-- The proof header is sent to the URL that quoted the price only; it is not carried to a
-  redirect target.
+- One order is one payment: replay is keyed on the network, the binding scheme, the
+  `orderId`, the recipient's public key (an `xrb_` and a `nano_` spelling of one account are
+  the same recipient) and the amount in raw. The URL is not part of it, so the same order
+  quoted at `/paid?view=a` and `/paid?view=b` is paid once; distinct orders stay distinct.
+- Redirects: a 402 that arrives after a redirect is refused before anything is signed
+  (`redirected_quote`; the reason names the URL that quoted, to be fetched directly). The
+  paid retry goes to the quoting URL only, with redirects off: a 3xx answer to it is returned
+  as is, and the proof header is never sent to any other URL.
 - A paid retry that meets 402 again is returned as is: one request never pays twice.
 
 ## Read the answer
@@ -98,24 +106,44 @@ send to this one request. Leave it off unless the operator asked for it.
 | exit | meaning | what you do |
 |------|---------|-------------|
 | 0 | a 2xx or 3xx answer, paid or free | use the body (stdout or `-o FILE`) |
-| 1 | another HTTP status, or no connection | report it; nothing was paid unless stderr says `paid` |
+| 1 | failed before any payment: another HTTP status, or no connection | report it; nothing was paid |
 | 2 | usage: a bad flag, URL or signer | fix the command; nothing was paid |
 | 3 | a 402 that was not paid; stderr names why | report the reason; do not raise the cap on your own |
 | 4 | paid, and the retry still met 402 | stop; the payment is in the journal; report the hash on stderr |
+| 5 | paid, but the delivery failed (connection error, timeout or another status on the paid retry) | stop; report the order and hash stderr names; never pay that order again |
+| 6 | the journal is corrupt (a torn or malformed line); nothing was signed | stop; ask a person to reconcile the journal |
+| 7 | the journal cannot be locked or opened; nothing was signed | stop; report it |
+
+Whenever a payment was made, stderr has a line `paid <amount> raw, order <orderId>, hash
+<blockHash>`, also when the retry fails afterwards.
 
 Reasons on stderr after `402 not paid:` include `not_configured` (no signer or journal),
 `over_cap`, `over_budget`, `bad_checksum`, `unbound` (no order binding; a send-hash quote
 is paid only with `--allow-unbound`), `signer_no_hash` (the signer returned no hash; the intent stays in the
-journal and that order is never paid again) and `replayed` (the order is already in the
-journal).
+journal and that order is never paid again), `signer_error` (the signer raised; the same),
+`redirected_quote` (the 402 came after a redirect), `replayed` (the order is already in the
+journal), `journal_corrupt` (exit 6) and `journal_unavailable` (exit 7).
 
 ## The journal
 
 One JSON object a line, flushed and fsynced: an `intent` line (`key`, `amount_raw`,
 `orderId`, `url`) before the signer is called, and a `paid` line (`key`, `amount_raw`,
 `orderId`, `blockHash`) after. Every key in it is a replay, so an order handed to the signer
-once is never handed to it again, across a crash or a restart. To know what was spent, add
-`amount_raw` over the `paid` lines. Never edit or delete the file.
+once is never handed to it again, across a crash or a restart.
+
+Reserving a payment is one transaction under an exclusive lock on `FILE.lock`
+(`fcntl.flock`, or `msvcrt.locking` on Windows; where neither exists nothing is paid, exit
+7): reload the journal from disk, check replay and budget, write and fsync the `intent`,
+release the lock, and only then call the signer. Two processes sharing a journal therefore
+never both pay one order or both take the last of the budget. An `intent` without a `paid`
+line (the signer crashed or returned nothing) stays reserved: it counts against the budget
+and its order is never signed again.
+
+The journal is read strictly. Any line that is not a complete record, including a last line
+cut off by a crash, makes every later payment refuse with `journal_corrupt` (exit 6) until a
+person reconciles the file against the wallet; a line is never skipped. To know what was
+spent, add `amount_raw` over the `paid` lines; `intent` lines without one are payments of
+unknown outcome. Do not edit or delete the file yourself.
 
 ## Tests
 
@@ -123,9 +151,12 @@ once is never handed to it again, across a crash or a restart. To know what was 
 python3 -m unittest discover -s skills/nano-fetch -p 'test_*.py'
 ```
 
-Against a loopback seller only: off by default, a v2 and a v1 bound order paid once with the
-order's representative, replay refused after a restart, cap, budget, checksum and a signer
-that returns no hash. No network, no key.
+Against loopback sellers and a dummy signer only: off by default, a v2 and a v1 bound order
+paid once with the order's representative, replay refused after a restart, cap, budget,
+checksum, a signer that returns no hash or raises; two journals on one file settling one
+order, or two orders for the last of the budget, at once; no lock, no payment; a torn
+journal tail; URL and `xrb_` aliases of one order; a redirected quote and a redirect on the
+paid retry; a dropped connection and a timeout on the paid retry. No network, no key.
 
 ## Safety
 

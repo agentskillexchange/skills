@@ -11,7 +11,7 @@ A plan:
      "network": "nano:mainnet", "network_seen": <as the seller wrote it>, "network_mapped": bool,
      "amount_raw": "<digits>", "payTo": "nano_...", "work_threshold": "<hex>"|None,
      "proof": {"header": <name>|None, "field": <what goes in it>},
-     "steps": [<plain words, in order>], "journal_key": "<seller|payTo|amount|nonce>"}
+     "steps": [<plain words, in order>], "journal_key": <see below>}
 
 A refusal:
     {"ok": False, "error": <code>, "detail": <words>}
@@ -24,8 +24,11 @@ carries binding "xno-binding/v1/rep" and an orderId plans as dialect "rep-bindin
 adds "binding", "orderId" and "representative" (the nano_ account of SHA-256("xno-binding/v1/rep|" +
 orderId + "|" + payTo + "|" + amountRaw), order_representative(), read from profullstack/x402-gateway
 0.18.2 src/nano.js:182-190 and :133-141); the send is published with that representative and confirmed,
-then payload.orderId + payload.blockHash are presented. journal_key ends in the orderId, so one order is
-never planned twice. Network "nano" (x402-gateway's name, src/x402.js:126) is read as Nano mainnet for a
+then payload.orderId + payload.blockHash are presented. A bound order's journal_key is bound_order_key():
+built from the canonical binding inputs only (network, binding scheme, orderId, the payTo's public key
+re-encoded as nano_, amount raw), never from the URL, so the same order quoted at another URL or with an
+xrb_ payTo is still one order and is never planned twice; distinct orders stay distinct. Unbound quotes
+keep "<seller|payTo|amount|nonce>". Network "nano" (x402-gateway's name, src/x402.js:126) is read as Nano mainnet for a
 bound accept only. Checks: network, payTo checksum, amount, cap, then the binding, then replay. Either of
 the two orderIds one gateway 402 carries (body and header) binds: the seller checks statelessly (see
 client_fit.py, rep-binding).
@@ -55,13 +58,13 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 try:  # installed as the xno_buyer_plan package
-    from .client_fit import (ORDER_ID, REP_BINDING, _header, _norm_accept, account_from_key, dialect_of,
-                             nano_checksum_ok, parse_402)
+    from .client_fit import (ALPHABET, ORDER_ID, REP_BINDING, _header, _norm_accept, account_from_key,
+                             dialect_of, nano_checksum_ok, parse_402)
     from .wallets import wallet_calls
 except ImportError:  # loose files, not a package
     sys.path.insert(0, os.path.dirname(HERE))
-    from client_fit import (ORDER_ID, REP_BINDING, _header, _norm_accept, account_from_key,  # noqa: E402
-                            dialect_of, nano_checksum_ok, parse_402)
+    from client_fit import (ALPHABET, ORDER_ID, REP_BINDING, _header, _norm_accept,  # noqa: E402
+                            account_from_key, dialect_of, nano_checksum_ok, parse_402)
     sys.path.insert(0, HERE)
     from wallets import wallet_calls  # noqa: E402
 
@@ -110,6 +113,27 @@ def _amount_cap(amount, cap_raw):
 
 def _key(seller_url, pay_to, amount, nonce=""):
     return "|".join([seller_url or "", pay_to or "", str(amount or ""), nonce or ""])
+
+
+def canonical_account(address):
+    """A nano_/xrb_ address -> the nano_ encoding of its 32-byte public key, or None when the address is
+    not a valid account (bad alphabet, length, padding bits or blake2b-40 checksum). nano_X and xrb_X are
+    the same key and give the same answer."""
+    if not nano_checksum_ok(address):
+        return None
+    rest = address.split("_", 1)[1]
+    bits = "".join(format(ALPHABET.index(c), "05b") for c in rest)
+    return account_from_key(int(bits[4:260], 2).to_bytes(32, "big"))
+
+
+def bound_order_key(network, binding, order_id, pay_to, amount_raw):
+    """The replay identity of a bound order: what the bound representative commits to (orderId, payTo,
+    amount), plus the network and binding scheme so other networks or bindings never collide. The URL
+    the quote came from is not part of it. Raises ValueError for a payTo that is not a valid account."""
+    account = canonical_account(pay_to)
+    if account is None:
+        raise ValueError("payTo %r is not a valid Nano account" % (pay_to,))
+    return "|".join(["bound", str(network), str(binding), str(order_id), account, str(int(amount_raw))])
 
 
 def _replayed(journal, key):
@@ -183,7 +207,7 @@ def _plan_bound(accept, version, cap_raw, seller_url, journal, extra):
     if not isinstance(order_id, str) or ORDER_ID.fullmatch(order_id) is None:
         return _refuse("binding_order_id", "extra.orderId %r is not 22-128 of A-Za-z0-9_- "
                        "(x402-gateway src/nano.js:167)" % (order_id,))
-    key = _key(seller_url, accept["payTo"], amount, order_id)
+    key = bound_order_key(net, binding, order_id, accept["payTo"], amount)
     if _replayed(journal, key):
         return _refuse("replayed", "this order is already in the journal: " + key)
     rep = order_representative(order_id, accept["payTo"], amount)

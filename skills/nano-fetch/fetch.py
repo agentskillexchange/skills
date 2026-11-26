@@ -21,14 +21,23 @@ from the journal across restarts). Paid quotes:
     with --allow-unbound, since nothing in it binds the send to this one request.
 A paid retry that meets 402 again is returned as is (exit 4); one request never pays twice.
 
+Redirects: a 402 reached through a redirect is refused before anything is signed (redirected_quote; the
+refusal names the effective URL, to be fetched directly). The paid retry goes to the quoting URL only, with
+redirects off: a 3xx answer to it is returned as is and the proof is never sent to another URL.
+
     python3 fetch.py URL [--signer mywallet.sign] [--journal pay.jsonl]
         [--cap-raw N] [--budget-raw N] [--allow-unbound] [-X METHOD] [-H 'Name: value']... [-d DATA]
         [-o FILE] [--timeout S]
 
-Exit: 0 a 2xx/3xx answer (paid or not), 1 any other HTTP status or a connection error, 2 usage,
-3 a 402 not paid (refusal named on stderr), 4 the paid retry met 402 again.
+Exit: 0 a 2xx/3xx answer (paid or not), 1 failed before any payment (another HTTP status or a connection
+error; nothing was paid), 2 usage, 3 a 402 not paid (refusal named on stderr), 4 paid and the retry met 402
+again, 5 paid but the delivery failed (a connection error, timeout or non-2xx/3xx answer on the paid retry;
+stderr names the order and hash to re-present), 6 the journal is corrupt (a torn or malformed line; nothing
+signed until a person reconciles it), 7 the journal cannot be locked or opened (nothing signed).
 """
 import argparse
+import copy
+import http.client
 import json
 import os
 import sys
@@ -39,26 +48,44 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 from middleware import DEFAULT_CAP_RAW, Journal, load_signer, settle_402  # noqa: E402  (next to this file)
 
 
+EXIT_OK, EXIT_FAILED_UNPAID, EXIT_USAGE, EXIT_NOT_PAID, EXIT_PAID_402, EXIT_PAID_UNDELIVERED = 0, 1, 2, 3, 4, 5
+EXIT_JOURNAL_CORRUPT, EXIT_JOURNAL_UNAVAILABLE = 6, 7
+
+# errors a request can raise once it is sent (URLError and socket timeouts are OSError)
+DELIVERY_ERRORS = (OSError, http.client.HTTPException, ValueError)
+
+
 class Result:
-    def __init__(self, status, headers, body, paid=None, refusal=None):
+    def __init__(self, status, headers, body, paid=None, refusal=None, delivery_error=None):
         self.status, self.headers, self.body = status, headers, body
         self.paid = paid          # {"orderId", "blockHash", "amount_raw", "header"} when a payment was made
         self.refusal = refusal    # (code, detail) when a 402 was not paid
+        self.delivery_error = delivery_error  # words, when paid and the retry raised (status is then None)
 
 
 def _request(url, method, headers, data, timeout, opener, proof=None):
+    """-> (status, headers, body, effective URL after any redirects the opener followed)."""
     req = urllib.request.Request(url, data=data, method=method, headers=dict(headers))
     if proof is not None:
-        # The payment proof goes to the URL that quoted the price and nowhere else: an unredirected header is
-        # not copied onto a redirect (urllib copies ordinary headers to any host a 3xx names).
+        # Belt and braces: the paid retry's opener follows no redirect, and an unredirected header is never
+        # copied onto one (urllib copies ordinary headers to any host a 3xx names).
         req.add_unredirected_header(*proof)
     try:
         resp = opener.open(req, timeout=timeout)
     except urllib.error.HTTPError as e:  # 402 and every other non-2xx arrive here
         body = e.read()
-        return e.code, {k: v for k, v in e.headers.items()}, body
+        return e.code, {k: v for k, v in e.headers.items()}, body, e.geturl() or req.full_url
     with resp:
-        return resp.status, {k: v for k, v in resp.headers.items()}, resp.read()
+        return resp.status, {k: v for k, v in resp.headers.items()}, resp.read(), resp.geturl() or req.full_url
+
+
+def _without_redirects(opener):
+    """A copy of opener that follows no redirect: a 3xx comes back as the answer itself."""
+    o = urllib.request.OpenerDirector()
+    for h in opener.handlers:
+        if not isinstance(h, urllib.request.HTTPRedirectHandler):
+            o.add_handler(copy.copy(h))
+    return o
 
 
 def fetch(url, signer=None, journal_path=None, cap_raw=DEFAULT_CAP_RAW, budget_raw=None, method="GET",
@@ -66,12 +93,18 @@ def fetch(url, signer=None, journal_path=None, cap_raw=DEFAULT_CAP_RAW, budget_r
     """Fetch url; pay one Nano 402 when signer and journal_path are both given. Returns a Result."""
     opener = opener or urllib.request.build_opener()
     headers = dict(headers or {})
-    status, rh, body = _request(url, method, headers, data, timeout, opener)
+    status, rh, body, effective = _request(url, method, headers, data, timeout, opener)
     if status != 402:
         return Result(status, rh, body)
     if signer is None or not journal_path:
         return Result(status, rh, body, refusal=("not_configured", "a 402 needs --signer and --journal to be "
                                                  "paid; nothing was paid"))
+    if effective != urllib.request.Request(url).full_url:
+        # The quote came from another URL than the one asked for. Paying it would mean retrying a URL that
+        # did not quote, or sending the proof somewhere the caller did not name: refuse before signing.
+        return Result(status, rh, body, refusal=("redirected_quote", "the 402 came after a redirect to %s; "
+                                                 "nothing was paid; fetch that URL directly to pay it"
+                                                 % effective))
     cap_raw = str(int(cap_raw))
     budget_raw = int(budget_raw) if budget_raw is not None else 10 * int(cap_raw)
     r = settle_402(rh, body, url, signer, Journal(journal_path), cap_raw, budget_raw,
@@ -82,7 +115,12 @@ def fetch(url, signer=None, journal_path=None, cap_raw=DEFAULT_CAP_RAW, budget_r
     plan = r["plan"]
     paid = {"orderId": plan.get("orderId"), "blockHash": r["blockHash"], "amount_raw": plan["amount_raw"],
             "header": name}
-    status, rh, body = _request(url, method, headers, data, timeout, opener, proof=(name, value))
+    try:
+        status, rh, body, _ = _request(url, method, headers, data, timeout, _without_redirects(opener),
+                                       proof=(name, value))
+    except DELIVERY_ERRORS as e:
+        # paid and journalled: the payment must still be reported, with what is needed to re-present it
+        return Result(None, {}, b"", paid=paid, delivery_error="%s: %s" % (type(e).__name__, e))
     refusal = None
     if status == 402:
         refusal = ("paid_retry_402", "the paid retry met 402 again; not paying twice for one request")
@@ -139,12 +177,17 @@ def main(argv=None, out=None, err=None):
         r = fetch(a.url, signer=signer, journal_path=a.journal, cap_raw=a.cap_raw, budget_raw=a.budget_raw,
                   method=method, headers=dict(a.header), data=data, timeout=a.timeout,
                   allow_unbound=a.allow_unbound)
-    except (urllib.error.URLError, OSError, ValueError) as e:
-        print("nano_fetch: %s" % e, file=err)
-        return 1
+    except DELIVERY_ERRORS as e:  # only before any payment: fetch catches every error after the signer
+        print("nano_fetch: nothing was paid: %s" % e, file=err)
+        return EXIT_FAILED_UNPAID
     if r.paid:
-        print("nano_fetch: paid %s raw, hash %s, presented in %s"
-              % (r.paid["amount_raw"], r.paid["blockHash"], r.paid["header"]), file=err)
+        print("nano_fetch: paid %s raw, order %s, hash %s, presented in %s"
+              % (r.paid["amount_raw"], r.paid["orderId"], r.paid["blockHash"], r.paid["header"]), file=err)
+    if r.paid and r.delivery_error:
+        print("nano_fetch: paid but delivery failed: %s; order %s, hash %s is in the journal; re-present "
+              "that hash for that order, never pay it again" % (r.delivery_error, r.paid["orderId"],
+                                                                r.paid["blockHash"]), file=err)
+        return EXIT_PAID_UNDELIVERED
     if r.refusal:
         print("nano_fetch: 402 not paid: %s (%s)" % r.refusal, file=err)
     if a.output:
@@ -154,8 +197,21 @@ def main(argv=None, out=None, err=None):
         out.write(r.body)
         out.flush()
     if r.status == 402:
-        return 4 if r.paid else 3
-    return 0 if 200 <= r.status < 400 else 1
+        if r.paid:
+            return EXIT_PAID_402
+        if r.refusal and r.refusal[0] == "journal_corrupt":
+            return EXIT_JOURNAL_CORRUPT
+        if r.refusal and r.refusal[0] == "journal_unavailable":
+            return EXIT_JOURNAL_UNAVAILABLE
+        return EXIT_NOT_PAID
+    if 200 <= r.status < 400:
+        return EXIT_OK
+    if r.paid:
+        print("nano_fetch: paid but delivery failed: the paid retry answered %d; order %s, hash %s is in the "
+              "journal; re-present it, never pay it again" % (r.status, r.paid["orderId"], r.paid["blockHash"]),
+              file=err)
+        return EXIT_PAID_UNDELIVERED
+    return EXIT_FAILED_UNPAID
 
 
 if __name__ == "__main__":

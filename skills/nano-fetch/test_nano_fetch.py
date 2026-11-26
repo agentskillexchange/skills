@@ -11,12 +11,16 @@ import socket
 import sys
 import tempfile
 import threading
+import time
+import types
 import unittest
+import unittest.mock
 import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import fetch as nf  # noqa: E402
+import middleware as mw  # noqa: E402
 from xno_buyer_plan.plan import order_representative  # noqa: E402
 
 RAW_PER_XNO = 10 ** 30
@@ -215,6 +219,267 @@ class Command(Base):
         err = io.StringIO()
         rc = nf.main(["https://seller.example/x", "--cap-raw", "0.1"], out=io.BytesIO(), err=err)
         self.assertEqual(rc, 2)
+
+
+
+# ---- regression tests for the review of #181 -------------------------------------------------------------
+
+ORDER_B = "Zq9pY8sDk2Wj6eLx0RvT5h"
+XRB_PAY_TO = "xrb_" + PAY_TO[len("nano_"):]  # the same public key, the legacy prefix
+
+
+def serve_fn(route):
+    """A loopback server whose answers come from route(path, headers) -> (code, headers, body), or the
+    string "drop" (close the connection without an answer), or ("sleep", seconds, answer)."""
+    class H(http.server.BaseHTTPRequestHandler):
+        def log_message(self, *a):
+            pass
+
+        def do_GET(self):
+            ans = route(self.path, {k.lower(): v for k, v in self.headers.items()})
+            if ans == "drop":
+                self.close_connection = True
+                return
+            if ans[0] == "sleep":
+                time.sleep(ans[1])
+                ans = ans[2]
+            code, headers, body = ans
+            try:
+                self.send_response(code)
+                for k, v in headers.items():
+                    self.send_header(k, v)
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+            except OSError:
+                pass
+
+    srv = http.server.HTTPServer(("127.0.0.1", 0), H)
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    return srv
+
+
+class SlowSigner:
+    """Thread-safe dummy signer that takes a moment, so two settlements overlap."""
+
+    def __init__(self):
+        self.calls, self.lock = [], threading.Lock()
+
+    def __call__(self, order):
+        with self.lock:
+            self.calls.append(order)
+        time.sleep(0.2)
+        return HASH
+
+
+class Review(Base):
+    def setUp(self):
+        super().setUp()
+        self.modules = []
+        # the command builds urllib's default opener: keep any proxy from the environment out of loopback runs
+        env = unittest.mock.patch.dict(os.environ, {"no_proxy": "*", "NO_PROXY": "*"})
+        env.start()
+        self.addCleanup(env.stop)
+
+    def tearDown(self):
+        for m in self.modules:
+            sys.modules.pop(m, None)
+        super().tearDown()
+
+    def serve_fn(self, route):
+        srv = serve_fn(route)
+        self.servers.append(srv)
+        return "http://127.0.0.1:%d" % srv.server_address[1]
+
+    def signer_module(self, signer):
+        name = "nf_review_signer_%d" % len(self.modules)
+        mod = types.ModuleType(name)
+        mod.sign = signer
+        sys.modules[name] = mod
+        self.modules.append(name)
+        return name + ".sign"
+
+    def settle_in_threads(self, quotes, budget):
+        """One thread per quote, each with its OWN Journal on the same file, released together."""
+        journals = [mw.Journal(self.journal) for _ in quotes]
+        signer, results, gate = SlowSigner(), [None] * len(quotes), threading.Barrier(len(quotes))
+
+        def run(i):
+            h, b = quotes[i]
+            gate.wait()
+            results[i] = mw.settle_402(h, json.dumps(b).encode(), "http://127.0.0.1/paid", signer,
+                                       journals[i], CAP, budget)
+        threads = [threading.Thread(target=run, args=(i,)) for i in range(len(quotes))]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        return signer, results
+
+    # 1. replay and budget are one transaction across journal users
+    def test_two_journals_settling_one_order_at_once_sign_it_once(self):
+        signer, results = self.settle_in_threads([v2_quote(), v2_quote()], budget=PRICE)
+        self.assertEqual(len(signer.calls), 1)
+        self.assertEqual(sorted(r["ok"] for r in results), [False, True])
+        self.assertIn([r["error"] for r in results if not r["ok"]][0], ("replayed", "over_budget"))
+        h, b = v2_quote()  # restart: a new Journal on the same file sees the reservation
+        again = Signer()
+        r = mw.settle_402(h, json.dumps(b).encode(), "http://127.0.0.1/paid", again, mw.Journal(self.journal),
+                          CAP, str(10 * int(PRICE)))
+        self.assertEqual((r["ok"], r["error"], again.calls), (False, "replayed", []))
+
+    def test_two_journals_competing_for_the_last_budget_unit_sign_once(self):
+        signer, results = self.settle_in_threads([v2_quote(), v2_quote(order=ORDER_B)], budget=PRICE)
+        self.assertEqual(len(signer.calls), 1)
+        self.assertEqual([r["error"] for r in results if not r["ok"]], ["over_budget"])
+        h, b = v2_quote(order="Cc9pY8sDk2Wj6eLx0RvT5c")  # restart: the spent budget is still spent
+        again = Signer()
+        r = mw.settle_402(h, json.dumps(b).encode(), "http://127.0.0.1/paid", again, mw.Journal(self.journal),
+                          CAP, PRICE)
+        self.assertEqual((r["ok"], r["error"], again.calls), (False, "over_budget", []))
+
+    def test_without_a_file_lock_nothing_is_signed(self):
+        url, signer = self.url(Seller(v2_quote(), "PAYMENT-SIGNATURE")), Signer()
+        with unittest.mock.patch.object(mw, "fcntl", None, create=True), \
+                unittest.mock.patch.object(mw, "msvcrt", None, create=True):
+            r = self.fetch(url, signer=signer, journal_path=self.journal)
+            rc = nf.main([url, "--signer", self.signer_module(signer), "--journal", self.journal,
+                          "--cap-raw", CAP], out=io.BytesIO(), err=io.StringIO())
+        self.assertEqual((r.refusal[0], rc, signer.calls), ("journal_unavailable", 7, []))
+
+    # 2. a torn journal refuses to sign; a crash inside the signer leaves the order reserved
+    def test_a_torn_journal_tail_refuses_to_sign_until_reconciled(self):
+        with open(self.journal, "w", encoding="utf-8") as f:
+            f.write('{"torn":')
+        url = self.url(Seller(v2_quote(), "PAYMENT-SIGNATURE"))
+
+        def crash(order):
+            crash.calls.append(order)
+            raise RuntimeError("interrupted before a hash came back")
+        crash.calls = []
+        try:
+            r = self.fetch(url, signer=crash, journal_path=self.journal)
+        except RuntimeError:
+            r = None
+        self.assertEqual(crash.calls, [])
+        self.assertEqual(r.refusal[0], "journal_corrupt")
+        again = Signer()  # restart: still refused, still nothing signed
+        r = self.fetch(url, signer=again, journal_path=self.journal)
+        self.assertEqual((r.refusal[0], again.calls), ("journal_corrupt", []))
+        rc = nf.main([url, "--signer", self.signer_module(again), "--journal", self.journal],
+                     out=io.BytesIO(), err=io.StringIO())
+        self.assertEqual((rc, again.calls), (6, []))
+
+    def test_a_signer_that_raises_leaves_the_order_reserved_across_a_restart(self):
+        url = self.url(Seller(v2_quote(), "PAYMENT-SIGNATURE"))
+
+        def crash(order):
+            crash.calls.append(order)
+            raise RuntimeError("interrupted after publishing")
+        crash.calls = []
+        r = self.fetch(url, signer=crash, journal_path=self.journal)
+        self.assertEqual((len(crash.calls), r.refusal[0]), (1, "signer_error"))
+        again = Signer()
+        r = self.fetch(url, signer=again, journal_path=self.journal)
+        self.assertEqual((r.refusal[0], again.calls), ("replayed", []))
+
+    # 3. replay identity is the bound order, not the URL or the payTo spelling
+    def test_url_aliases_of_one_order_are_paid_once(self):
+        seller = Seller(v2_quote(), "PAYMENT-SIGNATURE")
+        base = self.url(seller, "")
+        self.fetch(base + "/paid?view=a", signer=Signer(), journal_path=self.journal)
+        again = Signer()
+        r = self.fetch(base + "/paid?view=b", signer=again, journal_path=self.journal)
+        self.assertEqual((r.refusal[0], again.calls), ("replayed", []))
+
+    def test_nano_and_xrb_spellings_of_one_recipient_are_paid_once(self):
+        seller = Seller(v2_quote(), "PAYMENT-SIGNATURE")
+        url = self.url(seller)
+        self.fetch(url, signer=Signer(), journal_path=self.journal)
+        seller.headers, seller.body = v2_quote(pay_to=XRB_PAY_TO)
+        again = Signer()
+        r = self.fetch(url, signer=again, journal_path=self.journal)
+        self.assertEqual((r.refusal[0], again.calls), ("replayed", []))
+
+    def test_distinct_orders_at_one_url_are_both_paid(self):
+        seller = Seller(v2_quote(), "PAYMENT-SIGNATURE")
+        url, signer = self.url(seller), Signer()
+        self.fetch(url, signer=signer, journal_path=self.journal)
+        seller.headers, seller.body = v2_quote(order=ORDER_B)
+        r = self.fetch(url, signer=signer, journal_path=self.journal)
+        self.assertEqual((r.status, len(signer.calls)), (200, 2))
+
+    # 4. redirects: a redirected quote is not signed; the paid retry follows no redirect
+    def test_a_quote_reached_through_a_redirect_is_refused_before_signing(self):
+        qh, qb = v2_quote()
+        b_seen = []
+
+        def seller_b(path, hdrs):
+            b_seen.append(hdrs)
+            if "payment-signature" in hdrs:
+                return 200, {}, b"paid page"
+            return 402, qh, json.dumps(qb).encode()
+        b = self.serve_fn(seller_b)
+        a = self.serve_fn(lambda path, hdrs: (302, {"Location": b + "/paid"}, b""))
+        signer = Signer()
+        r = self.fetch(a + "/start", signer=signer, journal_path=self.journal)
+        self.assertEqual((r.status, r.refusal[0], signer.calls), (402, "redirected_quote", []))
+        self.assertIn(b + "/paid", r.refusal[1])
+        self.assertFalse(any("payment-signature" in h for h in b_seen))
+
+    def test_the_paid_retry_does_not_follow_a_redirect(self):
+        qh, qb = v2_quote()
+        other_seen = []
+        other = self.serve_fn(lambda path, hdrs: other_seen.append(hdrs) or (200, {}, b"elsewhere"))
+
+        def seller(path, hdrs):
+            if "payment-signature" in hdrs:
+                return 302, {"Location": other + "/next"}, b""
+            return 402, qh, json.dumps(qb).encode()
+        signer = Signer()
+        r = self.fetch(self.serve_fn(seller) + "/paid", signer=signer, journal_path=self.journal)
+        self.assertEqual((r.status, len(signer.calls)), (302, 1))
+        self.assertEqual(r.paid["blockHash"], HASH.upper())
+        self.assertEqual(other_seen, [])
+
+    # 5. a paid retry that cannot be delivered still reports the payment
+    def paid_then(self, answer):
+        qh, qb = v2_quote()
+
+        def seller(path, hdrs):
+            if "payment-signature" in hdrs:
+                return answer
+            return 402, qh, json.dumps(qb).encode()
+        return self.serve_fn(seller) + "/paid"
+
+    def test_a_dropped_connection_on_the_paid_retry_still_reports_paid(self):
+        url, signer, err = self.paid_then("drop"), Signer(), io.StringIO()
+        rc = nf.main([url, "--signer", self.signer_module(signer), "--journal", self.journal,
+                      "--cap-raw", CAP], out=io.BytesIO(), err=err)
+        self.assertEqual((rc, len(signer.calls)), (5, 1))
+        text = err.getvalue()
+        self.assertIn("paid but delivery failed", text)
+        self.assertIn(HASH.upper(), text)
+        self.assertIn(ORDER, text)
+        self.assertEqual(self.journal_states(), ["intent", "paid"])
+
+    def test_a_timeout_on_the_paid_retry_keeps_the_paid_status_and_hash(self):
+        url, signer = self.paid_then(("sleep", 1.5, (200, {}, b"late"))), Signer()
+        r = self.fetch(url, signer=signer, journal_path=self.journal, timeout=0.3)
+        self.assertIsNone(r.status)
+        self.assertEqual((r.paid["blockHash"], r.paid["orderId"]), (HASH.upper(), ORDER))
+        self.assertIn("timed out", r.delivery_error)
+
+    def test_a_connection_error_before_any_payment_says_nothing_was_paid(self):
+        s = socket.socket()
+        s.bind(("127.0.0.1", 0))
+        port = s.getsockname()[1]
+        s.close()
+        signer, err = Signer(), io.StringIO()
+        rc = nf.main(["http://127.0.0.1:%d/paid" % port, "--signer", self.signer_module(signer),
+                      "--journal", self.journal], out=io.BytesIO(), err=err)
+        self.assertEqual((rc, signer.calls), (1, []))
+        self.assertIn("nothing was paid", err.getvalue())
 
 
 if __name__ == "__main__":
