@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3302 published skills** across **17 categories** · 2,698 security reviewed · Updated 2026-11-26 13:27 UTC
+> **3303 published skills** across **17 categories** · 2,698 security reviewed · Updated 2026-11-26 19:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -2839,7 +2839,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Cale
 | [Todoist Sync API Task Orchestrator](skills/todoist-sync-api-task-orchestrator/) | Orchestrates complex task workflows using the Todoist Sync API v9 with incremental sync via sync_token. Uses… | Security Reviewed | — | — |
 
 
-### 🎨 Image & Creative Automation (131 skills)
+### 🎨 Image & Creative Automation (132 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Image%20%26%20Creative%20Automation&sort=downloads)
 
@@ -2947,6 +2947,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Imag
 | [Agent Media UGC Video](skills/agent-media-ugc-video/) | Use Agent Media when an agent needs to create captioned vertical UGC videos, narrated b-roll overlays, reusable… | Published | — | 46/wk |
 | [Adobe Firefly API Batch Image Generator](skills/adobe-firefly-api-batch-image-generator/) | Calls Adobe Firefly's text-to-image and generative fill APIs for batch asset creation. Manages Adobe IMS OAuth… | Security Reviewed | — | — |
 | [Adobe Photoshop API Batch Processor](skills/adobe-photoshop-api-batch-processor/) | Automates image editing workflows via the Adobe Photoshop API (Firefly Services). Supports smart object replacement,… | Security Reviewed | — | — |
+| [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll the… | Published | — | — |
 | [Bannerbear Dynamic Image API](skills/bannerbear-dynamic-image-api/) | Generates social media graphics and OG images dynamically via Bannerbear REST API. Manages template modifications,… | Security Reviewed | — | — |
 | [Blender Geometry Nodes Script Generator](skills/blender-geometry-nodes-script-generator/) | Generates Blender Python (bpy) scripts that programmatically create Geometry Nodes modifier trees, using the… | Security Reviewed | — | — |
 | [Cloudinary Asset Optimization Agent](skills/cloudinary-asset-optimization-agent/) | Manages image and video assets using the Cloudinary Node.js SDK and Upload API. Applies automatic format selection,… | Security Reviewed | — | — |

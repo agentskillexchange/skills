@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C302-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C303-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C698-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,302 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,303 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll... | - | Image & Creative Automation |
 | [Corral — Exclusive Android Device Leases for Coding Agents](skills/corral-android-device-leases-for-coding-agents/) | Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or... | - | Developer Tools |
 | [Reconcile CCCC agent-message delivery and reply evidence](skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/) | Inspect an existing CCCC delegation, separate runtime handoff from reads and replies, and return evidence before retrying uncertain... | 1.3k | Runbooks & Diagnostics |
 | [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON... | - | Research & Scraping |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [BloxStack Onboarding](skills/bloxstack-onboarding/) | Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a... | - | Integrations & Connectors |
 | [Runheed](skills/runheed/) | Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces... | - | Integrations & Connectors |
 | [Review completed EpicStaff flows with the bundled Flow QA skill](skills/review-completed-epicstaff-flows-with-bundled-flow-qa/) | Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node contracts | 512 | Code Quality & Review |
-| [Promote a verified artifact bundle to one Kargo Stage](skills/promote-verified-artifact-bundle-to-one-kargo-stage/) | Check an exact Freight bundle against Stage eligibility, submit an authorized Kargo promotion and report deployment and verification... | 3.8k | CI/CD Integrations |
 
 ---
 
@@ -104,6 +104,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
+| [jasonliu119](https://github.com/jasonliu119) | [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll... | Image & Creative Automation |
 | [ciszkin](https://github.com/ciszkin) | [Corral — Exclusive Android Device Leases for Coding Agents](skills/corral-android-device-leases-for-coding-agents/) | Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or... | Developer Tools |
 | [johnisanerd](https://github.com/johnisanerd) | [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON... | Research & Scraping |
 | [darynaivanova-mt](https://github.com/darynaivanova-mt) | [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | Calendar, Email & Productivity |
@@ -113,7 +114,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [dhyabi2](https://github.com/dhyabi2) | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account... | Integrations & Connectors |
 | [mohiddin7](https://github.com/mohiddin7) | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | Templates & Workflows |
 | [livejake](https://github.com/livejake) | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | Data Extraction & Transformation |
-| [yssoft-gif](https://github.com/yssoft-gif) | [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for... | Integrations & Connectors |
 
 ---
 
@@ -152,7 +152,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🔍 | [**Research & Scraping**](categories/research-scraping/) | 149 | Web research, content discovery, data collection |
 | 📚 | [**Library & API Reference**](categories/library-api-reference/) | 137 | SDK docs, API parsers, symbol resolvers |
 | 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 133 | Email automation, calendar management, task coordination |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 131 | Image generation, asset processing, design automation |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 132 | Image generation, asset processing, design automation |
 | 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
 | 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 114 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,302 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,303 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,698 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-26
-# Total: 3302 skills
+# Total: 3303 skills
+
+## AI Dance Video with Danceo
+slug: danceo-ai-dance-video
+category: Image & Creative Automation
+framework: MCP
+verification: Published
+description: Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll the render status.
+url: https://agentskillexchange.com/skills/danceo-ai-dance-video/
 
 ## Corral — Exclusive Android Device Leases for Coding Agents
 slug: corral-android-device-leases-for-coding-agents

@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-26",
-  "total": 3302,
+  "total": 3303,
   "skills": [
+    {
+      "slug": "danceo-ai-dance-video",
+      "name": "AI Dance Video with Danceo",
+      "title": "AI Dance Video with Danceo",
+      "description": "Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll the render status.",
+      "category": "Image & Creative Automation",
+      "framework": "MCP",
+      "verification": "listed",
+      "source_url": "https://github.com/jasonliu119/danceo-ai-dance-mcp-skills",
+      "github_repo": "jasonliu119/danceo-ai-dance-mcp-skills"
+    },
     {
       "slug": "corral-android-device-leases-for-coding-agents",
       "name": "Corral — Exclusive Android Device Leases for Coding Agents",
