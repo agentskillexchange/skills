@@ -116,6 +116,7 @@ Clone the Agent Skill Exchange repository and copy the skill into the directory 
 
 ```sh
 git clone https://github.com/agentskillexchange/skills.git
+mkdir -p ~/.claude/skills
 cp -R skills/skills/corral-android-device-leases-for-coding-agents ~/.claude/skills/corral-android-device-leases-for-coding-agents
 ```
 
