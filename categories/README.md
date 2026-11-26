@@ -1,13 +1,13 @@
 # Categories
 
-> **3297 skills** across **17 categories**
+> **3298 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
 | 🛠️ | [**Developer Tools**](developer-tools/) | **551** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **275** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **266** | Auth setup, vulnerability scanning, compliance checks, and security a... |
-| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **246** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
+| 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **247** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **222** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **198** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **195** | Pipeline configs, deployment automation, build tooling, and continuou... |

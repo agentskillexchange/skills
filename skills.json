@@ -1,8 +1,23 @@
 {
   "version": "2.0",
-  "total": 3297,
-  "generated": "2026-11-25",
+  "total": 3298,
+  "generated": "2026-11-26",
   "skills": [
+    {
+      "slug": "find-evidence-across-pdf-corpus-with-semtools",
+      "name": "Find evidence across a PDF corpus with Semtools",
+      "title": "Find evidence across a PDF corpus with Semtools",
+      "description": "Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected passages and explicit coverage limits.",
+      "category": "Data Extraction & Transformation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 1888,
+        "npm_weekly_downloads": 146
+      },
+      "source_url": "https://github.com/run-llama/semtools",
+      "github_repo": "run-llama/semtools"
+    },
     {
       "slug": "mailtrap-sending-emails",
       "name": "Mailtrap Sending Emails",

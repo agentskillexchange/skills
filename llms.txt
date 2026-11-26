@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-25
-# Total: 3297 skills
+# Generated: 2026-11-26
+# Total: 3298 skills
+
+## Find evidence across a PDF corpus with Semtools
+slug: find-evidence-across-pdf-corpus-with-semtools
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected passages and explicit coverage limits.
+url: https://agentskillexchange.com/skills/find-evidence-across-pdf-corpus-with-semtools/
 
 ## Mailtrap Sending Emails
 slug: mailtrap-sending-emails

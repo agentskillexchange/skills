@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C297-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C298-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C696-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,297 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,298 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/)** — Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across multiple AI agents.
+**[AppFlowy Open Source Collaborative Workspace](skills/appflowy-open-source-collaborative-workspace/)** — AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project, docs, and deployment methods…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
 | [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | - | Calendar, Email & Productivity |
 | [BloxStack Onboarding](skills/bloxstack-onboarding/) | Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a... | - | Integrations & Connectors |
 | [Runheed](skills/runheed/) | Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces... | - | Integrations & Connectors |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Build and verify local Swift MCP tool endpoints](skills/build-and-verify-local-swift-mcp-tool-endpoints/) | Expose a selected Swift operation as an MCP tool, then check discovery, argument handling and results through a... | 1.6k | Library & API Reference |
 | [Apply atomic tracked Word revisions with SurfSense](skills/apply-atomic-tracked-word-revisions-with-surfsense/) | Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches... | 16.9k | Templates & Workflows |
 | [Inspect a scoped workspace hierarchy through PipesHub MCP](skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/) | Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access... | 4.1k | Integrations & Connectors |
-| [Inspect and recover a blocked coding-agent terminal through Facade MCP](skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/) | Diagnose one blocked Facade agent from its terminal evidence, perform an explicitly authorized response, and verify the observed... | 535 | Runbooks & Diagnostics |
 
 ---
 
@@ -126,13 +126,13 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Coordinate a scoped code change through Oh My Claudecode team stages](skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change... | 40.9k | Templates & Workflows |
 | [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
 | [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the... | 2.0k | Code Quality & Review |
-| [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
 | [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
+| [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
 | [Inspect a scoped workspace hierarchy through PipesHub MCP](skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/) | Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access... | 4.1k | Integrations & Connectors |
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
 | [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
-| [Diagnose remote server incidents with MCP SSH Manager before changing services](skills/diagnose-remote-incidents-mcp-ssh-manager/) | Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair | 546 | Runbooks & Diagnostics |
+| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
 
 ---
 
@@ -143,7 +143,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 551 | CLI tools, scaffolders, dev environment setup |
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 275 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 266 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 246 | ETL pipelines, parsing, format conversion |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 247 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 222 | Linting, code review, test generators, coverage |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 198 | Third-party API bridges, webhooks, service connectors |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 195 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,297 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,298 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,696 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)

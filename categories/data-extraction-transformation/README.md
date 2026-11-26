@@ -214,6 +214,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Tabula PDF Table Extraction Agent](../../skills/tabula-pdf-table-extraction-agent/) | 2k | — |
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | 2k | — |
 | [Translate technical PDFs through RetainPDF while preserving layout](../../skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | 2k | — |
+| [Find evidence across a PDF corpus with Semtools](../../skills/find-evidence-across-pdf-corpus-with-semtools/) | 1.9k | 146/wk |
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
