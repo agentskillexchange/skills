@@ -1,17 +1,17 @@
 # Categories
 
-> **3300 skills** across **17 categories**
+> **3302 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
-| 🛠️ | [**Developer Tools**](developer-tools/) | **551** | CLI helpers, dev environment setup, productivity utilities, and devel... |
+| 🛠️ | [**Developer Tools**](developer-tools/) | **552** | CLI helpers, dev environment setup, productivity utilities, and devel... |
 | 📄 | [**Templates & Workflows**](templates-workflows/) | **275** | Project scaffolding, boilerplate generators, workflow templates, and ... |
 | 🔒 | [**Security & Verification**](security-verification/) | **267** | Auth setup, vulnerability scanning, compliance checks, and security a... |
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **247** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **222** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **198** | Third-party API bridges, webhook handlers, service connectors, and pl... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **195** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **194** | Incident response, troubleshooting guides, system diagnostics, and op... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **195** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **165** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **149** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **137** | SDK documentation, API guides, framework reference material, and libr... |

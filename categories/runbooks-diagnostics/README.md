@@ -182,6 +182,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Operate Kubernetes and OpenShift clusters through MCP](../../skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | 1.6k | 7.3k/wk |
 | [Run Kubernetes cluster operations through MCP](../../skills/run-kubernetes-cluster-operations-through-mcp/) | 1.4k | 78.5k/wk |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
+| [Reconcile CCCC agent-message delivery and reply evidence](../../skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/) | 1.3k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
 | [Operate Rails Active Job queues with Mission Control Jobs](../../skills/operate-rails-active-job-queues-with-mission-control-jobs/) | 1.1k | — |

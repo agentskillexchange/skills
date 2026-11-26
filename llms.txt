@@ -1,7 +1,23 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-26
-# Total: 3300 skills
+# Total: 3302 skills
+
+## Corral — Exclusive Android Device Leases for Coding Agents
+slug: corral-android-device-leases-for-coding-agents
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or its MCP endpoint. Corral is a…
+url: https://agentskillexchange.com/skills/corral-android-device-leases-for-coding-agents/
+
+## Reconcile CCCC agent-message delivery and reply evidence
+slug: reconcile-cccc-agent-message-delivery-and-reply-evidence
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing CCCC delegation, separate runtime handoff from reads and replies, and return evidence before retrying uncertain work.
+url: https://agentskillexchange.com/skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/
 
 ## Google Flights Fare Search
 slug: google-flights-fare-search

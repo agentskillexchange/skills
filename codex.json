@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-26",
-  "total": 3300,
+  "total": 3302,
   "skills": [
+    {
+      "slug": "corral-android-device-leases-for-coding-agents",
+      "name": "Corral — Exclusive Android Device Leases for Coding Agents",
+      "title": "Corral — Exclusive Android Device Leases for Coding Agents",
+      "description": "Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or its MCP endpoint. Corral is a…",
+      "category": "Developer Tools",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/ciszkin/corral",
+      "github_repo": "ciszkin/corral"
+    },
+    {
+      "slug": "reconcile-cccc-agent-message-delivery-and-reply-evidence",
+      "name": "Reconcile CCCC agent-message delivery and reply evidence",
+      "title": "Reconcile CCCC agent-message delivery and reply evidence",
+      "description": "Inspect an existing CCCC delegation, separate runtime handoff from reads and replies, and return evidence before retrying uncertain work.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ChesterRa/cccc",
+      "github_repo": "ChesterRa/cccc"
+    },
     {
       "slug": "google-flights-fare-search",
       "name": "Google Flights Fare Search",
