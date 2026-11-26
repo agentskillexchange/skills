@@ -89,16 +89,17 @@ is host-verified on one box. The daemon binds `127.0.0.1` only.
 ### From the release bundle (Linux, JDK 17+; Windows uses the same installer)
 
 ```sh
-curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.4/corral-0.1.4.zip
-curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.4/corral-0.1.4.zip.sha256
-sha256sum -c corral-0.1.4.zip.sha256
-unzip corral-0.1.4.zip -d corral-0.1.4 && cd corral-0.1.4 && ./install.sh --ui
+curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.8/corral-0.1.8.zip &&
+curl -fsSLO https://github.com/ciszkin/corral/releases/download/v0.1.8/corral-0.1.8.zip.sha256 &&
+sha256sum -c corral-0.1.8.zip.sha256 &&
+unzip corral-0.1.8.zip -d corral-0.1.8 &&
+(cd corral-0.1.8 && ./install.sh --ui)
 ```
 
 The installer is user-scoped and idempotent: it puts the `corral` CLI, an `adb` wrapper and the
 console on `~/bin`, shims the SDK adb, drops the Gradle gate and the agent skill, and starts the
 daemon at login. Requires JDK 17+ and an Android SDK with `platform-tools/adb` on `PATH`. Read
-the installer before running it: https://github.com/ciszkin/corral/blob/v0.1.4/scripts/install.sh
+the installer before running it: https://github.com/ciszkin/corral/blob/v0.1.8/scripts/install.sh
 
 ### From source
 
