@@ -2,10 +2,12 @@
 name: "AI Dance Video with Danceo"
 slug: "danceo-ai-dance-video"
 description: "Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll the render status."
+verification: "listed"
+source: "https://github.com/jasonliu119/danceo-ai-dance-mcp-skills"
 category: "Image & Creative Automation"
 framework: "MCP"
-verification: listed
-source: "https://github.com/jasonliu119/danceo-ai-dance-mcp-skills"
+tool_ecosystem:
+  github_repo: "jasonliu119/danceo-ai-dance-mcp-skills"
 ---
 
 # AI Dance Video with Danceo
