@@ -2,12 +2,15 @@
 name: "Inspect Open Agent API Runs"
 slug: "open-agent-api-run-inspector"
 description: "Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval request, and a terminal result without starting another run."
+github_stars: 7
 verification: "listed"
 source: "https://github.com/jiangxingfan1-coder/Open-Agent-API"
+author: "StarFans"
 category: "Runbooks & Diagnostics"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "jiangxingfan1-coder/open-agent-api"
+  github_stars: 7
 ---
 
 # Inspect Open Agent API Runs

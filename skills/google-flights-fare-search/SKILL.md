@@ -2,10 +2,12 @@
 name: "Google Flights Fare Search"
 slug: "google-flights-fare-search"
 description: "Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON row per flight with price, airlines, times, stops, layovers and duration, plus route price insights. Use when an agent needs airfare data for a route, a fare comparison, or flight results as JSON or CSV."
+verification: "listed"
+source: "https://github.com/johnisanerd/claude-skill-google-flights-api"
 category: "Research & Scraping"
 framework: "Claude Code"
-verification: listed
-source: "https://github.com/johnisanerd/claude-skill-google-flights-api"
+tool_ecosystem:
+  github_repo: "johnisanerd/claude-skill-google-flights-api"
 ---
 
 # Google Flights Fare Search
