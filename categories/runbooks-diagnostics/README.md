@@ -210,6 +210,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 1M/wk |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](../../skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |
+| [Inspect Open Agent API Runs](../../skills/open-agent-api-run-inspector/) | 7 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](../../skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | 6 | — |
 | [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](../../skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | 1 | — |
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | — | 837.2k/wk |
@@ -225,7 +226,6 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Incident Response Checklist Engine](../../skills/incident-response-checklist-engine/) | — | — |
 | [Incident Response Playbook Runner](../../skills/incident-response-playbook-runner/) | — | — |
 | [Incident Timeline Builder](../../skills/incident-timeline-builder/) | — | — |
-| [Inspect Open Agent API Runs](../../skills/open-agent-api-run-inspector/) | — | — |
 | [Investigate backend-only WordPress performance bottlenecks](../../skills/investigate-backend-only-wordpress-performance-bottlenecks/) | — | — |
 | [Jira Import Doctor](../../skills/jira-import-doctor/) | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](../../skills/k8s-crashloopbackoff-diagnoser/) | — | — |

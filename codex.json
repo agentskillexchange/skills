@@ -2,8 +2,30 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-26",
-  "total": 3298,
+  "total": 3300,
   "skills": [
+    {
+      "slug": "google-flights-fare-search",
+      "name": "Google Flights Fare Search",
+      "title": "Google Flights Fare Search",
+      "description": "Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON row per flight with price, airlines,…",
+      "category": "Research & Scraping",
+      "framework": "Claude Code",
+      "verification": "listed",
+      "source_url": "https://github.com/johnisanerd/claude-skill-google-flights-api",
+      "github_repo": "johnisanerd/claude-skill-google-flights-api"
+    },
+    {
+      "slug": "review-repository-changes-for-destructive-commands-with-dcg",
+      "name": "Review repository changes for destructive commands with dcg",
+      "title": "Review repository changes for destructive commands with dcg",
+      "description": "Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings before commit or merge.",
+      "category": "Security & Verification",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "github_repo": "Dicklesworthstone/destructive_command_guard"
+    },
     {
       "slug": "find-evidence-across-pdf-corpus-with-semtools",
       "name": "Find evidence across a PDF corpus with Semtools",

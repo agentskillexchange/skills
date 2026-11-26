@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3298 published skills** across **17 categories** · 2,697 security reviewed · Updated 2026-11-26 01:26 UTC
+> **3300 published skills** across **17 categories** · 2,697 security reviewed · Updated 2026-11-26 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -850,7 +850,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Turn Notion specs into implementation plans and tasks with notion-spec-to-implementation](skills/turn-notion-specs-into-implementation-plans-and-tasks-with-notion-spec-to-implementation/) | Read a Notion spec, extract requirements and ambiguities, then create a linked implementation plan, task breakdown,… | Published | — | — |
 
 
-### 🔒 Security & Verification (266 skills)
+### 🔒 Security & Verification (267 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Security%20%26%20Verification&sort=downloads)
 
@@ -951,6 +951,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Secu
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | Run a focused exposure probe against a Kubernetes environment before deeper pentest work or remediation planning starts. | Published | 7.3k | — |
 | [Gate agent inputs and outputs with Superagent safety checks](skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | Use Superagent to add prompt-injection blocking, PII redaction, repository scanning, and compliance evidence around… | Published | 6.6k | 43.7k/wk |
 | [Run agent-generated code in local microVM sandboxes with Microsandbox](skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | Use Microsandbox to create local microVM-backed sandboxes for isolated execution of untrusted agent-generated code… | Security Reviewed | 6.5k | — |
+| [Review repository changes for destructive commands with dcg](skills/review-repository-changes-for-destructive-commands-with-dcg/) | Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings… | Security Reviewed | 6.4k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](skills/naabu-fast-port-scanner-projectdiscovery/) | Naabu is a fast and reliable port scanning tool written in Go by ProjectDiscovery. It supports SYN, CONNECT, and UDP… | Security Reviewed | 5.9k | — |
 | [Cosign Artifact Signature Verifier](skills/cosign-artifact-signature-verifier/) | Validates container image and artifact signatures using Sigstore Cosign with keyless verification via Fulcio and… | Published | 5.8k | — |
 | [Sigstore Cosign Container Verifier](skills/sigstore-cosign-container-verifier/) | Verifies container image signatures and provenance using Sigstore Cosign and Rekor transparency log. Enforces supply… | Security Reviewed | 5.8k | — |
@@ -2194,6 +2195,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [PagerDuty On-Call Escalation Checker](skills/pagerduty-on-call-escalation-checker-2/) | Queries PagerDuty to show who is currently on-call for each escalation policy, surfaces unacknowledged incidents,… | Security Reviewed | 69 | 1M/wk |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | Guide live digital-forensics and incident-response work with human approval gates when the job is evidence review… | Security Reviewed | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | Turn YAML runbooks into auditable agent actions with validation, dry-runs, destructive-step approval, and optional… | Security Reviewed | 11 | — |
+| [Inspect Open Agent API Runs](skills/open-agent-api-run-inspector/) | Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval… | Published | 7 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | Handle alerts and debugging questions from Slack, query connected monitoring MCP servers, and follow runbook-guided… | Security Reviewed | 6 | — |
 | [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | Protect an OpenClaw workspace with repeatable Synology NAS backups, integrity checks, and safer restores instead of… | Security Reviewed | 1 | — |
 | [Diagnose OpenClaw node pairing and route failures](skills/diagnose-openclaw-node-pairing-and-route-failures/) | Guides an agent through the exact route, pairing, and auth checks needed when an OpenClaw companion node fails to… | Security Reviewed | — | 837.2k/wk |
@@ -2209,7 +2211,6 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Runb
 | [Incident Response Checklist Engine](skills/incident-response-checklist-engine/) | Generates and tracks incident response checklists using PagerDuty Incident Workflows API and Statuspage.io API.… | Published | — | — |
 | [Incident Response Playbook Runner](skills/incident-response-playbook-runner/) | Executes structured incident response playbooks using PagerDuty Events API v2 for alerting, Slack Web API for… | Published | — | — |
 | [Incident Timeline Builder](skills/incident-timeline-builder/) | Constructs incident timelines from PagerDuty Events API v2, Datadog Monitors API, and Slack message archives.… | Security Reviewed | — | — |
-| [Inspect Open Agent API Runs](skills/open-agent-api-run-inspector/) | Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval… | Published | — | — |
 | [Investigate backend-only WordPress performance bottlenecks](skills/investigate-backend-only-wordpress-performance-bottlenecks/) | This skill guides an agent through measuring, profiling, and narrowing slow WordPress behavior without relying on… | Security Reviewed | — | — |
 | [Jira Import Doctor](skills/jira-import-doctor/) | Diagnose a failed or partial Jira CSV import from a local source CSV, one attempt's log, and explicit importer… | Published | — | — |
 | [Kubernetes CrashLoopBackOff Diagnoser](skills/k8s-crashloopbackoff-diagnoser/) | Diagnoses CrashLoopBackOff pods using kubectl and the Kubernetes API. Inspects container logs, exit codes, OOMKilled… | Security Reviewed | — | — |
@@ -2393,7 +2394,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Moni
 | [Uptime Robot Status Page Webhook Alerter](skills/uptime-robot-status-page-webhook-alerter/) | Integrates with the Uptime Robot API to monitor status page changes and push webhook alerts to Slack or PagerDuty.… | Published | — | — |
 
 
-### 🔍 Research & Scraping (148 skills)
+### 🔍 Research & Scraping (149 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Research%20%26%20Scraping&sort=downloads)
 
@@ -2524,6 +2525,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Rese
 | [Diffbot Knowledge Graph Extractor](skills/diffbot-knowledge-graph-extractor/) | Extracts structured entities from web pages using the Diffbot Extraction API and Knowledge Graph. Supports article,… | Security Reviewed | — | — |
 | [Find Products by Intent with Mydentify](skills/find-products-by-intent-with-mydentify/) | Use Mydentify's public intent and product feeds to find software by the outcome a person wants, then return… | Published | — | — |
 | [Firecrawl Alexandria](skills/firecrawl-alexandria/) | Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data… | Published | — | — |
+| [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor… | Published | — | — |
 | [Investigative Journalism and Fact-Checking](skills/investigate-and-fact-check/) | Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT)… | Published | — | — |
 | [Jina Reader API Skill](skills/jina-reader-api-skill/) | Extracts clean markdown content from any URL using the Jina Reader API (r.jina.ai). Handles JavaScript-rendered… | Security Reviewed | — | — |
 | [OSINT Domain Intelligence Scanner](skills/osint-domain-intelligence-scanner/) | Performs deep OSINT analysis on domains using Shodan API, SecurityTrails DNS history, and WHOIS RDAP lookups.… | Published | — | — |

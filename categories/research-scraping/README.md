@@ -165,6 +165,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
 | [Find Products by Intent with Mydentify](../../skills/find-products-by-intent-with-mydentify/) | — | — |
 | [Firecrawl Alexandria](../../skills/firecrawl-alexandria/) | — | — |
+| [Google Flights Fare Search](../../skills/google-flights-fare-search/) | — | — |
 | [Investigative Journalism and Fact-Checking](../../skills/investigate-and-fact-check/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |

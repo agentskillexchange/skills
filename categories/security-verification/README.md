@@ -135,6 +135,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
 | [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | 6.6k | 43.7k/wk |
 | [Run agent-generated code in local microVM sandboxes with Microsandbox](../../skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | 6.5k | — |
+| [Review repository changes for destructive commands with dcg](../../skills/review-repository-changes-for-destructive-commands-with-dcg/) | 6.4k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | 5.8k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
