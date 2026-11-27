@@ -1,8 +1,22 @@
 {
   "version": "2.0",
-  "total": 3305,
+  "total": 3306,
   "generated": "2026-11-27",
   "skills": [
+    {
+      "slug": "assemble-pr-verification-evidence-with-roam-guard",
+      "name": "Assemble PR verification evidence with Roam Guard",
+      "title": "Assemble PR verification evidence with Roam Guard",
+      "description": "Collect a branch’s Roam analysis evidence into a strict local PR verdict, with explicit required checks, missing evidence and reviewer handoff.",
+      "category": "Code Quality & Review",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "signals": {
+        "github_stars": 516
+      },
+      "source_url": "https://github.com/Cranot/roam-code/tree/2a12e418b10866ae26ee16d34d283f4aa394a745",
+      "github_repo": "Cranot/roam-code"
+    },
     {
       "slug": "validate-team-brain-retrieval-and-access-boundaries",
       "name": "Validate Team Brain retrieval and access boundaries",

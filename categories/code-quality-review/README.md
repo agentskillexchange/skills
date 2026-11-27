@@ -208,6 +208,7 @@ Linting rules, review checklists, code standards enforcement, and quality gates.
 | [Grade agent trajectories and tool-use decisions with AgentEvals](../../skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | 550 | 251k/wk |
 | [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](../../skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | 537 | 4.1k/wk |
 | [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](../../skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | 530 | — |
+| [Assemble PR verification evidence with Roam Guard](../../skills/assemble-pr-verification-evidence-with-roam-guard/) | 516 | — |
 | [Review completed EpicStaff flows with the bundled Flow QA skill](../../skills/review-completed-epicstaff-flows-with-bundled-flow-qa/) | 512 | — |
 | [Run agentic quality engineering checks with Agentic QE](../../skills/run-agentic-quality-engineering-checks-with-agentic-qe/) | 495 | 44.8k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](../../skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | 477 | — |

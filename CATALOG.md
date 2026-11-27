@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3305 published skills** across **17 categories** · 2,700 security reviewed · Updated 2026-11-27 13:26 UTC
+> **3306 published skills** across **17 categories** · 2,700 security reviewed · Updated 2026-11-27 19:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1381,7 +1381,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Data
 | [Weights & Biases Run Monitor](skills/wandb-run-monitor/) | Uses the W&B Python SDK and Public API to stream live training metrics, system stats, and gradients from active… | Security Reviewed | — | — |
 
 
-### ✅ Code Quality & Review (222 skills)
+### ✅ Code Quality & Review (223 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Code%20Quality%20%26%20Review&sort=downloads)
 
@@ -1555,6 +1555,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Grade agent trajectories and tool-use decisions with AgentEvals](skills/grade-agent-trajectories-and-tool-use-decisions-with-agentevals/) | Score whether an agent took a sensible intermediate path, called tools correctly, and reached the outcome without… | Security Reviewed | 550 | 251k/wk |
 | [Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings](skills/audit-codebases-with-opencode-swarm-coverage-ledgers/) | Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit… | Security Reviewed | 537 | 4.1k/wk |
 | [Normalize dbt SQL and Jinja templates into consistent review-ready style with sqlfmt](skills/normalize-dbt-sql-and-jinja-templates-into-consistent-review-ready-style-with-sqlfmt/) | Use sqlfmt to reformat dbt-oriented SQL and Jinja-heavy query files into a stable style before code review, CI… | Security Reviewed | 530 | — |
+| [Assemble PR verification evidence with Roam Guard](skills/assemble-pr-verification-evidence-with-roam-guard/) | Collect a branch’s Roam analysis evidence into a strict local PR verdict, with explicit required checks, missing… | Security Reviewed | 516 | — |
 | [Review completed EpicStaff flows with the bundled Flow QA skill](skills/review-completed-epicstaff-flows-with-bundled-flow-qa/) | Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node… | Security Reviewed | 512 | — |
 | [Run agentic quality engineering checks with Agentic QE](skills/run-agentic-quality-engineering-checks-with-agentic-qe/) | Configure Agentic QE in a repository so a coding agent can generate tests, inspect coverage gaps, investigate flaky… | Security Reviewed | 495 | 44.8k/wk |
 | [Generate and evaluate agent skills from traces before shipping them into repeatable production workflows with UPskill](skills/generate-and-evaluate-agent-skills-from-traces-before-shipping-them-into-repeatable-production-workflows-with-upskill/) | Turn successful traces into reusable skills, then benchmark those skills across models before you trust them in… | Security Reviewed | 477 | — |

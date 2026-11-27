@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-27
-# Total: 3305 skills
+# Total: 3306 skills
+
+## Assemble PR verification evidence with Roam Guard
+slug: assemble-pr-verification-evidence-with-roam-guard
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Collect a branch’s Roam analysis evidence into a strict local PR verdict, with explicit required checks, missing evidence and reviewer handoff.
+url: https://agentskillexchange.com/skills/assemble-pr-verification-evidence-with-roam-guard/
 
 ## Validate Team Brain retrieval and access boundaries
 slug: validate-team-brain-retrieval-and-access-boundaries

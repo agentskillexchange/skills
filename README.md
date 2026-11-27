@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C305-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C306-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C700-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,305 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,306 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Assemble PR verification evidence with Roam Guard](skills/assemble-pr-verification-evidence-with-roam-guard/) | Collect a branch’s Roam analysis evidence into a strict local PR verdict, with explicit required checks, missing evidence... | 516 | Code Quality & Review |
 | [Validate Team Brain retrieval and access boundaries](skills/validate-team-brain-retrieval-and-access-boundaries/) | Run Team Brain’s seeded Oracle test-schema diagnostic and return retrieval, permission-check and setup failures before connecting real team... | 4.5k | Runbooks & Diagnostics |
 | [Pay a Nano (XNO) 402 and Fetch](skills/nano-fetch/) | Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once... | - | Integrations & Connectors |
 | [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll... | - | Image & Creative Automation |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Review repository changes for destructive commands with dcg](skills/review-repository-changes-for-destructive-commands-with-dcg/) | Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings before commit or... | 6.4k | Security & Verification |
 | [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
 | [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | - | Calendar, Email & Productivity |
-| [BloxStack Onboarding](skills/bloxstack-onboarding/) | Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a... | - | Integrations & Connectors |
 
 ---
 
@@ -144,7 +144,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 275 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 267 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 247 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 222 | Linting, code review, test generators, coverage |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 223 | Linting, code review, test generators, coverage |
 | 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 199 | Third-party API bridges, webhooks, service connectors |
 | 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 196 | Incident response, troubleshooting, system diagnostics |
 | 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 195 | Pipeline configs, deployment automation, build tooling |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,305 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,306 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,700 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
