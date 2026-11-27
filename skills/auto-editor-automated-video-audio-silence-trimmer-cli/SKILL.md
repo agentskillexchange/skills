@@ -5,6 +5,7 @@ description: "Auto-Editor is a command-line application that automatically edits
 github_stars: 4089
 verification: "listed"
 source: "https://github.com/WyattBlue/auto-editor"
+author: "WyattBlue"
 category: "Media & Transcription"
 framework: "Multi-Framework"
 tool_ecosystem:

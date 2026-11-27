@@ -5,6 +5,7 @@ description: "A modern replacement for ps written in Rust. procs provides colori
 github_stars: 5994
 verification: "security_reviewed"
 source: "https://github.com/dalance/procs"
+author: "dalance"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,22 +19,11 @@ A modern replacement for ps written in Rust. procs provides colorized, human-rea
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install procs
-- cargo install procs
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- Docker container name
-- ### Show Docker container name
-- If you have access permission to docker daemon ( unix:///var/run/docker.sock ), Docker column is added.
-
-Basic usage or getting-started notes:
-- [Usage](#usage)
-- ### Download binary
-- Download from [release page](https://github.com/dalance/procs/releases/latest), and extract to the directory in PATH.
+cargo install procs
 
 - Source: https://github.com/dalance/procs
-- Extracted from upstream docs: https://raw.githubusercontent.com/dalance/procs/HEAD/README.md
 
 ## Source
 

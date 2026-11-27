@@ -3,8 +3,9 @@ name: "Atlassian MCP Server for Jira and Confluence"
 slug: "atlassian-mcp-server-jira-confluence"
 description: "mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading and editing Confluence pages, and performing project management tasks through natural language via any MCP-compatible client."
 github_stars: 4785
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/sooperset/mcp-atlassian"
+author: "sooperset"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
@@ -18,16 +19,9 @@ mcp-atlassian is a Model Context Protocol server that connects AI assistants to 
 
 ## Installation
 
-Requirements and caveats from upstream:
-- | [Installation](https://mcp-atlassian.soomiles.com/docs/installation) | uvx, Docker, pip, from source |
-
-Basic usage or getting-started notes:
-- [![Run Tests](https://github.com/sooperset/mcp-atlassian/actions/workflows/tests.yml/badge.svg)](https://github.com/sooperset/mcp-atlassian/actions/workflows/tests.yml)
-- ### 1. Get Your API Token
-- Go to https://id.atlassian.com/manage-profile/security/api-tokens and create a token.
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/sooperset/mcp-atlassian
-- Extracted from upstream docs: https://raw.githubusercontent.com/sooperset/mcp-atlassian/HEAD/README.md
 
 ## Source
 

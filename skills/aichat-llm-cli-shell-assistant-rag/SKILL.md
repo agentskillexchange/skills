@@ -5,6 +5,7 @@ description: "AIChat is a comprehensive LLM command-line tool written in Rust th
 github_stars: 9754
 verification: "security_reviewed"
 source: "https://github.com/sigoden/aichat"
+author: "sigoden"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -18,13 +19,11 @@ AIChat is a comprehensive LLM command-line tool written in Rust that combines ch
 
 ## Installation
 
-Basic usage or getting-started notes:
-- ### Package Managers
-- **Rust Developers:** cargo install aichat
-- **Homebrew/Linuxbrew Users:** brew install aichat
+Install or set up from the source-backed instructions:
+
+brew install aichat
 
 - Source: https://github.com/sigoden/aichat
-- Extracted from upstream docs: https://raw.githubusercontent.com/sigoden/aichat/HEAD/README.md
 
 ## Source
 

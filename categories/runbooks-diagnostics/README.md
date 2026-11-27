@@ -106,6 +106,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Systemd Service Debugger](../../skills/systemd-service-debugger/) | 16.2k | — |
 | [Systemd Service Diagnostics](../../skills/systemd-service-diagnostics/) | 16.2k | — |
 | [Systemd Service Recovery Playbook](../../skills/systemd-service-recovery-playbook-2/) | 16.2k | — |
+| [Diagnose Paradev host and terminal failures with the doctor skill](../../skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/) | 15.6k | — |
 | [BorgBackup Deduplicating Encrypted Backup Program](../../skills/borgbackup-deduplicating-encrypted-backup/) | 13.2k | — |
 | [PostgreSQL Diagnostic Analyzer](../../skills/postgresql-diagnostic-analyzer/) | 13.1k | 23.2M/wk |
 | [PostgreSQL Diagnostic Runbook](../../skills/postgresql-diagnostic-runbook/) | 13.1k | 23.2M/wk |
@@ -135,7 +136,9 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Schedule and retain cross-database backups from one self-hosted control plane with Databasus](../../skills/schedule-and-retain-cross-database-backups-from-one-self-hosted-control-plane-with-databasus/) | 6.6k | — |
 | [Lint live Kubernetes clusters for misconfigurations and operational hygiene with Popeye](../../skills/lint-live-kubernetes-clusters-for-misconfigurations-and-operational-hygiene-with-popeye/) | 6.3k | — |
 | [Verify a freshly provisioned server or container matches expected services, ports, and files](../../skills/verify-freshly-provisioned-server-or-container-matches-expected-services-ports-and-files/) | 5.9k | — |
+| [Triage a Latitude signal with linked trace evidence](../../skills/triage-a-latitude-signal-with-linked-trace-evidence/) | 4.8k | — |
 | [Tail multi-pod Kubernetes logs by label during incidents with Stern](../../skills/tail-multi-pod-kubernetes-logs-by-label-during-incidents-with-stern/) | 4.6k | — |
+| [Triage Camunda process incidents into a read-only evidence packet](../../skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/) | 4.4k | — |
 | [Debug DNS resolution and record mismatches from the terminal with doggo](../../skills/debug-dns-resolution-and-record-mismatches-from-the-terminal-with-doggo/) | 4.2k | — |
 | [Analyze memory images for processes, modules, and malware indicators with Volatility 3](../../skills/analyze-memory-images-for-processes-modules-and-malware-indicators-with-volatility-3/) | 4.1k | — |
 | [Diagnose pathological Git repository size before migration, CI, or contributor onboarding](../../skills/diagnose-pathological-git-repository-size-before-migration-ci-or-contributor-onboarding/) | 4k | — |
@@ -164,27 +167,36 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [Watch Kubernetes resources explain rollout stalls and surface live status transitions with kubespy](../../skills/watch-kubernetes-resources-explain-rollout-stalls-and-surface-live-status-transitions-with-kubespy/) | 3.1k | — |
 | [Inspect live PostgreSQL waits locks and pressure before guessing at the bottleneck with pg_activity](../../skills/inspect-live-postgresql-waits-locks-and-pressure-before-guessing-at-the-bottleneck-with-pg-activity/) | 3k | 20.8k/wk |
 | [Deploy Kubernetes-native agents with kagent](../../skills/deploy-kubernetes-native-agents-with-kagent/) | 2.9k | — |
+| [Inspect a paused Windows executable with x64dbg MCP](../../skills/inspect-paused-windows-executable-with-x64dbg-mcp/) | 2.8k | — |
 | [Capture low-level Kubernetes runtime evidence with Inspektor Gadget](../../skills/capture-low-level-kubernetes-runtime-evidence-with-inspektor-gadget/) | 2.8k | — |
 | [Find deprecated Kubernetes APIs in manifests and live resources before upgrades with Pluto](../../skills/find-deprecated-kubernetes-apis-in-manifests-and-live-resources-before-upgrades-with-pluto/) | 2.5k | — |
 | [Investigate production incidents across Kubernetes and cloud signals with HolmesGPT](../../skills/investigate-production-incidents-across-kubernetes-and-cloud-signals-with-holmesgpt/) | 2.3k | — |
+| [Diagnose Skales Browser Tool Readiness with DevKit](../../skills/diagnose-skales-browser-tool-readiness-with-devkit/) | 2.2k | — |
 | [Run policy-driven Borg backups, checks, and restores from one config with borgmatic](../../skills/run-policy-driven-borg-backups-checks-and-restores-from-one-config-with-borgmatic/) | 2.2k | — |
 | [Build super timelines from mixed forensic artifacts with Plaso](../../skills/build-super-timelines-from-mixed-forensic-artifacts-with-plaso/) | 2.1k | — |
 | [Turn Markdown runbooks into executable, parameterized procedures with Runme](../../skills/turn-markdown-runbooks-into-executable-parameterized-procedures-with-runme/) | 2k | 1.2k/wk |
 | [Investigate production incidents across observability signals and draft next remediation steps with OpenSRE](../../skills/investigate-production-incidents-across-observability-signals-and-draft-next-remediation-steps-with-opensre/) | 2k | — |
+| [Reconcile ClawManager Provisioning Operations with Runtime Readiness](../../skills/reconcile-clawmanager-provisioning-runtime-readiness/) | 1.9k | — |
 | [Inspect and diff OCI images and registries with regctl](../../skills/inspect-and-diff-oci-images-and-registries-with-regctl/) | 1.8k | — |
 | [Inventory live database schemas and generate reviewable docs before risky SQL changes with SchemaCrawler](../../skills/inventory-live-database-schemas-and-generate-reviewable-docs-before-risky-sql-changes-with-schemacrawler/) | 1.8k | — |
 | [Operate Kubernetes and OpenShift clusters through MCP](../../skills/operate-kubernetes-and-openshift-clusters-through-mcp/) | 1.6k | 7.3k/wk |
 | [Run Kubernetes cluster operations through MCP](../../skills/run-kubernetes-cluster-operations-through-mcp/) | 1.4k | 78.5k/wk |
 | [Diff and review MySQL schema changes as filesystem-managed SQL before risky database deploys with Skeema](../../skills/diff-and-review-mysql-schema-changes-as-filesystem-managed-sql-before-risky-database-deploys-with-skeema/) | 1.4k | — |
+| [Reconcile CCCC agent-message delivery and reply evidence](../../skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/) | 1.3k | — |
 | [Run profile-based restic backups and verification checks with resticprofile](../../skills/run-profile-based-restic-backups-and-verification-checks-with-resticprofile/) | 1.3k | — |
 | [Run day-2 OpenClaw operations with production runbooks and reusable prompt patterns from openclaw-runbook](../../skills/run-day-2-openclaw-operations-with-production-runbooks-and-reusable-prompt-patterns-from-openclaw-runbook/) | 1.1k | — |
 | [Operate Rails Active Job queues with Mission Control Jobs](../../skills/operate-rails-active-job-queues-with-mission-control-jobs/) | 1.1k | — |
+| [Audit OpenLoomi Loop decision routing with deterministic rule previews](../../skills/audit-openloomi-loop-decision-routing-with-rule-previews/) | 1k | — |
 | [Control Kubernetes infrastructure through natural-language MCP workflows](../../skills/control-kubernetes-infrastructure-through-natural-language-mcp-workflows/) | 898 | 150/wk |
 | [Datadog Incident Runbook Runner](../../skills/datadog-incident-runbook-runner-2/) | 791 | 6.6M/wk |
 | [Datadog Triage Playbook](../../skills/datadog-triage-playbook/) | 791 | 6.6M/wk |
+| [Diagnose remote server incidents with MCP SSH Manager before changing services](../../skills/diagnose-remote-incidents-mcp-ssh-manager/) | 546 | 3.3k/wk |
+| [Inspect and recover a blocked coding-agent terminal through Facade MCP](../../skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/) | 535 | — |
+| [Preflight Nudgebee runbooks before saving or execution](../../skills/preflight-nudgebee-runbooks-before-saving-or-execution/) | 520 | — |
 | [Benchmark virtual agents with scripted multi-turn conversations using Agent Evaluation](../../skills/benchmark-virtual-agents-with-scripted-multi-turn-conversations-using-agent-evaluation/) | 358 | — |
 | [Orchestrate database backup, restore, retention, and failure-notification runbooks through Databasement](../../skills/orchestrate-database-backup-restore-retention-and-failure-notification-runbooks-through-databasement/) | 315 | — |
 | [Benchmark IT automation agents on realistic SRE, CISO, and FinOps scenarios with ITBench](../../skills/benchmark-it-automation-agents-on-realistic-sre-ciso-and-finops-scenarios-with-itbench/) | 308 | — |
+| [Triage Lunora deployment errors and migration status through MCP](../../skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | 293 | 6.2k/wk |
 | [Benchmark agent memory and RAG systems with MemoryBench](../../skills/benchmark-agent-memory-and-rag-systems-with-memorybench/) | 293 | — |
 | [Audit Codex session duplicates and retry chains with AgentMeasure](../../skills/audit-codex-session-duplicates-and-retry-chains-with-agentmeasure/) | 218 | — |
 | [Review SQL Server execution plans through an MCP-compatible analysis workflow with Performance Studio](../../skills/review-sql-server-execution-plans-through-an-mcp-compatible-analysis-workflow-with-performance-studio/) | 175 | — |
@@ -199,6 +211,7 @@ Incident response, troubleshooting guides, system diagnostics, and operational r
 | [PagerDuty On-Call Escalation Checker](../../skills/pagerduty-on-call-escalation-checker-2/) | 69 | 1M/wk |
 | [Triage active security incidents with AI-augmented workflows in Valhuntir CLI](../../skills/triage-active-security-incidents-with-ai-augmented-workflows-in-valhuntir-cli/) | 40 | — |
 | [Validate, dry-run, and expose YAML agent runbooks as MCP tools with DeclarAgent](../../skills/validate-dry-run-and-expose-yaml-agent-runbooks-as-mcp-tools-with-declaragent/) | 11 | — |
+| [Inspect Open Agent API Runs](../../skills/open-agent-api-run-inspector/) | 7 | — |
 | [Investigate production issues from Slack with runbooks and monitoring MCPs using DIY AI Debugging Agent Toolkit](../../skills/investigate-production-issues-from-slack-with-runbooks-and-monitoring-mcps-using-diy-ai-debugging-agent-toolkit/) | 6 | — |
 | [Back up and restore an OpenClaw workspace to Synology NAS with verification and rollback safety using Synology Backup](../../skills/back-up-and-restore-an-openclaw-workspace-to-synology-nas-with-verification-and-rollback-safety-using-synology-backup/) | 1 | — |
 | [Diagnose OpenClaw node pairing and route failures](../../skills/diagnose-openclaw-node-pairing-and-route-failures/) | — | 837.2k/wk |

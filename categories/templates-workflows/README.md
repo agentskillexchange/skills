@@ -28,11 +28,11 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Coordinate multi-agent Claude Code and Codex workflows with Ruflo](../../skills/coordinate-multi-agent-claude-code-and-codex-workflows-with-ruflo/) | ⬇ 83.5k/wk |
 | [Run Claude Code job-search operations with Career-Ops](../../skills/run-claude-code-job-search-operations-with-career-ops/) | ⬇ 3.5k/wk |
 | [Use Flowise for visual agent workflow orchestration](../../skills/use-flowise-for-visual-agent-workflow-orchestration/) | ⬇ 11.9k/wk |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](../../skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | ⬇ 9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | ⬇ 25.7M/wk |
 | [Swagger Codegen Orchestrator](../../skills/swagger-codegen-orchestrator/) | ⬇ 149.2k/wk |
 | [Use Sim for orchestrated AI agent workflow runs](../../skills/use-sim-for-orchestrated-ai-agent-workflow-runs/) | ⬇ 32/wk |
 | [Nx Workspace Generator Toolkit](../../skills/nx-workspace-generator-toolkit/) | ⬇ 29.5M/wk |
-| [Nx Workspace Generator](../../skills/nx-workspace-generator/) | ⬇ 8.9M/wk |
 
 ---
 
@@ -70,6 +70,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Terraform Module Testing Framework](../../skills/terraform-module-testing-framework/) | 48.1k | — |
 | [Terraform Module Boilerplate Assembler](../../skills/terraform-module-boilerplate-assembler/) | 48k | — |
 | [Run a lightweight personal AI agent with Nanobot](../../skills/run-a-lightweight-personal-ai-agent-with-nanobot/) | 42.8k | — |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](../../skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | 40.9k | 9k/wk |
 | [Enforce local Git hook checks in JavaScript repos with Husky](../../skills/enforce-local-git-hook-checks-in-javascript-repos-with-husky/) | 35k | 25.7M/wk |
 | [Backstage Software Catalog Sync](../../skills/backstage-software-catalog-sync/) | 33.1k | — |
 | [Backstage Software Template Composer](../../skills/backstage-software-template-composer/) | 33.1k | — |
@@ -98,7 +99,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Cookiecutter Template Generator](../../skills/cookiecutter-template-generator/) | 24.8k | — |
 | [Cookiecutter Project Template Scaffolder](../../skills/cookiecutter-project-template-scaffolder/) | 24.8k | — |
 | [Assemble production agent harnesses with DeepAgents](../../skills/assemble-production-agent-harnesses-with-deepagents/) | 24.1k | — |
-| [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | — |
+| [Run Claude Code through repeatable command and persona workflows with SuperClaude](../../skills/run-claude-code-through-repeatable-command-and-persona-workflows-with-superclaude/) | 22.3k | 23/wk |
 | [Prefect Python Workflow Orchestration Framework for Data Pipelines](../../skills/prefect-python-workflow-orchestration-data-pipelines/) | 22.1k | — |
 | [Use production-agent tutorial playbooks from Agents Towards Production](../../skills/use-production-agent-tutorial-playbooks-from-agents-towards-production/) | 21.5k | — |
 | [Run supervised Suna sessions for reviewable agent work](../../skills/run-supervised-suna-sessions-for-reviewable-agent-work/) | 19.8k | — |
@@ -109,6 +110,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Add graph-backed memory and context retrieval to agent workflows](../../skills/add-graph-backed-memory-and-context-retrieval-to-agent-workflows/) | 17.6k | — |
 | [Build a self-updating agent memory graph with GBrain](../../skills/build-a-self-updating-agent-memory-graph-with-gbrain/) | 17.3k | — |
 | [Run scheduled autonomous agent Hands with OpenFang](../../skills/run-scheduled-autonomous-agent-hands-with-openfang/) | 17.2k | — |
+| [Apply atomic tracked Word revisions with SurfSense](../../skills/apply-atomic-tracked-word-revisions-with-surfsense/) | 16.9k | — |
 | [Mustache Template Renderer](../../skills/mustache-template-renderer-agent/) | 16.7k | 12.7M/wk |
 | [Argo Workflows DAG Optimizer](../../skills/argo-workflows-dag-optimizer/) | 16.6k | — |
 | [Argo Workflows DAG Pipeline Builder](../../skills/argo-workflows-dag-pipeline-builder/) | 16.6k | — |
@@ -186,6 +188,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Regenerate repository config from a single project definition with projen](../../skills/regenerate-repository-config-from-a-single-project-definition-with-projen/) | 2.9k | 876.8k/wk |
 | [Generate domain-specific Claude Code agent teams and shared skills with Harness](../../skills/generate-domain-specific-claude-code-agent-teams-and-shared-skills-with-harness/) | 2.8k | — |
 | [Define file-native Git workflows for agents with GitAgent](../../skills/define-file-native-git-workflows-for-agents-with-gitagent/) | 2.7k | 1.7k/wk |
+| [Route Codex delivery through explicit risk gates with Sol Advisor](../../skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/) | 2.6k | — |
 | [Schedule in-process JavaScript agent jobs with Croner](../../skills/schedule-in-process-javascript-agent-jobs-with-croner/) | 2.6k | 11.3M/wk |
 | [Coordinate persistent Copilot agent teams with Squad](../../skills/coordinate-persistent-copilot-agent-teams-with-squad/) | 2.5k | 2.1k/wk |
 | [Run Claude Trading Skills for investor market review and trade journaling](../../skills/run-claude-trading-skills-for-investor-market-review-and-trade-journaling/) | 2.5k | — |
@@ -213,7 +216,8 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Run Parallel Divergent Ideation With ADHD](../../skills/run-parallel-divergent-ideation-with-adhd/) | 1.3k | 78/wk |
 | [Yeoman Generator Builder](../../skills/yeoman-generator-builder/) | 1.3k | 5M/wk |
 | [Install growth and GTM skill workflows into coding agents with Goose Skills](../../skills/install-growth-and-gtm-skill-workflows-into-coding-agents-with-goose-skills/) | 1.2k | 911/wk |
-| [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | — |
+| [Validate a managed JSON Goal deliverable in MateClaw](../../skills/validate-a-managed-json-goal-deliverable-in-mateclaw/) | 1.2k | — |
+| [Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster](../../skills/compose-typed-openclaw-workflows-with-approval-gates-and-resumable-steps-using-lobster/) | 1.1k | 182.7k/wk |
 | [Run spec-first Claude Code development workflows with MoAI-ADK](../../skills/run-spec-first-claude-code-development-workflows-with-moai-adk/) | 1.1k | 41/wk |
 | [Drive spec-first coding workflows with task boards, worktrees, and agent handoffs using Spec Kitty](../../skills/drive-spec-first-coding-workflows-with-task-boards-worktrees-and-agent-handoffs-using-spec-kitty/) | 1.1k | — |
 | [Run gated math modeling contest workflows with MathModeling Skills](../../skills/run-gated-math-modeling-contest-workflows-with-mathmodeling-skills/) | 1.1k | — |
@@ -256,6 +260,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |
 | [Constrain coding-agent over-defense with HERO](../../skills/constrain-coding-agent-over-defense-with-hero/) | 397 | — |
 | [Build event-driven document agent workflows with LlamaAgents](../../skills/build-event-driven-document-agent-workflows-with-llamaagents/) | 389 | — |
+| [Build and resume checked repository task graphs with Memdoor](../../skills/build-and-resume-checked-repository-task-graphs-with-memdoor/) | 382 | — |
 | [Evaluate long-horizon agents against WildClawBench](../../skills/evaluate-long-horizon-agents-against-wildclawbench/) | 359 | — |
 | [Makedown Task Runner](../../skills/makedown-task-runner/) | 319 | — |
 | [Run RFC-driven product planning with AI PRD Workflow before agents code](../../skills/run-rfc-driven-product-planning-with-ai-prd-workflow-before-agents-code/) | 298 | — |
@@ -278,13 +283,17 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Distill repository rules and workflows into reusable project skills with Skill-Based Architecture](../../skills/distill-repository-rules-and-workflows-into-reusable-project-skills-with-skill-based-architecture/) | 131 | — |
 | [Triage support tickets and draft customer replies with Claude Code support skills](../../skills/triage-support-tickets-and-draft-customer-replies-with-claude-code-support-skills/) | 87 | — |
 | [Put coding agents on a governed local Git workflow with AgentPlane](../../skills/put-coding-agents-on-a-governed-local-git-workflow-with-agentplane/) | 38 | 817/wk |
+| [Berlin Job Search](../../skills/berlin-job-search/) | 31 | — |
 | [Review-gate OpenClaw memory hygiene with openclaw-mem](../../skills/review-gate-openclaw-memory-hygiene-with-openclaw-mem/) | 28 | — |
 | [Progressive Disclosure for Documentation](../../skills/progressive-disclosure/) | 14 | — |
+| [Prompt Optimizer](../../skills/prompt-optimizer-skill/) | 6 | — |
 | [Run GitHub Issues as a Spec, Build, Review and Ship Pipeline with workkit](../../skills/run-github-issues-as-a-spec-build-review-ship-pipeline-with-workkit/) | 4 | — |
 | [Generate and safely patch AGENTS.md and RUNBOOK.md with AGENTS.md Generator](../../skills/generate-and-safely-patch-agents-md-and-runbook-md-with-agents-md-generator/) | 2 | — |
+| [Goal Instruction Writer](../../skills/goal-instruction-writer/) | 2 | — |
 | [Browser Extension Launch](../../skills/browser-extension-launch/) | 1 | 301/wk |
 | [Book to Mentor](../../skills/book-to-mentor/) | 1 | — |
 | [Concept to Story](../../skills/concept-to-story/) | 1 | — |
+| [Resume Tribunal](../../skills/resume-tribunal/) | 1 | — |
 | [Find likely duplicate GitHub issues through parallel search and evidence filtering with Claude Code dedupe](../../skills/find-likely-duplicate-github-issues-through-parallel-search-and-evidence-filtering-with-claude-code-dedupe/) | — | 49.9M/wk |
 | [Triage GitHub issues with body-first evidence checks and constrained label operations from Claude Code triage-issue](../../skills/triage-github-issues-with-body-first-evidence-checks-and-constrained-label-operations-from-claude-code-triage-issue/) | — | 49.9M/wk |
 | [Autonomous Session Workflow](../../skills/autonomous-session-workflow/) | — | — |
@@ -296,7 +305,6 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Draft user-facing App Store release notes from git history with App Store Changelog](../../skills/draft-user-facing-app-store-release-notes-from-git-history-with-app-store-changelog/) | — | — |
 | [Five-Element Spec: Scope Before Coding](../../skills/five-element-spec/) | — | — |
 | [GitHub Actions Workflow Composer](../../skills/github-actions-workflow-composer-2/) | — | — |
-| [Goal Instruction Writer](../../skills/goal-instruction-writer/) | — | — |
 | [Incident Response Template Generator](../../skills/incident-response-template-generator/) | — | — |
 | [Keep GitHub wiki pages synced with recently merged code changes](../../skills/keep-github-wiki-pages-synced-with-recently-merged-code-changes/) | — | — |
 | [Makefile Workflow Generator](../../skills/makefile-workflow-generator/) | — | — |

@@ -5,6 +5,7 @@ description: "An open-source terminal-native AI coding agent written in Go that 
 github_stars: 11729
 verification: "security_reviewed"
 source: "https://github.com/opencode-ai/opencode"
+author: "opencode-ai"
 category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:

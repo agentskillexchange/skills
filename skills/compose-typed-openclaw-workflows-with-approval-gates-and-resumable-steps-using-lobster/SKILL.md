@@ -12,6 +12,8 @@ framework: "OpenClaw"
 tool_ecosystem:
   github_repo: "openclaw/lobster"
   github_stars: 1128
+  npm_package: "@clawdbot/lobster"
+  npm_weekly_downloads: 182708
 ---
 
 # Compose typed OpenClaw workflows with approval gates and resumable steps using Lobster
@@ -24,18 +26,11 @@ OpenClaw, Lobster, any local commands or data sources the workflow will call, an
 
 ## Installation
 
-Requirements and caveats from upstream:
-- node bin/lobster.js "workflows.run --name github.pr.monitor --args-json '{\"repo\":\"openclaw/openclaw\",\"pr\":1152}'"
-- node bin/lobster.js "workflows.run --name github.pr.monitor --args-json '{\"repo\":\"openclaw/openclaw\",\"pr\":1200}'"
-- node ./bin/lobster.js --help
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- ## Example of Lobster at work
-- From this folder:
-- pnpm install
+Install Lobster with the method documented by OpenClaw, define the workflow file or command pipeline you want OpenClaw to call, add approval gates where human confirmation is required, then invoke the workflow through Lobster as a single typed automation step.
 
 - Source: https://github.com/openclaw/lobster
-- Extracted from upstream docs: https://raw.githubusercontent.com/openclaw/lobster/HEAD/README.md
 
 ## Documentation
 

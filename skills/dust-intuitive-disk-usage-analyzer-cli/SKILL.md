@@ -5,6 +5,7 @@ description: "A more intuitive version of the du command, written in Rust. dust 
 github_stars: 11500
 verification: "security_reviewed"
 source: "https://github.com/bootandy/dust"
+author: "bootandy"
 category: "Developer Tools"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,16 +19,11 @@ A more intuitive version of the du command, written in Rust. dust instantly visu
 
 ## Installation
 
-Requirements and caveats from upstream:
-- Windows MSVC - requires: [VCRUNTIME140.dll](https://docs.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- ![Example](media/snap.png)
-- target/debug is the same size as target - so we know nearly all the disk usage of the 1.8G is in this folder
-- target/debug/deps this is 1.2G - Note the bar jumps down to 70% to indicate that most disk usage is here but not all.
+cargo install du-dust
 
 - Source: https://github.com/bootandy/dust
-- Extracted from upstream docs: https://raw.githubusercontent.com/bootandy/dust/HEAD/README.md
 
 ## Source
 

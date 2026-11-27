@@ -86,6 +86,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Keep agent retrieval current as documents change with Serviette](../../skills/keep-agent-retrieval-current-as-documents-change-with-serviette/) | 58.8k | — |
 | [Run supervised agentic terminal sessions with Warp](../../skills/run-supervised-agentic-terminal-sessions-with-warp/) | 58.5k | — |
 | [mkcert Zero-Config Local Development TLS Certificate Generator](../../skills/mkcert-local-dev-tls-certificate-generator/) | 58.4k | — |
+| [Delegate scoped coding tasks to T3 Code threads over MCP](../../skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/) | 58.1k | — |
 | [Astro Content-Driven Web Framework](../../skills/astro-content-driven-web-framework/) | 58k | 2M/wk |
 | [bat Syntax-Highlighting Cat Replacement](../../skills/bat-syntax-highlighting-cat-replacement/) | 57.9k | — |
 | [PocketBase Open Source Realtime Backend in a Single Binary](../../skills/pocketbase-open-source-realtime-backend-single-binary/) | 57.3k | — |
@@ -155,7 +156,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Budibase Open Source Low-Code Operations App Platform](../../skills/budibase-open-source-low-code-operations-app-platform/) | 27.8k | 41/wk |
 | [Hyperfine Command-Line Benchmarking Tool](../../skills/hyperfine-command-line-benchmarking-tool/) | 27.8k | — |
 | [Jujutsu Git-Compatible Version Control System](../../skills/jujutsu-jj-git-compatible-vcs/) | 27.5k | — |
-| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 96.1M/wk |
+| [ESLint Code Review](../../skills/eslint-code-review/) | 27.3k | 213.2M/wk |
 | [ESLint Rule Generator Agent](../../skills/eslint-rule-generator-agent/) | 27.2k | 120.2M/wk |
 | [Run open-source terminal coding workflows with Qwen Code](../../skills/run-open-source-terminal-coding-workflows-with-qwen-code/) | 26.6k | 54.7k/wk |
 | [smolagents Code-First AI Agent Library](../../skills/smolagents-code-first-ai-agent-library/) | 26.4k | — |
@@ -167,13 +168,14 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Reduce agent token burn on repo-scale coding commands with the rtk CLI proxy](../../skills/reduce-agent-token-burn-on-repo-scale-coding-commands-with-the-rtk-cli-proxy/) | 25.4k | — |
 | [Bazel Build Graph Analyzer](../../skills/bazel-build-graph-analyzer/) | 25.3k | — |
 | [Jenkins MCP Server](../../skills/jenkins-mcp-server/) | 25.3k | — |
-| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 2M/wk |
+| [Pulumi MCP Server](../../skills/pulumi-mcp-server/) | 25.2k | 6.2M/wk |
 | [CI Pipeline Generator Skill](../../skills/ci-pipeline-generator-skill/) | 24.3k | — |
 | [Biome Lint Migration Toolkit](../../skills/biome-lint-migration-toolkit/) | 24.3k | 8.8M/wk |
 | [FastMCP Python MCP Server and Client Framework](../../skills/fastmcp-python-mcp-server-client-framework/) | 24.2k | — |
 | [llamafile Single-File LLM Distribution and Runner by Mozilla](../../skills/llamafile-single-file-llm-runner-mozilla/) | 24.1k | — |
 | [Glow Terminal Markdown Renderer](../../skills/glow-terminal-markdown-renderer/) | 24.1k | — |
 | [Coordinate multi-mode coding-agent work in the IDE with Roo Code](../../skills/coordinate-multi-mode-coding-agent-work-in-the-ide-with-roo-code/) | 24k | — |
+| [Investigate repository failures with an evidence-backed Archon workflow](../../skills/investigate-repository-failures-evidence-backed-archon-workflow/) | 23.9k | — |
 | [D2 Modern Diagram Scripting Language and CLI](../../skills/d2-diagram-scripting-language-cli/) | 23.3k | 14.1k/wk |
 | [Gum Interactive Shell Script Toolkit](../../skills/gum-interactive-shell-script-toolkit/) | 23.2k | — |
 | [Add IDE-style semantic code navigation and symbol-safe refactors to coding agents through Serena](../../skills/add-ide-style-semantic-code-navigation-and-symbol-safe-refactors-to-coding-agents-through-serena/) | 23k | — |
@@ -188,6 +190,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [NocoBase Extensible AI-Powered No-Code and Low-Code Platform](../../skills/nocobase-extensible-no-code-low-code-platform/) | 22.1k | 746/wk |
 | [MkDocs Project Documentation Generator](../../skills/mkdocs-project-documentation-generator/) | 21.9k | — |
 | [Run DeepSeek-oriented terminal coding workflows with Reasonix](../../skills/run-deepseek-oriented-terminal-coding-workflows-with-reasonix/) | 21.8k | 77.9k/wk |
+| [Refresh Theia model aliases and provider capabilities with update-default-models](../../skills/refresh-theia-model-aliases-provider-capabilities/) | 21.8k | — |
 | [ChartDB Database Schema Visualization and Diagram Editor](../../skills/chartdb-database-schema-visualization/) | 21.7k | — |
 | [GitUI Blazing Fast Terminal Git Interface](../../skills/gitui-terminal-git-interface/) | 21.7k | — |
 | [mdBook Markdown Book Generator by Rust Project](../../skills/mdbook-markdown-book-generator-rust/) | 21.4k | — |
@@ -206,6 +209,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Verdaccio Lightweight Private npm Proxy Registry](../../skills/verdaccio-private-npm-proxy-registry/) | 17.6k | 718.8k/wk |
 | [sqlc Type-Safe SQL Code Generator](../../skills/sqlc-type-safe-sql-code-generator/) | 17.3k | — |
 | [Give coding agents persistent project memory with AgentMemory](../../skills/give-coding-agents-persistent-project-memory-with-agentmemory/) | 17.2k | 40.7k/wk |
+| [Retrieve upstream implementation evidence before coding with XERJ](../../skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/) | 17.2k | — |
 | [navi Interactive CLI Cheatsheet Tool](../../skills/navi-interactive-cli-cheatsheet-tool/) | 16.9k | — |
 | [Nix Flake Configuration Builder](../../skills/nix-flake-configuration-builder/) | 16.8k | — |
 | [libSQL Edge-Ready SQLite Fork by Turso](../../skills/libsql-edge-sqlite-fork-turso/) | 16.6k | — |
@@ -214,9 +218,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [lsd Next-Generation ls Directory Listing Tool](../../skills/lsd-next-gen-ls-directory-listing/) | 15.6k | — |
 | [Task Taskfile Build Automation Runner](../../skills/task-taskfile-build-automation-runner/) | 15.2k | — |
 | [Plandex AI Coding Agent for Large Projects](../../skills/plandex-ai-coding-agent-large-projects/) | 15.2k | — |
+| [Prepare a source-backed TensorRT-LLM serving configuration](../../skills/prepare-source-backed-tensorrt-llm-serving-configuration/) | 15.1k | — |
 | [duf Modern Disk Usage and Free Utility](../../skills/duf-modern-disk-usage-free-utility/) | 14.9k | — |
 | [Trigger.dev TypeScript Background Jobs Platform](../../skills/trigger-dev-typescript-background-jobs-platform/) | 14.3k | 214.1k/wk |
 | [Mitosis Cross-Framework Component Compiler by Builder.io](../../skills/mitosis-cross-framework-component-compiler/) | 13.8k | — |
+| [Run bounded metric-improvement experiments with MiMoCode](../../skills/run-bounded-metric-improvement-experiments-mimocode/) | 13.8k | — |
 | [Supervise Claude Code Sessions with Cc Haha](../../skills/supervise-claude-code-sessions-with-cc-haha/) | 13.7k | — |
 | [Fresh Next-Generation Web Framework for Deno](../../skills/fresh-deno-web-framework/) | 13.7k | — |
 | [quicktype JSON Schema to Typed Code Generator](../../skills/quicktype-json-schema-code-generator/) | 13.7k | — |
@@ -228,7 +234,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [pgcli Interactive PostgreSQL Client with Autocompletion](../../skills/pgcli-interactive-postgresql-client/) | 13.1k | — |
 | [Control Remote Agent CLI Sessions with CloudCLI](../../skills/control-remote-agent-cli-sessions-with-cloudcli/) | 12.9k | 5.1k/wk |
 | [Volta JavaScript Toolchain Version Manager](../../skills/volta-javascript-toolchain-manager/) | 12.9k | — |
-| [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | — |
+| [Rspack High-Performance Rust-Based JavaScript Bundler](../../skills/rspack-rust-based-javascript-bundler/) | 12.6k | 4.6M/wk |
 | [broot Interactive Tree-View File Navigator](../../skills/broot-interactive-tree-view-file-navigator/) | 12.5k | — |
 | [grpcurl Command-Line gRPC Client](../../skills/grpcurl-command-line-grpc-client/) | 12.5k | — |
 | [Run secure IronClaw Reborn agent sessions](../../skills/run-secure-ironclaw-reborn-agent-sessions/) | 12.5k | — |
@@ -269,9 +275,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [BullMQ Redis-Based Message Queue and Job Processor for Node.js](../../skills/bullmq-redis-message-queue-job-processor-nodejs/) | 8.7k | 5.7M/wk |
 | [Regex Pattern Test Suite Generator](../../skills/regex-pattern-test-suite-generator/) | 8.6k | — |
 | [pdfcpu Go PDF Processor and Manipulation CLI](../../skills/pdfcpu-go-pdf-processor-cli/) | 8.6k | — |
+| [Delegate bounded coding tasks and hand off sessions with Kimi Code](../../skills/delegate-coding-tasks-handoff-sessions-kimi-code/) | 8.3k | — |
 | [Run multi-session coding-agent workflows with jcode](../../skills/run-multi-session-coding-agent-workflows-with-jcode/) | 8.2k | — |
 | [Starlight Documentation Framework for Astro](../../skills/starlight-documentation-framework-astro/) | 8.2k | — |
-| [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | — |
+| [Mockoon Local Mock API Server and CLI for API Development](../../skills/mockoon-mock-api-server-cli/) | 8.2k | 23.8k/wk |
+| [Supervise and reconcile persistent coding-agent crews with Firstmate](../../skills/supervise-and-reconcile-persistent-coding-agent-crews-with-firstmate/) | 8.1k | — |
 | [grex Regular Expression Generator from Test Cases](../../skills/grex-regex-generator-from-test-cases/) | 8.1k | — |
 | [Compile Deterministic Python Lock Files from Requirements Inputs with pip-tools](../../skills/compile-deterministic-python-lock-files-from-requirements-inputs-with-pip-tools/) | 8k | — |
 | [Lefthook Git Hooks Manager](../../skills/lefthook-git-hooks-manager/) | 7.9k | 1.6M/wk |
@@ -300,6 +308,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [procs Modern Process Viewer CLI](../../skills/procs-modern-process-viewer-cli/) | 6k | — |
 | [Add executable smoke tests for shell scripts and CLIs before refactors ship](../../skills/add-shell-and-cli-smoke-tests-before-refactors-ship/) | 6k | — |
 | [Desktop Commander MCP Server for Terminal and File Control](../../skills/desktop-commander-mcp-terminal-file-control/) | 5.8k | 100.6k/wk |
+| [Bootstrap and verify self-hosted Rakazo from published images](../../skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/) | 5.8k | — |
 | [Build, test, and inspect Apple apps through MCP with XcodeBuildMCP](../../skills/build-test-and-inspect-apple-apps-through-mcp-with-xcodebuildmcp/) | 5.7k | 44.5k/wk |
 | [Orval OpenAPI Client Regeneration Skill for Typed SDKs](../../skills/orval-openapi-client-regeneration-skill-typed-sdks/) | 5.7k | 1.1M/wk |
 | [Notion Workspace Agent](../../skills/notion-workspace-agent/) | 5.6k | 1.2M/wk |
@@ -315,15 +324,16 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Mods AI-Powered Command-Line LLM Interface by Charmbracelet](../../skills/mods-charmbracelet-ai-cli-llm/) | 4.5k | — |
 | [Azure CLI — Command-Line Interface for Microsoft Azure](../../skills/azure-cli-microsoft-cloud/) | 4.5k | — |
 | [Build, test, and package PostgreSQL extensions in Rust with pgrx](../../skills/build-test-and-package-postgresql-extensions-in-rust-with-pgrx/) | 4.5k | — |
+| [Prepare a source-verified Archestra MCP catalog entry](../../skills/prepare-source-verified-archestra-mcp-catalog-entry/) | 4.4k | — |
 | [Run sandboxed multi-language code execution with Judge0](../../skills/run-sandboxed-multi-language-code-execution-with-judge0/) | 4.4k | — |
-| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 16.1M/wk |
+| [Webhook Debugger](../../skills/webhook-debugger/) | 4.4k | 35.3M/wk |
 | [Freeze Code and Terminal Screenshot Generator](../../skills/freeze-code-terminal-screenshot-generator/) | 4.4k | — |
 | [Spin up isolated git worktrees for parallel Claude Code and Codex branches with Worktrunk](../../skills/spin-up-isolated-git-worktrees-for-parallel-claude-code-and-codex-branches-with-worktrunk/) | 4.4k | — |
 | [MySQL Query Agent](../../skills/mysql-query-agent/) | 4.4k | 8.9M/wk |
 | [gptme — Terminal AI Agent with Local Tools](../../skills/gptme-terminal-ai-agent-with-local-tools/) | 4.4k | — |
 | [Operate a persistent local terminal agent with gptme](../../skills/operate-a-persistent-local-terminal-agent-with-gptme/) | 4.4k | — |
 | [Build enterprise-ready JVM agents with JetBrains Koog](../../skills/build-enterprise-ready-jvm-agents-with-jetbrains-koog/) | 4.3k | — |
-| [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | — |
+| [pdfme Open Source TypeScript PDF Generation Library with WYSIWYG Designer](../../skills/pdfme-typescript-pdf-generation-library/) | 4.3k | 97.3k/wk |
 | [Tera Jinja2-Inspired Template Engine for Rust](../../skills/tera-rust-template-engine/) | 4.2k | — |
 | [Run persistent multi-agent terminal workspaces with TUIOS](../../skills/run-persistent-multi-agent-terminal-workspaces-with-tuios/) | 4.1k | — |
 | [Run structured multi-perspective decisions with Council of High Intelligence](../../skills/run-structured-multi-perspective-decisions-with-council-of-high-intelligence/) | 4.1k | — |
@@ -337,12 +347,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Build Java agent transport gateways with Atmosphere](../../skills/build-java-agent-transport-gateways-with-atmosphere/) | 3.8k | — |
 | [Build agent-maintainable reactive UI with ArrowJS](../../skills/build-agent-maintainable-reactive-ui-with-arrowjs/) | 3.8k | 38.7k/wk |
 | [Manage Cross-Agent Skill Libraries with Skills Manager](../../skills/manage-cross-agent-skill-libraries-with-skills-manager/) | 3.7k | — |
-| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 29.3M/wk |
-| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 6.8M/wk |
+| [AWS S3 MCP Server](../../skills/aws-s3-mcp-server/) | 3.6k | 77.9M/wk |
+| [AWS Lambda MCP Server](../../skills/aws-lambda-mcp-server/) | 3.6k | 19.3M/wk |
 | [Cloud Cost Analysis](../../skills/cloud-cost-analysis/) | 3.6k | — |
 | [Model and verify bounded LP and MILP problems with NVIDIA cuOpt](../../skills/model-and-verify-bounded-lp-and-milp-problems-with-nvidia-cuopt/) | 3.6k | — |
 | [Topgrade Universal System Package Updater](../../skills/topgrade-universal-system-package-updater/) | 3.6k | — |
 | [DynamoDB Manager](../../skills/dynamodb-manager/) | 3.6k | 30.5M/wk |
+| [Autoroute a KiCad board and validate the result through MCP](../../skills/autoroute-kicad-board-and-validate-result-through-mcp/) | 3.3k | — |
 | [Manage Agent Accounts and Model Routing with EchoBird](../../skills/manage-agent-accounts-model-routing-echobird/) | 3.3k | — |
 | [Coordinate visible multi-agent CLI workspaces with CCB](../../skills/coordinate-visible-multi-agent-cli-workspaces-with-ccb/) | 3.2k | 9.9k/wk |
 | [Give MCP clients local Markdown project memory with Basic Memory](../../skills/give-mcp-clients-local-markdown-project-memory-with-basic-memory/) | 3.2k | — |
@@ -402,11 +413,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Keep Claude Code skills current from real sessions with Autoharness](../../skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/) | 1.4k | — |
 | [Keep Agent Engineering Decisions Current with Haft](../../skills/keep-agent-engineering-decisions-current-with-haft/) | 1.4k | — |
 | [Run managed Claude Code and Codex teams with OpenRig](../../skills/run-managed-claude-code-and-codex-teams-with-openrig/) | 1.4k | 2.5k/wk |
+| [Edit and verify a scoped Jupyter notebook task through MCP](../../skills/edit-verify-scoped-jupyter-notebook-task-mcp/) | 1.3k | — |
 | [Search cross-agent Markdown memory and conversation history with memsearch](../../skills/search-cross-agent-markdown-memory-and-conversation-history-with-memsearch/) | 1.3k | — |
 | [Terraform MCP Server for Infrastructure as Code](../../skills/terraform-mcp-server-infrastructure-as-code/) | 1.3k | — |
 | [WASM Component Model Linker](../../skills/wasm-component-model-linker/) | 1.3k | — |
 | [Coordinate peer CLI agents with agmsg](../../skills/coordinate-peer-cli-agents-with-agmsg/) | 1.3k | 4k/wk |
-| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 217/wk |
+| [Claude Code MCP Bridge](../../skills/claude-code-mcp-bridge/) | 1.3k | 538/wk |
 | [Route Codex and Claude Code through an opencodex provider proxy](../../skills/route-codex-and-claude-code-through-an-opencodex-provider-proxy/) | 1.3k | 24k/wk |
 | [Run React Native implementation and troubleshooting workflows with Callstack Agent Skills](../../skills/run-react-native-implementation-and-troubleshooting-workflows-with-callstack-agent-skills/) | 1.3k | — |
 | [Manage parallel coding agent sessions and worktrees with CCManager](../../skills/manage-parallel-coding-agent-sessions-and-worktrees-with-ccmanager/) | 1.2k | 2.5k/wk |
@@ -423,6 +435,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Control Codex and Claude coding-agent sessions from mobile with CC Pocket](../../skills/control-codex-and-claude-coding-agent-sessions-from-mobile-with-cc-pocket/) | 1k | 1.4k/wk |
 | [Review Taiwan Traditional Chinese drafts with speak-human-tw](../../skills/review-taiwan-traditional-chinese-drafts-with-speak-human-tw/) | 1k | — |
 | [Give OpenCode project sessions persistent memory with opencode-mem](../../skills/give-opencode-project-sessions-persistent-memory-with-opencode-mem/) | 1k | 12.1k/wk |
+| [Build reviewed repository context packets with RepoPrompt CE MCP](../../skills/build-reviewed-repository-context-repoprompt-ce-mcp/) | 997 | — |
 | [Run symbol-aware coding sessions with Empryo](../../skills/run-symbol-aware-coding-sessions-with-empryo/) | 984 | — |
 | [Run local small-model coding sessions with SmallCode](../../skills/run-local-small-model-coding-sessions-with-smallcode/) | 967 | 7.5k/wk |
 | [Connect MCP clients to JetBrains IDE project tools](../../skills/connect-mcp-clients-to-jetbrains-ide-project-tools/) | 961 | 4.4k/wk |
@@ -448,6 +461,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Control Android devices with an on-device AI agent using PokeClaw](../../skills/control-android-devices-with-an-on-device-ai-agent-using-pokeclaw/) | 760 | — |
 | [Run repo-local story, handover, and review workflows with Storybloq](../../skills/run-repo-local-story-handover-and-review-workflows-with-storybloq/) | 738 | 160/wk |
 | [Operate deployments, telemetry, and sandboxes through Temps CLI skills](../../skills/operate-deployments-telemetry-and-sandboxes-through-temps-cli-skills/) | 724 | 1.3k/wk |
+| [Move an existing coding mission between machines with Orb checkpoints](../../skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/) | 719 | — |
 | [Generate and continuously refresh CLAUDE.md, AGENTS.md, MCP config, and editor rules from the live codebase with Caliber](../../skills/generate-and-continuously-refresh-claude-md-agents-md-mcp-config-and-editor-rules-from-the-live-codebase-with-caliber/) | 717 | 6.5k/wk |
 | [Run long-horizon computer-use agent loops with LongHorizon-Harness](../../skills/run-long-horizon-computer-use-agent-loops-with-longhorizon-harness/) | 714 | — |
 | [Store Python project task runners in pyproject.toml with taskipy](../../skills/store-python-project-task-runners-in-pyproject-toml-with-taskipy/) | 714 | — |
@@ -463,10 +477,13 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Turn coding-agent transcripts into self-contained replay artifacts for review and handoff with Claude Replay](../../skills/turn-coding-agent-transcripts-into-self-contained-replay-artifacts-for-review-and-handoff-with-claude-replay/) | 621 | 4.9k/wk |
 | [Preview and approve coding-agent execution plans with Overture](../../skills/preview-and-approve-coding-agent-execution-plans-with-overture/) | 619 | 320/wk |
 | [Share local project memory across coding agents with Memorix](../../skills/share-local-project-memory-across-coding-agents-with-memorix/) | 579 | 969/wk |
+| [Preview Azure app infrastructure and service deployments with azd](../../skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/) | 574 | — |
+| [Build and validate one Enferno admin feature](../../skills/build-validate-one-enferno-admin-feature/) | 571 | — |
 | [Delegate fast Gemini staffers from Codex and Claude Code with agy-staff](../../skills/delegate-fast-gemini-staffers-from-codex-and-claude-code-with-agy-staff/) | 560 | — |
 | [Run DeepSeek Harness agent sessions from a Claude Code-style terminal TUI](../../skills/run-deepseek-harness-agent-sessions-from-a-claude-code-style-terminal-tui/) | 558 | 255/wk |
 | [Plan, draft, publish, and review social posts from Claude Code with social-post](../../skills/plan-draft-publish-and-review-social-posts-from-claude-code-with-social-post/) | 555 | — |
 | [Run deterministic SQL and dbt analysis under coding agents with Altimate Code](../../skills/run-deterministic-sql-and-dbt-analysis-under-coding-agents-with-altimate-code/) | 552 | 195/wk |
+| [Customize Percho subagent cards with the bundled UI plugin workflow](../../skills/customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow/) | 551 | — |
 | [Benchmark CLI agents on autonomous LLM post-training with PostTrainBench](../../skills/benchmark-cli-agents-on-autonomous-llm-post-training-with-posttrainbench/) | 543 | — |
 | [Give coding agents sandboxed shell runtimes with SWE-ReX](../../skills/give-coding-agents-sandboxed-shell-runtimes-with-swe-rex/) | 543 | — |
 | [Track Coding-Agent Work Evidence With agentacct](../../skills/track-coding-agent-work-evidence-with-agentacct/) | 537 | — |
@@ -482,6 +499,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Coordinate parallel terminal coding agents and worktrees with Pane](../../skills/coordinate-parallel-terminal-coding-agents-and-worktrees-with-pane/) | 478 | 5.7k/wk |
 | [Run multi-harness coding-agent sessions with Claudexor](../../skills/run-multi-harness-coding-agent-sessions-with-claudexor/) | 472 | 1.2k/wk |
 | [Coordinate local agent handoffs with Sno Station](../../skills/coordinate-local-agent-handoffs-with-sno-station/) | 468 | — |
+| [Query isolated Git worktree code maps with ProjectAtlas](../../skills/query-isolated-git-worktree-code-maps-with-projectatlas/) | 456 | — |
 | [Maintain a Git-versioned codebase index for coding agents with AOCI-CODE](../../skills/maintain-a-git-versioned-codebase-index-for-coding-agents-with-aoci-code/) | 443 | — |
 | [Run agent CLI terminals inside Obsidian with Claude Sidebar](../../skills/run-agent-cli-terminals-inside-obsidian-with-claude-sidebar/) | 443 | — |
 | [Give coding agents repo-local project memory with brain.md](../../skills/give-coding-agents-repo-local-project-memory-with-brain-md/) | 438 | 92/wk |
@@ -490,11 +508,12 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Monitor local agent sessions and costs with ClawMetry](../../skills/monitor-local-agent-sessions-and-costs-with-clawmetry/) | 401 | — |
 | [Build embeddable Rust coding agents with Cersei](../../skills/build-embeddable-rust-coding-agents-with-cersei/) | 400 | — |
 | [Audit and deploy cross-agent extensions with HarnessKit](../../skills/audit-and-deploy-cross-agent-extensions-with-harnesskit/) | 396 | — |
-| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 122/wk |
+| [E2B Code Execution MCP](../../skills/e2b-code-execution-mcp/) | 393 | 432/wk |
 | [Give Windows coding agents Linux-style shell commands with Fauxnix](../../skills/give-windows-coding-agents-linux-style-shell-commands-with-fauxnix/) | 393 | 74/wk |
 | [Coordinate Terminal Coding Agents With hcom](../../skills/coordinate-terminal-coding-agents-with-hcom/) | 393 | — |
 | [Reduce coding-agent token waste with Chisle](../../skills/reduce-coding-agent-token-waste-with-chisle/) | 388 | 288/wk |
 | [Index Codebases for Agent Search with Code Context Engine](../../skills/index-codebases-for-agent-search-with-code-context-engine/) | 383 | — |
+| [Search repository files by behavior with Localix decide](../../skills/search-repository-files-by-behavior-with-localix-decide/) | 368 | — |
 | [Temporal CLI Workflow and Server Control](../../skills/temporal-cli-workflow-server-control/) | 350 | — |
 | [Delegate and resume repository tasks through Pi-Bolt MCP](../../skills/delegate-and-resume-repository-tasks-through-pi-bolt-mcp/) | 343 | 2.1k/wk |
 | [Run terminal coding-agent workflows with Phi](../../skills/run-terminal-coding-agent-workflows-with-phi/) | 336 | — |
@@ -523,7 +542,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Use Superpowers Symfony for Claude Code Symfony workflows](../../skills/use-superpowers-symfony-for-claude-code-symfony-workflows/) | 186 | — |
 | [Meilisearch MCP Server for AI-Powered Search Integration](../../skills/meilisearch-mcp-server-ai-search/) | 181 | — |
 | [Coordinate project-scoped CLI agent sessions with Termio](../../skills/coordinate-project-scoped-cli-agent-sessions-with-termio/) | 180 | — |
-| [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | — |
+| [Compress repeated agent context and command output before it reaches coding agents with sqz](../../skills/compress-repeated-agent-context-and-command-output-before-it-reaches-coding-agents-with-sqz/) | 165 | 68/wk |
 | [Deploy a private local agent stack with Self-Hosted AI Stack](../../skills/deploy-private-local-agent-stack-with-self-hosted-ai-stack/) | 163 | — |
 | [Plan and verify parallel coding-agent tasks with Ordewell](../../skills/plan-and-verify-parallel-coding-agent-tasks-with-ordewell/) | 162 | 710/wk |
 | [Control coding-agent terminals remotely with 9Remote](../../skills/control-coding-agent-terminals-remotely-with-9remote/) | 161 | 12.6k/wk |
@@ -545,9 +564,11 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Staff Engineer Mode](../../skills/staff-engineer-mode/) | 5 | — |
 | [Clean Closed Issue Worktrees](../../skills/clean-closed-issue-worktrees/) | 3 | — |
 | [Hyperconsciousness Knowledge Discovery](../../skills/hyperconsciousness-knowledge-discovery/) | 3 | — |
+| [Publish Files to a Permanent URL with deed.page](../../skills/deed-page/) | 2 | — |
 | [YYLO Ledger Task Management](../../skills/ledger-tasks-yylo/) | 1 | — |
 | [Turn GitHub Issues into Fix PRs](../../skills/turn-github-issues-into-fix-prs/) | — | 837.2k/wk |
 | [Build scroll-linked animations with GSAP ScrollTrigger](../../skills/build-scroll-linked-animations-with-gsap-scrolltrigger/) | — | — |
+| [Corral — Exclusive Android Device Leases for Coding Agents](../../skills/corral-android-device-leases-for-coding-agents/) | — | — |
 | [Design and verify LaunchDarkly feature-flag targeting and rollout changes with MCP safety checks](../../skills/design-and-verify-launchdarkly-feature-flag-targeting-and-rollout-changes-with-mcp-safety-checks/) | — | — |
 | [Draft commit messages, PR descriptions, and changelog updates from diffs with safety checks](../../skills/draft-commit-messages-pr-descriptions-and-changelog-updates-from-diffs-with-safety-checks/) | — | — |
 | [Frontend Design Guidance Skill](../../skills/frontend-design-guidance-skill/) | — | — |
@@ -555,6 +576,7 @@ CLI helpers, dev environment setup, productivity utilities, and developer workfl
 | [Git Diff Complexity Analyzer](../../skills/git-diff-complexity-analyzer/) | — | — |
 | [GitHub Copilot — AI-Powered Code Completion and Chat Assistant](../../skills/github-copilot-ai-code-assistant/) | — | — |
 | [Google Cloud CLI (gcloud) — Command-Line Interface for GCP](../../skills/google-cloud-cli-gcloud/) | — | — |
+| [Install and write Faber Romanus](../../skills/install-and-write-faber-romanus/) | — | — |
 | [Jira Advanced Query Agent](../../skills/jira-advanced-query-agent/) | — | — |
 | [Linear Issue Manager](../../skills/linear-issue-manager/) | — | — |
 | [LLDB Debug Session Automator](../../skills/lldb-debug-session-automator/) | — | — |

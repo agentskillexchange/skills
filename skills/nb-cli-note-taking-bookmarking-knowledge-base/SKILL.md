@@ -5,11 +5,14 @@ description: "nb is a command-line and local web note-taking, bookmarking, archi
 github_stars: 8088
 verification: "security_reviewed"
 source: "https://github.com/xwmx/nb"
+author: "xwmx"
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "xwmx/nb"
   github_stars: 8088
+  npm_package: "nb.sh"
+  npm_weekly_downloads: 167
 ---
 
 # nb CLI Note-Taking Bookmarking and Knowledge Base Application
@@ -18,19 +21,11 @@ nb is a command-line and local web note-taking, bookmarking, archiving, and know
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install xwmx/taps/nb
-- brew install xwmx/taps/nb --head
-- brew install nb bash
-- npm install -g nb.sh
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- #### Dependencies
-- ##### Required
-- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+brew install xwmx/taps/nb
 
 - Source: https://github.com/xwmx/nb
-- Extracted from upstream docs: https://raw.githubusercontent.com/xwmx/nb/HEAD/README.md
 
 ## Source
 

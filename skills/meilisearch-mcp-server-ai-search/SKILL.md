@@ -5,6 +5,7 @@ description: "Official Model Context Protocol server that connects LLMs to Meili
 github_stars: 181
 verification: "security_reviewed"
 source: "https://github.com/meilisearch/meilisearch-mcp"
+author: "meilisearch"
 category: "Developer Tools"
 framework: "MCP"
 tool_ecosystem:
@@ -18,24 +19,11 @@ Official Model Context Protocol server that connects LLMs to Meilisearch for lig
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install meilisearch-mcp
-- docker run -d -p 7700:7700 getmeili/meilisearch:v1.28
-- brew install meilisearch
-- git clone https://github.com/meilisearch/meilisearch-mcp.git
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- <a href="https://pypi.org/project/meilisearch-mcp/"><img src="https://img.shields.io/pypi/pyversions/meilisearch-mcp.svg" alt="Python Versions"></a>
-- 🐍 **Python Implementation** - [TypeScript version also available](https://github.com/devlimelabs/meilisearch-ts-mcp)
-- # Using Docker (recommended)
-
-Basic usage or getting-started notes:
-- ## 🚀 Quick Start
-- ### 🔍 Advanced Search Example:
-- Running Meilisearch instance
+pip install meilisearch-mcp
 
 - Source: https://github.com/meilisearch/meilisearch-mcp
-- Extracted from upstream docs: https://raw.githubusercontent.com/meilisearch/meilisearch-mcp/HEAD/README.md
 
 ## Source
 

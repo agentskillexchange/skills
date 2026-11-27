@@ -77,8 +77,10 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Navidrome Self-Hosted Music Streaming Server and Subsonic API](../../skills/navidrome-self-hosted-music-streaming-subsonic-api/) | 20.2k | — |
 | [Capture local screen and audio context so agents can search what happened on your device](../../skills/capture-local-screen-and-audio-context-so-agents-can-search-what-happened-on-your-device/) | 18.2k | 13.2k/wk |
 | [Record terminal demos and reproducible CLI walkthroughs with asciinema](../../skills/record-terminal-demos-and-reproducible-cli-walkthroughs-with-asciinema/) | 17.2k | — |
+| [Assemble and review local video cuts through Concat MCP](../../skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | 16k | — |
 | [Beets Music Library Manager and Tagger](../../skills/beets-music-library-manager-tagger/) | 14.9k | — |
 | [PeerTube Video Publishing and Moderation API](../../skills/peertube-video-publishing-moderation-api/) | 14.6k | — |
+| [Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP](../../skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/) | 14.5k | — |
 | [MoviePy Python Video Editing Library](../../skills/moviepy-python-video-editing-library/) | 14.5k | — |
 | [Vosk Offline Speech Recognition Toolkit](../../skills/vosk-offline-speech-recognition-toolkit/) | 14.5k | — |
 | [Build voice and multimodal agents with Pipecat](../../skills/build-voice-and-multimodal-agents-with-pipecat/) | 12.7k | — |
@@ -129,6 +131,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [Mux Node SDK for Video and Streaming API Workflows](../../skills/mux-node-sdk-video-and-streaming-api-workflows/) | 178 | 987.7k/wk |
 | [Cartesia JavaScript SDK for Low-Latency Voice Generation](../../skills/cartesia-javascript-sdk-low-latency-voice-generation/) | 130 | 192.2k/wk |
 | [Run server-side ingest, search, and edit pipelines on video with VideoDB Skills](../../skills/run-server-side-ingest-search-and-edit-pipelines-on-video-with-videodb-skills/) | 73 | — |
+| [Arcmira: YouTube Transcript Search](../../skills/arcmira-transcript-search/) | — | — |
 | [AssemblyAI Audio Intelligence Agent](../../skills/assemblyai-audio-intelligence-agent/) | — | — |
 | [AssemblyAI LeMUR Summarizer](../../skills/assemblyai-lemur-summarizer-agent/) | — | — |
 | [AssemblyAI Summarization & Chapters Skill](../../skills/assemblyai-summarization-chapters-skill/) | — | — |
@@ -144,6 +147,7 @@ Audio/video processing, speech-to-text, media conversion, and transcription.
 | [ElevenLabs Voiceover Generator for Long-Form Content](../../skills/elevenlabs-voiceover-longform/) | — | — |
 | [FreeFM](../../skills/freefm/) | — | — |
 | [Generate podcast-style audio narratives with Podcast Generation](../../skills/generate-podcast-style-audio-narratives-with-podcast-generation/) | — | — |
+| [GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data](../../skills/getyoutubetranscript-youtube-transcript/) | — | — |
 | [GStreamer Live Stream Transcoder](../../skills/gstreamer-live-stream-transcoder/) | — | — |
 | [GStreamer Pipeline Graph Optimizer](../../skills/gstreamer-pipeline-graph-optimizer/) | — | — |
 | [OpenAI Whisper API Transcription](../../skills/openai-whisper-api-transcription/) | — | — |

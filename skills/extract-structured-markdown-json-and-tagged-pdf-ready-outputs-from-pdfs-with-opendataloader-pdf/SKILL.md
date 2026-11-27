@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "opendataloader-project/opendataloader-pdf"
   github_stars: 19060
+  npm_package: "@opendataloader/pdf"
+  npm_weekly_downloads: 23771
 ---
 
 # Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF
@@ -24,24 +26,11 @@ Python 3.10+, Java 11+, PDF inputs, optional hybrid-mode backend setup for compl
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install -U opendataloader-pdf
-- npm install @opendataloader/pdf
-- pip install -U "opendataloader-pdf[hybrid]"
-- pip install -U langchain-opendataloader-pdf
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- sdk: Python, Node.js, Java
-- **Requires**: Java 11+ and Python 3.10+ ([Node.js](https://opendataloader.org/docs/quick-start-nodejs) | [Java](https://opendataloader.org/docs/quick-start-java) also available)
-- python
-
-Basic usage or getting-started notes:
-- pricing: open-source core (data extraction, layout analysis, auto-tagging to Tagged PDF), enterprise add-on (PDF/UA export, accessibility studio)
-- extraction-benchmark: #1 overall extraction accuracy (0.907) in hybrid mode, 0.928 table extraction accuracy, 0.015s/page local mode
-- accessibility-validation: PDF Association collaboration, Well-Tagged PDF specification, veraPDF automated validation
+Install the package from the documented pip path, confirm Java 11+ is available, then run the convert workflow against one or more PDFs to emit markdown, JSON, HTML, or the documented accessibility-oriented outputs.
 
 - Source: https://github.com/opendataloader-project/opendataloader-pdf
-- Extracted from upstream docs: https://raw.githubusercontent.com/opendataloader-project/opendataloader-pdf/HEAD/README.md
 
 ## Documentation
 

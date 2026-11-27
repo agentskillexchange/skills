@@ -1,0 +1,450 @@
+"""Tests for nano_binding.py and the optional flags of verify_payment.py.
+
+Standard library only, no network:
+    python3 -m unittest discover -s skills/verify-nano-payment -p 'test_*.py'
+"""
+import base64
+import contextlib
+import io
+import json
+import multiprocessing
+import os
+import tempfile
+import threading
+import unittest
+from unittest import mock
+
+import nano_binding as nb
+import quote_payment
+import verify_payment
+
+# xno-binding v1 test vectors (docs/BINDING-STANDARD.md in dhyabi2/xno-call-binding).
+BURN = "nano_1111111111111111111111111111111111111111111111111111hifc8npp"
+PRICE = 5 * nb.RAW_PER_XNO // 100  # 0.05 XNO, derived, never restated
+VECTOR_HEX = "86e75a339b908cc926a478c1a0e5eb5dd6fc612c1d3251eb661faa78135c36cf"
+VECTOR_REP = "nano_33q9dassq66es6mcay83n5kypqgpzjikr9bkc9ope9xch1borfphgehj4ozj"
+
+PAY_TO = nb.public_key_to_account(bytes([7]) * 32)
+BLOCK_A = "A" * 64
+BLOCK_B = "b" * 64
+
+
+def _race_claim(path, order_id, start, results):
+    """Run in a separate process: wait for the start signal, then claim."""
+    start.wait(10)
+    results.put(nb.ClaimsFile(path).claim(BLOCK_A, order_id))
+
+
+def send_block(order_id="order-1", amount=PRICE, pay_to=PAY_TO, confirmed="true", rep=None, subtype="send"):
+    return {
+        "subtype": subtype,
+        "confirmed": confirmed,
+        "amount": str(amount),
+        "block_account": nb.public_key_to_account(bytes([9]) * 32),
+        "contents": {
+            "link_as_account": pay_to,
+            "representative": rep or nb.commitment_rep_account(order_id, PAY_TO, PRICE),
+        },
+    }
+
+
+class AccountTests(unittest.TestCase):
+    def test_burn_account_round_trips(self):
+        self.assertEqual(nb.public_key_to_account(bytes(32)), BURN)
+        self.assertEqual(nb.account_public_key(BURN), bytes(32))
+
+    def test_checksum_is_enforced(self):
+        bad = BURN[:-1] + ("q" if BURN[-1] != "q" else "r")
+        self.assertFalse(nb.is_valid_account(bad))
+        self.assertFalse(nb.is_valid_account("nano_1234"))
+        self.assertFalse(nb.is_valid_account(None))
+        self.assertTrue(nb.is_valid_account(PAY_TO))
+        self.assertTrue(nb.is_valid_account("xrb_" + BURN[5:]))
+
+    def test_key_part_must_fit_256_bits(self):
+        # 52 base-32 characters hold 260 bits; only a leading '1' or '3' fits a 256-bit key.
+        self.assertFalse(nb.is_valid_account("nano_" + "z" * 52 + BURN[-8:]))
+
+
+class CommitmentTests(unittest.TestCase):
+    def test_published_vector(self):
+        self.assertEqual(PRICE, 50000000000000000000000000000)
+        self.assertEqual(nb.order_commitment("order-0001", BURN, PRICE).hex(), VECTOR_HEX)
+        self.assertEqual(nb.commitment_rep_account("order-0001", BURN, PRICE), VECTOR_REP)
+
+    def test_float_and_non_positive_prices_are_refused(self):
+        for price in (0.05, 0, -1, True, "5"):
+            with self.assertRaises(TypeError):
+                nb.order_commitment("order-0001", BURN, price)
+
+    def test_commitment_covers_order_destination_and_price(self):
+        base = nb.order_commitment("o", PAY_TO, PRICE)
+        self.assertNotEqual(base, nb.order_commitment("p", PAY_TO, PRICE))
+        self.assertNotEqual(base, nb.order_commitment("o", BURN, PRICE))
+        self.assertNotEqual(base, nb.order_commitment("o", PAY_TO, PRICE + 1))
+
+
+URL = "https://seller.example/api/report"
+
+
+class QuoteTests(unittest.TestCase):
+    ORDER = "order-0001-quote-test-id"
+
+    def test_xno_to_raw_is_exact(self):
+        self.assertEqual(nb.xno_to_raw("0.05"), PRICE)
+        self.assertEqual(nb.xno_to_raw("1"), nb.RAW_PER_XNO)
+        self.assertEqual(nb.xno_to_raw("0." + "0" * 29 + "1"), 1)
+        self.assertEqual(nb.xno_to_raw("12.5"), 25 * nb.RAW_PER_XNO // 2)
+
+    def test_xno_to_raw_refuses_what_is_not_an_exact_amount(self):
+        for amount in (0.05, 5, "0", "0.0", "-1", "1e-3", "0." + "0" * 30 + "1", " 1", "1.", ".5", "", None):
+            with self.assertRaises(ValueError, msg=repr(amount)):
+                nb.xno_to_raw(amount)
+
+    def test_requirement_shape(self):
+        req = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        self.assertEqual((req["scheme"], req["network"], req["asset"]), ("exact", "nano:mainnet", "XNO"))
+        self.assertEqual(req["amount"], str(PRICE))
+        self.assertEqual(req["payTo"], PAY_TO)
+        self.assertEqual(req["maxTimeoutSeconds"], 300)
+        self.assertEqual(req["extra"]["binding"], "xno-binding/v1/rep")
+        self.assertEqual(req["extra"]["orderId"], self.ORDER)
+        self.assertEqual(req["extra"]["decimals"], 30)
+        self.assertEqual(req["extra"]["representative"], nb.commitment_rep_account(self.ORDER, PAY_TO, PRICE))
+
+    def test_a_send_built_from_the_quote_is_matched_and_no_other(self):
+        req = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        paid = send_block(rep=req["extra"]["representative"])
+        self.assertEqual(nb.check_bound_send(paid, req["payTo"], int(req["amount"]), req["extra"]["orderId"]), nb.MATCHED)
+        other = nb.payment_requirement(PAY_TO, PRICE)
+        self.assertEqual(nb.check_bound_send(paid, PAY_TO, PRICE, other["extra"]["orderId"]), nb.NOT_BOUND)
+
+    def test_fresh_order_ids_are_random_and_valid(self):
+        ids = {nb.payment_requirement(PAY_TO, PRICE)["extra"]["orderId"] for _ in range(50)}
+        self.assertEqual(len(ids), 50)
+        for order_id in ids:
+            self.assertRegex(order_id, r"\A[0-9a-f]{32}\Z")
+
+    def test_bad_inputs_are_refused(self):
+        bad_pay_to = PAY_TO[:-1] + ("1" if PAY_TO[-1] != "1" else "3")
+        with self.assertRaises(ValueError):
+            nb.payment_requirement(bad_pay_to, PRICE, self.ORDER)
+        for price in (0.05, 0, -1, True, "5"):
+            with self.assertRaises(TypeError):
+                nb.payment_requirement(PAY_TO, price, self.ORDER)
+        for order_id in ("short", "x" * 129, "has space in it 1234567", "", 7):
+            with self.assertRaises(ValueError):
+                nb.payment_requirement(PAY_TO, PRICE, order_id)
+        for timeout in (0, -5, True, 1.5):
+            with self.assertRaises(ValueError):
+                nb.payment_requirement(PAY_TO, PRICE, self.ORDER, timeout)
+
+    def test_amounts_stop_at_the_128_bit_balance_limit(self):
+        top = "340282366.920938463463374607431768211455"  # 2**128 - 1 raw
+        self.assertEqual(nb.xno_to_raw(top), 2 ** 128 - 1)
+        self.assertEqual(nb.payment_requirement(PAY_TO, 2 ** 128 - 1, self.ORDER)["amount"], str(2 ** 128 - 1))
+        with self.assertRaises(ValueError):
+            nb.xno_to_raw("340282366.920938463463374607431768211456")  # 2**128 raw
+        with self.assertRaises(ValueError):
+            nb.xno_to_raw("9999999999")
+        with self.assertRaises(ValueError):
+            nb.payment_requirement(PAY_TO, 2 ** 128, self.ORDER)
+
+    def assert_payment_required_v2(self, body):
+        # Mirrors PaymentRequiredV2Schema in @x402/core: x402Version 2, a
+        # resource with a non-empty url, 1+ accepts entries with the required fields.
+        self.assertEqual(body["x402Version"], 2)
+        self.assertIsInstance(body["resource"]["url"], str)
+        self.assertTrue(body["resource"]["url"])
+        for key in ("description", "mimeType"):
+            if key in body["resource"]:
+                self.assertIsInstance(body["resource"][key], str)
+        self.assertGreaterEqual(len(body["accepts"]), 1)
+        for entry in body["accepts"]:
+            for key in ("scheme", "amount", "asset", "payTo"):
+                self.assertIsInstance(entry[key], str)
+                self.assertTrue(entry[key])
+            self.assertRegex(entry["network"], r"\A[-a-z0-9]{3,8}:[-_a-zA-Z0-9]{1,32}\Z")
+            self.assertGreater(entry["maxTimeoutSeconds"], 0)
+
+    def run_cli(self, *args):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            code = quote_payment.main(list(args))
+        return code, out.getvalue()
+
+    def test_cli_prints_the_full_payment_required_object(self):
+        code, out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL,
+                                 "--description", "One report", "--mime-type", "application/json")
+        self.assertEqual(code, 0)
+        body = json.loads(out)
+        self.assert_payment_required_v2(body)
+        self.assertEqual(body["resource"], {"url": URL, "description": "One report", "mimeType": "application/json"})
+        self.assertEqual(body["accepts"], [nb.payment_requirement(PAY_TO, PRICE, self.ORDER)])
+
+    def test_cli_header_is_the_same_object_in_base64(self):
+        code, body_out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL)
+        code2, header_out = self.run_cli(PAY_TO, "0.05", "--order-id", self.ORDER, "--resource-url", URL, "--header")
+        self.assertEqual((code, code2), (0, 0))
+        name, value = header_out.strip().split(": ", 1)
+        self.assertEqual(name, "PAYMENT-REQUIRED")
+        decoded = json.loads(base64.b64decode(value, validate=True).decode("utf-8"))
+        self.assert_payment_required_v2(decoded)
+        self.assertEqual(decoded, json.loads(body_out))
+
+    def test_payment_required_needs_a_resource_url(self):
+        entry = nb.payment_requirement(PAY_TO, PRICE, self.ORDER)
+        self.assertNotIn("description", nb.payment_required(URL, [entry])["resource"])
+        for url in ("", None, 7):
+            with self.assertRaises(ValueError):
+                nb.payment_required(url, [entry])
+        with self.assertRaises(ValueError):
+            nb.payment_required(URL, [])
+        with self.assertRaises(SystemExit), contextlib.redirect_stderr(io.StringIO()):
+            quote_payment.main([PAY_TO, "0.05"])
+
+    def test_cli_refuses_a_float_like_price_it_cannot_hold(self):
+        code, out = self.run_cli(PAY_TO, "0." + "0" * 31 + "1", "--resource-url", URL)
+        self.assertEqual(code, 2)
+        self.assertTrue(out.startswith("BAD_INPUT"))
+
+    def test_cli_refuses_a_price_above_the_balance_limit(self):
+        code, out = self.run_cli(PAY_TO, "340282366.920938463463374607431768211456", "--resource-url", URL)
+        self.assertEqual(code, 2)
+        self.assertTrue(out.startswith("BAD_INPUT"))
+
+
+class BoundSendTests(unittest.TestCase):
+    def check(self, info, order_id="order-1"):
+        return nb.check_bound_send(info, PAY_TO, PRICE, order_id)
+
+    def test_bound_send_matches(self):
+        self.assertEqual(self.check(send_block()), nb.MATCHED)
+
+    def test_block_for_another_order_is_not_bound(self):
+        self.assertEqual(self.check(send_block(order_id="order-2")), nb.NOT_BOUND)
+        self.assertEqual(self.check(send_block(rep=nb.public_key_to_account(bytes([1]) * 32))), nb.NOT_BOUND)
+
+    def test_amount_must_be_exact(self):
+        self.assertEqual(self.check(send_block(amount=PRICE - 1)), nb.WRONG_AMOUNT)
+        self.assertEqual(self.check(send_block(amount=PRICE + 1)), nb.WRONG_AMOUNT)
+        self.assertEqual(self.check(send_block(amount="5e28")), nb.WRONG_AMOUNT)
+
+    def test_destination_confirmation_and_subtype(self):
+        self.assertEqual(self.check(send_block(pay_to=BURN)), nb.WRONG_ACCOUNT)
+        self.assertEqual(self.check(send_block(confirmed="false")), nb.NOT_CONFIRMED)
+        self.assertEqual(self.check(send_block(subtype="receive")), nb.NOT_A_SEND)
+
+    def test_bad_pay_to_is_refused(self):
+        with self.assertRaises(ValueError):
+            nb.check_bound_send(send_block(), "nano_bad", PRICE, "order-1")
+
+
+class ClaimsFileTests(unittest.TestCase):
+    def setUp(self):
+        self.dir = tempfile.TemporaryDirectory()
+        self.path = os.path.join(self.dir.name, "claims.jsonl")
+
+    def tearDown(self):
+        self.dir.cleanup()
+
+    def test_one_block_one_order(self):
+        claims = nb.ClaimsFile(self.path)
+        self.assertEqual(claims.claim(BLOCK_A, "order-1"), nb.MATCHED)
+        self.assertEqual(claims.claim(BLOCK_A.lower(), "order-1"), nb.ALREADY_CLAIMED)  # replay is not credited
+        self.assertEqual(claims.claim(BLOCK_A, "order-2"), nb.DUPLICATE)        # block already used
+        self.assertEqual(claims.claim(BLOCK_B, "order-1"), nb.DUPLICATE)        # order already paid
+        self.assertEqual(claims.claim(BLOCK_B, "order-2"), nb.MATCHED)
+
+    def test_without_order_a_block_is_used_once(self):
+        claims = nb.ClaimsFile(self.path)
+        self.assertEqual(claims.claim(BLOCK_A), nb.MATCHED)
+        self.assertEqual(claims.claim(BLOCK_A), nb.DUPLICATE)
+
+    def test_claims_survive_a_restart(self):
+        nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1")
+        reopened = nb.ClaimsFile(self.path)
+        self.assertTrue(reopened.claimed(BLOCK_A))
+        self.assertEqual(reopened.claim(BLOCK_A, "order-2"), nb.DUPLICATE)
+
+    def test_torn_last_line_is_dropped_not_credited(self):
+        nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1")
+        with open(self.path, "a", encoding="utf-8") as fh:
+            fh.write('{"block": "' + BLOCK_B.upper() + '", "ord')
+        claims = nb.ClaimsFile(self.path)
+        self.assertFalse(claims.claimed(BLOCK_B))
+        self.assertEqual(claims.claim(BLOCK_B, "order-2"), nb.MATCHED)
+        self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_B, "order-3"), nb.DUPLICATE)
+        with open(self.path, encoding="utf-8") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 2)
+
+    def test_torn_tail_after_crlf_lines_keeps_every_complete_claim(self):
+        # Text-mode writes on Windows end lines in CRLF; repairing the torn
+        # tail must truncate at the real byte offset, not cut into line 2.
+        rows = [
+            json.dumps({"block": "A" * 64, "order": "order-A"}, sort_keys=True),
+            json.dumps({"block": "B" * 64, "order": "order-B"}, sort_keys=True),
+        ]
+        with open(self.path, "wb") as fh:
+            fh.write(("\r\n".join(rows) + "\r\n" + '{"block": "CCC').encode("utf-8"))
+        self.assertEqual(nb.ClaimsFile(self.path).claim("C" * 64, "order-C"), nb.MATCHED)
+        reopened = nb.ClaimsFile(self.path)
+        for block, order in (("A", "order-A"), ("B", "order-B"), ("C", "order-C")):
+            self.assertTrue(reopened.claimed(block * 64))
+            self.assertEqual(reopened.claim(block * 64, order), nb.ALREADY_CLAIMED)
+            self.assertEqual(reopened.claim(block * 64, "order-X"), nb.DUPLICATE)
+        self.assertEqual(nb.ClaimsFile(self.path).claim("D" * 64, "order-D"), nb.MATCHED)
+        with open(self.path, "rb") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 4)
+
+    def test_identical_replay_after_reopen_is_already_claimed(self):
+        self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.MATCHED)
+        self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.ALREADY_CLAIMED)
+        with open(self.path, encoding="utf-8") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 1)
+
+    def test_concurrent_processes_credit_one_claim(self):
+        ctx = multiprocessing.get_context("spawn")
+        start, results = ctx.Event(), ctx.Queue()
+        workers = [ctx.Process(target=_race_claim, args=(self.path, order, start, results))
+                   for order in ("order-1", "order-1", "order-2", None) * 2]
+        for w in workers:
+            w.start()
+        start.set()
+        verdicts = [results.get(timeout=60) for _ in workers]
+        for w in workers:
+            w.join(60)
+        self.assertEqual(verdicts.count(nb.MATCHED), 1, verdicts)
+        with open(self.path, encoding="utf-8") as fh:
+            self.assertEqual(len(fh.read().splitlines()), 1)
+
+    def test_concurrent_threads_credit_one_claim(self):
+        verdicts, start = [], threading.Barrier(8)
+
+        def worker():
+            start.wait()
+            verdicts.append(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"))
+
+        threads = [threading.Thread(target=worker) for _ in range(8)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        self.assertEqual(sorted(verdicts), [nb.ALREADY_CLAIMED] * 7 + [nb.MATCHED])
+
+    def test_without_any_lock_claims_fail_closed(self):
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", None):
+            with self.assertRaises(nb.ClaimsLockError):
+                nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1")
+        self.assertFalse(os.path.exists(self.path))
+
+    def test_without_fcntl_the_windows_lock_is_held(self):
+        calls = []
+
+        class FakeMsvcrt:
+            LK_LOCK, LK_UNLCK = 1, 0
+
+            @staticmethod
+            def locking(fd, mode, nbytes):
+                calls.append(mode)
+
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", FakeMsvcrt):
+            self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.MATCHED)
+            self.assertEqual(nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1"), nb.ALREADY_CLAIMED)
+        self.assertEqual(calls, [1, 0, 1, 0])
+
+    def test_damaged_complete_line_stops_instead_of_forgetting(self):
+        with open(self.path, "w", encoding="utf-8") as fh:
+            fh.write("not json\n")
+        with self.assertRaises(ValueError):
+            nb.ClaimsFile(self.path).claim(BLOCK_A, "order-1")
+
+    def test_bad_block_hash_is_refused(self):
+        with self.assertRaises(ValueError):
+            nb.ClaimsFile(self.path).claim("12", "order-1")
+
+
+class VerifyPaymentCliTests(unittest.TestCase):
+    def setUp(self):
+        self.dir = tempfile.TemporaryDirectory()
+        self.claims = os.path.join(self.dir.name, "claims.jsonl")
+
+    def tearDown(self):
+        self.dir.cleanup()
+
+    def run_cli(self, args, block_info):
+        out = io.StringIO()
+        code = 0
+        with mock.patch.object(verify_payment, "rpc", return_value=block_info) as rpc, \
+                contextlib.redirect_stdout(out):
+            try:
+                verify_payment.main(args)
+            except SystemExit as e:
+                code = e.code
+        return code, out.getvalue().strip(), rpc
+
+    def test_unchanged_without_options(self):
+        legacy = send_block(rep=nb.public_key_to_account(bytes([1]) * 32), amount=PRICE + 5)
+        code, out, rpc = self.run_cli([BLOCK_A, PAY_TO, str(PRICE)], legacy)
+        self.assertEqual((code, out), (0, "OK %d raw to %s" % (PRICE + 5, PAY_TO)))
+        self.assertEqual(rpc.call_args.kwargs["rpc_url"], verify_payment.RPC)
+
+    def test_bound_payment_is_credited_once_across_restarts(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1", "--claims-file", self.claims]
+        self.assertEqual(self.run_cli(args, send_block())[:2], (0, "OK %d raw to %s" % (PRICE, PAY_TO)))
+        args2 = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-2", "--claims-file", self.claims]
+        self.assertEqual(self.run_cli(args2, send_block(order_id="order-2"))[:2], (1, "ALREADY_CLAIMED"))
+
+    def test_identical_replay_is_already_claimed(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1", "--claims-file", self.claims]
+        self.assertEqual(self.run_cli(args, send_block())[:2], (0, "OK %d raw to %s" % (PRICE, PAY_TO)))
+        self.assertEqual(self.run_cli(args, send_block())[:2], (1, "ALREADY_CLAIMED"))
+        self.assertEqual(self.run_cli(args, send_block())[:2], (1, "ALREADY_CLAIMED"))
+
+    def test_no_lock_is_an_error_not_an_ok(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1", "--claims-file", self.claims]
+        with mock.patch.object(nb, "fcntl", None), mock.patch.object(nb, "msvcrt", None):
+            code, out, _ = self.run_cli(args, send_block())
+        self.assertEqual(code, 2)
+        self.assertTrue(out.startswith("CLAIMS_FILE_ERROR"), out)
+
+    def test_block_paying_another_order_is_refused(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1"]
+        self.assertEqual(self.run_cli(args, send_block(order_id="order-9"))[:2], (1, "NOT_BOUND_TO_ORDER"))
+        self.assertEqual(self.run_cli(args, send_block(amount=PRICE * 2))[:2], (1, "REFUSABLE_WRONG_AMOUNT"))
+
+    def test_claims_file_alone_refuses_a_replayed_block(self):
+        legacy = send_block(rep=nb.public_key_to_account(bytes([1]) * 32))
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--claims-file", self.claims]
+        self.assertEqual(self.run_cli(args, legacy)[0], 0)
+        self.assertEqual(self.run_cli(args, legacy)[:2], (1, "ALREADY_CLAIMED"))
+
+    def test_node_url_and_inputs_are_checked_before_any_read(self):
+        for args in (
+            [BLOCK_A, PAY_TO, str(PRICE), "--rpc", "http://node.example:7076"],
+            [BLOCK_A, "nano_bad", str(PRICE), "--order-id", "order-1"],
+            ["12", PAY_TO, str(PRICE), "--claims-file", self.claims],
+            [BLOCK_A, PAY_TO, "0", "--order-id", "order-1"],
+        ):
+            code, out, rpc = self.run_cli(args, send_block())
+            self.assertEqual(code, 2, args)
+            self.assertTrue(out.startswith("BAD_INPUT"), out)
+            rpc.assert_not_called()
+
+    def test_options_without_the_module_are_refused(self):
+        with mock.patch.object(verify_payment, "nano_binding", None):
+            code, out, rpc = self.run_cli([BLOCK_A, PAY_TO, str(PRICE), "--order-id", "order-1"], send_block())
+        self.assertEqual(code, 2)
+        self.assertIn("nano_binding.py", out)
+        rpc.assert_not_called()
+
+    def test_local_node_and_env_url(self):
+        args = [BLOCK_A, PAY_TO, str(PRICE), "--rpc", "http://127.0.0.1:7076"]
+        self.assertEqual(self.run_cli(args, send_block())[2].call_args.kwargs["rpc_url"], "http://127.0.0.1:7076")
+        with mock.patch.dict(os.environ, {"NANO_RPC_URL": "https://node.example/rpc"}):
+            rpc = self.run_cli([BLOCK_A, PAY_TO, str(PRICE)], send_block())[2]
+        self.assertEqual(rpc.call_args.kwargs["rpc_url"], "https://node.example/rpc")
+
+
+if __name__ == "__main__":
+    unittest.main()

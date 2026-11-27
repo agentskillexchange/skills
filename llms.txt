@@ -1,7 +1,1071 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-10-21
-# Total: 3170 skills
+# Generated: 2026-11-26
+# Total: 3303 skills
+
+## AI Dance Video with Danceo
+slug: danceo-ai-dance-video
+category: Image & Creative Automation
+framework: MCP
+verification: Published
+description: Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll the render status.
+url: https://agentskillexchange.com/skills/danceo-ai-dance-video/
+
+## Corral — Exclusive Android Device Leases for Coding Agents
+slug: corral-android-device-leases-for-coding-agents
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or its MCP endpoint. Corral is a…
+url: https://agentskillexchange.com/skills/corral-android-device-leases-for-coding-agents/
+
+## Reconcile CCCC agent-message delivery and reply evidence
+slug: reconcile-cccc-agent-message-delivery-and-reply-evidence
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing CCCC delegation, separate runtime handoff from reads and replies, and return evidence before retrying uncertain work.
+url: https://agentskillexchange.com/skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/
+
+## Google Flights Fare Search
+slug: google-flights-fare-search
+category: Research & Scraping
+framework: Claude Code
+verification: Published
+description: Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON row per flight with price, airlines,…
+url: https://agentskillexchange.com/skills/google-flights-fare-search/
+
+## Review repository changes for destructive commands with dcg
+slug: review-repository-changes-for-destructive-commands-with-dcg
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings before commit or merge.
+url: https://agentskillexchange.com/skills/review-repository-changes-for-destructive-commands-with-dcg/
+
+## Find evidence across a PDF corpus with Semtools
+slug: find-evidence-across-pdf-corpus-with-semtools
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected passages and explicit coverage limits.
+url: https://agentskillexchange.com/skills/find-evidence-across-pdf-corpus-with-semtools/
+
+## Mailtrap Sending Emails
+slug: mailtrap-sending-emails
+category: Calendar, Email & Productivity
+framework: Multi-Framework
+verification: Published
+description: Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional or bulk stream, then send with…
+url: https://agentskillexchange.com/skills/mailtrap-sending-emails/
+
+## BloxStack Onboarding
+slug: bloxstack-onboarding
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a creator wants to set up a…
+url: https://agentskillexchange.com/skills/bloxstack-onboarding/
+
+## Runheed
+slug: runheed
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces and breadcrumbs, fix the code and…
+url: https://agentskillexchange.com/skills/runheed/
+
+## Review completed EpicStaff flows with the bundled Flow QA skill
+slug: review-completed-epicstaff-flows-with-bundled-flow-qa
+category: Code Quality & Review
+framework: Custom Agents
+verification: Security Reviewed
+description: Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node contracts.
+url: https://agentskillexchange.com/skills/review-completed-epicstaff-flows-with-bundled-flow-qa/
+
+## Promote a verified artifact bundle to one Kargo Stage
+slug: promote-verified-artifact-bundle-to-one-kargo-stage
+category: CI/CD Integrations
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check an exact Freight bundle against Stage eligibility, submit an authorized Kargo promotion and report deployment and verification evidence.
+url: https://agentskillexchange.com/skills/promote-verified-artifact-bundle-to-one-kargo-stage/
+
+## Customize Percho subagent cards with the bundled UI plugin workflow
+slug: customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Generate a TSX replacement for Percho subagent run cards, check host build feedback and themes, then hand off manual plugin enablement.
+url: https://agentskillexchange.com/skills/customize-percho-subagent-cards-with-the-bundled-ui-plugin-workflow/
+
+## Build and verify local Swift MCP tool endpoints
+slug: build-and-verify-local-swift-mcp-tool-endpoints
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Expose a selected Swift operation as an MCP tool, then check discovery, argument handling and results through a local stdio client.
+url: https://agentskillexchange.com/skills/build-and-verify-local-swift-mcp-tool-endpoints/
+
+## Apply atomic tracked Word revisions with SurfSense
+slug: apply-atomic-tracked-word-revisions-with-surfsense
+category: Templates & Workflows
+framework: Multi-Framework
+verification: Security Reviewed
+description: Apply requested edits to one Word source as a versioned Studio copy, using exact-text anchors, atomic edit batches and tracked-change review.
+url: https://agentskillexchange.com/skills/apply-atomic-tracked-word-revisions-with-surfsense/
+
+## Inspect a scoped workspace hierarchy through PipesHub MCP
+slug: inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access, and pagination limits.
+url: https://agentskillexchange.com/skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/
+
+## Inspect and recover a blocked coding-agent terminal through Facade MCP
+slug: inspect-recover-blocked-coding-agent-terminal-facade-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Diagnose one blocked Facade agent from its terminal evidence, perform an explicitly authorized response, and verify the observed recovery without duplicating work.
+url: https://agentskillexchange.com/skills/inspect-recover-blocked-coding-agent-terminal-facade-mcp/
+
+## Audit local coding-agent permissions and MCP configuration with Safe Anything
+slug: audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a selected project’s agent permissions, MCP launch pins, credentials and hooks with an offline scan and a file-and-line configuration risk checklist.
+url: https://agentskillexchange.com/skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/
+
+## Validate a managed JSON Goal deliverable in MateClaw
+slug: validate-a-managed-json-goal-deliverable-in-mateclaw
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Publish a scoped JSON report to a user-selected Goal slot, bind required-field checks to its exact version, and reconcile conflicts before completion.
+url: https://agentskillexchange.com/skills/validate-a-managed-json-goal-deliverable-in-mateclaw/
+
+## Inspect Open Agent API Runs
+slug: open-agent-api-run-inspector
+category: Runbooks & Diagnostics
+framework: Codex
+verification: Published
+description: Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval request, and a terminal result without…
+url: https://agentskillexchange.com/skills/open-agent-api-run-inspector/
+
+## Patch one Obsidian note section with a version precondition
+slug: patch-one-obsidian-note-section-with-a-version-precondition
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Published
+description: Read a named note section, apply a version-conditional MCP patch, and return a verified change or an explicit concurrent-edit conflict.
+url: https://agentskillexchange.com/skills/patch-one-obsidian-note-section-with-a-version-precondition/
+
+## Audit a user journey into interaction counts and a UX budget
+slug: audit-a-user-journey-into-interaction-counts-and-a-ux-budget
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Trace one user journey through its code, label interaction counts by evidence, and deliver ranked friction reductions with a proposed click and field budget.
+url: https://agentskillexchange.com/skills/audit-a-user-journey-into-interaction-counts-and-a-ux-budget/
+
+## Move an existing coding mission between machines with Orb checkpoints
+slug: move-an-existing-coding-mission-between-machines-with-orb-checkpoints
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a verified workspace checkpoint, move one Orb mission to an eligible machine on the same Core, and continue with its identity and history…
+url: https://agentskillexchange.com/skills/move-an-existing-coding-mission-between-machines-with-orb-checkpoints/
+
+## Triage Camunda process incidents into a read-only evidence packet
+slug: triage-camunda-process-incidents-into-a-read-only-evidence-packet
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Search and inspect scoped Camunda 8 incidents, distinguish observed errors from suspected causes, and hand off a read-only triage packet.
+url: https://agentskillexchange.com/skills/triage-camunda-process-incidents-into-a-read-only-evidence-packet/
+
+## Resume Tribunal
+slug: resume-tribunal
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: Tailors a resume or CV to one job posting using only the user's own facts, then has an AI from a different company review…
+url: https://agentskillexchange.com/skills/resume-tribunal/
+
+## Build reviewed repository context packets with RepoPrompt CE MCP
+slug: build-reviewed-repository-context-repoprompt-ce-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Bind a repository workspace, discover relevant files, refine slices and code maps, inspect token usage, and export a reviewed context packet through MCP.
+url: https://agentskillexchange.com/skills/build-reviewed-repository-context-repoprompt-ce-mcp/
+
+## Delegate bounded coding tasks and hand off sessions with Kimi Code
+slug: delegate-coding-tasks-handoff-sessions-kimi-code
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Coordinate local Kimi Code tasks with structured CLI output, or discover the installed KAP interface to hand off and supervise repository sessions.
+url: https://agentskillexchange.com/skills/delegate-coding-tasks-handoff-sessions-kimi-code/
+
+## Van Westendorp Analysis
+slug: van-westendorp-analysis
+category: Data Extraction & Transformation
+framework: Claude Code
+verification: Published
+description: Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC, PME and the acceptable price range,…
+url: https://agentskillexchange.com/skills/van-westendorp-analysis/
+
+## Validate a YouTube niche with sourced channel evidence through TubeLab
+slug: validate-youtube-niche-sourced-channel-evidence-tubelab
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Compare up to three YouTube niches using channel samples, explicit score formulas and newcomer evidence to produce an entry verdict.
+url: https://agentskillexchange.com/skills/validate-youtube-niche-sourced-channel-evidence-tubelab/
+
+## Check R table schemas and duplicate keys before combining data with janitor
+slug: check-r-table-schemas-duplicate-keys-janitor
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Normalize column names, compare data-frame types and expose duplicate records before an R data pipeline combines incoming tables.
+url: https://agentskillexchange.com/skills/check-r-table-schemas-duplicate-keys-janitor/
+
+## Diagnose remote server incidents with MCP SSH Manager before changing services
+slug: diagnose-remote-incidents-mcp-ssh-manager
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Collect host health, service status, bounded logs and process evidence through SSH tools before proposing a scoped repair.
+url: https://agentskillexchange.com/skills/diagnose-remote-incidents-mcp-ssh-manager/
+
+## Direct and render stickman videos from an approved script
+slug: direct-render-stickman-videos-approved-script
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Turn a topic or script into a storyboard, approved opening preview, and locally rendered stickman video with narration and captions.
+url: https://agentskillexchange.com/skills/direct-render-stickman-videos-approved-script/
+
+## RELAY Paid Work Marketplace
+slug: relay-paid-work
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Published
+description: Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for the operator's local signer. Use the…
+url: https://agentskillexchange.com/skills/relay-paid-work/
+
+## Reconcile ClawManager Provisioning Operations with Runtime Readiness
+slug: reconcile-clawmanager-provisioning-runtime-readiness
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing provisioning operation and its owner-scoped instance through the Northbound API, distinguishing operation success from runtime availability before handoff.
+url: https://agentskillexchange.com/skills/reconcile-clawmanager-provisioning-runtime-readiness/
+
+## Gate Coding Changes with Cezar Browser Tests and Bounded Repair Retries
+slug: gate-coding-changes-cezar-browser-tests-bounded-retries
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run a worktree-local implementation and test loop that returns browser failure evidence to the coding agent, retries test failures within a limit, and stops…
+url: https://agentskillexchange.com/skills/gate-coding-changes-cezar-browser-tests-bounded-retries/
+
+## Audit Codebases with OpenCode Swarm Coverage Ledgers and Validated Findings
+slug: audit-codebases-with-opencode-swarm-coverage-ledgers
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run the portable codebase-review-swarm skill to produce source-grounded findings, validation evidence and explicit coverage records without editing source.
+url: https://agentskillexchange.com/skills/audit-codebases-with-opencode-swarm-coverage-ledgers/
+
+## Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence
+slug: triage-rhino-model-clashes-with-object-pair-measurements
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Inspect a pair of Rhino objects, distinguish exact clash results from bounding-box approximations, and return measurements with viewport evidence.
+url: https://agentskillexchange.com/skills/triage-rhino-model-clashes-with-object-pair-measurements/
+
+## StalkChain Trader Check
+slug: stalkchain-trader-check
+category: Research & Scraping
+framework: Claude Code
+verification: Published
+description: Review a public crypto trader’s attributed wallets, reported PnL and open positions using the StalkChain Data MCP.
+url: https://agentskillexchange.com/skills/stalkchain-trader-check/
+
+## Reconcile OmniGet Download Receipts and Diagnose Failed Jobs over MCP
+slug: reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp
+category: Media & Transcription
+framework: MCP
+verification: Security Reviewed
+description: Turn an explicit media URL batch into per-job completion evidence and a bounded failure handoff through OmniGet’s local MCP server.
+url: https://agentskillexchange.com/skills/reconcile-omniget-download-receipts-and-diagnose-failed-jobs-over-mcp/
+
+## Diagnose Skales Browser Tool Readiness with DevKit
+slug: diagnose-skales-browser-tool-readiness-with-devkit
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect Skales local DevKit status, model configuration and browser-tool enabled flags, then return a diagnostic handoff before a supervised browser run.
+url: https://agentskillexchange.com/skills/diagnose-skales-browser-tool-readiness-with-devkit/
+
+## Generate Images and Video with UberLLM
+slug: generate-images-and-video-with-uberllm
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Discovers current UberLLM image and video models, reads each model's live request schema, checks the price with a free validate call, submits one image…
+url: https://agentskillexchange.com/skills/generate-images-and-video-with-uberllm/
+
+## CallForMe
+slug: callforme
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Phone a business for the user through the CallForMe remote MCP server (https://callforme.tel/mcp) or its REST API: get quotes, book a table, check stock,…
+url: https://agentskillexchange.com/skills/callforme/
+
+## Audit OpenLoomi Loop decision routing with deterministic rule previews
+slug: audit-openloomi-loop-decision-routing-with-rule-previews
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect OpenLoomi Loop classifier rules, dry-run sample work signals and return an ordered routing diagnosis before changing live decisions.
+url: https://agentskillexchange.com/skills/audit-openloomi-loop-decision-routing-with-rule-previews/
+
+## Prepare a source-backed TensorRT-LLM serving configuration
+slug: prepare-source-backed-tensorrt-llm-serving-configuration
+category: Developer Tools
+framework: Claude Code
+verification: Security Reviewed
+description: Use NVIDIA’s native configuration skill to select a checked-in single-node PyTorch serving recipe and return YAML, provenance and a launch or benchmark plan.
+url: https://agentskillexchange.com/skills/prepare-source-backed-tensorrt-llm-serving-configuration/
+
+## Prepare a source-verified Archestra MCP catalog entry
+slug: prepare-source-verified-archestra-mcp-catalog-entry
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a catalog manifest from an MCP server URL, verify remote transport and tool metadata, and check the entry before maintainer review.
+url: https://agentskillexchange.com/skills/prepare-source-verified-archestra-mcp-catalog-entry/
+
+## Prepare a read-only InnoShop low-stock report through MCP
+slug: prepare-read-only-innoshop-low-stock-report-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Query all low-stock SKU pages through InnoShop MCP and return a threshold-based inventory exception report for human restocking review.
+url: https://agentskillexchange.com/skills/prepare-read-only-innoshop-low-stock-report-mcp/
+
+## Refresh Theia model aliases and provider capabilities with update-default-models
+slug: refresh-theia-model-aliases-provider-capabilities
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Research provider model changes, update Theia's default aliases and inferred capabilities, and return a tested maintenance patch using its upstream skill.
+url: https://agentskillexchange.com/skills/refresh-theia-model-aliases-provider-capabilities/
+
+## Render existing Mermaid files and PR diagrams in Claude Code with Termaid
+slug: render-existing-mermaid-diagrams-claude-code-termaid
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Invoke Termaid’s explicit Mermaid skill to render existing files, README blocks, or PR diagrams as terminal drawings and inspect them against the intended structure.
+url: https://agentskillexchange.com/skills/render-existing-mermaid-diagrams-claude-code-termaid/
+
+## Monitor one pull request through CI and review with Tstack babysit-pr
+slug: monitor-pull-request-ci-review-tstack-babysit-pr
+category: CI/CD Integrations
+framework: Multi-Framework
+verification: Security Reviewed
+description: Watch a single owned pull request, verify new review findings, fix real CI failures, and return a current readiness handoff without implicit merge permission.
+url: https://agentskillexchange.com/skills/monitor-pull-request-ci-review-tstack-babysit-pr/
+
+## Search repository files by behavior with Localix decide
+slug: search-repository-files-by-behavior-with-localix-decide
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Narrow repository paths with ripgrep, classify each candidate with llx decide, and inspect matching or uncertain files before returning a source-grounded handoff.
+url: https://agentskillexchange.com/skills/search-repository-files-by-behavior-with-localix-decide/
+
+## Validate and report completed external workflow usage to LoopForge
+slug: validate-and-report-completed-external-workflow-usage-to-loopforge
+category: Monitoring & Alerts
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for safe retries.
+url: https://agentskillexchange.com/skills/validate-and-report-completed-external-workflow-usage-to-loopforge/
+
+## Coordinate a scoped code change through Oh My Claudecode team stages
+slug: coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change and evidence for operator review.
+url: https://agentskillexchange.com/skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/
+
+## Verify Nix package and option choices through MCP-NixOS
+slug: verify-nix-package-and-option-choices-through-mcp-nixos
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search NixOS packages and configuration options, inspect exact results and version metadata, then hand off an evidenced configuration plan through the MCP-NixOS query tools.
+url: https://agentskillexchange.com/skills/verify-nix-package-and-option-choices-through-mcp-nixos/
+
+## Review changed-file code quality findings with Fallow
+slug: review-changed-file-code-quality-findings-with-fallow
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Audit a JavaScript or TypeScript change against its Git base, inspect structured findings, and return a focused merge-readiness report across code health, duplication, and…
+url: https://agentskillexchange.com/skills/review-changed-file-code-quality-findings-with-fallow/
+
+## Resolve Langfuse integration questions through its documentation MCP
+slug: resolve-langfuse-integration-questions-through-documentation-mcp
+category: Library & API Reference
+framework: MCP
+verification: Security Reviewed
+description: Search current Langfuse documentation, fetch the relevant Markdown pages, and return a source-backed integration or migration plan through the official docs MCP.
+url: https://agentskillexchange.com/skills/resolve-langfuse-integration-questions-through-documentation-mcp/
+
+## Refresh structured user profiles from chat buffers with Memobase
+slug: refresh-structured-user-profiles-from-chat-buffers-with-memobase
+category: Integrations & Connectors
+framework: Multi-Framework
+verification: Security Reviewed
+description: Convert authorized chat batches into a user-scoped profile, wait for processing, and retrieve a bounded context string for the next assistant turn.
+url: https://agentskillexchange.com/skills/refresh-structured-user-profiles-from-chat-buffers-with-memobase/
+
+## Investigative Journalism and Fact-Checking
+slug: investigate-and-fact-check
+category: Research & Scraping
+framework: Codex
+verification: Published
+description: Conduct public-interest investigative journalism, rigorous fact-checking, and open-source intelligence (OSINT) research. Use for verifying claims, quotes, documents, photographs, video, audio, statistics, and online narratives;…
+url: https://agentskillexchange.com/skills/investigate-and-fact-check/
+
+## Firecrawl Alexandria
+slug: firecrawl-alexandria
+category: Research & Scraping
+framework: Multi-Framework
+verification: Published
+description: Firecrawl Alexandria gives coding agents a direct path to structured data through ready-made website workflows, data APIs, and specialized indexes. The agent discovers a…
+url: https://agentskillexchange.com/skills/firecrawl-alexandria/
+
+## Build and resume research coverage matrices with OmAgents
+slug: build-and-resume-research-coverage-matrices-with-omagents
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Plan research as items and fields, persist source-backed findings, fill coverage gaps, and resume an audited Markdown report across agent sessions.
+url: https://agentskillexchange.com/skills/build-and-resume-research-coverage-matrices-with-omagents/
+
+## Route Codex delivery through explicit risk gates with Sol Advisor
+slug: route-codex-delivery-through-explicit-risk-gates-with-sol-advisor
+category: Templates & Workflows
+framework: Codex
+verification: Published
+description: Declare a solo, delegate, audit or full route, verify the selected native roles, and return a reviewed diff with parent-run verification evidence.
+url: https://agentskillexchange.com/skills/route-codex-delivery-through-explicit-risk-gates-with-sol-advisor/
+
+## Build and review single-file browser motion graphics with Bang Motion
+slug: build-and-review-single-file-browser-motion-graphics-with-bang-motion
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Turn a brand brief into an approved motion concept and one playable index.html, then scrub key moments and revise the same timeline before handoff.
+url: https://agentskillexchange.com/skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/
+
+## Draft, review and export code-driven pixel effects with Pixelfx
+slug: draft-review-and-export-code-driven-pixel-effects-with-pixelfx
+category: Image & Creative Automation
+framework: Claude Code
+verification: Security Reviewed
+description: Find or draft a pixel effect, inspect rendered contact sheets, refine its motion and export a transparent sprite sheet with timing and pivot metadata.
+url: https://agentskillexchange.com/skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/
+
+## Run evidence-backed mobile app smoke checks with AutoCua
+slug: run-evidence-backed-mobile-app-smoke-checks-with-autocua
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run bounded natural-language smoke checks on simulator app builds, then review per-task status and saved observations before reporting results.
+url: https://agentskillexchange.com/skills/run-evidence-backed-mobile-app-smoke-checks-with-autocua/
+
+## Turn a specification into verified Rhesis test foundations
+slug: turn-a-specification-into-verified-rhesis-test-foundations
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Map source acceptance criteria to requirements, scoped metrics and typed test sets, with plan approval and generated-test verification.
+url: https://agentskillexchange.com/skills/turn-a-specification-into-verified-rhesis-test-foundations/
+
+## Triage a Latitude signal with linked trace evidence
+slug: triage-a-latitude-signal-with-linked-trace-evidence
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Investigate one agent failure signal through lifecycle, trends, model slices and spans, then return an evidence-backed engineering brief.
+url: https://agentskillexchange.com/skills/triage-a-latitude-signal-with-linked-trace-evidence/
+
+## Answer from one Docling Studio parse with verified citations
+slug: answer-from-one-docling-studio-parse-with-verified-citations
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Read a PDF outline under a token and round budget, verify quoted evidence against one parse, and return a cited answer or a clear…
+url: https://agentskillexchange.com/skills/answer-from-one-docling-studio-parse-with-verified-citations/
+
+## Preflight Cybermes engagement scope rules over MCP
+slug: preflight-cybermes-engagement-scope-rules-over-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Test existing engagement scope rules against allowed and excluded fixtures, check local tool readiness, and return a preflight record before target activity.
+url: https://agentskillexchange.com/skills/preflight-cybermes-engagement-scope-rules-over-mcp/
+
+## Export complete or partial headless scan evidence with open·kritt
+slug: export-headless-scan-evidence-with-open-kritt
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Inspect an existing scan from a private headless host and export a review bundle that clearly distinguishes complete findings from partial results.
+url: https://agentskillexchange.com/skills/export-headless-scan-evidence-with-open-kritt/
+
+## GetYouTubeTranscript: YouTube Transcripts, Search and Channel Data
+slug: getyoutubetranscript-youtube-transcript
+category: Media & Transcription
+framework: Claude Code
+verification: Published
+description: Fetch YouTube transcripts, search videos and channels, browse a channel's uploads and playlists, and find where something is said, through the getyoutubetranscript.com REST API…
+url: https://agentskillexchange.com/skills/getyoutubetranscript-youtube-transcript/
+
+## Review Master CSS output regressions through MCP snapshots
+slug: review-master-css-output-regressions-through-mcp-snapshots
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the installed Master CSS compiler.
+url: https://agentskillexchange.com/skills/review-master-css-output-regressions-through-mcp-snapshots/
+
+## Refresh Pixeltable video summaries without repeating transcription
+slug: refresh-pixeltable-video-summaries-without-repeating-transcription
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review a summary-prompt change, recompute only the summary and its search dependents, and verify that stored audio and transcripts stay unchanged.
+url: https://agentskillexchange.com/skills/refresh-pixeltable-video-summaries-without-repeating-transcription/
+
+## Verify shared and private fleet memory through Caura MCP
+slug: verify-shared-and-private-fleet-memory-through-caura-mcp
+category: Security & Verification
+framework: MCP
+verification: Security Reviewed
+description: Use two provisioned agent identities to check fleet recall, private-memory boundaries and writer provenance before connecting a team to shared memory.
+url: https://agentskillexchange.com/skills/verify-shared-and-private-fleet-memory-through-caura-mcp/
+
+## Regression-test Apache Hop pipelines against golden data
+slug: regression-test-apache-hop-pipelines-against-golden-data
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Replace external inputs and output sinks with test datasets, run a bounded Hop regression suite and report row or field mismatches before promotion.
+url: https://agentskillexchange.com/skills/regression-test-apache-hop-pipelines-against-golden-data/
+
+## Verify signed agent-run evidence offline with Tracekit
+slug: verify-signed-agent-run-evidence-offline-with-tracekit
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check an authorized Tracekit bundle against pinned signer keys and report integrity verdicts separately from execution and completeness claims.
+url: https://agentskillexchange.com/skills/verify-signed-agent-run-evidence-offline-with-tracekit/
+
+## Re-embed OpenClaw memory into a fresh LanceDB store
+slug: re-embed-openclaw-memory-into-a-fresh-lancedb-store
+category: Integrations & Connectors
+framework: OpenClaw
+verification: Security Reviewed
+description: Plan and verify an OpenClaw memory embedding cutover using a complete store backup, a dry run and matching row counts.
+url: https://agentskillexchange.com/skills/re-embed-openclaw-memory-into-a-fresh-lancedb-store/
+
+## Audit local agent runs and select hook policies with Failproof AI
+slug: audit-local-agent-runs-and-select-hook-policies-with-failproof-ai
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes.
+url: https://agentskillexchange.com/skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/
+
+## Preview Azure app infrastructure and service deployments with azd
+slug: preview-azure-app-infrastructure-and-service-deployments-with-azd
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Use Azure Developer CLI to inspect an existing azure.yaml project, preview infrastructure and service changes, and prepare an evidence-backed deployment handoff.
+url: https://agentskillexchange.com/skills/preview-azure-app-infrastructure-and-service-deployments-with-azd/
+
+## Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie
+slug: turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie
+category: Security & Verification
+framework: Custom Agents
+verification: Security Reviewed
+description: Use DevoxxGenie Agent Mode to scan current project files and dependencies, interpret findings, and create prioritized Backlog.md tasks for review.
+url: https://agentskillexchange.com/skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/
+
+## Run a mock robotics benchmark and review evidence with Inspect Robots
+slug: run-mock-robotics-benchmark-review-evidence-inspect-robots
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run the built-in CubePick benchmark with a scripted policy, inspect resolved configuration and scores, and render saved robotics evaluation logs for review.
+url: https://agentskillexchange.com/skills/run-mock-robotics-benchmark-review-evidence-inspect-robots/
+
+## Diagnose retrieved-but-unused agent skills through Ratel MCP
+slug: diagnose-retrieved-but-unused-agent-skills-ratel-mcp
+category: Monitoring & Alerts
+framework: MCP
+verification: Published
+description: Compare skill retrievals with actual invocations through Ratel MCP, inspect the queries behind unused matches, and return an evidence-backed catalog diagnosis.
+url: https://agentskillexchange.com/skills/diagnose-retrieved-but-unused-agent-skills-ratel-mcp/
+
+## Build and validate one Enferno admin feature
+slug: build-validate-one-enferno-admin-feature
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Implement one scoped admin feature using Enferno’s upstream agent skill, then review its migration, authorization, CSRF behavior and test evidence.
+url: https://agentskillexchange.com/skills/build-validate-one-enferno-admin-feature/
+
+## Inspect FreeCAD model properties and capture review views
+slug: inspect-freecad-model-properties-capture-review-views
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Inspect an open FreeCAD document through MCP, collect object properties and capture oriented views for a model-review evidence handoff.
+url: https://agentskillexchange.com/skills/inspect-freecad-model-properties-capture-review-views/
+
+## Generate budgeted McDonald’s China group-meal plans
+slug: generate-budgeted-mcdonalds-china-group-meal-plans
+category: Calendar, Email & Productivity
+framework: MCP
+verification: Security Reviewed
+description: Compare nearby McDonald’s China stores and live-priced meal combinations against a group headcount and budget, returning a plan without ordering.
+url: https://agentskillexchange.com/skills/generate-budgeted-mcdonalds-china-group-meal-plans/
+
+## Read Microsoft 365 attachments with explicit extraction coverage
+slug: read-microsoft-365-attachments-explicit-extraction-coverage
+category: Data Extraction & Transformation
+framework: MCP
+verification: Published
+description: Hand a selected Microsoft 365 attachment to an approved processor through a fresh download URL, preserving continuation and extraction-coverage evidence.
+url: https://agentskillexchange.com/skills/read-microsoft-365-attachments-explicit-extraction-coverage/
+
+## Inspect and retrieve brand and cloud service SVG assets with theSVG
+slug: retrieve-brand-cloud-service-svg-assets-thesvg
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Resolve named brands and cloud services through theSVG’s manifest, choose available light or dark variants, and return exact SVG assets for docs and diagrams.
+url: https://agentskillexchange.com/skills/retrieve-brand-cloud-service-svg-assets-thesvg/
+
+## Inspect Unreal Editor state and capture visual evidence with EngineWire
+slug: inspect-unreal-editor-state-visual-evidence-enginewire
+category: Image & Creative Automation
+framework: MCP
+verification: Security Reviewed
+description: Connect an MCP agent to EngineWire, inspect the current Unreal Editor selection and viewport, and return screenshots with a bounded scene-state report.
+url: https://agentskillexchange.com/skills/inspect-unreal-editor-state-visual-evidence-enginewire/
+
+## Run bounded metric-improvement experiments with MiMoCode
+slug: run-bounded-metric-improvement-experiments-mimocode
+category: Developer Tools
+framework: Custom Agents
+verification: Security Reviewed
+description: Run MiMoCode’s opt-in experiment workflow against a fixed evaluation budget, then review kept changes, measured deltas and an independent audit.
+url: https://agentskillexchange.com/skills/run-bounded-metric-improvement-experiments-mimocode/
+
+## Produce read-only cloud security and FinOps findings with StackQL
+slug: produce-read-only-cloud-security-finops-findings-stackql
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run StackQL’s pinned Docker audit against approved cloud scopes and return security findings, waste estimates and coverage gaps from its JSON artifact.
+url: https://agentskillexchange.com/skills/produce-read-only-cloud-security-finops-findings-stackql/
+
+## Investigate repository failures with an evidence-backed Archon workflow
+slug: investigate-repository-failures-evidence-backed-archon-workflow
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Archon’s bounded investigation workflow to reproduce a repository failure, establish its cause and hand off a saved evidence report before implementation.
+url: https://agentskillexchange.com/skills/investigate-repository-failures-evidence-backed-archon-workflow/
+
+## Edit and verify a scoped Jupyter notebook task through MCP
+slug: edit-verify-scoped-jupyter-notebook-task-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Connect an external MCP agent to a selected Jupyter notebook, make bounded cell edits, execute the affected analysis and return saved results with execution…
+url: https://agentskillexchange.com/skills/edit-verify-scoped-jupyter-notebook-task-mcp/
+
+## Find and inspect French public datasets through data.gouv.fr MCP
+slug: find-inspect-french-public-datasets-datagouv-mcp
+category: Research & Scraping
+framework: MCP
+verification: Security Reviewed
+description: Search data.gouv.fr, check dataset provenance and resource metadata, then preview supported tabular rows and return a cited research handoff.
+url: https://agentskillexchange.com/skills/find-inspect-french-public-datasets-datagouv-mcp/
+
+## Review and revise an agent-authored Markdown plan with Crit
+slug: review-revise-agent-markdown-plan-with-crit
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Open a local Markdown plan for line-level human comments, return the feedback to the agent, and repeat the revision loop until the operator approves.
+url: https://agentskillexchange.com/skills/review-revise-agent-markdown-plan-with-crit/
+
+## Record an agent-completed browser task as a parameterized Oya playbook
+slug: record-agent-browser-task-as-parameterized-oya-playbook
+category: Browser Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay with new inputs while retaining repair…
+url: https://agentskillexchange.com/skills/record-agent-browser-task-as-parameterized-oya-playbook/
+
+## Autoroute a KiCad board and validate the result through MCP
+slug: autoroute-kicad-board-and-validate-result-through-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Run a bounded Freerouting pass on a KiCad board, inspect DRC and unrouted nets, then prepare fabrication exports only after the result is reviewed.
+url: https://agentskillexchange.com/skills/autoroute-kicad-board-and-validate-result-through-mcp/
+
+## Inspect a paused Windows executable with x64dbg MCP
+slug: inspect-paused-windows-executable-with-x64dbg-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Load an authorized Windows executable, pause at a breakpoint, and collect registers, memory, disassembly, and call-stack evidence through x64dbg MCP.
+url: https://agentskillexchange.com/skills/inspect-paused-windows-executable-with-x64dbg-mcp/
+
+## Delegate scoped coding tasks to T3 Code threads over MCP
+slug: delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Launch a bounded coding task from an outside MCP assistant, follow its T3 Code thread, and return the result and changes for operator review.
+url: https://agentskillexchange.com/skills/delegate-scoped-coding-tasks-to-t3-code-threads-over-mcp/
+
+## Prompt Optimizer
+slug: prompt-optimizer-skill
+category: Templates & Workflows
+framework: Custom Agents
+verification: Published
+description: Turns a rough request or an existing prompt into one copy-ready prompt for any AI agent that can load Skills (or as pasted custom…
+url: https://agentskillexchange.com/skills/prompt-optimizer-skill/
+
+## Learn and reuse route-specific extraction selectors with Crawlee Python
+slug: learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python
+category: Research & Scraping
+framework: Multi-Framework
+verification: Security Reviewed
+description: Learn CSS selectors once per page route, persist them across Crawlee Python runs, and extract validated records with controlled LLM fallback and usage checks.
+url: https://agentskillexchange.com/skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/
+
+## Record and replay FrontMCP calls to catch server regressions
+slug: record-and-replay-frontmcp-calls-to-catch-server-regressions
+category: Code Quality & Review
+framework: MCP
+verification: Security Reviewed
+description: Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and new or resolved errors before accepting…
+url: https://agentskillexchange.com/skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/
+
+## Invokely Statistics
+slug: invokely-statistics
+category: Data Extraction & Transformation
+framework: MCP
+verification: Published
+description: Use Invokely's hosted MCP tools to find and cite official statistics. Use when an agent needs indicator discovery, place resolution, values, time series, comparisons,…
+url: https://agentskillexchange.com/skills/invokely-statistics/
+
+## Imagera Media Generation
+slug: imagera-media
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Generates and edits images, video clips, voiceovers and music from a coding agent through the hosted Imagera MCP server (https://mcp.imagera.ai/mcp, Streamable HTTP, OAuth sign-in),…
+url: https://agentskillexchange.com/skills/imagera-media/
+
+## Assemble and review local video cuts through Concat MCP
+slug: assemble-and-review-local-video-cuts-through-concat-mcp
+category: Media & Transcription
+framework: MCP
+verification: Security Reviewed
+description: Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and track export completion through MCP.
+url: https://agentskillexchange.com/skills/assemble-and-review-local-video-cuts-through-concat-mcp/
+
+## Build and resume checked repository task graphs with Memdoor
+slug: build-and-resume-checked-repository-task-graphs-with-memdoor
+category: Templates & Workflows
+framework: Custom Agents
+verification: Security Reviewed
+description: Turn a repository procedure into Memdoor YAML tasks with explicit dependencies, completion checks, human approval gates and resumable run evidence.
+url: https://agentskillexchange.com/skills/build-and-resume-checked-repository-task-graphs-with-memdoor/
+
+## Datacircle GTM API Benchmark
+slug: datacircle-gtm-api-benchmark
+category: Library & API Reference
+framework: Custom Agents
+verification: Published
+description: Compare GTM APIs using Datacircle rankings. Call the open API at api.datacircle.dev/v1, with no key, to list covered APIs, filter plans by API, search…
+url: https://agentskillexchange.com/skills/datacircle-gtm-api-benchmark/
+
+## Call or Text Your Phone from an Agent with /call-me
+slug: call-me
+category: Integrations & Connectors
+framework: Claude Code
+verification: Published
+description: Lets an agent call or text the user's own phone (iPhone or Android) through the /call-me remote MCP server, Claude Code plugin or REST…
+url: https://agentskillexchange.com/skills/call-me/
+
+## Compare retriever rankings on fixed relevance datasets with BEIR
+slug: compare-retriever-rankings-on-fixed-relevance-datasets-with-beir
+category: Security & Verification
+framework: Multi-Framework
+verification: Security Reviewed
+description: Compare baseline and candidate retrievers on the same labeled dataset, then hand off ranking metrics, saved runs and query-level regressions before a RAG retrieval…
+url: https://agentskillexchange.com/skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/
+
+## Triage Lunora deployment errors and migration status through MCP
+slug: triage-lunora-deployment-errors-and-migration-status-through-mcp
+category: Runbooks & Diagnostics
+framework: MCP
+verification: Security Reviewed
+description: Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff without changing the deployment.
+url: https://agentskillexchange.com/skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/
+
+## Arcmira: YouTube Transcript Search
+slug: arcmira-transcript-search
+category: Media & Transcription
+framework: MCP
+verification: Published
+description: Search indexed YouTube and podcast transcripts through Arcmira MCP. Return quoted passages, speaker attribution when available, and timestamped links to the recordings.
+url: https://agentskillexchange.com/skills/arcmira-transcript-search/
+
+## Berlin Job Search
+slug: berlin-job-search
+category: Templates & Workflows
+framework: Claude Code
+verification: Published
+description: AI job-search coach for Berlin and the rest of Germany. Searches live postings (Bundesagentur für Arbeit API, Arbeitnow, LinkedIn guest jobs, Daily Berlin Jobs…
+url: https://agentskillexchange.com/skills/berlin-job-search/
+
+## Ground React UI edits in project components and tokens with the Onsystem skill
+slug: ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Discover project-specific React components and tokens, implement a bounded UI change, and repair new design-system violations with Onsystem checks.
+url: https://agentskillexchange.com/skills/ground-react-ui-edits-in-project-components-and-tokens-with-onsystem-skill/
+
+## Diagnose incomplete web extraction with PageSift MCP audit evidence
+slug: diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Triage missing web content across local agents using PageSift MCP audit records, HTML snapshots, and local extraction issue reports.
+url: https://agentskillexchange.com/skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/
+
+## Give an Agent Its Own Email Inbox with Cooper Email
+slug: cooper-email
+category: Calendar, Email & Productivity
+framework: Claude Code
+verification: Published
+description: Gives an AI agent its own email inbox at username@cooperemail.com through the Cooper Email REST API or remote MCP server: send, read, search and…
+url: https://agentskillexchange.com/skills/cooper-email/
+
+## Run reproducible document-parser evaluations with the OmniDocBench skill
+slug: run-reproducible-document-parser-evaluations-with-omnidocbench-skill
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate parser predictions, run OmniDocBench evaluations, and report formula, table, text, and reading-order scores with runtime diagnostics.
+url: https://agentskillexchange.com/skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/
+
+## Retrieve upstream implementation evidence before coding with XERJ
+slug: retrieve-upstream-implementation-evidence-before-coding-with-xerj
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Build a focused reference corpus, retrieve implementation passages with file-and-line citations, and check license constraints before adapting unfamiliar code.
+url: https://agentskillexchange.com/skills/retrieve-upstream-implementation-evidence-before-coding-with-xerj/
+
+## Review Rust code with rule-cited findings using BeautifulRust
+slug: review-rust-code-with-rule-cited-findings-using-beautifulrust
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Published
+description: Review a Rust file, crate or diff with scoped tool checks and prioritized findings that cite source rules, locations and concrete fixes.
+url: https://agentskillexchange.com/skills/review-rust-code-with-rule-cited-findings-using-beautifulrust/
+
+## Diagnose Paradev host and terminal failures with the doctor skill
+slug: diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Capture Paradev service, account, host and version evidence, propose one symptom-matched repair, and verify the original failure before escalation.
+url: https://agentskillexchange.com/skills/diagnose-paradev-host-and-terminal-failures-with-the-doctor-skill/
+
+## PopNow Video Generation
+slug: popnow-video
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Published
+description: Use the existing MIT-licensed PopNow video skill to quote and create AI videos from text or an image through the commercial PopNow API, confirm…
+url: https://agentskillexchange.com/skills/popnow-video/
+
+## Publish Files to a Permanent URL with deed.page
+slug: deed-page
+category: Developer Tools
+framework: Claude Code
+verification: Published
+description: Publishes a generated HTML file or a static folder to a permanent https://.deed.page/ URL with one curl PUT or the deed.page MCP server, with…
+url: https://agentskillexchange.com/skills/deed-page/
+
+## Preflight Nudgebee runbooks before saving or execution
+slug: preflight-nudgebee-runbooks-before-saving-or-execution
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Validate a proposed Nudgebee runbook, repair supported schema errors, and return an operator review packet without saving, activating or executing it.
+url: https://agentskillexchange.com/skills/preflight-nudgebee-runbooks-before-saving-or-execution/
+
+## Bootstrap and verify self-hosted Rakazo from published images
+slug: bootstrap-and-verify-self-hosted-rakazo-from-published-images
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Prepare a Docker-based Rakazo installation, preserve private configuration, and verify service health, the selected sandbox, and an optional first bot reply before handoff.
+url: https://agentskillexchange.com/skills/bootstrap-and-verify-self-hosted-rakazo-from-published-images/
+
+## Audit performance claims with Pstack benchmark-checklist
+slug: audit-performance-claims-with-pstack-benchmark-checklist
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check tuning, bottlenecks, correctness, repeatability, and end-to-end relevance before an agent reports a measured speedup or regression.
+url: https://agentskillexchange.com/skills/audit-performance-claims-with-pstack-benchmark-checklist/
+
+## Email Voice
+slug: email-voice
+category: Calendar, Email & Productivity
+framework: Codex
+verification: Published
+description: Learn a user's email voice from authorized sent samples, export a private style profile, and draft fact-preserving replies with bounded sampling and held-out validation.
+url: https://agentskillexchange.com/skills/email-voice/
+
+## Query isolated Git worktree code maps with ProjectAtlas
+slug: query-isolated-git-worktree-code-maps-with-projectatlas
+category: Developer Tools
+framework: MCP
+verification: Security Reviewed
+description: Register existing Git worktrees under explicit MCP aliases, refresh their separate code maps, and return bounded source evidence across selected checkouts.
+url: https://agentskillexchange.com/skills/query-isolated-git-worktree-code-maps-with-projectatlas/
+
+## AI Services Market MCP
+slug: ai-services-market-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Teaches an agent to connect to the AI Services Market MCP server (https://aiservicesmarket.lol/mcp) and use its seven tools — search_skills, get_skill, search_use_cases, get_use_case, get_entitlement,…
+url: https://agentskillexchange.com/skills/ai-services-market-mcp/
+
+## Compare UI design directions and refine the selected page with Oil UI
+slug: compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Create distinct first-screen designs, compare them in one page, then refine the chosen direction against desktop and mobile screenshots.
+url: https://agentskillexchange.com/skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/
+
+## Datacircle
+slug: datacircle
+category: Library & API Reference
+framework: Claude Code
+verification: Published
+description: Every GTM API plan on datacircle.dev, as one file you download and query. LinkedIn profiles, people and company search, find and validate email and…
+url: https://agentskillexchange.com/skills/datacircle/
+
+## Annotate Classical Chinese corpora with HanLP
+slug: annotate-classical-chinese-corpora-with-hanlp
+category: Data Extraction & Transformation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Produce reviewable token, lemma, POS and dependency annotations for Classical Chinese passages with HanLP’s dedicated Ancient Chinese model.
+url: https://agentskillexchange.com/skills/annotate-classical-chinese-corpora-with-hanlp/
+
+## Verify scoped Kafka tool access through Zilla MCP
+slug: verify-scoped-kafka-tool-access-through-zilla-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Published
+description: Review scoped MCP access to native Kafka, Schema Registry and Kafka Connect tools in Zilla, then return a tool-and-scope evidence matrix.
+url: https://agentskillexchange.com/skills/verify-scoped-kafka-tool-access-through-zilla-mcp/
+
+## PaperPilot CSV Preflight
+slug: paperpilot-csv-preflight
+category: Data Extraction & Transformation
+framework: Codex
+verification: Published
+description: Inspect up to 32 KiB of UTF-8 CSV locally with dependency-free Node.js, detecting inconsistent column widths, quoted-field errors, blank headers, duplicates and spreadsheet-formula-shaped values…
+url: https://agentskillexchange.com/skills/paperpilot-csv-preflight/
+
+## Recover Playwright selectors after UI refactors with QA Skills
+slug: recover-playwright-selectors-after-ui-refactors-with-qa-skills
+category: Code Quality & Review
+framework: Multi-Framework
+verification: Security Reviewed
+description: Compare old and new UI evidence, repair confirmed locator drift in existing Playwright tests, and return a validated diff with per-change evidence.
+url: https://agentskillexchange.com/skills/recover-playwright-selectors-after-ui-refactors-with-qa-skills/
+
+## Co-edit and verify a live spreadsheet session through GridCraft MCP
+slug: co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp
+category: Data Extraction & Transformation
+framework: MCP
+verification: Security Reviewed
+description: Connect an agent to the GridCraft workbook open on a user’s desktop, make scoped edits, and return formula readbacks plus a screenshot for review.
+url: https://agentskillexchange.com/skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/
+
+## Install and write Faber Romanus
+slug: install-and-write-faber-romanus
+category: Developer Tools
+framework: Multi-Framework
+verification: Published
+description: Download the Faber CLI and write Faber Romanus programs using the official agent skill guides (install, English reader spelling, packages, corpus).
+url: https://agentskillexchange.com/skills/install-and-write-faber-romanus/
+
+## Retrieve permission-scoped workplace evidence through Onyx MCP
+slug: retrieve-permission-scoped-workplace-evidence-through-onyx-mcp
+category: Integrations & Connectors
+framework: MCP
+verification: Security Reviewed
+description: Search an existing Onyx workspace within an explicit document-set or agent scope, then return source-linked evidence for a coding or operations task.
+url: https://agentskillexchange.com/skills/retrieve-permission-scoped-workplace-evidence-through-onyx-mcp/
+
+## Supervise and reconcile persistent coding-agent crews with Firstmate
+slug: supervise-and-reconcile-persistent-coding-agent-crews-with-firstmate
+category: Developer Tools
+framework: Multi-Framework
+verification: Security Reviewed
+description: Dispatch scoped coding tasks into isolated worktrees, supervise durable task events, and reconcile the same crew after a primary-session restart.
+url: https://agentskillexchange.com/skills/supervise-and-reconcile-persistent-coding-agent-crews-with-firstmate/
 
 ## Turn messy datasets into auditable reports with data-master
 slug: turn-messy-datasets-into-auditable-reports-with-data-master
@@ -1683,12 +2747,12 @@ verification: Security Reviewed
 description: Install Autoharness so Claude Code can distill, merge, update, and retire native skills from real operator sessions without a daemon or benchmark loop.
 url: https://agentskillexchange.com/skills/keep-claude-code-skills-current-from-real-sessions-with-autoharness/
 
-## Aperture Wallet Guide
+## Oath Wallet Guide
 slug: aperture-wallet-guide
 category: Library & API Reference
 framework: MCP
 verification: Published
-description: Answer Aperture Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.
+description: Answer Oath Wallet questions from first-party product, security, network, release, app-screen, and Journal sources while enforcing explicit wallet-secret and no-transaction safety boundaries.
 url: https://agentskillexchange.com/skills/aperture-wallet-guide/
 
 ## Pronounce Developer Jargon
@@ -12359,7 +13423,7 @@ url: https://agentskillexchange.com/skills/chartbrew-open-source-reporting-dashb
 slug: pdfme-typescript-pdf-generation-library
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: pdfme is an open-source TypeScript and React library for generating PDFs programmatically. It includes a WYSIWYG template designer, PDF viewer, and CLI tools for…
 url: https://agentskillexchange.com/skills/pdfme-typescript-pdf-generation-library/
 
@@ -12551,7 +13615,7 @@ url: https://agentskillexchange.com/skills/writingtools-system-wide-ai-grammar-a
 slug: lobehub-multi-agent-chat-platform-mcp-plugins
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: LobeHub is an open-source multi-agent chat platform supporting 50+ LLM providers, MCP plugin marketplace, knowledge base management, and multi-agent collaboration. It serves as a…
 url: https://agentskillexchange.com/skills/lobehub-multi-agent-chat-platform-mcp-plugins/
 
@@ -12943,7 +14007,7 @@ url: https://agentskillexchange.com/skills/concurrently-parallel-command-runner/
 slug: pdfcpu-go-pdf-processor-cli
 category: Developer Tools
 framework: Custom Agents
-verification: Security Reviewed
+verification: Published
 description: pdfcpu is a Go-based PDF processing library and CLI tool that handles validation, optimization, merging, splitting, watermarking, encryption, and form filling. It provides a…
 url: https://agentskillexchange.com/skills/pdfcpu-go-pdf-processor-cli/
 
@@ -13063,7 +14127,7 @@ url: https://agentskillexchange.com/skills/pglite-embeddable-wasm-postgres/
 slug: rspack-rust-based-javascript-bundler
 category: Developer Tools
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Rspack is a blazing-fast JavaScript bundler written in Rust with full webpack API compatibility. It provides drop-in webpack replacement with dramatically faster build times,…
 url: https://agentskillexchange.com/skills/rspack-rust-based-javascript-bundler/
 
@@ -13119,7 +14183,7 @@ url: https://agentskillexchange.com/skills/chafa-terminal-image-graphics-rendere
 slug: testcontainers-node-throwaway-docker-integration-testing
 category: Code Quality & Review
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Testcontainers for Node.js is a library that provides lightweight, throwaway instances of databases, message brokers, browsers, and other services as Docker containers for integration…
 url: https://agentskillexchange.com/skills/testcontainers-node-throwaway-docker-integration-testing/
 
@@ -13839,7 +14903,7 @@ url: https://agentskillexchange.com/skills/d2-diagram-scripting-language-cli/
 slug: rclone-cloud-storage-sync-management-cli
 category: Integrations & Connectors
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Rclone is an open-source command-line program to sync files and directories to and from over 70 cloud storage providers including Google Drive, S3, Dropbox,…
 url: https://agentskillexchange.com/skills/rclone-cloud-storage-sync-management-cli/
 
@@ -14007,7 +15071,7 @@ url: https://agentskillexchange.com/skills/paddleocr-multilingual-document-ocr-t
 slug: libvips-high-performance-image-processing-library-cli
 category: Image & Creative Automation
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: libvips is a demand-driven, horizontally threaded image processing library with over 300 operations. It processes images faster and with less memory than alternatives like…
 url: https://agentskillexchange.com/skills/libvips-high-performance-image-processing-library-cli/
 
@@ -14679,7 +15743,7 @@ url: https://agentskillexchange.com/skills/wpgraphql-graphql-api-wordpress/
 slug: wp-cli-command-line-interface-wordpress
 category: WordPress & CMS
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: Builds repeatable WordPress maintenance and content workflows around WP-CLI, the official command-line interface for WordPress. Useful for plugin management, database tasks, user administration, search-replace…
 url: https://agentskillexchange.com/skills/wp-cli-command-line-interface-wordpress/
 
@@ -14975,7 +16039,7 @@ url: https://agentskillexchange.com/skills/gallery-dl-image-gallery-collection-d
 slug: yt-dlp-feature-rich-audio-video-downloader-cli
 category: Media & Transcription
 framework: Multi-Framework
-verification: Security Reviewed
+verification: Published
 description: yt-dlp is a powerful command-line tool for downloading audio and video from thousands of websites including YouTube, Vimeo, and social media platforms. It supports…
 url: https://agentskillexchange.com/skills/yt-dlp-feature-rich-audio-video-downloader-cli/
 
@@ -14991,7 +16055,7 @@ url: https://agentskillexchange.com/skills/wpscan-wordpress-security-vulnerabili
 slug: google-workspace-mcp-server-gmail-calendar-drive
 category: Calendar, Email & Productivity
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The Google Workspace MCP Server provides comprehensive natural language control over Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Forms, Tasks, Contacts, and Chat through…
 url: https://agentskillexchange.com/skills/google-workspace-mcp-server-gmail-calendar-drive/
 
@@ -15015,7 +16079,7 @@ url: https://agentskillexchange.com/skills/desktop-commander-mcp-terminal-file-c
 slug: atlassian-mcp-server-jira-confluence
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: mcp-atlassian is a Model Context Protocol server that connects AI assistants to Atlassian Jira and Confluence. It enables searching and managing Jira issues, reading…
 url: https://agentskillexchange.com/skills/atlassian-mcp-server-jira-confluence/
 
@@ -15071,7 +16135,7 @@ url: https://agentskillexchange.com/skills/typedoc-typescript-api-documentation-
 slug: snyk-agent-scan-mcp-skill-security-scanner
 category: Security & Verification
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: Snyk Agent Scan automatically discovers and scans AI agent components including MCP servers, agent skills, and agent harnesses for security vulnerabilities like prompt injections,…
 url: https://agentskillexchange.com/skills/snyk-agent-scan-mcp-skill-security-scanner/
 
@@ -15183,7 +16247,7 @@ url: https://agentskillexchange.com/skills/spectral-openapi-asyncapi-linter/
 slug: docker-mcp-server-container-lifecycle-management
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines…
 url: https://agentskillexchange.com/skills/docker-mcp-server-container-lifecycle-management/
 
@@ -15431,7 +16495,7 @@ url: https://agentskillexchange.com/skills/upstash-mcp-server-redis-qstash-manag
 slug: chroma-mcp-server-embedding-database-operations
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official MCP server for the Chroma open-source embedding database. Enables AI agents to create collections, add documents, perform vector search, full-text search, and…
 url: https://agentskillexchange.com/skills/chroma-mcp-server-embedding-database-operations/
 
@@ -15447,7 +16511,7 @@ url: https://agentskillexchange.com/skills/cloudflare-mcp-servers-workers-securi
 slug: qdrant-mcp-server-vector-search-semantic-memory
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official Qdrant MCP server implementation that provides semantic memory capabilities for AI agents. Enables storing and retrieving information using vector search, acting as…
 url: https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-semantic-memory/
 
@@ -15455,7 +16519,7 @@ url: https://agentskillexchange.com/skills/qdrant-mcp-server-vector-search-seman
 slug: supabase-mcp-server-database-project-management
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: An official MCP server that connects Supabase projects to AI assistants like Claude, Cursor, and Windsurf. Enables natural-language database management, table operations, SQL queries,…
 url: https://agentskillexchange.com/skills/supabase-mcp-server-database-project-management/
 
@@ -15687,7 +16751,7 @@ url: https://agentskillexchange.com/skills/slidev-markdown-presentation-slides-d
 slug: httpie-cli-api-testing-debugging-client
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: HTTPie is a modern, user-friendly command-line HTTP client designed for testing, debugging, and interacting with APIs and HTTP servers. It provides an intuitive syntax…
 url: https://agentskillexchange.com/skills/httpie-cli-api-testing-debugging-client/
 
@@ -15743,7 +16807,7 @@ url: https://agentskillexchange.com/skills/crawl4ai-llm-web-crawler-scraper/
 slug: aws-mcp-servers-cloud-service-integration
 category: Integrations & Connectors
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official AWS Labs MCP server collection provides AI agents with structured access to AWS documentation, service APIs, billing data, and infrastructure metadata through…
 url: https://agentskillexchange.com/skills/aws-mcp-servers-cloud-service-integration/
 
@@ -15759,7 +16823,7 @@ url: https://agentskillexchange.com/skills/sentry-mcp-server-error-tracking-perf
 slug: terraform-mcp-server-infrastructure-as-code
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official HashiCorp Terraform MCP server integrates with the Terraform Registry and HCP Terraform, enabling AI agents to browse providers, discover modules, manage workspaces,…
 url: https://agentskillexchange.com/skills/terraform-mcp-server-infrastructure-as-code/
 
@@ -15839,7 +16903,7 @@ url: https://agentskillexchange.com/skills/context7-mcp-documentation-server-llm
 slug: github-mcp-server-ai-repository-management
 category: Developer Tools
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: GitHub's official Model Context Protocol (MCP) server that connects AI agents, assistants, and chatbots directly to GitHub's platform. Enables natural language repository management, code…
 url: https://agentskillexchange.com/skills/github-mcp-server-ai-repository-management/
 
@@ -15935,7 +16999,7 @@ url: https://agentskillexchange.com/skills/zoxide-smart-directory-navigation-cli
 slug: eza-modern-file-listing-cli
 category: Developer Tools
 framework: Claude Code
-verification: Security Reviewed
+verification: Published
 description: A modern, maintained replacement for the ls command, written in Rust. eza provides colorized output, Git integration, tree views, symlink awareness, and extended attribute…
 url: https://agentskillexchange.com/skills/eza-modern-file-listing-cli/
 
@@ -16183,7 +17247,7 @@ url: https://agentskillexchange.com/skills/marker-pdf-to-markdown-converter/
 slug: dbt-mcp-server-data-pipeline-context
 category: Data Extraction & Transformation
 framework: MCP
-verification: Security Reviewed
+verification: Published
 description: The official dbt MCP Server by dbt Labs provides Model Context Protocol tools for AI agents to interact with dbt projects, query the Semantic…
 url: https://agentskillexchange.com/skills/dbt-mcp-server-data-pipeline-context/
 

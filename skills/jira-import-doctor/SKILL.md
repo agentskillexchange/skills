@@ -2,12 +2,15 @@
 name: "Jira Import Doctor"
 slug: "jira-import-doctor"
 description: "Diagnose a failed or partial Jira CSV import from a local source CSV, one attempt's log, and explicit importer context. Separate file defects, unresolved matches, parent-cascade hypotheses, and count reconciliation without connecting to or changing Jira."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/mozzie49/jira-import-doctor"
+author: "mozzie49"
 category: "Runbooks & Diagnostics"
 framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "mozzie49/jira-import-doctor"
+  github_stars: 0
 ---
 
 # Jira Import Doctor
@@ -40,19 +43,15 @@ integration from this catalog entry.
 
 ## Installation
 
-Clone the complete upstream package into a new local directory. Copying only
-this catalog entry does not install the diagnostic helper.
+Install or set up from the source-backed instructions:
 
-```sh
 git clone https://github.com/mozzie49/jira-import-doctor.git
 cd jira-import-doctor
-```
+# Claude Code project installation; target must not already exist:
+mkdir -p /path/to/project/.claude/skills
+cp -R "$PWD" /path/to/project/.claude/skills/jira-import-doctor
 
-No Python package install, API key, Jira account connection, or global settings
-change is needed for the CLI. To use the full upstream package as an agent skill,
-follow the project-local installation instructions in the
-[upstream README](https://github.com/mozzie49/jira-import-doctor#install-the-skill-locally).
-Install the complete package and do not overwrite an existing skill directory.
+- Source: https://github.com/mozzie49/jira-import-doctor
 
 ## Try the synthetic example
 

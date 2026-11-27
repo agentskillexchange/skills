@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "raintree-technology/hig-doctor"
   github_stars: 44
+  npm_package: "hig-doctor"
+  npm_weekly_downloads: 1432
 ---
 
 # Audit Apple-platform UI work against Human Interface Guidelines with HIG Doctor
@@ -24,21 +26,11 @@ Bun, a local project directory to audit, and an agent setup that can call the HI
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- npm install
-- npm run preview # preview in browser
-- npm run render # out/hig-doctor-showcase.mp4 (1920x1080, 30fps, 21s)
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- Requires [Bun](https://bun.sh).
-
-Basic usage or getting-started notes:
-- bash
-- /plugin marketplace add raintree-technology/apple-hig-skills
-- Or add as a git submodule into any project's .claude/ directory.
+Install or clone the repository, install Bun dependencies, then run the documented audit command against the target project directory or install the companion agent skills through the upstream skill installation path.
 
 - Source: https://github.com/raintree-technology/hig-doctor
-- Extracted from upstream docs: https://raw.githubusercontent.com/raintree-technology/hig-doctor/HEAD/README.md
 
 ## Documentation
 

@@ -2,12 +2,15 @@
 name: "SolidPing Uptime Monitoring"
 slug: "solidping-uptime-monitoring"
 description: "Manage SolidPing uptime monitoring from a coding agent through the SolidPing MCP server: list and create checks across 40+ check types, read results and incidents, diagnose a failing check, and manage status pages and maintenance windows."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/fclairamb/solidping-plugin"
+author: "fclairamb"
 category: "Monitoring & Alerts"
 framework: "Claude Code"
 tool_ecosystem:
   github_repo: "fclairamb/solidping-plugin"
+  github_stars: 0
 ---
 
 # SolidPing Uptime Monitoring
@@ -20,7 +23,16 @@ Reading starts with `list_checks` and `get_check`. For a failing check, `diagnos
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+Codex:
+codex plugin marketplace add fclairamb/solidping-plugin
+codex plugin add solidping@solidping
+codex mcp login solidping
+
+Claude Code:
+/plugin marketplace add fclairamb/solidping-plugin
+/plugin install solidping@solidping
 
 - Source: https://github.com/fclairamb/solidping-plugin
 

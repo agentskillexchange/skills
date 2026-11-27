@@ -5,6 +5,7 @@ description: "sqlite-utils is a Python CLI utility and library by Simon Willison
 github_stars: 2026
 verification: "security_reviewed"
 source: "https://github.com/simonw/sqlite-utils"
+author: "simonw"
 category: "Data Extraction & Transformation"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,22 +19,11 @@ sqlite-utils is a Python CLI utility and library by Simon Willison for manipulat
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install sqlite-utils
-- brew install sqlite-utils
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- [![Python 3.x](https://img.shields.io/pypi/pyversions/sqlite-utils.svg?logo=python&logoColor=white)](https://pypi.org/project/sqlite-utils/)
-- Python CLI utility and library for manipulating SQLite databases.
-- You can also import sqlite_utils and use it as a Python library like this:
-
-Basic usage or getting-started notes:
-- [Run in-memory SQL queries](https://sqlite-utils.datasette.io/en/stable/cli.html#querying-data-directly-using-an-in-memory-database), including joins, directly against data in CSV, TSV or JSON files and view the results
-- [Configure SQLite full-text search](https://sqlite-utils.datasette.io/en/stable/cli.html#configuring-full-text-search) against your database tables and run search queries against them, ordered by relevance
-- Run [transformations against your tables](https://sqlite-utils.datasette.io/en/stable/cli.html#transforming-tables) to make schema changes that SQLite ALTER TABLE does not directly support, such as changing the type o...
+pip install sqlite-utils
 
 - Source: https://github.com/simonw/sqlite-utils
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/sqlite-utils/HEAD/README.md
 
 ## Source
 

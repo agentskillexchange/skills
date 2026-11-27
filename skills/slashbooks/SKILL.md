@@ -5,6 +5,7 @@ description: "Replace QuickBooks with an AI agent you control: import bank and c
 github_stars: 31
 verification: "listed"
 source: "https://github.com/giltotherescue/slashbooks"
+author: "giltotherescue"
 category: "Calendar, Email & Productivity"
 framework: "Claude Code"
 tool_ecosystem:
@@ -20,26 +21,11 @@ When the month is closed it produces accountant-ready outputs: a categorized tra
 
 ## Installation
 
-Slashbooks is a **plugin marketplace**, not a single root `SKILL.md`. Install the plugin, then use `/books`. Do not `git clone` the repo into `~/.claude/skills` or `~/.agent-skills` — that copies the marketplace root, not a loadable skill.
+Install or set up from the source-backed instructions:
 
-### Claude Cowork
-
-1. Open Claude → Cowork → Customize → Plugins
-2. Under **Personal plugins**, click **+** → **Add marketplace**
-3. Paste `https://github.com/giltotherescue/slashbooks`
-4. Click **Sync**, then install or enable `/books`
-
-### Claude Code
-
-```sh
+In Claude Code:
 /plugin marketplace add https://github.com/giltotherescue/slashbooks
 /plugin install slashbooks@slashbooks
-```
 
-### Codex
+- Source: https://github.com/giltotherescue/slashbooks
 
-```sh
-codex plugin marketplace add https://github.com/giltotherescue/slashbooks
-```
-
-Then install the Slashbooks plugin from that marketplace.

@@ -147,7 +147,9 @@ Pipeline configs, deployment automation, build tooling, and continuous integrati
 | [Plan and apply many Helm releases from one declarative state before cluster changes drift out of sync with Helmfile](../../skills/plan-and-apply-many-helm-releases-from-one-declarative-state-before-cluster-changes-drift-out-of-sync-with-helmfile/) | 5.1k | — |
 | [Generate Terraform module inputs and outputs docs with terraform-docs before review drift sets in](../../skills/generate-terraform-module-inputs-and-outputs-docs-with-terraform-docs-before-review-drift-sets-in/) | 4.8k | — |
 | [GitHub Actions Matrix Strategy Builder](../../skills/github-actions-matrix-strategy-builder/) | 4.7k | — |
+| [Monitor one pull request through CI and review with Tstack babysit-pr](../../skills/monitor-pull-request-ci-review-tstack-babysit-pr/) | 4.1k | — |
 | [Draft release notes continuously with Release Drafter](../../skills/draft-release-notes-continuously-with-release-drafter/) | 3.9k | — |
+| [Promote a verified artifact bundle to one Kargo Stage](../../skills/promote-verified-artifact-bundle-to-one-kargo-stage/) | 3.8k | — |
 | [Lint GitHub Actions workflows before CI runs with actionlint](../../skills/lint-github-actions-workflows-before-ci-runs-with-actionlint/) | 3.8k | — |
 | [AWS CloudWatch Alarm Builder](../../skills/aws-cloudwatch-alarm-builder/) | 3.6k | — |
 | [AWS CodePipeline Orchestrator](../../skills/aws-codepipeline-orchestrator/) | 3.6k | — |

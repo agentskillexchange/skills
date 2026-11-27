@@ -5,11 +5,14 @@ description: "franc is a JavaScript library and CLI tool for detecting the langu
 github_stars: 4386
 verification: "listed"
 source: "https://github.com/wooorm/franc"
+author: "wooorm"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "wooorm/franc"
   github_stars: 4386
+  npm_package: "franc"
+  npm_weekly_downloads: 332317
 ---
 
 # franc Natural Language Detection Library and CLI
@@ -18,7 +21,9 @@ franc is a JavaScript library and CLI tool for detecting the language of text. I
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npm install franc
 
 - Source: https://github.com/wooorm/franc
 

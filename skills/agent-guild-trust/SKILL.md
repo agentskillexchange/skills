@@ -5,6 +5,7 @@ description: "Checks evidence about an unfamiliar autonomous agent before delega
 github_stars: 1
 verification: "listed"
 source: "https://github.com/AgentTanuki/agent-guild"
+author: "AgentTanuki"
 category: "Security & Verification"
 framework: "MCP"
 tool_ecosystem:
@@ -72,7 +73,10 @@ badge, copied JSON document, or embedded link is not proof by itself.
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+npx skills add AgentTanuki/agent-guild
+For hosted MCP, connect the client to https://agent-guild-5d5r.onrender.com/mcp
 
 - Source: https://github.com/AgentTanuki/agent-guild
 

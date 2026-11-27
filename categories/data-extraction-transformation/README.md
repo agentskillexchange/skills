@@ -30,9 +30,9 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [fx Terminal JSON Viewer and Processor](../../skills/fx-terminal-json-viewer-processor/) | ⬇ 206k/wk |
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | ⬇ 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | ⬇ 34.2M/wk |
+| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](../../skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | ⬇ 23.8k/wk |
 | [CSV Schema Validator & Auto-Fixer](../../skills/csv-schema-validator-auto-fixer/) | ⬇ 291.1M/wk |
 | [Extract OCR-ready Markdown from documents with Zerox](../../skills/extract-ocr-ready-markdown-from-documents-with-zerox/) | ⬇ 5.3k/wk |
-| [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | ⬇ 18.3M/wk |
 
 ---
 
@@ -75,6 +75,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Paperless-ngx Document OCR and Archive Management System](../../skills/paperless-ngx-document-ocr-archive-management-system/) | 38.1k | — |
 | [Polars Blazing-Fast DataFrame Query Engine](../../skills/polars-dataframe-query-engine/) | 37.9k | — |
 | [DuckDB SQL Analytics Agent](../../skills/duckdb-sql-analytics-agent/) | 37.1k | — |
+| [Annotate Classical Chinese corpora with HanLP](../../skills/annotate-classical-chinese-corpora-with-hanlp/) | 36.5k | — |
 | [LangExtract LLM-Powered Structured Text Extraction](../../skills/langextract-llm-structured-text-extraction/) | 35k | — |
 | [jq JSON Stream Transformer](../../skills/jq-json-stream-transformer/) | 34.5k | — |
 | [jq Pipeline Builder Agent](../../skills/jq-pipeline-builder-agent/) | 34.5k | — |
@@ -98,7 +99,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [GraphQL Data Federation Agent](../../skills/graphql-data-federation-agent/) | 20.3k | 34.2M/wk |
 | [GraphQL Schema Introspection Mapper](../../skills/graphql-schema-introspection-mapper/) | 20.3k | 34.2M/wk |
 | [Surya Document OCR with Layout Analysis and Table Recognition](../../skills/surya-document-ocr-layout-analysis-table-recognition/) | 19.5k | — |
-| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](../../skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | 19.1k | — |
+| [Extract structured markdown, JSON, and tagged-PDF-ready outputs from PDFs with OpenDataLoader PDF](../../skills/extract-structured-markdown-json-and-tagged-pdf-ready-outputs-from-pdfs-with-opendataloader-pdf/) | 19.1k | 23.8k/wk |
 | [gallery-dl Image Gallery and Collection Downloader](../../skills/gallery-dl-image-gallery-collection-downloader/) | 17.5k | — |
 | [Convert dense PDFs into LLM-ready text and page-aligned markdown with olmOCR](../../skills/convert-dense-pdfs-into-llm-ready-text-and-page-aligned-markdown-with-olmocr/) | 17.1k | — |
 | [Maxun No-Code Web Data Extraction Platform](../../skills/maxun-no-code-web-data-extraction/) | 15.3k | — |
@@ -131,7 +132,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Grist Self-Hosted Relational Spreadsheet and Database Platform](../../skills/grist-self-hosted-relational-spreadsheet-database/) | 10.8k | — |
 | [xsv High-Performance CSV Toolkit](../../skills/xsv-high-performance-csv-toolkit/) | 10.8k | — |
 | [Jina Reader URL-to-Markdown Converter and Web Search API](../../skills/jina-reader-url-to-markdown-web-search/) | 10.6k | — |
-| [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | 10.3k | — |
+| [Orama Embeddable Search Engine and RAG Pipeline for JavaScript](../../skills/orama-embeddable-search-engine-rag-pipeline/) | 10.3k | 883.6k/wk |
 | [pdfplumber Python PDF Text and Table Extraction Library](../../skills/pdfplumber-python-pdf-text-table-extraction/) | 10.1k | — |
 | [Prepare agent-ready PDF and document extraction with PyMuPDF](../../skills/prepare-agent-ready-pdf-and-document-extraction-with-pymupdf/) | 10.1k | — |
 | [Miller CSV TSV JSON Data Processor](../../skills/miller-csv-tsv-json-data-processor/) | 9.8k | — |
@@ -155,6 +156,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Migrate MySQL, SQLite, or CSV data into PostgreSQL with repeatable load files before cutover with pgloader](../../skills/migrate-mysql-sqlite-or-csv-data-into-postgresql-with-repeatable-load-files-before-cutover-with-pgloader/) | 6.4k | — |
 | [Sync cloud and SaaS inventory into SQL tables for audits with CloudQuery](../../skills/sync-cloud-and-saas-inventory-into-sql-tables-for-audits-with-cloudquery/) | 6.4k | — |
 | [csvkit Python CSV Utility Suite](../../skills/csvkit-python-csv-utility-suite/) | 6.4k | — |
+| [Co-edit and verify a live spreadsheet session through GridCraft MCP](../../skills/co-edit-and-verify-a-live-spreadsheet-session-through-gridcraft-mcp/) | 6.2k | — |
 | [Apache Camel Route Data Mapper](../../skills/apache-camel-route-data-mapper/) | 6.2k | — |
 | [Convert DOCX documents into clean HTML for publishing workflows with Mammoth](../../skills/convert-docx-documents-into-clean-html-for-publishing-workflows-mammoth/) | 6.2k | 18.3M/wk |
 | [Evidence BI-as-Code SQL and Markdown Analytics Framework](../../skills/evidence-bi-as-code-sql-markdown-analytics/) | 6.1k | — |
@@ -164,7 +166,7 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Build graph RAG context with Neo4j LLM Graph Builder](../../skills/build-graph-rag-context-with-neo4j-llm-graph-builder/) | 4.7k | — |
 | [Expose Postgres safely to agents with pREST MCP](../../skills/expose-postgres-safely-to-agents-with-prest-mcp/) | 4.6k | — |
 | [ExifTool Metadata Reader and Writer for Images and Files](../../skills/exiftool-metadata-reader-writer-images-files/) | 4.6k | — |
-| [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | — |
+| [franc Natural Language Detection Library and CLI](../../skills/franc-natural-language-detection/) | 4.4k | 332.3k/wk |
 | [Stripe Revenue Analytics Dashboard Builder](../../skills/stripe-revenue-analytics-dashboard/) | 4.4k | 9.3M/wk |
 | [Build managed document parsing pipelines with LlamaCloud Services](../../skills/build-managed-document-parsing-pipelines-with-llamacloud-services/) | 4.2k | 83k/wk |
 | [Generate validated analytics SQL with SQLCoder](../../skills/generate-validated-analytics-sql-with-sqlcoder/) | 4k | — |
@@ -205,26 +207,32 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Build TypeScript spreadsheet import and export workflows with hucre](../../skills/build-typescript-spreadsheet-import-and-export-workflows-with-hucre/) | 2.2k | 106.4k/wk |
 | [trdsql SQL Query Engine for CSV JSON and YAML Files](../../skills/trdsql-sql-query-engine-csv-json-yaml-files/) | 2.2k | — |
 | [Extract invoice fields from vendor PDFs into structured records](../../skills/extract-invoice-fields-from-vendor-pdfs-into-structured-records/) | 2.1k | — |
+| [Run reproducible document-parser evaluations with the OmniDocBench skill](../../skills/run-reproducible-document-parser-evaluations-with-omnidocbench-skill/) | 2.1k | — |
 | [markdownify Python HTML to Markdown Conversion Library](../../skills/markdownify-python-html-to-markdown-converter/) | 2.1k | — |
 | [Convert PDFs and document images into agent-ready Markdown with Docext](../../skills/convert-pdfs-and-document-images-into-agent-ready-markdown-with-docext/) | 2k | — |
 | [sqlite-utils Python CLI for SQLite Database Manipulation](../../skills/sqlite-utils-python-cli-sqlite-manipulation/) | 2k | — |
 | [Tabula PDF Table Extraction Agent](../../skills/tabula-pdf-table-extraction-agent/) | 2k | — |
 | [Tabula PDF Table Extractor](../../skills/tabula-pdf-table-extractor/) | 2k | — |
 | [Translate technical PDFs through RetainPDF while preserving layout](../../skills/translate-technical-pdfs-through-retainpdf-while-preserving-layout/) | 2k | — |
+| [Find evidence across a PDF corpus with Semtools](../../skills/find-evidence-across-pdf-corpus-with-semtools/) | 1.9k | 146/wk |
 | [Query and rewrite Markdown structure with mdq](../../skills/query-and-rewrite-markdown-structure-with-mdq/) | 1.7k | — |
 | [Run a Docling API server for agent document conversion](../../skills/run-a-docling-api-server-for-agent-document-conversion/) | 1.7k | — |
 | [Expose guarded database connections to agents with Data Peek](../../skills/expose-guarded-database-connections-to-agents-with-data-peek/) | 1.7k | 99/wk |
+| [Refresh Pixeltable video summaries without repeating transcription](../../skills/refresh-pixeltable-video-summaries-without-repeating-transcription/) | 1.7k | — |
 | [Anyquery Universal SQL Engine with MCP Integration](../../skills/anyquery-universal-sql-engine-mcp-integration/) | 1.7k | — |
+| [Regression-test Apache Hop pipelines against golden data](../../skills/regression-test-apache-hop-pipelines-against-golden-data/) | 1.5k | — |
 | [Let agents draft and manage Bdash SQL queries through MCP](../../skills/let-agents-draft-and-manage-bdash-sql-queries-through-mcp/) | 1.5k | — |
 | [Convert mixed documents into agent-ready Markdown and JSON with DocStrange](../../skills/convert-mixed-documents-into-agent-ready-markdown-and-json-with-docstrange/) | 1.5k | 90/wk |
 | [Inspect and export Excel workbooks from the terminal with xleak](../../skills/inspect-and-export-excel-workbooks-from-the-terminal-with-xleak/) | 1.5k | — |
 | [Repair, split, merge, and normalize PDFs with qpdf before downstream processing](../../skills/repair-split-merge-and-normalize-pdfs-with-qpdf-before-downstream-processing/) | 1.5k | — |
 | [Documind AI-Powered Structured Data Extraction from Documents](../../skills/documind-ai-structured-data-extraction/) | 1.5k | 14/wk |
+| [Check R table schemas and duplicate keys before combining data with janitor](../../skills/check-r-table-schemas-duplicate-keys-janitor/) | 1.5k | — |
 | [Salesforce Bulk API Data Loader](../../skills/salesforce-bulk-api-data-loader/) | 1.5k | 936.6k/wk |
 | [Parse Korean office documents for agents with kordoc](../../skills/parse-korean-office-documents-for-agents-with-kordoc/) | 1.4k | 34.5k/wk |
 | [Infer And Normalize Broken CSV Dialects Before Import With Clevercsv](../../skills/infer-and-normalize-broken-csv-dialects-before-import-with-clevercsv/) | 1.3k | — |
 | [Export Obsidian vaults into clean Markdown trees for publishing or downstream processing](../../skills/export-obsidian-vaults-into-clean-markdown-trees-for-publishing-or-downstream-processing/) | 1.3k | — |
 | [Run persistent finance research workspaces with LangAlpha](../../skills/run-persistent-finance-research-workspaces-with-langalpha/) | 1.2k | — |
+| [Read Microsoft 365 attachments with explicit extraction coverage](../../skills/read-microsoft-365-attachments-explicit-extraction-coverage/) | 1.1k | 107.8k/wk |
 | [xq Command-Line XML and HTML Beautifier and Content Extractor](../../skills/xq-command-line-xml-html-beautifier-content-extractor/) | 1.1k | — |
 | [Convert documents into private agent-ready Markdown with doc7](../../skills/convert-documents-into-private-agent-ready-markdown-with-doc7/) | 1.1k | — |
 | [Query Neo4j graph data from agent workflows through MCP](../../skills/query-neo4j-graph-data-from-agent-workflows-through-mcp/) | 947 | — |
@@ -254,24 +262,29 @@ Parsing, ETL pipelines, format conversion, data wrangling, and transformation ut
 | [Operate Airflow and warehouse workflows through agent-safe data engineering skills with Astronomer Agents](../../skills/operate-airflow-and-warehouse-workflows-through-agent-safe-data-engineering-skills-with-astronomer-agents/) | 337 | — |
 | [Compare recurring CSV, TSV, or JSON exports and emit row-level change sets before syncs](../../skills/compare-recurring-csv-tsv-or-json-exports-and-emit-row-level-change-sets-before-syncs/) | 330 | — |
 | [Extract reviewable relationship timelines from chat exports with Afterglow](../../skills/extract-relationship-timelines-from-chat-exports-with-afterglow/) | 317 | — |
+| [Answer from one Docling Studio parse with verified citations](../../skills/answer-from-one-docling-studio-parse-with-verified-citations/) | 275 | — |
 | [Query cross-connector business data for agents with Dinobase](../../skills/query-cross-connector-business-data-for-agents-with-dinobase/) | 252 | — |
 | [Retrieve exact documentation sections for agents with jDocMunch MCP](../../skills/retrieve-exact-documentation-sections-for-agents-with-jdocmunch-mcp/) | 202 | — |
 | [Query and inspect Postgres databases through MCP with pgEdge Postgres MCP](../../skills/query-and-inspect-postgres-databases-through-mcp-with-pgedge-postgres-mcp/) | 165 | — |
+| [Diagnose incomplete web extraction with PageSift MCP audit evidence](../../skills/diagnose-incomplete-web-extraction-with-pagesift-mcp-audit-evidence/) | 162 | 3.3k/wk |
 | [Weaviate MCP Server](../../skills/weaviate-mcp-server/) | 162 | — |
 | [Turn documents into validated knowledge graphs with Docling Graph](../../skills/turn-documents-into-validated-knowledge-graphs-with-docling-graph/) | 134 | — |
+| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | 108 | — |
 | [Crawl4AI MCP Server](../../skills/crawl4ai-mcp-server/) | 89 | — |
 | [Turn captured WARC pages into clean text and language-tagged records with warc2text](../../skills/turn-captured-warc-pages-into-clean-text-and-language-tagged-records-with-warc2text/) | 23 | — |
 | [Search large PDFs and read only the relevant pages before answering](../../skills/search-large-pdfs-and-read-only-the-relevant-pages-before-answering/) | 17 | 42/wk |
 | [Process, redact, OCR, and sign documents with Nutrient Agent Skill](../../skills/process-redact-ocr-and-sign-documents-with-nutrient-agent-skill/) | 5 | — |
 | [Convert HTML emails and web fragments into clean plain text for downstream agents](../../skills/convert-html-emails-and-web-fragments-into-clean-plain-text-for-downstream-agents/) | — | 8.2M/wk |
 | [Create, repair, and recalculate spreadsheet workbooks without breaking formulas](../../skills/create-repair-and-recalculate-spreadsheet-workbooks-without-breaking-formulas/) | — | — |
+| [Invokely Statistics](../../skills/invokely-statistics/) | — | — |
 | [Live Search Console Data](../../skills/live-search-console-data/) | — | — |
 | [looot Business Data Lookups Over MCP](../../skills/looot-business-data-lookups-over-mcp/) | — | — |
 | [Metabase Dashboard Snapshot & Alerting](../../skills/metabase-dashboard-snapshot-alerting-2/) | — | — |
+| [PaperPilot CSV Preflight](../../skills/paperpilot-csv-preflight/) | — | — |
 | [Parquet to PostgreSQL Loader](../../skills/parquet-to-postgresql-loader/) | — | — |
 | [QuickBooks Online Invoice Reconciliation Agent](../../skills/quickbooks-invoice-reconciliation/) | — | — |
 | [Reddit Subreddit Sentiment Tracker](../../skills/reddit-subreddit-sentiment-tracker/) | — | — |
-| [Turn messy datasets into auditable reports with data-master](../../skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | — | — |
+| [Van Westendorp Analysis](../../skills/van-westendorp-analysis/) | — | — |
 | [WebAsk Results Digest](../../skills/webask-results-digest/) | — | — |
 | [Weights & Biases Run Monitor](../../skills/wandb-run-monitor/) | — | — |
 

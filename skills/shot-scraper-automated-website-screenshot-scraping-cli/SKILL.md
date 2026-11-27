@@ -5,6 +5,7 @@ description: "shot-scraper is a Python CLI tool by Simon Willison for taking aut
 github_stars: 2311
 verification: "security_reviewed"
 source: "https://github.com/simonw/shot-scraper"
+author: "simonw"
 category: "Research & Scraping"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,14 +19,12 @@ shot-scraper is a Python CLI tool by Simon Willison for taking automated screens
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pip install shot-scraper
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- The [shot-scraper-demo](https://github.com/simonw/shot-scraper-demo) repository uses this tool to capture recently spotted owls in El Granada, CA according to [this page](https://www.owlsnearme.com/?place=127871), and...
+pip install shot-scraper
+shot-scraper install
 
 - Source: https://github.com/simonw/shot-scraper
-- Extracted from upstream docs: https://raw.githubusercontent.com/simonw/shot-scraper/HEAD/README.md
 
 ## Source
 

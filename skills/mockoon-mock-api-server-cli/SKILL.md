@@ -5,11 +5,14 @@ description: "Mockoon is the fastest way to run mock REST APIs locally. It provi
 github_stars: 8196
 verification: "security_reviewed"
 source: "https://github.com/mockoon/mockoon"
+author: "mockoon"
 category: "Developer Tools"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "mockoon/mockoon"
   github_stars: 8196
+  npm_package: "@mockoon/cli"
+  npm_weekly_downloads: 23831
 ---
 
 # Mockoon Local Mock API Server and CLI for API Development
@@ -18,13 +21,11 @@ Mockoon is the fastest way to run mock REST APIs locally. It provides a desktop 
 
 ## Installation
 
-Basic usage or getting-started notes:
-- Mockoon is the easiest and quickest way to design and run mock APIs. No remote deployment, no account required, free and open-source.
-- It combines a [desktop application](https://mockoon.com/download/) to design and run mock servers locally, and a [CLI](https://mockoon.com/cli/) to self-host your fake APIs. A [cloud](#subscribe-to-mockoon-cloud) is a...
-- CLI to run your mock in headless environments, CI, etc.
+Install or set up from the source-backed instructions:
+
+brew install --cask mockoon
 
 - Source: https://github.com/mockoon/mockoon
-- Extracted from upstream docs: https://raw.githubusercontent.com/mockoon/mockoon/HEAD/README.md
 
 ## Source
 

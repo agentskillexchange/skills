@@ -5,6 +5,7 @@ description: "Anyquery is a SQL query engine that lets you run SQL against 40+ a
 github_stars: 1655
 verification: "security_reviewed"
 source: "https://github.com/julien040/anyquery"
+author: "julien040"
 category: "Data Extraction & Transformation"
 framework: "MCP"
 tool_ecosystem:
@@ -18,16 +19,11 @@ Anyquery is a SQL query engine that lets you run SQL against 40+ apps, files, an
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install anyquery
+Install or set up from the source-backed instructions:
 
-Basic usage or getting-started notes:
-- Anyquery is a SQL query engine that allows you to run SQL queries on pretty much anything. It supports querying [files](https://anyquery.dev/docs/usage/querying-files/), [databases](https://anyquery.dev/docs/database)...
-- ### Connecting LLM
-- LLMs can connect to Anyquery using the [Model Context Protocol (MCP)](https://anyquery.dev/docs/reference/commands/anyquery_mcp). This protocol provides context for LLMs that support it. You can start the MCP server w...
+brew install anyquery
 
 - Source: https://github.com/julien040/anyquery
-- Extracted from upstream docs: https://raw.githubusercontent.com/julien040/anyquery/HEAD/README.md
 
 ## Source
 

@@ -3,8 +3,9 @@ name: "Docker MCP Server for Container Lifecycle Management"
 slug: "docker-mcp-server-container-lifecycle-management"
 description: "An MCP server that enables AI agents to manage Docker containers, images, volumes, and networks through natural language. Supports local and remote Docker engines for container lifecycle operations via the Model Context Protocol."
 github_stars: 695
-verification: "security_reviewed"
+verification: "listed"
 source: "https://github.com/ckreiling/mcp-server-docker"
+author: "ckreiling"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
@@ -18,22 +19,9 @@ An MCP server that enables AI agents to manage Docker containers, images, volume
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- <summary>Install with Docker</summary>
-- docker build -t mcp-server-docker .
-
-Requirements and caveats from upstream:
-- # 🐋 Docker MCP server
-- An MCP server for managing Docker with natural language!
-- 📀 Manage persistent data with Docker volumes
-
-Basic usage or getting-started notes:
-- Tinkerers: run containers locally and experiment with open-source apps
-- #### Claude Desktop
-- On MacOS: ~/Library/Application\ Support/Claude/claude_desktop_config.json
+No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
 
 - Source: https://github.com/ckreiling/mcp-server-docker
-- Extracted from upstream docs: https://raw.githubusercontent.com/ckreiling/mcp-server-docker/HEAD/README.md
 
 ## Source
 

@@ -5,6 +5,7 @@ description: "Bearer CLI is an open-source static application security testing (
 github_stars: 2610
 verification: "security_reviewed"
 source: "https://github.com/Bearer/bearer"
+author: "Bearer"
 category: "Security & Verification"
 framework: "Claude Code"
 tool_ecosystem:
@@ -18,24 +19,11 @@ Bearer CLI is an open-source static application security testing (SAST) tool tha
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- brew install bearer/tap/bearer
-- brew update && brew upgrade bearer/tap/bearer
-- docker run --rm -v /path/to/repo:/tmp/scan bearer/bearer:latest-amd64 scan /tmp/scan
-- Additionally, you can use docker compose. Add the following to your docker-compose.yml file and replace the volumes with the appropriate paths for your project:
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- **Bearer CLI (Open Source)**: Go • Java • JavaScript • TypeScript • PHP • Python • Ruby
-- **Advanced Cross-file Analysis**: Java • Python • C# _(alpha)_
-- <summary>Docker</summary>
-
-Basic usage or getting-started notes:
-- [Getting Started](#rocket-getting-started) - [FAQ](#question-faqs) - [Documentation](https://docs.bearer.com) - [Report a Bug](https://github.com/Bearer/bearer/issues/new/choose)
-- ## :rocket: Getting started
-- Discover your most critical security risks and vulnerabilities in only a few minutes. In this guide, you will install Bearer CLI, run a security scan on a local project, and view the results. Let's get started!
+brew install bearer/tap/bearer
 
 - Source: https://github.com/Bearer/bearer
-- Extracted from upstream docs: https://raw.githubusercontent.com/Bearer/bearer/HEAD/README.md
 
 ## Source
 

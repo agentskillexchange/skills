@@ -27,12 +27,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Discord Bot Manager](../../skills/discord-bot-manager/) | ⬇ 564.5k/wk |
 | [Google Workspace CLI (gws)](../../skills/google-workspace-cli-gws/) | ⬇ 38.9k/wk |
 | [Nodemailer Node.js Email Sending Library with SMTP and Transport Support](../../skills/nodemailer-nodejs-email-sending-library/) | ⬇ 15.5M/wk |
+| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | ⬇ 167/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | ⬇ 98.6k/wk |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | ⬇ 90.4k/wk |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | ⬇ 90.4k/wk |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 1.1M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | ⬇ 2.6M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | ⬇ 1.2M/wk |
-| [Notion AI Workspace](../../skills/notion-ai-workspace/) | ⬇ 1.2M/wk |
 
 ---
 
@@ -71,14 +71,14 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Miniflux Self-Hosted RSS Feed Reader and Automation API](../../skills/miniflux-self-hosted-rss-feed-reader-and-automation-api/) | 9.1k | — |
 | [Mailpit SMTP Testing and Email Capture Workbench](../../skills/mailpit-smtp-testing-email-capture-workbench/) | 9.1k | — |
 | [solidtime Modern Open Source Time Tracking for Freelancers and Agencies](../../skills/solidtime-open-source-time-tracking/) | 8.4k | — |
-| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | — |
+| [nb CLI Note-Taking Bookmarking and Knowledge Base Application](../../skills/nb-cli-note-taking-bookmarking-knowledge-base/) | 8.1k | 167/wk |
 | [Automate Lark and Feishu docs, sheets, mail, calendar, meetings, and chat tasks from agents with Lark CLI](../../skills/automate-lark-and-feishu-docs-sheets-mail-calendar-meetings-and-chat-tasks-from-agents-with-lark-cli/) | 7.9k | 98.6k/wk |
 | [jrnl Command-Line Journal and Note Capture Tool](../../skills/jrnl-command-line-journal-note-capture/) | 7.2k | — |
 | [MailDev SMTP Capture and Email Testing Server](../../skills/maildev-smtp-capture-and-email-testing-server/) | 5.9k | 90.4k/wk |
 | [MailDev SMTP Testing Server and Web Interface for Development Email Workflows](../../skills/maildev-smtp-testing-server-and-web-interface-for-development-email-workflows/) | 5.9k | 90.4k/wk |
 | [Himalaya CLI Email Client for IMAP SMTP and Notmuch](../../skills/himalaya-cli-email-client-imap-smtp-notmuch/) | 5.8k | — |
 | [Taskwarrior Command-Line Task Management System](../../skills/taskwarrior-command-line-task-management-system/) | 5.7k | — |
-| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 1.1M/wk |
+| [Notion MCP Server](../../skills/notion-mcp-server/) | 5.6k | 2.6M/wk |
 | [Notion AI Document Summarizer & Action Item Extractor](../../skills/notion-ai-doc-summarizer/) | 5.6k | 1.2M/wk |
 | [Notion AI Workspace](../../skills/notion-ai-workspace/) | 5.6k | 1.2M/wk |
 | [Notion Database Sync Agent](../../skills/notion-database-sync-agent/) | 5.6k | 1.2M/wk |
@@ -96,6 +96,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [gcalcli Google Calendar Command Line Interface](../../skills/gcalcli-google-calendar-cli/) | 3.7k | — |
 | [Operate an Obsidian vault as an agent-maintained second brain](../../skills/operate-an-obsidian-vault-as-an-agent-maintained-second-brain/) | 3.4k | — |
 | [Inline CSS into HTML emails before delivery across mail clients with Juice](../../skills/inline-css-into-html-emails-before-delivery-across-mail-clients-juice/) | 3.2k | 2.4M/wk |
+| [Patch one Obsidian note section with a version precondition](../../skills/patch-one-obsidian-note-section-with-a-version-precondition/) | 3.2k | — |
 | [khal Standards-Based CLI Calendar Application](../../skills/khal-cli-calendar-application-caldav/) | 3k | — |
 | [Slack Channel Summarizer](../../skills/slack-channel-summarizer-bolt-sdk/) | 2.9k | 2.6M/wk |
 | [Slack Digest and Task Router](../../skills/slack-digest-and-task-router/) | 2.9k | 2.6M/wk |
@@ -111,6 +112,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Extract structured data and attachments from raw email with MailParser](../../skills/extract-structured-data-and-attachments-from-raw-email-mailparser/) | 1.7k | 13.7M/wk |
 | [Timewarrior Command-Line Time Tracking and Reporting](../../skills/timewarrior-command-line-time-tracking-reporting/) | 1.6k | — |
 | [Operate DingTalk messages, docs, approvals, and workspace tasks from agents with DingTalk Workspace CLI](../../skills/operate-dingtalk-messages-docs-approvals-and-workspace-tasks-from-agents-with-dingtalk-workspace-cli/) | 1.6k | — |
+| [Generate budgeted McDonald’s China group-meal plans](../../skills/generate-budgeted-mcdonalds-china-group-meal-plans/) | 1.4k | — |
 | [calcurse Text-Based Calendar and Scheduling Application](../../skills/calcurse-text-calendar-scheduling/) | 1.2k | — |
 | [Apply repeatable IMAP rules to triage and clean inboxes with imapfilter](../../skills/apply-repeatable-imap-rules-to-triage-and-clean-inboxes-with-imapfilter/) | 917 | — |
 | [Resend Developer Email API and Node.js SDK](../../skills/resend-developer-email-api-nodejs-sdk/) | 887 | 5.3M/wk |
@@ -134,10 +136,12 @@ Email automation, calendar management, task coordination, and productivity tools
 | [Search Help Scout conversations and thread context before drafting support replies](../../skills/search-help-scout-conversations-and-thread-context-before-drafting-support-replies/) | 36 | 184/wk |
 | [Slashbooks](../../skills/slashbooks/) | 31 | — |
 | [Connect Claude Code to Apple apps and tmux with Claude Apple Bridges](../../skills/connect-claude-code-to-apple-apps-and-tmux-with-claude-apple-bridges/) | 9 | — |
+| [Email Voice](../../skills/email-voice/) | 1 | — |
 | [Check current weather and short forecasts for planning](../../skills/check-current-weather-and-short-forecasts-for-planning/) | — | 837.2k/wk |
 | [Turn ICS calendar invites and feeds into structured events for scheduling automations](../../skills/turn-ics-calendar-invites-and-feeds-into-structured-events-for-scheduling-automations/) | — | 128.6k/wk |
 | [aerc Extensible Terminal Email Client with IMAP JMAP and Notmuch](../../skills/aerc-extensible-terminal-email-client/) | — | — |
 | [Design Lifecycle Email Sequences](../../skills/design-lifecycle-email-sequences/) | — | — |
+| [Give an Agent Its Own Email Inbox with Cooper Email](../../skills/cooper-email/) | — | — |
 | [Gmail API Thread Label Triage](../../skills/gmail-api-thread-label-triage/) | — | — |
 | [Gmail Thread Summarizer and Action Extractor](../../skills/gmail-thread-summarizer-action-extractor/) | — | — |
 | [Google Calendar Conflict Detector](../../skills/google-calendar-conflict-detector/) | — | — |
@@ -149,6 +153,7 @@ Email automation, calendar management, task coordination, and productivity tools
 | [IMAP Email Classifier](../../skills/imap-email-classifier-ml/) | — | — |
 | [IMAP Inbox Triage Agent](../../skills/imap-inbox-triage-agent/) | — | — |
 | [Linear Sprint Planner](../../skills/linear-sprint-planner/) | — | — |
+| [Mailtrap Sending Emails](../../skills/mailtrap-sending-emails/) | — | — |
 | [Microsoft Graph Calendar Conflict Resolver](../../skills/microsoft-graph-calendar-conflict-resolver/) | — | — |
 | [Microsoft Graph Email Digest Builder](../../skills/microsoft-graph-email-digest-builder/) | — | — |
 | [Microsoft Graph Email Triage Agent](../../skills/microsoft-graph-email-triage-agent/) | — | — |

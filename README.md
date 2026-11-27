@@ -4,15 +4,15 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C170-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C303-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
-[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C626-10b981?style=for-the-badge)](verification/)
+[![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C698-10b981?style=for-the-badge)](verification/)
 [![License](https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge)](LICENSE)
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,170 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,303 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[Typst Markup-Based Document Typesetting System](skills/typst-markup-typesetting-system/)** — Typst is a modern markup-based typesetting system designed to replace LaTeX with a faster, easier-to-learn alternative. It features built-in markup, a scripting system, math typesetting, bibliography management, and…
+**[AppFlowy Open Source Collaborative Workspace](skills/appflowy-open-source-collaborative-workspace/)** — AppFlowy brings documents, projects, wikis, and AI-assisted collaboration into a self-hosted or desktop-friendly workspace. This skill helps agents work from the real AppFlowy project, docs, and deployment methods…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,16 +87,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Turn messy datasets into auditable reports with data-master](skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware statistics and sensitivity... | - | Data Extraction & Transformation |
-| [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or... | - | Integrations & Connectors |
-| [Preview and verify token-saving coding-harness wiring with Tokless](skills/preview-and-verify-token-saving-coding-harness-wiring-with-tokless/) | Preview selected tool and harness configuration, apply Tokless-managed token-saving wiring, and return a versioned diagnostic report across coding... | 295 | Developer Tools |
-| [xLetter](skills/xletter/) | Use the xLetter HTTPS API for a reusable Agent mailbox, asynchronous text messages, message history, and public contact... | - | Integrations & Connectors |
-| [Convert iWork documents to Office files with fidelity checks through OfficeIMO](skills/convert-iwork-documents-to-office-files-with-fidelity-checks-through-officeimo/) | Convert Pages, Numbers, and Keynote files into Office artifacts over MCP, retaining source hashes, strict acceptance results, and... | 616 | Data Extraction & Transformation |
-| [Transfer clothed character poses from mannequin renders with Qwen Pose](skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | Apply an existing textureless 3D mannequin pose to a clothed character image through a repeatable local ComfyUI edit... | 3.5k | Image & Creative Automation |
-| [Extract reviewable relationship timelines from chat exports with Afterglow](skills/extract-relationship-timelines-from-chat-exports-with-afterglow/) | Analyze supplied chat exports into resumable JSON and Markdown relationship timelines, with block coverage and skipped-input diagnostics | 317 | Data Extraction & Transformation |
-| [Extract PDF statement transactions and verify balance tie-outs](skills/extract-pdf-statement-transactions-and-verify-balance-tie-outs/) | Extract bank and card statement PDFs into CSV or XLSX, check balances and totals, and return a reconciliation... | 354 | Data Extraction & Transformation |
-| [Plan, generate and review Gemini images in Claude Code with Banana Claude](skills/plan-generate-and-review-gemini-images-with-banana-claude/) | Turn a visual brief into an approved Gemini image or edit from Claude Code, then inspect the saved... | 1.1k | Image & Creative Automation |
-| [SolidPing Uptime Monitoring](skills/solidping-uptime-monitoring/) | Manage SolidPing uptime monitoring from a coding agent through the SolidPing MCP server: list and create checks across... | - | Monitoring & Alerts |
+| [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll... | - | Image & Creative Automation |
+| [Corral — Exclusive Android Device Leases for Coding Agents](skills/corral-android-device-leases-for-coding-agents/) | Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or... | - | Developer Tools |
+| [Reconcile CCCC agent-message delivery and reply evidence](skills/reconcile-cccc-agent-message-delivery-and-reply-evidence/) | Inspect an existing CCCC delegation, separate runtime handoff from reads and replies, and return evidence before retrying uncertain... | 1.3k | Runbooks & Diagnostics |
+| [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON... | - | Research & Scraping |
+| [Review repository changes for destructive commands with dcg](skills/review-repository-changes-for-destructive-commands-with-dcg/) | Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings before commit or... | 6.4k | Security & Verification |
+| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
+| [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | - | Calendar, Email & Productivity |
+| [BloxStack Onboarding](skills/bloxstack-onboarding/) | Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a... | - | Integrations & Connectors |
+| [Runheed](skills/runheed/) | Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces... | - | Integrations & Connectors |
+| [Review completed EpicStaff flows with the bundled Flow QA skill](skills/review-completed-epicstaff-flows-with-bundled-flow-qa/) | Review a completed EpicStaff graph with flow-qa and return static findings for wiring, variable paths and node contracts | 512 | Code Quality & Review |
 
 ---
 
@@ -104,16 +104,16 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Contributor | Skill | What it helps with | Category |
 |---|---|---|---|
-| [MAGA2010](https://github.com/MAGA2010) | [Turn messy datasets into auditable reports with data-master](skills/turn-messy-datasets-into-auditable-reports-with-data-master/) | Use data-master to preserve raw tabular data, hold ambiguous cleaning decisions for review, run unit-aware statistics and sensitivity... | Data Extraction & Transformation |
-| [borzelo](https://github.com/borzelo) | [PlaceCall Phone Calls to Businesses](skills/placecall/) | Lets an agent place real outbound phone calls to US businesses through the PlaceCall remote MCP server or... | Integrations & Connectors |
-| [gagankcai-jpg](https://github.com/gagankcai-jpg) | [xLetter](skills/xletter/) | Use the xLetter HTTPS API for a reusable Agent mailbox, asynchronous text messages, message history, and public contact... | Integrations & Connectors |
-| [wu736139669](https://github.com/wu736139669) | [Goal Instruction Writer](skills/goal-instruction-writer/) | Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints... | Templates & Workflows |
-| [fclairamb](https://github.com/fclairamb) | [SolidPing Uptime Monitoring](skills/solidping-uptime-monitoring/) | Manage SolidPing uptime monitoring from a coding agent through the SolidPing MCP server: list and create checks across... | Monitoring & Alerts |
-| [yumaheymans](https://github.com/yumaheymans) | [Healthcare Job Search (US) with CareJobs.Now](skills/healthcare-job-search-carejobs-now/) | Lets an agent find open US healthcare jobs and the hourly pay employers post, through the free CareJobs.Now... | Library & API Reference |
-| [casualbrooks](https://github.com/casualbrooks) | [Stockpile Market MCP](skills/stockpile-market-mcp/) | Autonomous e-commerce operations, store inventory curation, collectible valuations, and order fulfillment via Stockpile MCP | Integrations & Connectors |
-| [SergiuPogor](https://github.com/SergiuPogor) | [CurlShot Website Screenshots Over MCP](skills/curlshot-website-screenshots-over-mcp/) | Gives an agent a remote MCP server that takes screenshots of web pages: a public URL in, a... | Browser Automation |
-| [mozzie49](https://github.com/mozzie49) | [Jira Import Doctor](skills/jira-import-doctor/) | Diagnose a failed or partial Jira CSV import from a local source CSV, one attempt's log, and explicit... | Runbooks & Diagnostics |
-| [berkantay](https://github.com/berkantay) | [Openhook](skills/openhook/) | Creates webhook inboxes, receives callbacks, and forwards events for AI agents with Openhook. Use when testing local webhook... | Integrations & Connectors |
+| [jasonliu119](https://github.com/jasonliu119) | [AI Dance Video with Danceo](skills/danceo-ai-dance-video/) | Use Danceo Video MCP to select a dance template, check credits, create a portrait-based dance video, and poll... | Image & Creative Automation |
+| [ciszkin](https://github.com/ciszkin) | [Corral — Exclusive Android Device Leases for Coding Agents](skills/corral-android-device-leases-for-coding-agents/) | Lease one Android device (USB, WiFi or emulator) exclusively to one agent session through the corral CLI or... | Developer Tools |
+| [johnisanerd](https://github.com/johnisanerd) | [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON... | Research & Scraping |
+| [darynaivanova-mt](https://github.com/darynaivanova-mt) | [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | Calendar, Email & Productivity |
+| [mandrillxx](https://github.com/mandrillxx) | [BloxStack Onboarding](skills/bloxstack-onboarding/) | Help Roblox teams start using BloxStack Studio to organize their own games, tasks, and files. Use when a... | Integrations & Connectors |
+| [jakemarsh](https://github.com/jakemarsh) | [Runheed](skills/runheed/) | Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces... | Integrations & Connectors |
+| [jiangxingfan1-coder](https://github.com/jiangxingfan1-coder) | [Inspect Open Agent API Runs](skills/open-agent-api-run-inspector/) | Inspect a previously submitted Open Agent API task with a read-only key. Distinguish a live task, an approval... | Runbooks & Diagnostics |
+| [dhyabi2](https://github.com/dhyabi2) | [Verify a Nano (XNO) Payment](skills/verify-nano-payment/) | Verify that a Nano (XNO) payment has settled: confirm a send/receive block, read its amount and pay-to account... | Integrations & Connectors |
+| [mohiddin7](https://github.com/mohiddin7) | [Resume Tribunal](skills/resume-tribunal/) | Tailors a resume or CV to one job posting using only the user's own facts, then has an... | Templates & Workflows |
+| [livejake](https://github.com/livejake) | [Van Westendorp Analysis](skills/van-westendorp-analysis/) | Compute a Van Westendorp price sensitivity meter (PSM) from a CSV of pricing survey answers: OPP, IPP, PMC... | Data Extraction & Transformation |
 
 ---
 
@@ -123,16 +123,16 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
-| [Coordinate agent teams and governed work in Paperclip](skills/coordinate-agent-teams-and-governed-work-in-paperclip/) | Use Paperclip as a self-hosted control plane for assigning goals, tasks, budgets, approvals, routines, and run history across... | 98.2k | Templates & Workflows |
-| [Monitor Claude Code sessions with ccstatusline](skills/monitor-claude-code-sessions-with-ccstatusline/) | Configure Claude Code's status line with live model, token, cost, git, sandbox, cache, CI, and session health signals... | 13.2k | Developer Tools |
-| [Reverse-engineer apps and binaries with REA](skills/reverse-engineer-apps-and-binaries-with-rea/) | Connect coding agents to REA's MCP tools so they can inspect apps, binaries, websites, APKs, and runtime behavior... | 17.1k | Security & Verification |
-| [Resolve coding questions from upstream evidence with Firecrawl Developer Index](skills/resolve-coding-questions-with-firecrawl-developer-index/) | Find public issues, merged fixes and API-contract passages with Firecrawl’s named Developer Index skill, then return a cited... | 653 | Research & Scraping |
-| [Run owned terminal coding-agent workflows with Zero](skills/run-owned-terminal-coding-agent-workflows-with-zero/) | Use Zero to run local, scriptable coding-agent sessions with operator-controlled models, permissions, tools, skills, MCP servers, and durable... | 1.7k | Developer Tools |
-| [Run code-generated short-film workflows with Lemo-Opuscar](skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | Use a Claude Code plugin to turn a story brief into a short film project built from reusable... | 1.5k | Image & Creative Automation |
-| [Schedule Node Agent Jobs with node-cron](skills/schedule-node-agent-jobs-with-node-cron/) | Use node-cron to add recurring background jobs to Node.js agent services with overlap prevention, distributed coordination, background task... | 3.3k | Templates & Workflows |
-| [Run a Docling API server for agent document conversion](skills/run-a-docling-api-server-for-agent-document-conversion/) | Deploy Docling API so agents can convert PDFs, Office files, images, HTML, CSV, and other documents into Markdown... | 1.7k | Data Extraction & Transformation |
-| [Audit and fix website QA issues with Squirrelscan](skills/audit-and-fix-website-qa-issues-with-squirrelscan/) | Run Squirrelscan from a coding agent to audit SEO, performance, security, accessibility, and agent-experience issues, then feed exact... | 272 | Security & Verification |
-| [Compile agent-ready documentation bundles with docmd](skills/compile-agent-ready-documentation-bundles-with-docmd/) | Use docmd when a project needs one Markdown documentation source to produce a site, search index, llms.txt, MCP... | 2.5k | Library & API Reference |
+| [Coordinate a scoped code change through Oh My Claudecode team stages](skills/coordinate-a-scoped-code-change-through-oh-my-claudecode-team-stages/) | Run a bounded Claude Code team task through planning, delegated implementation, verification and repair, then return the change... | 40.9k | Templates & Workflows |
+| [Audit local agent runs and select hook policies with Failproof AI](skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | Review local harness history, identify risky tool patterns, and prepare a source-backed policy-pack rollout across supported agent runtimes | 8.9k | Security & Verification |
+| [Review Master CSS output regressions through MCP snapshots](skills/review-master-css-output-regressions-through-mcp-snapshots/) | Capture project CSS snapshots, trace missing classes, compare generated output, and propose scoped fixes with evidence from the... | 2.0k | Code Quality & Review |
+| [Inspect a scoped workspace hierarchy through PipesHub MCP](skills/inventory-a-scoped-workspace-hierarchy-through-pipeshub-mcp/) | Paginate a named folder, space, or epic into a source-linked record inventory, preserving scope and reporting indexing, access... | 4.1k | Integrations & Connectors |
+| [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
+| [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
+| [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
+| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
+| [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
+| [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
 
 ---
 
@@ -140,21 +140,21 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 
 | | Category | Skills | What's inside |
 |---|---|---:|---|
-| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 530 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 267 | Scaffolders, boilerplate generators, workflow templates |
-| 🔒 | [**Security & Verification**](categories/security-verification/) | 257 | Vulnerability scanning, auth setup, compliance |
-| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 234 | ETL pipelines, parsing, format conversion |
-| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 207 | Linting, code review, test generators, coverage |
-| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 193 | Pipeline configs, deployment automation, build tooling |
-| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 186 | Third-party API bridges, webhooks, service connectors |
-| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 182 | Incident response, troubleshooting, system diagnostics |
-| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 163 | Metrics, alerting rules, observability |
-| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 141 | Web research, content discovery, data collection |
-| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 132 | SDK docs, API parsers, symbol resolvers |
-| 🌐 | [**Browser Automation**](categories/browser-automation/) | 128 | Web scraping, UI testing, headless browser control |
-| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 128 | Email automation, calendar management, task coordination |
-| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 119 | Image generation, asset processing, design automation |
-| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 110 | Audio/video processing, speech-to-text |
+| 🛠️ | [**Developer Tools**](categories/developer-tools/) | 552 | CLI tools, scaffolders, dev environment setup |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 275 | Scaffolders, boilerplate generators, workflow templates |
+| 🔒 | [**Security & Verification**](categories/security-verification/) | 267 | Vulnerability scanning, auth setup, compliance |
+| 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 247 | ETL pipelines, parsing, format conversion |
+| ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 222 | Linting, code review, test generators, coverage |
+| 🔗 | [**Integrations & Connectors**](categories/integrations-connectors/) | 198 | Third-party API bridges, webhooks, service connectors |
+| 🔧 | [**CI/CD Integrations**](categories/ci-cd-integrations/) | 195 | Pipeline configs, deployment automation, build tooling |
+| 📋 | [**Runbooks & Diagnostics**](categories/runbooks-diagnostics/) | 195 | Incident response, troubleshooting, system diagnostics |
+| 📊 | [**Monitoring & Alerts**](categories/monitoring-alerts/) | 165 | Metrics, alerting rules, observability |
+| 🔍 | [**Research & Scraping**](categories/research-scraping/) | 149 | Web research, content discovery, data collection |
+| 📚 | [**Library & API Reference**](categories/library-api-reference/) | 137 | SDK docs, API parsers, symbol resolvers |
+| 📅 | [**Calendar, Email & Productivity**](categories/calendar-email-productivity/) | 133 | Email automation, calendar management, task coordination |
+| 🎨 | [**Image & Creative Automation**](categories/image-creative-automation/) | 132 | Image generation, asset processing, design automation |
+| 🌐 | [**Browser Automation**](categories/browser-automation/) | 129 | Web scraping, UI testing, headless browser control |
+| 🎙️ | [**Media & Transcription**](categories/media-transcription/) | 114 | Audio/video processing, speech-to-text |
 | ✍️ | [**Content Writing & SEO**](categories/content-writing-seo/) | 98 | SEO content, blog automation, editorial workflows |
 | 📰 | [**WordPress & CMS**](categories/wordpress-cms/) | 96 | Theme/plugin dev, WP-CLI automation, CMS management |
 
@@ -219,8 +219,8 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,170 | In the catalog — every skill is backed by a real tool, repo, or package |
-| 🛡️ **Security Reviewed** | 2,626 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
+| 📋 **Published** | 3,303 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 🛡️ **Security Reviewed** | 2,698 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
 

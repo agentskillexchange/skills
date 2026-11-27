@@ -12,6 +12,8 @@ framework: "Claude Code"
 tool_ecosystem:
   github_repo: "SuperClaude-Org/SuperClaude_Framework"
   github_stars: 22321
+  npm_package: "@bifrost_inc/superclaude"
+  npm_weekly_downloads: 23
 ---
 
 # Run Claude Code through repeatable command and persona workflows with SuperClaude
@@ -24,20 +26,11 @@ Claude Code, SuperClaude installation, optional MCP server installs for enhanced
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- pipx install superclaude
-- git clone https://github.com/SuperClaude-Org/SuperClaude_Framework.git
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- # Mindbase provides semantic search enhancement (requires "recommended" profile)
-
-Basic usage or getting-started notes:
-- [![Run in Smithery](https://smithery.ai/badge/skills/SuperClaude-Org)](https://smithery.ai/skills?ns=SuperClaude-Org&utm_source=github&utm_medium=badge)
-- <a href="#-quick-installation">Quick Start</a> •
-- superclaude install
+Install SuperClaude with pipx or the upstream installation script, run the documented command installer, optionally add the supported MCP servers, then restart Claude Code so the slash-command workflow layer becomes available.
 
 - Source: https://github.com/SuperClaude-Org/SuperClaude_Framework
-- Extracted from upstream docs: https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/HEAD/README.md
 
 ## Documentation
 

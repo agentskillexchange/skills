@@ -12,6 +12,8 @@ framework: "Custom Agents"
 tool_ecosystem:
   github_repo: "waybarrios/opencode-power-pack"
   github_stars: 448
+  npm_package: "@waybarrios/opencode-power-pack"
+  npm_weekly_downloads: 0
 ---
 
 # Run OpenCode skill-pack workflows with opencode-power-pack

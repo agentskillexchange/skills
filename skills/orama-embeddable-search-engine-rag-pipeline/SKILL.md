@@ -5,11 +5,14 @@ description: "Orama is a full-text, vector, and hybrid search engine that runs i
 github_stars: 10286
 verification: "security_reviewed"
 source: "https://github.com/oramasearch/orama"
+author: "oramasearch"
 category: "Data Extraction & Transformation"
 framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "oramasearch/orama"
   github_stars: 10286
+  npm_package: "@orama/orama"
+  npm_weekly_downloads: 883586
 ---
 
 # Orama Embeddable Search Engine and RAG Pipeline for JavaScript

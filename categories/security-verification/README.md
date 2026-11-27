@@ -30,9 +30,9 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Sanitize untrusted HTML fragments before rendering previews, comments, or CMS content with DOMPurify](../../skills/sanitize-untrusted-html-fragments-before-rendering-previews-comments-or-cms-content-dompurify/) | ⬇ 165.2M/wk |
 | [Route risky coding-agent work through human approval checkpoints with HumanLayer](../../skills/route-risky-coding-agent-work-through-human-approval-checkpoints-with-humanlayer/) | ⬇ 694/wk |
 | [Magika AI File Type Detection and Content Classification](../../skills/magika-ai-file-type-detection-and-content-classification/) | ⬇ 4.6k/wk |
+| [Audit local agent runs and select hook policies with Failproof AI](../../skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | ⬇ 570/wk |
 | [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | ⬇ 43.7k/wk |
 | [Dependency Vulnerability Scanner](../../skills/dependency-vulnerability-scanner-agent/) | ⬇ 2.6M/wk |
-| [NPM Package Supply Chain Auditor](../../skills/npm-package-supply-chain-auditor/) | ⬇ 2.6M/wk |
 
 ---
 
@@ -114,6 +114,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Seal Kubernetes Secrets into Git-safe manifests with kubeseal](../../skills/seal-kubernetes-secrets-into-git-safe-manifests-with-kubeseal/) | 9k | — |
 | [Probe public TLS endpoints for protocol, cipher, and certificate weaknesses before rollout with testssl.sh](../../skills/probe-public-tls-endpoints-for-protocol-cipher-and-certificate-weaknesses-before-rollout-with-testssl-sh/) | 9k | — |
 | [Container Runtime Security Monitor](../../skills/container-runtime-security-monitor/) | 8.9k | — |
+| [Audit local agent runs and select hook policies with Failproof AI](../../skills/audit-local-agent-runs-and-select-hook-policies-with-failproof-ai/) | 8.9k | 570/wk |
 | [Hanko Open Source Passkey Authentication and User Management](../../skills/hanko-passkey-authentication-platform/) | 8.9k | — |
 | [Falco Runtime Security Monitor](../../skills/falco-runtime-security-monitor/) | 8.9k | — |
 | [SBOM Generator and CVE Matcher](../../skills/sbom-generator-cve-matcher/) | 8.9k | — |
@@ -134,6 +135,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Probe Kubernetes clusters with kube-hunter for exposed services and misconfigurations](../../skills/probe-kubernetes-clusters-with-kube-hunter-for-exposed-services-and-misconfigurations/) | 7.3k | — |
 | [Gate agent inputs and outputs with Superagent safety checks](../../skills/gate-agent-inputs-and-outputs-with-superagent-safety-checks/) | 6.6k | 43.7k/wk |
 | [Run agent-generated code in local microVM sandboxes with Microsandbox](../../skills/run-agent-generated-code-in-local-microvm-sandboxes-with-microsandbox/) | 6.5k | — |
+| [Review repository changes for destructive commands with dcg](../../skills/review-repository-changes-for-destructive-commands-with-dcg/) | 6.4k | — |
 | [Naabu Fast Port Scanner by ProjectDiscovery](../../skills/naabu-fast-port-scanner-projectdiscovery/) | 5.9k | — |
 | [Cosign Artifact Signature Verifier](../../skills/cosign-artifact-signature-verifier/) | 5.8k | — |
 | [Sigstore Cosign Container Verifier](../../skills/sigstore-cosign-container-verifier/) | 5.8k | — |
@@ -186,6 +188,8 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Bearer CLI SAST Code Security and Privacy Scanner](../../skills/bearer-cli-sast-code-security-privacy-scanner/) | 2.6k | — |
 | [KICS IaC Linter](../../skills/kics-iac-linter/) | 2.6k | — |
 | [Snyk Agent Scan](../../skills/snyk-agent-scan/) | 2.5k | — |
+| [Export complete or partial headless scan evidence with open·kritt](../../skills/export-headless-scan-evidence-with-open-kritt/) | 2.4k | — |
+| [Compare retriever rankings on fixed relevance datasets with BEIR](../../skills/compare-retriever-rankings-on-fixed-relevance-datasets-with-beir/) | 2.3k | — |
 | [Inspect binary hardening flags and exploit mitigations with checksec](../../skills/inspect-binary-hardening-flags-and-exploit-mitigations-with-checksec/) | 2.3k | — |
 | [Gate Rust dependency trees on license, advisory, and source-policy violations before merge with cargo-deny](../../skills/gate-rust-dependency-trees-on-license-advisory-and-source-policy-violations-before-merge-with-cargo-deny/) | 2.3k | 3.3M/wk |
 | [Audit AWS IAM policies for risky permissions with Cloudsplaining](../../skills/audit-aws-iam-policies-for-risky-permissions-with-cloudsplaining/) | 2.2k | — |
@@ -210,8 +214,10 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Audit Python environments and requirements files for known vulnerabilities with pip-audit](../../skills/audit-python-environments-and-requirements-files-for-known-vulnerabilities-with-pip-audit/) | 1.3k | — |
 | [Scan agent dependencies and container inputs with OWASP dep-scan](../../skills/scan-agent-dependencies-and-container-inputs-with-owasp-dep-scan/) | 1.3k | — |
 | [Suspend and resume stateful agent sandbox jobs with SPACE](../../skills/suspend-and-resume-stateful-agent-sandbox-jobs-with-space/) | 1.1k | — |
+| [Produce read-only cloud security and FinOps findings with StackQL](../../skills/produce-read-only-cloud-security-finops-findings-stackql/) | 1.1k | — |
 | [Sign agent-made Git commits with gitsign](../../skills/sign-agent-made-git-commits-with-gitsign/) | 1.1k | — |
 | [Verify agent policy coverage and risky-action guardrails before production rollout with Agent Governance Toolkit](../../skills/verify-agent-policy-coverage-and-risky-action-guardrails-before-production-rollout-with-agent-governance-toolkit/) | 1.1k | 20.9k/wk |
+| [Preflight Cybermes engagement scope rules over MCP](../../skills/preflight-cybermes-engagement-scope-rules-over-mcp/) | 1k | 359/wk |
 | [Evaluate model-generated code execution with SandboxFusion](../../skills/evaluate-model-generated-code-execution-with-sandboxfusion/) | 1k | — |
 | [OpenClaw Security Suite (ClawSec)](../../skills/openclaw-security-suite-clawsec/) | 1k | — |
 | [Screen packages and agent skill repos for malware and supply-chain risk before adoption with SafeDep Vet](../../skills/screen-packages-and-agent-skill-repos-for-malware-and-supply-chain-risk-before-adoption-with-safedep-vet/) | 1k | 90/wk |
@@ -223,18 +229,22 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Scan MCP servers for security findings before connecting them to agents with MCP Scanner](../../skills/scan-mcp-servers-for-security-findings-before-connecting-them-to-agents-with-mcp-scanner/) | 889 | — |
 | [Encrypt and decrypt age secrets with hardware-backed YubiKey identities](../../skills/encrypt-and-decrypt-age-secrets-with-hardware-backed-yubikey-identities/) | 881 | — |
 | [Detect repository licenses before dependency approval or open-source due diligence](../../skills/detect-repository-licenses-before-dependency-approval-or-open-source-due-diligence/) | 876 | — |
+| [Verify signed agent-run evidence offline with Tracekit](../../skills/verify-signed-agent-run-evidence-offline-with-tracekit/) | 726 | — |
 | [Betterleaks Next-Generation Secrets Scanner](../../skills/betterleaks-secrets-scanner/) | 712 | — |
+| [Turn IDE security scan findings into prioritized backlog tasks with DevoxxGenie](../../skills/turn-ide-security-scan-findings-into-backlog-tasks-with-devoxxgenie/) | 691 | — |
 | [Verify Packages Are Reproducibly Rebuildable Before Trusting Artifacts With Oss Rebuild](../../skills/verify-packages-are-reproducibly-rebuildable-before-trusting-artifacts-with-oss-rebuild/) | 687 | — |
 | [Stress-test agent defenses with AgentDojo](../../skills/stress-test-agent-defenses-with-agentdojo/) | 619 | — |
 | [Generate SLSA build provenance in GitHub Actions](../../skills/generate-slsa-build-provenance-in-github-actions/) | 566 | — |
 | [Benchmark enterprise RAG agents with EnterpriseRAG-Bench](../../skills/benchmark-enterprise-rag-agents-with-enterpriserag-bench/) | 562 | — |
-| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | — |
+| [Verify shared and private fleet memory through Caura MCP](../../skills/verify-shared-and-private-fleet-memory-through-caura-mcp/) | 559 | — |
+| [Run agents in disposable microVM sandboxes with network allowlists and secret injection using Matchlock](../../skills/run-agents-in-disposable-microvm-sandboxes-with-network-allowlists-and-secret-injection-using-matchlock/) | 552 | 1/wk |
 | [SBOM Generator with CycloneDX](../../skills/sbom-generator-cyclonedx/) | 489 | — |
 | [Scan images filesystems and SBOMs for end-of-life software before unsupported components ship with Xeol](../../skills/scan-images-filesystems-and-sboms-for-end-of-life-software-before-unsupported-components-ship-with-xeol/) | 435 | — |
 | [Benchmark prompt-injection attacks defenses and recovery pipelines before trusting an LLM app with Open Prompt Injection](../../skills/benchmark-prompt-injection-attacks-defenses-and-recovery-pipelines-before-trusting-an-llm-app-with-open-prompt-injection/) | 429 | — |
 | [Lint X.509 certificates against Web PKI rules with zlint before issuance or rollout](../../skills/lint-x509-certificates-against-web-pki-rules-with-zlint-before-issuance-or-rollout/) | 429 | — |
 | [Redact PII from text before sharing or indexing with scrubadub](../../skills/redact-pii-from-text-before-sharing-or-indexing-with-scrubadub/) | 421 | — |
 | [Apply rule-based guardrails to agent traces and tool flows with Invariant](../../skills/apply-rule-based-guardrails-to-agent-traces-and-tool-flows-with-invariant/) | 409 | 1.5k/wk |
+| [Audit local coding-agent permissions and MCP configuration with Safe Anything](../../skills/audit-local-coding-agent-permissions-and-mcp-configuration-with-safe-anything/) | 407 | 592/wk |
 | [Block unsafe agent actions and scan newly added skills with AgentGuard](../../skills/block-unsafe-agent-actions-and-scan-newly-added-skills-with-agentguard/) | 390 | 2.9k/wk |
 | [CSP Policy Analyzer](../../skills/csp-policy-analyzer/) | 390 | — |
 | [Scan Claude Code configs for secrets permission drift and unsafe MCP hookups with AgentShield](../../skills/scan-claude-code-configs-for-secrets-permission-drift-and-unsafe-mcp-hookups-with-agentshield/) | 388 | 8.1k/wk |
@@ -248,7 +258,7 @@ Auth setup, vulnerability scanning, compliance checks, and security automation.
 | [Gate agent code changes with OpenQodex review](../../skills/gate-agent-code-changes-with-openqodex-review/) | 247 | 1.3k/wk |
 | [Put approval gates and audit-ready policy checks between agents and external actions with DashClaw](../../skills/put-approval-gates-and-audit-ready-policy-checks-between-agents-and-external-actions-with-dashclaw/) | 241 | 1.6k/wk |
 | [Enforce policy-gated and auditable agent execution with LACP](../../skills/enforce-policy-gated-and-auditable-agent-execution-with-lacp/) | 211 | — |
-| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 2.1k/wk |
+| [Sentry for AI](../../skills/sentry-for-ai/) | 190 | 958/wk |
 | [Lint and autofix agent config files before broken prompts, hooks, or MCP settings derail runs with agnix](../../skills/lint-and-autofix-agent-config-files-before-broken-prompts-hooks-or-mcp-settings-derail-runs-with-agnix/) | 179 | 6k/wk |
 | [A/B test agent skills and MCP changes with Caliper](../../skills/ab-test-agent-skills-mcp-changes-with-caliper/) | 175 | — |
 | [Gitxray GitHub Repository Security X-Ray](../../skills/gitxray-github-repository-security-xray/) | 174 | — |

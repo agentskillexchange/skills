@@ -176,7 +176,8 @@ def placeholder_counts(repo: Path) -> tuple[int, int]:
 def stale_count_refs(repo: Path) -> list[str]:
     targets = ["README.md", "CATALOG.md", "skills.json", "openclaw.json", "codex.json", "llms.txt"]
     hits: list[str] = []
-    pattern = re.compile(r"2,466|2466|2%2C466")
+    # Match the obsolete count, not digits inside a valid popularity metric.
+    pattern = re.compile(r"(?<![0-9])(?:2,466|2466|2%2C466)(?![0-9])")
     for name in targets:
         path = repo / name
         if not path.exists():

@@ -5,6 +5,7 @@ description: "onefetch is a Rust CLI tool that displays project information and 
 github_stars: 11710
 verification: "listed"
 source: "https://github.com/o2sh/onefetch"
+author: "o2sh"
 category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,7 +19,9 @@ onefetch is a Rust CLI tool that displays project information and code statistic
 
 ## Installation
 
-No source-backed install or usage instructions could be extracted automatically. Review the upstream project before running this skill in a sensitive workflow.
+Install or set up from the source-backed instructions:
+
+brew install onefetch
 
 - Source: https://github.com/o2sh/onefetch
 

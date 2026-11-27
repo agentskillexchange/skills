@@ -79,7 +79,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Satori HTML and CSS to SVG Image Generator by Vercel](../../skills/satori-html-css-svg-image-generator/) | 13.2k | 1.3M/wk |
 | [Apply an anti-AI-slop design workflow to pages, components, audits, and redesigns with Hallmark](../../skills/apply-an-anti-ai-slop-design-workflow-to-pages-components-audits-and-redesigns-with-hallmark/) | 13.1k | — |
 | [libvips High-Performance Image Processing Library and CLI](../../skills/libvips-high-performance-image-processing-library-cli/) | 11.2k | — |
-| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 25.3M/wk |
+| [OpenAI Image Gen](../../skills/openai-image-gen/) | 10.9k | 62.2M/wk |
 | [DALL-E 3 Batch Asset Generator](../../skills/dalle-3-batch-asset-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Batch Image Generator](../../skills/dalle-batch-image-generator/) | 10.8k | 18.1M/wk |
 | [DALL-E Image Variation Generator](../../skills/dalle-image-variation-generator/) | 10.8k | 18.1M/wk |
@@ -94,6 +94,8 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Penrose Mathematical Diagram Generator from Plain Text Notation](../../skills/penrose-math-diagram-generator/) | 7.9k | — |
 | [Turn Markdown or raw content into agent-generated HTML artifacts with HTML Anything](../../skills/turn-markdown-or-raw-content-into-agent-generated-html-artifacts-with-html-anything/) | 7.8k | — |
 | [Use Stitch Skills to generate, convert, and sync UI designs through agent workflows](../../skills/use-stitch-skills-to-generate-convert-and-sync-ui-designs-through-agent-workflows/) | 7.8k | — |
+| [Draft, review and export code-driven pixel effects with Pixelfx](../../skills/draft-review-and-export-code-driven-pixel-effects-with-pixelfx/) | 7.6k | — |
+| [Direct and render stickman videos from an approved script](../../skills/direct-render-stickman-videos-approved-script/) | 7.2k | — |
 | [Stable Diffusion LoRA Training Pipeline](../../skills/stable-diffusion-lora-training-pipeline/) | 7k | — |
 | [Pixelmatch Pixel-Level Image Comparison Library by Mapbox](../../skills/pixelmatch-image-comparison-library/) | 6.8k | 8.7M/wk |
 | [Bulk import and reconcile large photo archives into Immich without manual re-upload loops using immich-go](../../skills/bulk-import-and-reconcile-large-photo-archives-into-immich-without-manual-re-upload-loops-using-immich-go/) | 6k | — |
@@ -105,22 +107,29 @@ Image generation, asset processing, design automation, and creative tooling.
 | [resvg High-Performance SVG Rendering Library in Rust](../../skills/resvg-svg-rendering-library-rust/) | 3.8k | — |
 | [Run Claude Design-style UI prototyping locally with baoyu-design](../../skills/run-claude-design-style-ui-prototyping-locally-with-baoyu-design/) | 3.6k | — |
 | [Transfer clothed character poses from mannequin renders with Qwen Pose](../../skills/transfer-clothed-character-poses-from-mannequin-renders-with-qwen-pose/) | 3.5k | — |
+| [Inspect FreeCAD model properties and capture review views](../../skills/inspect-freecad-model-properties-capture-review-views/) | 3.3k | — |
 | [Turn a plain-language brief into a multi-step video production pipeline with OpenMontage](../../skills/turn-a-plain-language-brief-into-a-multi-step-video-production-pipeline-with-openmontage/) | 3k | — |
+| [Inspect and retrieve brand and cloud service SVG assets with theSVG](../../skills/retrieve-brand-cloud-service-svg-assets-thesvg/) | 3k | — |
 | [Draw and verify Excalidraw diagrams through an agent canvas](../../skills/draw-and-verify-excalidraw-diagrams-through-an-agent-canvas/) | 2.4k | 11.7k/wk |
+| [Build and review single-file browser motion graphics with Bang Motion](../../skills/build-and-review-single-file-browser-motion-graphics-with-bang-motion/) | 2.2k | — |
 | [Produce cinematic product videos with Video Shotcraft](../../skills/produce-cinematic-product-videos-with-video-shotcraft/) | 2.1k | — |
+| [Compare UI design directions and refine the selected page with Oil UI](../../skills/compare-ui-design-directions-and-refine-the-selected-page-with-oil-ui/) | 2.1k | — |
 | [Generate consistent hand-drawn image prompts with Hand Drawn Styles](../../skills/generate-consistent-hand-drawn-image-prompts-with-hand-drawn-styles/) | 2k | — |
 | [OpenEXR HDR Compositing Pipeline](../../skills/openexr-hdr-compositing-pipeline/) | 1.8k | — |
 | [Run code-generated short-film workflows with Lemo-Opuscar](../../skills/direct-code-generated-short-films-with-lemo-opuscar-styles/) | 1.5k | — |
 | [Generate Arcads ad creative from Claude Code](../../skills/generate-arcads-ad-creative-from-claude-code/) | 1.5k | — |
 | [Turn novels into AI short-drama production packets with shuohao-skills](../../skills/turn-novels-into-ai-short-drama-production-packets-with-shuohao-skills/) | 1.4k | — |
 | [Revise PDF Slides with Natural-Language Edits](../../skills/revise-pdf-slides-with-natural-language-edits/) | 1.2k | — |
+| [Triage Rhino Model Clashes with Object-Pair Measurements and Viewport Evidence](../../skills/triage-rhino-model-clashes-with-object-pair-measurements/) | 1.2k | — |
 | [Create voiceover-synced explainer videos with video-talkcraft](../../skills/create-voiceover-synced-explainer-videos-with-video-talkcraft/) | 1.2k | — |
 | [Generate Template-Matched PPTX Decks with gpt-image2-ppt-skills](../../skills/generate-template-matched-pptx-decks-with-gpt-image2-ppt-skills/) | 1.1k | — |
 | [Rive Runtime Animation Controller](../../skills/rive-runtime-animation-controller/) | 1.1k | 19.7k/wk |
 | [Plan, generate and review Gemini images in Claude Code with Banana Claude](../../skills/plan-generate-and-review-gemini-images-with-banana-claude/) | 1.1k | — |
 | [Create sourced explainer videos with anything2explainer](../../skills/create-sourced-explainer-videos-with-anything2explainer/) | 1.1k | — |
 | [Design, render, and visually QA editable PowerPoint decks with PPT Design Skill](../../skills/design-render-and-visually-qa-editable-powerpoint-decks-with-ppt-design-skill/) | 1k | — |
+| [Inspect Unreal Editor state and capture visual evidence with EngineWire](../../skills/inspect-unreal-editor-state-visual-evidence-enginewire/) | 1k | — |
 | [CairoSVG SVG to PNG PDF and PostScript Converter](../../skills/cairosvg-svg-to-png-pdf-converter/) | 917 | — |
+| [Render existing Mermaid files and PR diagrams in Claude Code with Termaid](../../skills/render-existing-mermaid-diagrams-claude-code-termaid/) | 583 | — |
 | [Turn source novels into playable games with NovelToGame](../../skills/turn-source-novels-into-playable-games-with-noveltogame/) | 559 | — |
 | [Run ComfyUI workflows as agent-callable skills](../../skills/run-comfyui-workflows-as-agent-callable-skills/) | 395 | — |
 | [Drive ComfyUI generation workflows through comfyui-mcp](../../skills/drive-comfyui-generation-workflows-through-comfyui-mcp/) | 386 | 86.4k/wk |
@@ -133,6 +142,7 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Agent Media UGC Video](../../skills/agent-media-ugc-video/) | — | 46/wk |
 | [Adobe Firefly API Batch Image Generator](../../skills/adobe-firefly-api-batch-image-generator/) | — | — |
 | [Adobe Photoshop API Batch Processor](../../skills/adobe-photoshop-api-batch-processor/) | — | — |
+| [AI Dance Video with Danceo](../../skills/danceo-ai-dance-video/) | — | — |
 | [Bannerbear Dynamic Image API](../../skills/bannerbear-dynamic-image-api/) | — | — |
 | [Blender Geometry Nodes Script Generator](../../skills/blender-geometry-nodes-script-generator/) | — | — |
 | [Cloudinary Asset Optimization Agent](../../skills/cloudinary-asset-optimization-agent/) | — | — |
@@ -146,16 +156,19 @@ Image generation, asset processing, design automation, and creative tooling.
 | [Figma Export Automator](../../skills/figma-export-automator/) | — | — |
 | [Figma REST API Asset Exporter](../../skills/figma-rest-api-asset-exporter/) | — | — |
 | [Gemini Image Style Transfer Agent](../../skills/gemini-image-style-transfer-agent/) | — | — |
+| [Generate Images and Video with UberLLM](../../skills/generate-images-and-video-with-uberllm/) | — | — |
 | [Generate Images with Atlas Cloud](../../skills/generate-images-with-atlas-cloud/) | — | — |
 | [Generate Images with MuAPI](../../skills/generate-images-with-muapi/) | — | — |
 | [Generate reproducible algorithmic art sketches with seeded p5.js randomness](../../skills/generate-reproducible-algorithmic-art-sketches-with-seeded-p5js-randomness/) | — | — |
 | [Generate Slack-ready animated GIFs from custom frame sequences](../../skills/generate-slack-ready-animated-gifs-from-custom-frame-sequences/) | — | — |
+| [Imagera Media Generation](../../skills/imagera-media/) | — | — |
 | [ImagineVid AI Generation](../../skills/imaginevid-ai-generation/) | — | — |
 | [Midjourney Prompt Chain Builder](../../skills/midjourney-prompt-chain-builder/) | — | — |
 | [Midjourney Prompt Engineering Suite](../../skills/midjourney-prompt-engineering-suite/) | — | — |
 | [Midjourney Prompt Optimizer](../../skills/midjourney-prompt-optimizer-skill/) | — | — |
 | [Pexels API Stock Photo Curator](../../skills/pexels-api-stock-photo-curator/) | — | — |
 | [Photoshop Batch Action Automator](../../skills/photoshop-batch-action-automator/) | — | — |
+| [PopNow Video Generation](../../skills/popnow-video/) | — | — |
 | [RouterBase Media Generation](../../skills/routerbase-media-generation/) | — | — |
 | [RunPod Serverless GPU Inference](../../skills/runpod-serverless-gpu-inference/) | — | — |
 | [Writingmate MCP Video and Image Generation](../../skills/writingmate-mcp/) | — | — |

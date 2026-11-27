@@ -12,6 +12,8 @@ framework: "Multi-Framework"
 tool_ecosystem:
   github_repo: "boyang-hu/website-rebuild-skill"
   github_stars: 656
+  npm_package: "website-rebuild-skill"
+  npm_weekly_downloads: 0
 ---
 
 # Rebuild public websites from evidence snapshots with website-rebuild-skill

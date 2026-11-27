@@ -34,6 +34,27 @@ Run the documented workflow in a sandbox and verify its output.
 
 
 CASES = [
+    *[
+        {
+            "name": name,
+            "slug": "fixture-" + name.replace("_", "-"),
+            "verification": "security_reviewed",
+            "source": source,
+            "repo": "",
+            "installation": command,
+            "pass": expected,
+            **({} if expected else {"reason": "package/tool command is not source-aligned"}),
+        }
+        for name, source, command, expected in [
+            ("fd_exact_upstream_package", "https://github.com/sharkdp/fd", "brew install fd", True),
+            ("fd_git_suffix", "https://github.com/sharkdp/fd.git", "brew install fd", True),
+            ("fd_unrelated_package", "https://github.com/sharkdp/fd", "brew install unrelated", False),
+            ("fd_substring_not_identity", "https://github.com/sharkdp/fd", "brew install fd-unrelated", False),
+            ("fd_comment_not_identity", "https://github.com/sharkdp/fd", "brew install unrelated # fd", False),
+            ("fd_shell_suffix_not_identity", "https://github.com/sharkdp/fd", "brew install unrelated && echo fd", False),
+            ("fd_wrong_source", "https://github.com/example/unrelated", "brew install fd", False),
+        ]
+    ],
     {
         "name": "elves_prose_as_install_command_security_reviewed_fails",
         "slug": "elves-install-quality-fixture",

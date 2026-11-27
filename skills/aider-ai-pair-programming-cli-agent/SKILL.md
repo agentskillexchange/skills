@@ -5,6 +5,7 @@ description: "Aider is an open-source AI pair programming tool that runs in your
 github_stars: 42670
 verification: "security_reviewed"
 source: "https://github.com/Aider-AI/aider"
+author: "Aider-AI"
 category: "Developer Tools"
 framework: "Custom Agents"
 tool_ecosystem:
@@ -18,19 +19,12 @@ Aider is an open-source AI pair programming tool that runs in your terminal, let
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- python -m pip install aider-install
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- Aider works with most popular programming languages: python, javascript, rust, ruby, go, cpp, php, html, css, and dozens more.
-
-Basic usage or getting-started notes:
-- ### [Use in your IDE](https://aider.chat/docs/usage/watch.html)
-- <a href="https://aider.chat/docs/usage/watch.html"><img src="https://aider.chat/assets/icons/monitor.svg" width="32" height="32" align="left" valign="middle" style="margin-right:10px"></a>
-- ### [Images & web pages](https://aider.chat/docs/usage/images-urls.html)
+python -m pip install aider-install
+aider-install
 
 - Source: https://github.com/Aider-AI/aider
-- Extracted from upstream docs: https://raw.githubusercontent.com/Aider-AI/aider/HEAD/README.md
 
 ## Source
 

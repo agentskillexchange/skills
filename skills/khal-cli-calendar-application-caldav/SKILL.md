@@ -5,6 +5,7 @@ description: "khal is a standards-based CLI and terminal calendar program writte
 github_stars: 2971
 verification: "security_reviewed"
 source: "https://github.com/pimutils/khal"
+author: "pimutils"
 category: "Calendar, Email & Productivity"
 framework: "Multi-Framework"
 tool_ecosystem:
@@ -18,22 +19,11 @@ khal is a standards-based CLI and terminal calendar program written in Python. I
 
 ## Installation
 
-Use the upstream install or setup path that matches your environment:
-- Brew
-- brew install khal
-- pip install git+https://github.com/pimutils/khal
+Install or set up from the source-backed instructions:
 
-Requirements and caveats from upstream:
-- works with python 3.10+
-- .. __: https://repology.org/project/python:khal/versions
-
-Basic usage or getting-started notes:
-- example CalDAV_ servers.
-- khal should run on all major operating systems [1]_
-- ------------
+brew install khal
 
 - Source: https://github.com/pimutils/khal
-- Extracted from upstream docs: https://raw.githubusercontent.com/pimutils/khal/HEAD/README.rst
 
 ## Source
 

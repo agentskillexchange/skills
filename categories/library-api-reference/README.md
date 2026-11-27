@@ -110,6 +110,7 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [Anthropic SDK Token Usage Logger](../../skills/anthropic-sdk-token-usage-logger/) | 1.9k | 14.5M/wk |
 | [Ground PostgreSQL code generation in exact docs and best-practice skills through pg-aiguide](../../skills/ground-postgresql-code-generation-in-exact-docs-and-best-practice-skills-through-pg-aiguide/) | 1.7k | 444/wk |
 | [Navigate indexed codebases through symbol-first MCP retrieval with jCodeMunch MCP](../../skills/navigate-indexed-codebases-through-symbol-first-mcp-retrieval-with-jcodemunch-mcp/) | 1.6k | — |
+| [Build and verify local Swift MCP tool endpoints](../../skills/build-and-verify-local-swift-mcp-tool-endpoints/) | 1.6k | — |
 | [Microsoft Learn MCP Server](../../skills/microsoft-learn-mcp-server/) | 1.5k | — |
 | [Build MCP servers and clients for PHP applications with the official PHP SDK](../../skills/build-mcp-servers-and-clients-for-php-applications-with-the-official-php-sdk/) | 1.5k | — |
 | [Build source-owned API and MCP documentation with Sourcey](../../skills/build-source-owned-api-and-mcp-documentation-with-sourcey/) | 1.4k | 6.1k/wk |
@@ -118,21 +119,25 @@ SDK documentation, API guides, framework reference material, and library usage p
 | [OpenAPI Spec Changelog Generator](../../skills/openapi-spec-changelog-generator/) | 1.2k | — |
 | [REST API Changelog Tracker](../../skills/rest-api-changelog-tracker/) | 1.2k | — |
 | [Python Docstring Linter](../../skills/python-docstring-linter-ast-pydocstyle/) | 1.1k | — |
+| [Verify Nix package and option choices through MCP-NixOS](../../skills/verify-nix-package-and-option-choices-through-mcp-nixos/) | 889 | — |
 | [Bundle and validate OpenAPI files into one publishable spec with swagger-cli](../../skills/bundle-and-validate-openapi-files-into-one-publishable-spec-with-swagger-cli/) | 517 | 164k/wk |
 | [REST API Test Suite Generator](../../skills/rest-api-test-suite-generator/) | 493 | 1.5M/wk |
 | [Validate JSON data and config files against schemas with ajv-cli](../../skills/validate-json-data-and-config-files-against-schemas-with-ajv-cli/) | 308 | 335.3k/wk |
 | [Python Docstring Extractor](../../skills/python-docstring-extractor/) | 266 | — |
 | [Resolve and validate OpenAPI specs with remote refs before client generation or review with Prance](../../skills/resolve-and-validate-openapi-specs-with-remote-refs-before-client-generation-or-review-with-prance/) | 261 | — |
+| [Resolve Langfuse integration questions through its documentation MCP](../../skills/resolve-langfuse-integration-questions-through-documentation-mcp/) | 253 | — |
 | [Answer Anthropic documentation questions from a versioned local archive](../../skills/answer-anthropic-documentation-questions-from-a-versioned-local-archive/) | 154 | — |
 | [GitHub REST API Paginator Library](../../skills/github-rest-api-paginator-library/) | 58 | 26.7M/wk |
 | [Linkup JS SDK for Sourced Web Search and Fetch](../../skills/linkup-js-sdk-sourced-web-search-fetch/) | 4 | 30.8k/wk |
 | [Use 404.directory](../../skills/use-404-directory/) | 1 | 450/wk |
-| [Aperture Wallet Guide](../../skills/aperture-wallet-guide/) | 1 | — |
+| [Datacircle](../../skills/datacircle/) | 1 | — |
+| [Oath Wallet Guide](../../skills/aperture-wallet-guide/) | 1 | — |
 | [NPM Package API Surface Extractor](../../skills/npm-package-api-surface-extractor/) | — | 17.1M/wk |
 | [API Documentation Indexer](../../skills/api-documentation-indexer/) | — | — |
 | [AShareHub Chinese Market Data](../../skills/asharehub/) | — | — |
 | [AsyncAPI Event Catalog Builder](../../skills/asyncapi-event-catalog-builder/) | — | — |
 | [AsyncAPI Event Catalog Generator](../../skills/asyncapi-event-catalog-generator/) | — | — |
+| [Datacircle GTM API Benchmark](../../skills/datacircle-gtm-api-benchmark/) | — | — |
 | [Healthcare Job Search (US) with CareJobs.Now](../../skills/healthcare-job-search-carejobs-now/) | — | — |
 | [Implement, review, and optimize SwiftUI code with trace-backed diagnostics](../../skills/implement-review-and-optimize-swiftui-code-with-trace-backed-diagnostics/) | — | — |
 | [MDN Web API Reference Fetcher](../../skills/mdn-web-api-reference-fetcher/) | — | — |

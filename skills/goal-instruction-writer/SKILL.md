@@ -2,12 +2,15 @@
 name: "Goal Instruction Writer"
 slug: "goal-instruction-writer"
 description: "Preview, draft, refine, and audit durable Goal instructions in Codex. Define observable acceptance evidence, bounded execution loops, checkpoints, drift controls, proportional verification, and explicit stop conditions for multi-stage coding and delivery work."
+github_stars: 2
 verification: "listed"
 source: "https://github.com/wu736139669/goal-instruction-writer"
+author: "wu736139669"
 category: "Templates & Workflows"
 framework: "Codex"
 tool_ecosystem:
   github_repo: "wu736139669/goal-instruction-writer"
+  github_stars: 2
 ---
 
 # Goal Instruction Writer
@@ -188,8 +191,10 @@ Make the terminal states explicit and mutually understandable:
 
 - **Complete:** every acceptance criterion is verified and the deliverable is
   available.
-- **Blocked:** a named dependency, missing authority, or unresolved failure
-  prevents the next meaningful action; report the exact unblock needed.
+- **Blocked:** a named, verifiable dependency, missing authority, or owner
+  decision prevents the next meaningful action and cannot be resolved without
+  new input or permission; report the attempts made, the dependency, and the
+  exact unblock condition.
 - **Paused:** the owner explicitly asks to pause; preserve the cursor and do
   not resume without authorization.
 - **Timeboxed/Budgeted:** the limit is reached before completion; report the
@@ -199,6 +204,16 @@ Make the terminal states explicit and mutually understandable:
 - **Realignment required:** a drift check fails; stop the current loop, preserve
   the checkpoint, and resume only after the next action is re-anchored. Use
   `GOAL REALIGNMENT REQUIRED` when a local terminal label is needed.
+
+Blocked is a claim about the world, not a way to end a hard turn. It qualifies
+only when all three hold: the dependency is named and verifiable, the agent
+cannot resolve it without new input or permission, and the report states what
+would unblock it. Difficulty, slowness, uncertainty, an ambiguous requirement,
+a failure a different approach could resolve, and a preference the agent could
+ask about are not blockers. Change approach, ask one scoped question, or
+realign instead. If another criterion is still actionable, keep working it and
+record the blocked criterion separately. A blocked claim that turns out to be
+false is a defect in the report, not a neutral stop.
 
 Do not use “continue until satisfied,” “try indefinitely,” or a success claim
 based only on effort. If the task has a local convention for terminal strings,
@@ -231,32 +246,21 @@ states concrete enough that a later reviewer can decide them from evidence.
 
 ## Installation
 
-### Codex: canonical upstream package
+Install or set up from the source-backed instructions:
 
-Install the upstream package so Codex receives the canonical
-`goal-instruction-writer` skill name and its supporting files:
+npx skills add wu736139669/goal-instruction-writer --skill goal-instruction-writer -g -a codex -y
 
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/wu736139669/goal-instruction-writer.git "${CODEX_HOME:-$HOME/.codex}/skills/goal-instruction-writer"
-```
-
-Invoke `$goal-instruction-writer` in Codex after installation. For example:
-
-```text
-Use $goal-instruction-writer in Draft mode to define a Goal for this migration.
-Preserve the requested scope, define observable acceptance evidence, and
-separate focused iteration checks from required delivery checks.
-```
+- Source: https://github.com/wu736139669/goal-instruction-writer
 
 ## Upstream and usage evidence
 
 This entry carries the instruction body and supporting files from upstream
-[v0.2.4](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.4),
+[v0.2.6](https://github.com/wu736139669/goal-instruction-writer/releases/tag/v0.2.6),
 with Agent Skill Exchange catalog metadata, this installation appendix, a
-distinct `GOAL REALIGNMENT REQUIRED` label for drift stops, and bounded
-scheduled external waits. `GOAL PAUSED`
-remains reserved for an explicit owner pause.
+distinct `GOAL REALIGNMENT REQUIRED` label for drift stops, bounded
+scheduled external waits, auditable blocked claims, and an evidence-aware
+realignment threshold. `GOAL PAUSED` remains reserved for an explicit owner
+pause.
 The MIT license is included in `LICENSE`.
 
 The [English game-development case study](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/cases/factory-town-idle.md)

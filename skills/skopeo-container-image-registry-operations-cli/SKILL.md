@@ -5,6 +5,7 @@ description: "Skopeo is a command-line tool for working with container images an
 github_stars: 10665
 verification: "security_reviewed"
 source: "https://github.com/containers/skopeo"
+author: "podman-container-tools"
 category: "Security & Verification"
 framework: "Custom Agents"
 tool_ecosystem:

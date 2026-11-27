@@ -91,6 +91,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Turn a research idea into a draft paper workflow with AutoResearchClaw](../../skills/turn-a-research-idea-into-a-draft-paper-workflow-with-autoresearchclaw/) | 11.5k | — |
 | [Run configurable multi-source deep research passes with Open Deep Research](../../skills/run-configurable-multi-source-deep-research-passes-with-open-deep-research/) | 11.1k | — |
 | [linkding Self-Hosted Bookmark Manager with REST API](../../skills/linkding-self-hosted-bookmark-manager-rest-api/) | 10.4k | — |
+| [Learn and reuse route-specific extraction selectors with Crawlee Python](../../skills/learn-and-reuse-route-specific-extraction-selectors-with-crawlee-python/) | 9.7k | — |
 | [Search PDFs, Office files, ebooks, and archives with one query before manual review](../../skills/search-pdfs-office-files-ebooks-and-archives-with-one-query-before-manual-review/) | 9.6k | — |
 | [Serve production agentic RAG through R2R](../../skills/serve-production-agentic-rag-through-r2r/) | 7.9k | 3.5k/wk |
 | [Run local deep research workflows with Local Deep Research](../../skills/run-local-deep-research-workflows-with-local-deep-research/) | 7.9k | — |
@@ -115,6 +116,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [Ground research agents in Zotero libraries with LLM for Zotero](../../skills/ground-research-agents-in-zotero-libraries-with-llm-for-zotero/) | 1.7k | — |
 | [Replay And Inspect WARC Web Archives Before Investigation Or Migration With Pywb](../../skills/replay-and-inspect-warc-web-archives-before-investigation-or-migration-with-pywb/) | 1.6k | — |
 | [Tavily MCP Server for AI-Powered Web Search and Extraction](../../skills/tavily-mcp-server-ai-web-search-extraction/) | 1.6k | 47.9k/wk |
+| [Find and inspect French public datasets through data.gouv.fr MCP](../../skills/find-inspect-french-public-datasets-datagouv-mcp/) | 1.6k | — |
 | [Run self-hosted media research and RAG workflows with tldw_server](../../skills/run-self-hosted-media-research-and-rag-workflows-with-tldw-server/) | 1.4k | — |
 | [AgentQL Natural Language Web Query SDK for Extraction and Automation](../../skills/agentql-natural-language-web-query-sdk-extraction-automation/) | 1.3k | 878/wk |
 | [Locate photo origins with the Geo Sleuth agent skill](../../skills/locate-photo-origins-with-the-geo-sleuth-agent-skill/) | 1.2k | — |
@@ -130,7 +132,9 @@ Web research, data collection, content aggregation, and information gathering.
 | [Resolve coding questions from upstream evidence with Firecrawl Developer Index](../../skills/resolve-coding-questions-with-firecrawl-developer-index/) | 653 | 15.4k/wk |
 | [Search and resume past coding-agent sessions locally with exact handoff commands using Agent Sessions](../../skills/search-and-resume-past-coding-agent-sessions-locally-with-exact-handoff-commands-using-agent-sessions/) | 478 | — |
 | [Run evidence-first research investigations in Claude Code with Deepdive](../../skills/run-evidence-first-research-investigations-in-claude-code-with-deepdive/) | 393 | — |
+| [Build and resume research coverage matrices with OmAgents](../../skills/build-and-resume-research-coverage-matrices-with-omagents/) | 359 | 764/wk |
 | [Run source-audited academic literature searches with Nature Academic Search](../../skills/run-source-audited-academic-literature-searches-with-nature-academic-search/) | 216 | — |
+| [Validate a YouTube niche with sourced channel evidence through TubeLab](../../skills/validate-youtube-niche-sourced-channel-evidence-tubelab/) | 205 | — |
 | [Serve clean Markdown from URLs and files with PullMD](../../skills/serve-clean-markdown-from-urls-and-files-with-pullmd/) | 197 | — |
 | [Apify SDK for Web Scraping and Actor Automation](../../skills/apify-sdk-web-scraping-actor-automation/) | 173 | 35.6k/wk |
 | [Apify Actor Development Kit](../../skills/apify-actor-development-kit/) | 173 | 34.1k/wk |
@@ -160,6 +164,9 @@ Web research, data collection, content aggregation, and information gathering.
 | [Diffbot Article Extraction Verifier](../../skills/diffbot-article-extraction-verifier/) | — | — |
 | [Diffbot Knowledge Graph Extractor](../../skills/diffbot-knowledge-graph-extractor/) | — | — |
 | [Find Products by Intent with Mydentify](../../skills/find-products-by-intent-with-mydentify/) | — | — |
+| [Firecrawl Alexandria](../../skills/firecrawl-alexandria/) | — | — |
+| [Google Flights Fare Search](../../skills/google-flights-fare-search/) | — | — |
+| [Investigative Journalism and Fact-Checking](../../skills/investigate-and-fact-check/) | — | — |
 | [Jina Reader API Skill](../../skills/jina-reader-api-skill/) | — | — |
 | [OSINT Domain Intelligence Scanner](../../skills/osint-domain-intelligence-scanner/) | — | — |
 | [Pangolinfo AI SERP](../../skills/pangolinfo-ai-serp/) | — | — |
@@ -180,6 +187,7 @@ Web research, data collection, content aggregation, and information gathering.
 | [SerpAPI Search Results Aggregator](../../skills/serpapi-search-results-aggregator/) | — | — |
 | [Shodan Network Reconnaissance Agent](../../skills/shodan-network-reconnaissance-agent/) | — | — |
 | [Social Corpus Harvest](../../skills/social-corpus-harvest/) | — | — |
+| [StalkChain Trader Check](../../skills/stalkchain-trader-check/) | — | — |
 | [Xquik X Actors on Apify](../../skills/xquik-apify-x-actors/) | — | — |
 
 ---
