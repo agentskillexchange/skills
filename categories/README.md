@@ -1,6 +1,6 @@
 # Categories
 
-> **3304 skills** across **17 categories**
+> **3305 skills** across **17 categories**
 
 | | Category | Skills | Description |
 |---|---|:---:|---|
@@ -10,8 +10,8 @@
 | 🔄 | [**Data Extraction & Transformation**](data-extraction-transformation/) | **247** | Parsing, ETL pipelines, format conversion, data wrangling, and transf... |
 | ✅ | [**Code Quality & Review**](code-quality-review/) | **222** | Linting rules, review checklists, code standards enforcement, and qua... |
 | 🔗 | [**Integrations & Connectors**](integrations-connectors/) | **199** | Third-party API bridges, webhook handlers, service connectors, and pl... |
+| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **196** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 🔧 | [**CI/CD Integrations**](ci-cd-integrations/) | **195** | Pipeline configs, deployment automation, build tooling, and continuou... |
-| 📋 | [**Runbooks & Diagnostics**](runbooks-diagnostics/) | **195** | Incident response, troubleshooting guides, system diagnostics, and op... |
 | 📊 | [**Monitoring & Alerts**](monitoring-alerts/) | **165** | Metrics collection, alerting rules, observability setup, and system m... |
 | 🔍 | [**Research & Scraping**](research-scraping/) | **149** | Web research, data collection, content aggregation, and information g... |
 | 📚 | [**Library & API Reference**](library-api-reference/) | **137** | SDK documentation, API guides, framework reference material, and libr... |

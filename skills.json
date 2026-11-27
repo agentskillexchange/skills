@@ -1,8 +1,19 @@
 {
   "version": "2.0",
-  "total": 3304,
+  "total": 3305,
   "generated": "2026-11-27",
   "skills": [
+    {
+      "slug": "validate-team-brain-retrieval-and-access-boundaries",
+      "name": "Validate Team Brain retrieval and access boundaries",
+      "title": "Validate Team Brain retrieval and access boundaries",
+      "description": "Run Team Brain’s seeded Oracle test-schema diagnostic and return retrieval, permission-check and setup failures before connecting real team data.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/oracle-devrel/oracle-ai-developer-hub/tree/d9ffc5eb1872ee788d2a659f0de7b1bf570c2d3c/apps/team-brain",
+      "github_repo": "oracle-devrel/oracle-ai-developer-hub"
+    },
     {
       "slug": "nano-fetch",
       "name": "Pay a Nano (XNO) 402 and Fetch",
@@ -45596,7 +45607,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 35301588,
+        "npm_weekly_downloads": 34496095,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -45612,7 +45623,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 103,
-        "npm_weekly_downloads": 4200647,
+        "npm_weekly_downloads": 4057174,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/DataDog/datadog-api-client-typescript",
@@ -45658,7 +45669,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 27264,
-        "npm_weekly_downloads": 213197923,
+        "npm_weekly_downloads": 209867381,
         "license": "MIT"
       },
       "source_url": "https://github.com/eslint/eslint",
@@ -45689,7 +45700,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 19281312,
+        "npm_weekly_downloads": 19157310,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -45705,7 +45716,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 3632,
-        "npm_weekly_downloads": 77918918,
+        "npm_weekly_downloads": 77143633,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/aws/aws-sdk-js-v3",
@@ -45721,7 +45732,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 3051,
-        "npm_weekly_downloads": 72424,
+        "npm_weekly_downloads": 70325,
         "license": "MIT"
       },
       "source_url": "https://github.com/sendgrid/sendgrid-nodejs",
@@ -45737,7 +45748,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1539,
-        "npm_weekly_downloads": 9906487,
+        "npm_weekly_downloads": 9702224,
         "license": "MIT"
       },
       "source_url": "https://github.com/twilio/twilio-node",
@@ -45753,7 +45764,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 4428,
-        "npm_weekly_downloads": 35301588,
+        "npm_weekly_downloads": 34496095,
         "license": "MIT"
       },
       "source_url": "https://github.com/stripe/stripe-node",
@@ -45769,7 +45780,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1465,
-        "npm_weekly_downloads": 1594394,
+        "npm_weekly_downloads": 1576697,
         "license": "MIT"
       },
       "source_url": "https://github.com/jsforce/jsforce",
@@ -45785,7 +45796,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 397,
-        "npm_weekly_downloads": 2342606,
+        "npm_weekly_downloads": 2314034,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/HubSpot/hubspot-api-nodejs",
@@ -45801,7 +45812,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 5610,
-        "npm_weekly_downloads": 2629998,
+        "npm_weekly_downloads": 2631354,
         "license": "MIT"
       },
       "source_url": "https://github.com/makenotion/notion-sdk-js",
@@ -45846,7 +45857,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 24,
-        "npm_weekly_downloads": 3042,
+        "npm_weekly_downloads": 3080,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/opsgenie/opsgenie-nodejs-sdk",
@@ -45878,7 +45889,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 811,
-        "npm_weekly_downloads": 15235791
+        "npm_weekly_downloads": 14883199
       },
       "source_url": "https://github.com/DataDog/dd-trace-js",
       "github_repo": "datadog/dd-trace-js"
@@ -45893,7 +45904,7 @@
       "verification": "listed",
       "signals": {
         "github_stars": 25248,
-        "npm_weekly_downloads": 6168455,
+        "npm_weekly_downloads": 6201771,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/pulumi/pulumi",
@@ -46089,7 +46100,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 1290,
-        "npm_weekly_downloads": 538,
+        "npm_weekly_downloads": 622,
         "license": "MIT"
       },
       "source_url": "https://github.com/steipete/claude-code-mcp",
@@ -46120,7 +46131,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 393,
-        "npm_weekly_downloads": 432,
+        "npm_weekly_downloads": 387,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/e2b-dev/mcp-server",
@@ -46160,7 +46171,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 10942,
-        "npm_weekly_downloads": 62217782,
+        "npm_weekly_downloads": 61512078,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/openai/openai-node",
@@ -46277,7 +46288,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 190,
-        "npm_weekly_downloads": 958,
+        "npm_weekly_downloads": 917,
         "license": "MIT"
       },
       "source_url": "https://github.com/getsentry/sentry-for-ai",
@@ -46332,7 +46343,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 33289,
-        "npm_weekly_downloads": 11255968,
+        "npm_weekly_downloads": 10733245,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright-mcp",
@@ -46365,7 +46376,7 @@
       "verification": "security_reviewed",
       "signals": {
         "github_stars": 89986,
-        "npm_weekly_downloads": 180610919,
+        "npm_weekly_downloads": 178076852,
         "license": "Apache-2.0"
       },
       "source_url": "https://github.com/microsoft/playwright",

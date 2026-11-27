@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-27
-# Total: 3304 skills
+# Total: 3305 skills
+
+## Validate Team Brain retrieval and access boundaries
+slug: validate-team-brain-retrieval-and-access-boundaries
+category: Runbooks & Diagnostics
+framework: Multi-Framework
+verification: Security Reviewed
+description: Run Team Brain’s seeded Oracle test-schema diagnostic and return retrieval, permission-check and setup failures before connecting real team data.
+url: https://agentskillexchange.com/skills/validate-team-brain-retrieval-and-access-boundaries/
 
 ## Pay a Nano (XNO) 402 and Fetch
 slug: nano-fetch

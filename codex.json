@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-27",
-  "total": 3304,
+  "total": 3305,
   "skills": [
+    {
+      "slug": "validate-team-brain-retrieval-and-access-boundaries",
+      "name": "Validate Team Brain retrieval and access boundaries",
+      "title": "Validate Team Brain retrieval and access boundaries",
+      "description": "Run Team Brain’s seeded Oracle test-schema diagnostic and return retrieval, permission-check and setup failures before connecting real team data.",
+      "category": "Runbooks & Diagnostics",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/oracle-devrel/oracle-ai-developer-hub/tree/d9ffc5eb1872ee788d2a659f0de7b1bf570c2d3c/apps/team-brain",
+      "github_repo": "oracle-devrel/oracle-ai-developer-hub"
+    },
     {
       "slug": "nano-fetch",
       "name": "Pay a Nano (XNO) 402 and Fetch",
