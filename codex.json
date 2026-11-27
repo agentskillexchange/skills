@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-26",
-  "total": 3303,
+  "generated": "2026-11-27",
+  "total": 3304,
   "skills": [
+    {
+      "slug": "nano-fetch",
+      "name": "Pay a Nano (XNO) 402 and Fetch",
+      "title": "Pay a Nano (XNO) 402 and Fetch",
+      "description": "Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once through the operator's own signer and…",
+      "category": "Integrations & Connectors",
+      "framework": "Custom Agents",
+      "verification": "listed",
+      "source_url": "https://github.com/agentskillexchange/skills/tree/main/skills/nano-fetch",
+      "github_repo": "agentskillexchange/skills"
+    },
     {
       "slug": "danceo-ai-dance-video",
       "name": "AI Dance Video with Danceo",

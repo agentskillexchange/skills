@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-26
-# Total: 3303 skills
+# Generated: 2026-11-27
+# Total: 3304 skills
+
+## Pay a Nano (XNO) 402 and Fetch
+slug: nano-fetch
+category: Integrations & Connectors
+framework: Custom Agents
+verification: Published
+description: Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once through the operator's own signer and…
+url: https://agentskillexchange.com/skills/nano-fetch/
 
 ## AI Dance Video with Danceo
 slug: danceo-ai-dance-video

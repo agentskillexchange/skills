@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3303 published skills** across **17 categories** · 2,698 security reviewed · Updated 2026-11-26 19:27 UTC
+> **3304 published skills** across **17 categories** · 2,698 security reviewed · Updated 2026-11-27 07:27 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -1611,7 +1611,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Code
 | [Simplify recently changed code and open low-risk refactor pull requests](skills/simplify-recently-changed-code-and-open-low-risk-refactor-pull-requests/) | This entry turns GitHub Next's Code Simplifier workflow into a narrow cleanup agent. The agent inspects code changed… | Security Reviewed | — | — |
 
 
-### 🔗 Integrations & Connectors (198 skills)
+### 🔗 Integrations & Connectors (199 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Integrations%20%26%20Connectors&sort=downloads)
 
@@ -1806,6 +1806,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Inte
 | [Hourglyph Daily Puzzle](skills/hourglyph-daily/) | Play Hourglyph Daily, a free daily logic puzzle by Clock Hill Games, through its documented HTTP API: register,… | Published | — | — |
 | [JMT x402 Agent Tools](skills/jmt-x402-agent-tools/) | Paid x402 HTTP-402 endpoints on Base mainnet that let agents pay-per-call in USDC for web search, AI analysis,… | Published | — | — |
 | [Linear Issue Triage & Sprint Planner](skills/linear-issue-triage-sprint-planner-2/) | Queries the Linear GraphQL API to list open issues by team, priority, and cycle, then applies configurable triage… | Security Reviewed | — | — |
+| [Pay a Nano (XNO) 402 and Fetch](skills/nano-fetch/) | Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once through the operator's… | Published | — | — |
 | [Plaid Financial Data Connector](skills/plaid-financial-data-connector/) | Connects to bank accounts via Plaid Link SDK and retrieves transaction data using the Plaid Transactions API.… | Security Reviewed | — | — |
 | [RELAY Paid Work Marketplace](skills/relay-paid-work/) | Find suitable paid requests from RELAY's encrypted snapshot, prepare a seller quote, or draft a buyer request for… | Published | — | — |
 | [RouterBase API Integration](skills/routerbase-api-integration/) | Integrate agent applications with RouterBase as an OpenAI-compatible API gateway, including SDK base URL… | Published | — | — |

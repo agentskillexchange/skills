@@ -229,6 +229,7 @@ Third-party API bridges, webhook handlers, service connectors, and platform inte
 | [Hourglyph Daily Puzzle](../../skills/hourglyph-daily/) | — | — |
 | [JMT x402 Agent Tools](../../skills/jmt-x402-agent-tools/) | — | — |
 | [Linear Issue Triage & Sprint Planner](../../skills/linear-issue-triage-sprint-planner-2/) | — | — |
+| [Pay a Nano (XNO) 402 and Fetch](../../skills/nano-fetch/) | — | — |
 | [Plaid Financial Data Connector](../../skills/plaid-financial-data-connector/) | — | — |
 | [RELAY Paid Work Marketplace](../../skills/relay-paid-work/) | — | — |
 | [RouterBase API Integration](../../skills/routerbase-api-integration/) | — | — |
