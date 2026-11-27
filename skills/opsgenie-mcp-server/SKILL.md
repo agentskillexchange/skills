@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "opsgenie/opsgenie-nodejs-sdk"
   github_stars: 24
   npm_package: "opsgenie-sdk"
-  npm_weekly_downloads: 3042
+  npm_weekly_downloads: 3080
 ---
 
 # OpsGenie MCP Server

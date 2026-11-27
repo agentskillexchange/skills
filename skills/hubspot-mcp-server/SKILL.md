@@ -12,7 +12,7 @@ tool_ecosystem:
   github_repo: "hubspot/hubspot-api-nodejs"
   github_stars: 397
   npm_package: "@hubspot/api-client"
-  npm_weekly_downloads: 2342606
+  npm_weekly_downloads: 2314034
 ---
 
 # HubSpot MCP Server
