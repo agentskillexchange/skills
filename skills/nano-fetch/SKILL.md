@@ -3,6 +3,7 @@ name: "Pay a Nano (XNO) 402 and Fetch"
 slug: "nano-fetch"
 description: "Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once through the operator's own signer and retry with the proof. A per-call cap and a total budget in raw are checked before anything is signed, the send is bound to this one order (xno-binding/v1/rep), and an fsynced journal refuses to pay the same order twice, also after a restart. Standard library Python; the skill holds no key and no seed. The buyer's side of verify-nano-payment."
 verification: "listed"
+source: "https://github.com/agentskillexchange/skills/tree/main/skills/nano-fetch"
 category: "Integrations & Connectors"
 framework: "Custom Agents"
 ---
