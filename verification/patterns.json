@@ -40,7 +40,7 @@
       "id": "prompt.act_as",
       "class": "prompt_injection",
       "severity": "medium",
-      "regex": "act as (a |an )?(?!the skill)",
+      "regex": "(?i)\\b(?:act|behave|respond|pretend|roleplay)\\s+as\\s+(?:a\\s+|an\\s+|the\\s+)?(?:unrestricted|unfiltered|uncensored|jailbroken|rogue|dan)\\b[^\\r\\n]{0,80}|\\b(?:act|behave|pretend)\\s+as\\s+(?:if|though)\\s+[^\\r\\n.]{0,80}?\\b(?:no|without)\\s+(?:any\\s+)?(?:[A-Za-z-]+\\s+){0,3}(?:rules|restrictions|filters|limits|guidelines|polic(?:y|ies))\\b",
       "flags": "i"
     },
     {
@@ -180,8 +180,8 @@
       "id": "exfil.credential_send",
       "class": "data_exfiltration",
       "severity": "high",
-      "regex": "(?:cat|echo|print)\\s+.*(?:\\.env|\\.ssh|\\.aws|credentials|\\.npmrc|\\.pypirc).*(?:curl|wget|nc\\s|netcat)",
-      "flags": "is"
+      "regex": "(?i)(?:\\b(?:cat|echo|print|base64|xxd|tar|zip)\\b(?:[^\\r\\n]|\\\\\\r?\\n){0,200}?(?:\\.env(?:\\.[A-Za-z0-9_-]+)?|\\.ssh(?:/|(?![A-Za-z0-9_.-]))|\\.aws(?:/|(?![A-Za-z0-9_.-]))|credentials(?:\\.[A-Za-z0-9_-]+)?|\\.npmrc|\\.pypirc)(?![A-Za-z0-9_.-])(?:[^\\r\\n]|\\\\\\r?\\n){0,200}?[ \\t]*(?:\\r?\\n[ \\t]*)?(?:\\||&&|;)[ \\t]*(?:\\r?\\n[ \\t]*)?(?:(?:xargs|env)(?:[ \\t]+-\\S+)*[ \\t]+)?(?:curl|wget|nc|netcat)\\b|\\b(?:curl|wget|nc|netcat)\\b(?:[^\\r\\n]|\\\\\\r?\\n){0,200}?(?:@|<\\s*|--post-file[= ])(?:\\.env(?:\\.[A-Za-z0-9_-]+)?|\\.ssh(?:/|(?![A-Za-z0-9_.-]))|\\.aws(?:/|(?![A-Za-z0-9_.-]))|credentials(?:\\.[A-Za-z0-9_-]+)?|\\.npmrc|\\.pypirc)(?![A-Za-z0-9_.-]))",
+      "flags": "i"
     },
     {
       "id": "exfil.base64_network",
@@ -362,7 +362,7 @@
       "id": "credentials.echo_secret_env",
       "class": "credential_harvesting",
       "severity": "high",
-      "regex": "(?:echo|printf|print)\\s+.*(?:\\$[A-Z_]*(?:KEY|TOKEN|SECRET|PASS|CRED|AUTH))",
+      "regex": "(?m)\\b(?:echo|printf)\\b[^\\r\\n]*?\\$\\{?(?:(?:[A-Za-z0-9]+_)*(?:API_?KEY|KEY|TOKEN|SECRET|PASS(?:WORD|WD)?|CRED(?:ENTIALS?)?|AUTH)|(?-i:(?:[a-z][A-Za-z0-9]*)(?:Key|Token|Secret|Password|Passwd|Credential|Auth)))\\}?(?![A-Za-z0-9_])(?:(?![^\\r\\n]*(?:\\||>|<))[^\\r\\n]*$|[^\\r\\n]*\\|\\s*(?:curl|wget|nc|netcat)\\b)",
       "flags": "i"
     },
     {
