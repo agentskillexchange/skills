@@ -52,7 +52,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Puppeteer Web Scraping Pipeline](../../skills/puppeteer-web-scraping-pipeline/) | 94.1k | 40.2M/wk |
 | [Puppeteer Stealth Scraper](../../skills/puppeteer-stealth-scraper-agent/) | 94.1k | 36.4M/wk |
 | [Puppeteer Browser Automation Library for Chrome and Firefox](../../skills/puppeteer-browser-automation-library-for-chrome-and-firefox/) | 94k | 40.2M/wk |
-| [Agent Browser Operator](../../skills/agent-browser-operator/) | 90k | 178.1M/wk |
+| [Agent Browser Operator](../../skills/agent-browser-operator/) | 90k | 172.8M/wk |
 | [Browser Use Web Agent Automation](../../skills/browser-use-web-agent-automation/) | 87.7k | — |
 | [Browser Use Agentic Browser Control](../../skills/browser-use-agentic-browser-control/) | 87.3k | — |
 | [Playwright Accessibility Audit Runner](../../skills/playwright-accessibility-audit-runner/) | 86.4k | 47.9M/wk |
@@ -94,7 +94,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Selenium Grid Session Router](../../skills/selenium-grid-session-router/) | 34.1k | 1.9M/wk |
 | [Selenium Grid Test Orchestrator](../../skills/selenium-grid-test-orchestrator-2/) | 34.1k | 1.9M/wk |
 | [Selenium WebDriver Browser Automation Framework](../../skills/selenium-webdriver-browser-automation-framework/) | 34.1k | 1.9M/wk |
-| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 10.7M/wk |
+| [Playwright MCP Browser Automation](../../skills/playwright-mcp-browser-automation/) | 33.3k | 9.7M/wk |
 | [Run persistent local computer-use agents with invisible_dots](../../skills/run-persistent-local-computer-use-agents-with-invisible-dots/) | 31.8k | — |
 | [Drive stealth browser automation from agents with Invisible Playwright MCP](../../skills/drive-stealth-browser-automation-from-agents-with-invisible-playwright-mcp/) | 31.6k | — |
 | [Microsoft Playwright MCP](../../skills/microsoft-playwright-mcp/) | 30.8k | 2.8M/wk |
@@ -153,6 +153,7 @@ Web scraping, UI testing, headless browser control, and browser-based automation
 | [Author and Run Regression Tests with Agent QA](../../skills/author-and-run-regression-tests-with-agent-qa/) | 897 | — |
 | [Browse from MCP clients with Browser Use MCP Server](../../skills/browse-from-mcp-clients-with-browser-use-mcp-server/) | 827 | — |
 | [Control hosted browser research and extraction through Hyperbrowser MCP](../../skills/control-hosted-browser-research-and-extraction-through-hyperbrowser-mcp/) | 770 | 3.2k/wk |
+| [Complete website tasks in Comma’s native desktop browser](../../skills/complete-website-tasks-in-comma-native-desktop-browser/) | 726 | — |
 | [Run supervised MCP browser automation with Auto Browser](../../skills/run-supervised-mcp-browser-automation-with-auto-browser/) | 565 | — |
 | [Run deterministic browser steps with settled screenshots and event logs for agents](../../skills/run-deterministic-browser-steps-with-settled-screenshots-and-event-logs-for-agents/) | 436 | 1.7k/wk |
 | [Record an agent-completed browser task as a parameterized Oya playbook](../../skills/record-agent-browser-task-as-parameterized-oya-playbook/) | 349 | 4.5k/wk |

@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-28
-# Total: 3307 skills
+# Total: 3308 skills
+
+## Complete website tasks in Comma’s native desktop browser
+slug: complete-website-tasks-in-comma-native-desktop-browser
+category: Browser Automation
+framework: Custom Agents
+verification: Security Reviewed
+description: Invoke Comma’s browser-use skill for a bounded website task on the initiating desktop, with action receipts, user handoffs and tab cleanup.
+url: https://agentskillexchange.com/skills/complete-website-tasks-in-comma-native-desktop-browser/
 
 ## Prepare engineering decisions with AI-SDLC decision-rubric
 slug: prepare-engineering-decisions-with-ai-sdlc-decision-rubric

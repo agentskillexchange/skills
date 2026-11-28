@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-28",
-  "total": 3307,
+  "total": 3308,
   "skills": [
+    {
+      "slug": "complete-website-tasks-in-comma-native-desktop-browser",
+      "name": "Complete website tasks in Comma’s native desktop browser",
+      "title": "Complete website tasks in Comma’s native desktop browser",
+      "description": "Invoke Comma’s browser-use skill for a bounded website task on the initiating desktop, with action receipts, user handoffs and tab cleanup.",
+      "category": "Browser Automation",
+      "framework": "Custom Agents",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/AFK-surf/Comma/tree/c138b5cc767f211d162af7a04ba8ee544bf6a54a/resources/salix-system-files/skills/browser-use",
+      "github_repo": "AFK-surf/Comma"
+    },
     {
       "slug": "prepare-engineering-decisions-with-ai-sdlc-decision-rubric",
       "name": "Prepare engineering decisions with AI-SDLC decision-rubric",
