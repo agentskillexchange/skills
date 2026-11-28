@@ -2,12 +2,15 @@
 name: "Runheed"
 slug: "runheed"
 description: "Read and resolve production errors through the Runheed remote MCP server (https://runheed.com/api/mcp): search error groups, read stack traces and breadcrumbs, fix the code and mark the error resolved with the fixing commit."
+github_stars: 0
 verification: "listed"
 source: "https://github.com/getrunheed/runheed-plugin"
+author: "Runheed"
 category: "Integrations & Connectors"
 framework: "MCP"
 tool_ecosystem:
   github_repo: "getrunheed/runheed-plugin"
+  github_stars: 0
 ---
 
 # Runheed
@@ -20,25 +23,12 @@ Use it when asked what is breaking in production, to fix the top error, to check
 
 ## Installation
 
-### Claude Code
+Install or set up from the source-backed instructions:
 
-```bash
-claude mcp add --transport http runheed https://runheed.com/api/mcp
-```
+/plugin marketplace add getrunheed/runheed-plugin
+/plugin install runheed@runheed
 
-Then run `/mcp` in Claude Code, select `runheed`, and choose **Authenticate** to sign in with OAuth.
-
-### Other MCP clients (Codex, Gemini CLI, Cursor, ChatGPT)
-
-Add the remote server URL `https://runheed.com/api/mcp` (Streamable HTTP). Clients that cannot open a sign-in window can send an agent key as a bearer token. Connect pages for each client are at https://runheed.com/docs.
-
-### Try it without an account
-
-A demo MCP server with invented sample errors needs no account or key: `https://runheed.com/api/mcp/demo`.
-
-### Skill file
-
-The agent skill is published at https://runheed.com/SKILL.md and in https://github.com/getrunheed/runheed-plugin.
+- Source: https://github.com/getrunheed/runheed-plugin
 
 ## Pricing
 
