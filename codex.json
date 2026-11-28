@@ -1,9 +1,20 @@
 {
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
-  "generated": "2026-11-27",
-  "total": 3306,
+  "generated": "2026-11-28",
+  "total": 3307,
   "skills": [
+    {
+      "slug": "prepare-engineering-decisions-with-ai-sdlc-decision-rubric",
+      "name": "Prepare engineering decisions with AI-SDLC decision-rubric",
+      "title": "Prepare engineering decisions with AI-SDLC decision-rubric",
+      "description": "Frame one consequential engineering choice with sourced evidence, distinct options, a counterargument, dependency checks and an operator decision.",
+      "category": "Templates & Workflows",
+      "framework": "Claude Code",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/ai-sdlc-framework/ai-sdlc/tree/427da429c824dc4c54bf8153d806fd1409ce9439/ai-sdlc-plugin/skills/decision-rubric",
+      "github_repo": "ai-sdlc-framework/ai-sdlc"
+    },
     {
       "slug": "assemble-pr-verification-evidence-with-roam-guard",
       "name": "Assemble PR verification evidence with Roam Guard",

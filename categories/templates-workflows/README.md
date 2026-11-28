@@ -255,6 +255,7 @@ Project scaffolding, boilerplate generators, workflow templates, and starter kit
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](../../skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](../../skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | 473 | — |
 | [Run ecommerce operator skills across marketplace workflows](../../skills/run-ecommerce-operator-skills-across-marketplace-workflows/) | 458 | — |
+| [Prepare engineering decisions with AI-SDLC decision-rubric](../../skills/prepare-engineering-decisions-with-ai-sdlc-decision-rubric/) | 456 | — |
 | [Build a local work assistant with 10xProductivity](../../skills/build-a-local-work-assistant-with-10xproductivity/) | 455 | — |
 | [Run OpenCode skill-pack workflows with opencode-power-pack](../../skills/run-opencode-skill-pack-workflows-with-opencode-power-pack/) | 448 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](../../skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | 401 | — |

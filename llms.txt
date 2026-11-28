@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
-# Generated: 2026-11-27
-# Total: 3306 skills
+# Generated: 2026-11-28
+# Total: 3307 skills
+
+## Prepare engineering decisions with AI-SDLC decision-rubric
+slug: prepare-engineering-decisions-with-ai-sdlc-decision-rubric
+category: Templates & Workflows
+framework: Claude Code
+verification: Security Reviewed
+description: Frame one consequential engineering choice with sourced evidence, distinct options, a counterargument, dependency checks and an operator decision.
+url: https://agentskillexchange.com/skills/prepare-engineering-decisions-with-ai-sdlc-decision-rubric/
 
 ## Assemble PR verification evidence with Roam Guard
 slug: assemble-pr-verification-evidence-with-roam-guard

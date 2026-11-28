@@ -1,6 +1,6 @@
 # Agent Skill Exchange — Full Catalog
 
-> **3306 published skills** across **17 categories** · 2,701 security reviewed · Updated 2026-11-27 19:26 UTC
+> **3307 published skills** across **17 categories** · 2,701 security reviewed · Updated 2026-11-28 01:26 UTC
 >
 > Browse the [live marketplace](https://agentskillexchange.com/browse-skills/) for search, filtering, and one-click install.
 
@@ -568,7 +568,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Deve
 | [Zinc Universal Checkout](skills/zinc-universal-checkout/) | Discover, buy, track, and return products across Amazon, Walmart, Target, Best Buy, eBay, and 50+ US retailers via… | Published | — | — |
 
 
-### 📄 Templates & Workflows (275 skills)
+### 📄 Templates & Workflows (276 skills)
 
 Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows) · [Top Starred](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=stars) · [Top Downloaded](https://agentskillexchange.com/browse-skills/?category=Templates%20%26%20Workflows&sort=downloads)
 
@@ -789,6 +789,7 @@ Live views: [Browse](https://agentskillexchange.com/browse-skills/?category=Temp
 | [Evolve reusable coding-agent skills from failed trajectories with EvoSkill](skills/evolve-reusable-coding-agent-skills-from-failed-trajectories-with-evoskill/) | Mine failed agent runs for reusable skills, benchmark the candidates, and keep only the variants that improve a… | Security Reviewed | 489 | — |
 | [Coordinate multiple CLI agents through sessions, handoffs, and terminal control APIs with CLI Agent Orchestrator](skills/coordinate-multiple-cli-agents-through-sessions-handoffs-and-terminal-control-apis-with-cli-agent-orchestrator/) | Lets an agent supervisor spawn and steer isolated terminal-based worker agents with explicit handoff, assign, and… | Security Reviewed | 473 | — |
 | [Run ecommerce operator skills across marketplace workflows](skills/run-ecommerce-operator-skills-across-marketplace-workflows/) | Use eCommerce-Skills to give compatible agents plain-text workflows for product research, listing optimization,… | Security Reviewed | 458 | — |
+| [Prepare engineering decisions with AI-SDLC decision-rubric](skills/prepare-engineering-decisions-with-ai-sdlc-decision-rubric/) | Frame one consequential engineering choice with sourced evidence, distinct options, a counterargument, dependency… | Security Reviewed | 456 | — |
 | [Build a local work assistant with 10xProductivity](skills/build-a-local-work-assistant-with-10xproductivity/) | Turn an existing coding agent into a supervised local work assistant that connects to workplace tools, reusable… | Security Reviewed | 455 | — |
 | [Run OpenCode skill-pack workflows with opencode-power-pack](skills/run-opencode-skill-pack-workflows-with-opencode-power-pack/) | Install opencode-power-pack so OpenCode can run Claude Code-style review, security, feature-development,… | Security Reviewed | 448 | — |
 | [Manage native GitHub stacked pull requests with gh-stack](skills/manage-native-github-stacked-pull-requests-with-gh-stack/) | Teach coding agents to split large changes into native GitHub stacked pull requests, keep branch layers rebased, and… | Security Reviewed | 401 | — |

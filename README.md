@@ -4,7 +4,7 @@
 
 ### Curated and trusted AI agent skills
 
-[![Published](https://img.shields.io/badge/published-3%2C306-6366f1?style=for-the-badge)](CATALOG.md)
+[![Published](https://img.shields.io/badge/published-3%2C307-6366f1?style=for-the-badge)](CATALOG.md)
 [![Industry%20Collections](https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge)](industries/README.md)
 [![Categories](https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge)](categories/README.md)
 [![Security%20Reviewed](https://img.shields.io/badge/security--reviewed-2%2C701-10b981?style=for-the-badge)](verification/)
@@ -12,7 +12,7 @@
 
 **[Catalog](CATALOG.md) · [Live Browse](https://agentskillexchange.com/browse-skills/) · [Categories](categories/README.md) · [Industry Collections](industries/README.md) · [Top Starred](TOP-STARS.md) · [Top Downloaded](TOP-DOWNLOADS.md) · [Submit a Skill](#submit-a-skill)**
 
-*3,306 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
+*3,307 published skills · 15 Industry Collections · 17 categories · Real ecosystem signals · Updated daily*
 
 *Star this repo to keep the agent skill catalog handy and follow new additions.*
 
@@ -51,7 +51,7 @@ npm exec --package=skills@1.5.7 -- skills add agentskillexchange/skills --skill 
 
 ## Skill of the Day
 
-**[ESLint Code Review](skills/eslint-code-review/)** — ESLint Code Review is built around ESLint static analysis for JavaScript and TypeScript. The underlying ecosystem is represented by eslint/eslint (27,186+ GitHub stars). It gives an agent a…
+**[Open WebUI Self-Hosted AI Interface for LLMs](skills/open-webui-self-hosted-ai-interface/)** — Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs with built-in…
 
 _Rotates daily across downloaded, starred, recent, verified, and industry-curated skills._
 
@@ -87,6 +87,7 @@ See the full overlay index in [industries/README.md](industries/README.md).
 
 | Skill | What it helps with | Stars | Category |
 |---|---|---:|---|
+| [Prepare engineering decisions with AI-SDLC decision-rubric](skills/prepare-engineering-decisions-with-ai-sdlc-decision-rubric/) | Frame one consequential engineering choice with sourced evidence, distinct options, a counterargument, dependency checks and an operator decision | 456 | Templates & Workflows |
 | [Assemble PR verification evidence with Roam Guard](skills/assemble-pr-verification-evidence-with-roam-guard/) | Collect a branch’s Roam analysis evidence into a strict local PR verdict, with explicit required checks, missing evidence... | 516 | Code Quality & Review |
 | [Validate Team Brain retrieval and access boundaries](skills/validate-team-brain-retrieval-and-access-boundaries/) | Run Team Brain’s seeded Oracle test-schema diagnostic and return retrieval, permission-check and setup failures before connecting real team... | 4.5k | Runbooks & Diagnostics |
 | [Pay a Nano (XNO) 402 and Fetch](skills/nano-fetch/) | Fetch a URL and, when it answers HTTP 402 with an x402 nano:mainnet exact quote, pay it once... | - | Integrations & Connectors |
@@ -96,7 +97,6 @@ See the full overlay index in [industries/README.md](industries/README.md).
 | [Google Flights Fare Search](skills/google-flights-fare-search/) | Search Google Flights by route and date through the Apify Google Flights Actor (johnvc/Google-Flights-Data-Scraper-Flight-and-Price-Search) and get one JSON... | - | Research & Scraping |
 | [Review repository changes for destructive commands with dcg](skills/review-repository-changes-for-destructive-commands-with-dcg/) | Scan staged changes or selected automation files with Destructive Command Guard and return rule-level findings before commit or... | 6.4k | Security & Verification |
 | [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
-| [Mailtrap Sending Emails](skills/mailtrap-sending-emails/) | Official Mailtrap skill for wiring outbound email into an app through Mailtrap Email Live Sending: pick the transactional... | - | Calendar, Email & Productivity |
 
 ---
 
@@ -130,9 +130,9 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | [Record an agent-completed browser task as a parameterized Oya playbook](skills/record-agent-browser-task-as-parameterized-oya-playbook/) | Complete a test browser task once, save its learned steps as an Oya playbook, and verify a replay... | 349 | Browser Automation |
 | [Record and replay FrontMCP calls to catch server regressions](skills/record-and-replay-frontmcp-calls-to-catch-server-regressions/) | Capture baseline MCP calls as JSONL, replay them against a changed FrontMCP server, and review answer differences and... | 151 | Code Quality & Review |
 | [Triage Lunora deployment errors and migration status through MCP](skills/triage-lunora-deployment-errors-and-migration-status-through-mcp/) | Inspect Lunora logs, grouped errors, query performance and pending migrations through MCP, then return a scoped incident handoff... | 293 | Runbooks & Diagnostics |
-| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
 | [Assemble and review local video cuts through Concat MCP](skills/assemble-and-review-local-video-cuts-through-concat-mcp/) | Turn local footage and an edit brief into a Concat timeline, inspect composited frames, save the project and... | 16.0k | Media & Transcription |
 | [Validate and report completed external workflow usage to LoopForge](skills/validate-and-report-completed-external-workflow-usage-to-loopforge/) | Validate a host-supplied terminal execution summary, report attributable model usage to LoopForge, and preserve stable execution IDs for... | 2.8k | Monitoring & Alerts |
+| [Find evidence across a PDF corpus with Semtools](skills/find-evidence-across-pdf-corpus-with-semtools/) | Parse a selected PDF batch, search the cached Markdown locally, and return an agent answer backed by inspected... | 1.9k | Data Extraction & Transformation |
 
 ---
 
@@ -141,7 +141,7 @@ Mirrors the live ASE homepage featured shelf: recent-popular, diversified across
 | | Category | Skills | What's inside |
 |---|---|---:|---|
 | 🛠️ | [**Developer Tools**](categories/developer-tools/) | 552 | CLI tools, scaffolders, dev environment setup |
-| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 275 | Scaffolders, boilerplate generators, workflow templates |
+| 📄 | [**Templates & Workflows**](categories/templates-workflows/) | 276 | Scaffolders, boilerplate generators, workflow templates |
 | 🔒 | [**Security & Verification**](categories/security-verification/) | 267 | Vulnerability scanning, auth setup, compliance |
 | 🔄 | [**Data Extraction & Transformation**](categories/data-extraction-transformation/) | 247 | ETL pipelines, parsing, format conversion |
 | ✅ | [**Code Quality & Review**](categories/code-quality-review/) | 223 | Linting, code review, test generators, coverage |
@@ -219,7 +219,7 @@ Every skill is backed by a real tool, repo, or package. New skills require real 
 
 | Tier | Count | Meaning |
 |------|------:|---|
-| 📋 **Published** | 3,306 | In the catalog — every skill is backed by a real tool, repo, or package |
+| 📋 **Published** | 3,307 | In the catalog — every skill is backed by a real tool, repo, or package |
 | 🛡️ **Security Reviewed** | 2,701 | Scanned for malicious patterns, prompt injection, and unsafe instructions |
 
 More: [verification/](verification/)
