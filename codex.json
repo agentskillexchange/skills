@@ -2,8 +2,19 @@
   "schema": "codex-skills/1.0",
   "source": "https://agentskillexchange.com",
   "generated": "2026-11-28",
-  "total": 3308,
+  "total": 3309,
   "skills": [
+    {
+      "slug": "run-asset-qa-gate-before-blender-delivery-with-blender-skills",
+      "name": "Run an asset QA gate before Blender delivery with Blender Skills",
+      "title": "Run an asset QA gate before Blender delivery with Blender Skills",
+      "description": "Check one Blender asset with profile-based diagnostics, inspect review images, and report fixes and accepted warnings before delivery.",
+      "category": "Image & Creative Automation",
+      "framework": "Multi-Framework",
+      "verification": "security_reviewed",
+      "source_url": "https://github.com/EL4CTEO/blender-skills/tree/ab601e27a247c18773924188eb580f81c561b249/skills/blender-asset-qa",
+      "github_repo": "EL4CTEO/blender-skills"
+    },
     {
       "slug": "complete-website-tasks-in-comma-native-desktop-browser",
       "name": "Complete website tasks in Comma’s native desktop browser",

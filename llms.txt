@@ -1,7 +1,15 @@
 # Agent Skill Exchange — Full Skill Catalog
 # Source: https://agentskillexchange.com
 # Generated: 2026-11-28
-# Total: 3308 skills
+# Total: 3309 skills
+
+## Run an asset QA gate before Blender delivery with Blender Skills
+slug: run-asset-qa-gate-before-blender-delivery-with-blender-skills
+category: Image & Creative Automation
+framework: Multi-Framework
+verification: Security Reviewed
+description: Check one Blender asset with profile-based diagnostics, inspect review images, and report fixes and accepted warnings before delivery.
+url: https://agentskillexchange.com/skills/run-asset-qa-gate-before-blender-delivery-with-blender-skills/
 
 ## Complete website tasks in Comma’s native desktop browser
 slug: complete-website-tasks-in-comma-native-desktop-browser
